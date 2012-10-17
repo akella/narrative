@@ -362,14 +362,14 @@ a:hover {
   padding: 12px 0 14px 0;
   border-bottom: 1px solid #e5e5e5;
   line-height: 1;
+  margin-bottom: 16px;
 }
-/* line 157, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 158, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider__descr {
   width: 536px;
   margin: 0 auto;
   font-size: 16px;
   color: #6d6d6d;
-  margin-top: 16px;
 }
 
 /* line 165, /Users/akella/Desktop/git/narrative/sass/story.scss */
