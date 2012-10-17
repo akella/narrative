@@ -1,27 +1,16 @@
 @import "base";
-/* HOW TO USE SPRITE
-@import "icons/*.png";
-.whatever{@include icons-sprite(badge_hit);}
 
-or the other way
-$icons: sprite-map("icons/*.png");
-.whatever{@include sized-sprite($icons, badge_hit);}
-
-*/
-
+// .whatever{@include sized-sprite($icons, badge_hit);}
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
-.out{
-	width:100%;
-}
 body{
 	font: {
-	    family: Arial,sans-serif;
+	    family: "Myriad Pro", arial, sans-serif;
 	    weight: normal;
-	    size: 12px;
+	    size: 18px;
 	  	}
-	line-height:1.2;
-	
+	line-height:1.4;
+	background:#ebebeb;
 }
 /*resets*/
 a img,fieldset{
@@ -33,11 +22,85 @@ a{
 		text-decoration:none;
 	}
 }
-.clr{
-	clear:both;
-	height:1px;
-	font-size:1px;
-	line-height:1px;
+// =================top
+.top{
+	height: 43px;
+	@include background-image(linear-gradient(#ffffff, #f7f7f7));
+	border: 1px solid #ccc;
+	box-shadow:0 1px 0 rgba(black,.05);
+	overflow: visible;
+	position: relative;
+	z-index:10;
+	.top__in{
+		width: 1000px;
+		margin: 0 auto;
+		height: 43px;
+		border-bottom: 1px solid #ddd;
+		border-right:1px solid #e3e3e3;
+		border-left:1px solid #e3e3e3;
 	}
+	.top__title{
+		float: left;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: Helvetica,sans-serif;
+		color: #a0a0a0;
+		padding-left: 20px;
+		line-height: 43px;
+		height: 43px;
+		text-shadow:0 1px 1px rgba(white,0.5);
+		white-space:nowrap;
+		width: 685px;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+}
+.icon{
+	width: 43px;
+	height: 43px;
+	float: left;
+	border-right:1px solid #e3e3e3;
+	cursor:pointer;
+}
+.icon_right{
+	float: right;
+	border-right: none;
+	border-left:1px solid #e3e3e3;
+}
+.icon_home{
+	@include sized-sprite($icons, home);
+}
+.icon_comments{
+	@include sized-sprite($icons, comments);
+}
+.icon_compass{
+	@include sized-sprite($icons, compass);
+}
+.icon_add{
+	@include sized-sprite($icons, add);
+	border: none;
+	position: relative;
+	left: 1px;
+}
+.icon_user{
+	@include sized-sprite($icons, user);
+}
 
-
+.site{
+	position: relative;
+	z-index:9;
+	width: 1000px;
+	margin: 0 auto;
+	background:#fff;
+	box-shadow:0 0 1px rgba(black,0.2);
+	padding: 34px 0 0px 0;
+}
+// ============footer
+.footer{
+	text-align: center;
+	padding: 20px 0;
+	.footer__narrative{
+		display: inline-block;
+		@include sized-sprite($icons, narrativesmall);
+	}
+}

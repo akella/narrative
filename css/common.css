@@ -1,52 +1,151 @@
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
-/* BACKGROUND GRADIENT */
-/* BACKGROUND SIZE */
-/* BOX SHADOW */
-/* BOX SIZING */
-/* OPACITY */
-/* ROTATE*/
-/* TRANSFORM  */
-/* TRANSITION */
-/* line 3, ../sass/common.scss */
+/* line 5, ../sass/common.scss */
 * {
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: none;
 }
 
-/* line 4, ../sass/common.scss */
-.out {
-  width: 100%;
-}
-
-/* line 7, ../sass/common.scss */
+/* line 6, ../sass/common.scss */
 body {
-  font-family: Arial,sans-serif;
+  font-family: "Myriad Pro", arial, sans-serif;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.4;
+  background: #ebebeb;
 }
 
 /*resets*/
-/* line 17, ../sass/common.scss */
+/* line 16, ../sass/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 20, ../sass/common.scss */
+/* line 19, ../sass/common.scss */
 a {
   color: #00919e;
 }
-/* line 22, ../sass/common.scss */
+/* line 21, ../sass/common.scss */
 a:hover {
   text-decoration: none;
 }
 
 /* line 26, ../sass/common.scss */
-.clr {
-  clear: both;
-  height: 1px;
-  font-size: 1px;
-  line-height: 1px;
+.top {
+  height: 43px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
+  background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
+  background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
+  background-image: -o-linear-gradient(#ffffff, #f7f7f7);
+  background-image: -ms-linear-gradient(#ffffff, #f7f7f7);
+  background-image: linear-gradient(#ffffff, #f7f7f7);
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  overflow: visible;
+  position: relative;
+  z-index: 10;
+}
+/* line 34, ../sass/common.scss */
+.top .top__in {
+  width: 1000px;
+  margin: 0 auto;
+  height: 43px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+}
+/* line 42, ../sass/common.scss */
+.top .top__title {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Helvetica,sans-serif;
+  color: #a0a0a0;
+  padding-left: 20px;
+  line-height: 43px;
+  height: 43px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+  width: 685px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 58, ../sass/common.scss */
+.icon {
+  width: 43px;
+  height: 43px;
+  float: left;
+  border-right: 1px solid #e3e3e3;
+  cursor: pointer;
+}
+
+/* line 65, ../sass/common.scss */
+.icon_right {
+  float: right;
+  border-right: none;
+  border-left: 1px solid #e3e3e3;
+}
+
+/* line 70, ../sass/common.scss */
+.icon_home {
+  background: url('../img/common-s4c6c341dbd.png') 0 -323px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 73, ../sass/common.scss */
+.icon_comments {
+  background: url('../img/common-s4c6c341dbd.png') 0 -147px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 76, ../sass/common.scss */
+.icon_compass {
+  background: url('../img/common-s4c6c341dbd.png') 0 0 no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 79, ../sass/common.scss */
+.icon_add {
+  background: url('../img/common-s4c6c341dbd.png') 0 -366px no-repeat;
+  width: 52px;
+  height: 43px;
+  border: none;
+  position: relative;
+  left: 1px;
+}
+
+/* line 85, ../sass/common.scss */
+.icon_user {
+  background: url('../img/common-s4c6c341dbd.png') 0 -235px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 89, ../sass/common.scss */
+.site {
+  position: relative;
+  z-index: 9;
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  padding: 34px 0 0px 0;
+}
+
+/* line 99, ../sass/common.scss */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 102, ../sass/common.scss */
+.footer .footer__narrative {
+  display: inline-block;
+  background: url('../img/common-s4c6c341dbd.png') 0 -105px no-repeat;
+  width: 28px;
+  height: 25px;
 }
