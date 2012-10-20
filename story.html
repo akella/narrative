@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<title>Narrative</title>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/cycle.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
 <!-- BEGIN  top-->
@@ -58,22 +61,48 @@
 			<div class="slider slider_wide">
 				<div class="slider__next"><span></span></div>
 				<div class="slider__prev"><span></span></div>
-				<div class="slide">
-					<img src="http://placekitten.com/640/456" alt="">
+				<div class="slider__slides">
+					<div class="slider__slide">
+						<img src="http://placekitten.com/640/456" height="456" alt="">
+					</div>
+					<div class="slider__slide">
+						<img src="http://placekitten.com/640/556" height="556" alt="">
+					</div>
 				</div>
+				<div class="slider__info">1/12</div>
+				<div class="slider__descr">Европейская киноакадемия открыла онлайн-голосование</div>
 			</div>
-			<div class="slider__info">1/12</div>
-			<div class="slider__descr">Европейская киноакадемия открыла онлайн-голосование</div>
+			
 
 
 			<div class="slider slider_wide">
 				<div class="slider__next"><span></span></div>
 				<div class="slider__prev"><span></span></div>
-				<div class="slide">
-					<img src="http://placekitten.com/1000/500" alt="">
+				<div class="slider__slides">
+					<div class="slider__slide">
+						<img src="http://placekitten.com/1000/500" height="500" alt="">
+					</div>
+					<div class="slider__slide">
+						<img src="http://placekitten.com/1000/500" height="500" alt="">
+					</div>
 				</div>
+				<div class="slider__info">1/12</div>
 			</div>
-			<div class="slider__info">1/12</div>
+
+			<div class="slider slider_wide">
+				<div class="slider__next"><span></span></div>
+				<div class="slider__prev"><span></span></div>
+				<div class="slider__slides">
+					<div class="slider__slide">
+						<img src="http://placekitten.com/1000/500" height="500" alt="">
+					</div>
+					<div class="slider__slide">
+						<img src="http://placekitten.com/1000/500" height="500" alt="">
+					</div>
+				</div>
+				<div class="slider__info">1/12</div>
+			</div>
+			
 			<p>В приближении нового сезона кинонаград первой напомнила Европейская киноакадемия, ежегодно вручающая свои призы (которые часто называют «еврооскарами»). На днях на сайте академии появился список из двенадцати претендентов на приз зрительских симпатий: там же можно проголосовать за один из полюбившихся фильмов.</p>
 
 			<figure class="figure_many figure_wide">
@@ -120,7 +149,15 @@
 		<div class="comment">
 			<div class="comment__user" style="background-image:url(http://placekitten.com/50/50)"></div>
 			<form action="/">
-				<div class="comment__visual"><textarea name="" id="" cols="30" rows="10" placeholder="Type here to leave your comment"></textarea></div>
+				<div class="comment__visual">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Type here to leave your comment"></textarea>
+					<div class="textformat">
+						<div class="textformat__icon textformat__list"></div>
+						<div class="textformat__icon textformat__bold"></div>
+						<div class="textformat__icon textformat__italic"></div>
+					</div>
+					<div class="addphoto"></div>
+				</div>
 				<button class="button">Post comment</button>
 			</form>
 		</div>
