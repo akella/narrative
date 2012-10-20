@@ -1,0 +1,35 @@
+@import "base";
+.comment-list{
+	border-top:1px solid #dadada;
+	.comment{
+		padding:36px 0;
+		border-bottom:1px solid #e6e6e6;
+	}
+}
+.comment{
+	.comment__text{
+		margin: auto;
+		width: 640px;
+		margin-bottom:-25px; /* ??? */
+		p{
+			font:16px/1.8 Cambria,georgia,serif;
+			margin-bottom:1.6em;
+		}
+	}
+	.comment__userpic{
+		border-radius:50px;
+		width: 50px;
+		height: 50px;
+		border: 2px solid #fff;
+		box-shadow:0 1px 1px rgba(black,0.2);
+		float: left;
+	}
+	.comment__username{
+		font-size: 11px;
+		opacity: 0.4;
+		font: 11px/1.3 Helvetica,sans-serif;
+		float: left;
+		margin:8px 0 0 8px;
+		width:60px;
+	}
+}

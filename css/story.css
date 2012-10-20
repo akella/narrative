@@ -1,3 +1,4 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* line 2, ../sass/story.scss */
@@ -175,7 +176,7 @@
 }
 /* line 143, ../sass/story.scss */
 .post__content .slider .slider__next span {
-  background: url('../img/common-sb4a6eb0815.png') 0 -318px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -370px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -185,7 +186,7 @@
 }
 /* line 149, ../sass/story.scss */
 .post__content .slider .slider__prev span {
-  background: url('../img/common-sb4a6eb0815.png') 0 -190px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -242px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -256,7 +257,7 @@
 }
 /* line 209, ../sass/story.scss */
 .post__togglesocial span {
-  background: url('../img/common-sb4a6eb0815.png') 0 -67px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -119px no-repeat;
   width: 27px;
   height: 22px;
   display: inline-block;
@@ -292,7 +293,7 @@
 /* line 237, ../sass/story.scss */
 .post__comment .post__commenticon {
   display: inline-block;
-  background: url('../img/common-sb4a6eb0815.png') 0 -489px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -541px no-repeat;
   width: 18px;
   height: 19px;
   vertical-align: middle;
@@ -315,7 +316,7 @@
 }
 /* line 255, ../sass/story.scss */
 .post__likes .post__likesicon {
-  background: url('../img/common-sb4a6eb0815.png') 0 -43px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -95px no-repeat;
   width: 28px;
   height: 24px;
   display: inline-block;
@@ -338,7 +339,7 @@
 }
 /* line 272, ../sass/story.scss */
 .post__share .post__shareicon {
-  background: url('../img/common-sb4a6eb0815.png') 0 -130px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -182px no-repeat;
   width: 25px;
   height: 17px;
   display: inline-block;
@@ -363,7 +364,7 @@
 }
 /* line 291, ../sass/story.scss */
 .post__views .post__viewsicon {
-  background: url('../img/common-sb4a6eb0815.png') 0 -89px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -141px no-repeat;
   width: 27px;
   height: 16px;
   display: inline-block;
@@ -399,11 +400,11 @@
   position: absolute;
   top: 18px;
   left: 18px;
-  border-radius: 50px;
+  /*border-radius:50px;
   width: 50px;
   height: 50px;
   border: 2px solid #fff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow:0 1px 1px rgba(black,0.2)*/
 }
 /* line 326, ../sass/story.scss */
 .comment form {
@@ -439,7 +440,6 @@
   background-image: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -moz-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -o-linear-gradient(#f8f8f8, #f1f1f1);
-  background-image: -ms-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: linear-gradient(#f8f8f8, #f1f1f1);
   height: 20px;
   font-size: 0;
@@ -461,44 +461,44 @@
 }
 /* line 367, ../sass/story.scss */
 .textformat .textformat__bold {
-  background: url('../img/common-sb4a6eb0815.png') 0 -508px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -560px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 369, ../sass/story.scss */
 .textformat .textformat__bold:hover {
-  background: url('../img/common-sb4a6eb0815.png') 0 -298px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -350px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 373, ../sass/story.scss */
 .textformat .textformat__list {
-  background: url('../img/common-sb4a6eb0815.png') 0 -548px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -600px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 375, ../sass/story.scss */
 .textformat .textformat__list:hover {
-  background: url('../img/common-sb4a6eb0815.png') 0 -278px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -330px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 379, ../sass/story.scss */
 .textformat .textformat__italic {
-  background: url('../img/common-sb4a6eb0815.png') 0 -528px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -580px no-repeat;
   width: 27px;
   height: 20px;
 }
 /* line 381, ../sass/story.scss */
 .textformat .textformat__italic:hover {
-  background: url('../img/common-sb4a6eb0815.png') 0 -469px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -521px no-repeat;
   width: 27px;
   height: 20px;
 }
 
 /* line 386, ../sass/story.scss */
 .addphoto {
-  background: url('../img/common-sb4a6eb0815.png') 0 -406px no-repeat;
+  background: url('../img/common-s526fb884e6.png') 0 -458px no-repeat;
   width: 23px;
   height: 20px;
   position: absolute;
@@ -522,7 +522,6 @@
   background-image: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -moz-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -o-linear-gradient(#f8f8f8, #f1f1f1);
-  background-image: -ms-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: linear-gradient(#f8f8f8, #f1f1f1);
   box-shadow: 0 1px 0 #fff;
   vertical-align: top;
@@ -534,6 +533,5 @@
   background-image: -webkit-linear-gradient(#fefefe, #f8f8f8);
   background-image: -moz-linear-gradient(#fefefe, #f8f8f8);
   background-image: -o-linear-gradient(#fefefe, #f8f8f8);
-  background-image: -ms-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
