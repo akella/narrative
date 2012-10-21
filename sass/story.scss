@@ -381,6 +381,7 @@
 		height: 20px;
 		width: 27px;
 		border-left: 1px solid #dfdfdf;
+		@include transition(all, .2s, ease-in-out);
 		&:first-child{
 			border: none;
 		}
@@ -392,18 +393,21 @@
 		@include sized-sprite($icons, iconbold);
 		&:hover{
 			@include sized-sprite($icons, iconboldh);
+			background-color: #FFF;
 		}
 	}
 	.textformat__list{
 		@include sized-sprite($icons, iconlist);
 		&:hover{
 			@include sized-sprite($icons, iconlisth);
+			background-color: #FFF;
 		}
 	}
 	.textformat__italic{
 		@include sized-sprite($icons, iconitalic);
 		&:hover{
 			@include sized-sprite($icons, iconitalich);
+			background-color: #FFF;
 		}
 	}
 }
@@ -449,16 +453,17 @@
 		}
 	}
 	.addphoto__loader{
-		padding:absolute;
-		left: 60px;
-		top: 0;
+		position:absolute;
+		right: 50px;
+		top: 3px;
 		@include sized-sprite($icons, addphoto_loader);
 		//loader animation
-		@include animation(rotate, .2s, linear);
+		@include animation(rotate, 1s, linear);
 	}
 }
 .addphoto_error .addphoto__icon{
 	@include sized-sprite($icons, addphoto_error);
+	opacity:1;
 }
 .addphoto:hover .addphoto__icon{
 	@include transition(all, .1s, ease-in-out);
@@ -466,6 +471,9 @@
 }
 .addphoto_active .addphoto__icon{
 	@include sized-sprite($icons, addphoto_active);
+	opacity:1;
+	bottom: -3px;
+	right: -3px;
 }
 .button{
 	font-size: 14px;

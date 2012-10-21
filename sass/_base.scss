@@ -23,10 +23,10 @@ $break-large: 1180px; /*когда включать широкую версию*
     transition:         $what $length $easing;
 }
 @mixin animation($what: all, $length: 1s, $easing: ease-in-out) {
-    -moz-animatiom:    $what $length $easing;
-    -webkit-animation: $what $length $easing;
-    -o-animation:      $what $length $easing;
-    animation:         $what $length $easing;
+    -moz-animatiom:    $what $length $easing 0s infinite normal;
+    -webkit-animation: $what $length $easing 0s infinite normal;
+    -o-animation:      $what $length $easing 0s infinite normal;
+    animation:         $what $length $easing 0s infinite normal;
 }
 
 @mixin hide-text{

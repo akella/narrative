@@ -1,4 +1,3 @@
-@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
@@ -75,6 +74,7 @@
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   line-height: 18px;
@@ -94,7 +94,7 @@
 }
 /* line 73, ../sass/comment.scss */
 .comment .comment__rating-p {
-  background: url('../img/common-s01f066ec03.png') 0 -641px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -677px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -102,7 +102,7 @@
 }
 /* line 78, ../sass/comment.scss */
 .comment .comment__rating-m {
-  background: url('../img/common-s01f066ec03.png') 0 -661px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -697px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -114,6 +114,7 @@
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   width: 20px;
@@ -134,13 +135,13 @@
 }
 /* line 102, ../sass/comment.scss */
 .comment .comment__remove div {
-  background: url('../img/common-s01f066ec03.png') 0 -607px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -643px no-repeat;
   width: 13px;
   height: 14px;
 }
 /* line 103, ../sass/comment.scss */
 .comment .comment__edit div {
-  background: url('../img/common-s01f066ec03.png') 0 -723px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -759px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -154,7 +155,7 @@
 }
 /* line 111, ../sass/comment.scss */
 .comment .comment__user-arr {
-  background: url('../img/common-s01f066ec03.png') 0 -681px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -717px no-repeat;
   width: 12px;
   height: 12px;
   position: absolute;
@@ -212,7 +213,7 @@
 }
 /* line 152, ../sass/comment.scss */
 .comment_l1 .comment__text:before {
-  background: url('../img/common-s01f066ec03.png') 0 -736px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -772px no-repeat;
   width: 14px;
   height: 13px;
   content: "";
@@ -320,7 +321,7 @@
 }
 /* line 230, ../sass/comment.scss */
 .user-inf:before {
-  background: url('../img/common-s01f066ec03.png') 0 -713px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -749px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -406,7 +407,7 @@
 }
 /* line 298, ../sass/comment.scss */
 .button_reply span {
-  background: url('../img/common-s01f066ec03.png') 0 -552px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -570px no-repeat;
   width: 12px;
   height: 16px;
   margin-right: 5px;

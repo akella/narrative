@@ -1,15 +1,14 @@
-@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
-/* line 5, ../sass/common.scss */
+/* line 5, /Users/akella/Desktop/git/narrative/sass/common.scss */
 * {
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: none;
 }
 
-/* line 6, ../sass/common.scss */
+/* line 6, /Users/akella/Desktop/git/narrative/sass/common.scss */
 body {
   font-family: "Myriad Pro", arial, sans-serif;
   font-weight: normal;
@@ -19,27 +18,28 @@ body {
 }
 
 /*resets*/
-/* line 16, ../sass/common.scss */
+/* line 16, /Users/akella/Desktop/git/narrative/sass/common.scss */
 a img, fieldset {
   border: none;
 }
 
-/* line 19, ../sass/common.scss */
+/* line 19, /Users/akella/Desktop/git/narrative/sass/common.scss */
 a {
   color: #00919e;
 }
-/* line 21, ../sass/common.scss */
+/* line 21, /Users/akella/Desktop/git/narrative/sass/common.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 26, ../sass/common.scss */
+/* line 26, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .top {
   height: 43px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
   background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
   background-image: -o-linear-gradient(#ffffff, #f7f7f7);
+  background-image: -ms-linear-gradient(#ffffff, #f7f7f7);
   background-image: linear-gradient(#ffffff, #f7f7f7);
   border: 1px solid #ccc;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -47,7 +47,7 @@ a:hover {
   position: relative;
   z-index: 10;
 }
-/* line 34, ../sass/common.scss */
+/* line 34, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .top .top__in {
   width: 1000px;
   margin: 0 auto;
@@ -56,7 +56,7 @@ a:hover {
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
 }
-/* line 42, ../sass/common.scss */
+/* line 42, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .top .top__title {
   float: left;
   font-size: 16px;
@@ -73,7 +73,7 @@ a:hover {
   text-overflow: ellipsis;
 }
 
-/* line 58, ../sass/common.scss */
+/* line 58, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon {
   width: 43px;
   height: 43px;
@@ -82,37 +82,37 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 65, ../sass/common.scss */
+/* line 65, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 70, ../sass/common.scss */
+/* line 70, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_home {
-  background: url('../img/common-s01f066ec03.png') 0 -428px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -428px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 73, ../sass/common.scss */
+/* line 73, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_comments {
-  background: url('../img/common-s01f066ec03.png') 0 -212px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -212px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 76, ../sass/common.scss */
+/* line 76, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_compass {
-  background: url('../img/common-s01f066ec03.png') 0 -25px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -25px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 79, ../sass/common.scss */
+/* line 79, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_add {
-  background: url('../img/common-s01f066ec03.png') 0 -491px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -491px no-repeat;
   width: 52px;
   height: 43px;
   border: none;
@@ -120,14 +120,14 @@ a:hover {
   left: 1px;
 }
 
-/* line 85, ../sass/common.scss */
+/* line 85, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .icon_user {
-  background: url('../img/common-s01f066ec03.png') 0 -300px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -300px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 89, ../sass/common.scss */
+/* line 89, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -138,15 +138,15 @@ a:hover {
   padding: 34px 0 0px 0;
 }
 
-/* line 99, ../sass/common.scss */
+/* line 99, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 102, ../sass/common.scss */
+/* line 102, /Users/akella/Desktop/git/narrative/sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-s01f066ec03.png') 0 -130px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -130px no-repeat;
   width: 28px;
   height: 25px;
 }
@@ -155,17 +155,17 @@ a:hover {
 /*когда включать широкую версию*/
 /* TRANSITION */
 /* default layout */
-/* line 4, ../sass/layouts.scss */
+/* line 4, /Users/akella/Desktop/git/narrative/sass/layouts.scss */
 .l {
   width: 100%;
   display: inline-block;
 }
-/* line 8, ../sass/layouts.scss */
+/* line 8, /Users/akella/Desktop/git/narrative/sass/layouts.scss */
 .l .l-col1 {
   float: left;
   width: 140px;
 }
-/* line 13, ../sass/layouts.scss */
+/* line 13, /Users/akella/Desktop/git/narrative/sass/layouts.scss */
 .l .l-col2 {
   float: right;
   width: 820px;
@@ -175,42 +175,42 @@ a:hover {
 /*когда включать широкую версию*/
 /* TRANSITION */
 @-webkit-keyframes rotate {
-  /* line 3, ../sass/story.scss */
+  /* line 3, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 6, ../sass/story.scss */
+  /* line 6, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 11, ../sass/story.scss */
+  /* line 11, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 14, ../sass/story.scss */
+  /* line 14, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -moz-transform: rotate(360deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 19, ../sass/story.scss */
+  /* line 19, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -o-transform: rotate(0deg);
   }
 
-  /* line 22, ../sass/story.scss */
+  /* line 22, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -o-transform: rotate(360deg);
   }
 }
 
-/* line 26, ../sass/story.scss */
+/* line 26, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author {
   text-align: center;
   padding-bottom: 34px;
@@ -219,7 +219,7 @@ a:hover {
   width: 640px;
   margin: 0 auto 33px auto;
 }
-/* line 33, ../sass/story.scss */
+/* line 33, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .author__pic {
   border-radius: 50px;
   border: 2px solid #ddd;
@@ -228,19 +228,19 @@ a:hover {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 41, ../sass/story.scss */
+/* line 41, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .author__name {
   font-weight: bold;
   font-size: 18px;
   margin: 6px 0 6px 0;
 }
-/* line 46, ../sass/story.scss */
+/* line 46, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .published {
   font-size: 11px;
   color: #d7d7d7;
 }
 
-/* line 51, ../sass/story.scss */
+/* line 51, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content {
   width: 640px;
   margin: 0 auto -15px auto;
@@ -248,14 +248,14 @@ a:hover {
   font-size: 18px;
   line-height: 1.5;
 }
-/* line 57, ../sass/story.scss */
+/* line 57, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h1 {
   font-size: 44px;
   font-weight: normal;
   line-height: 1.2;
   margin-bottom: 20px;
 }
-/* line 63, ../sass/story.scss */
+/* line 63, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h2 {
   font-size: 35px;
   border-top: 1px solid #e5e5e5;
@@ -264,31 +264,31 @@ a:hover {
   font-weight: normal;
   line-height: 1.3;
 }
-/* line 71, ../sass/story.scss */
+/* line 71, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h3 {
   font-size: 25px;
   font-weight: normal;
   margin: 17px 0 15px 0;
   line-height: 1.3;
 }
-/* line 77, ../sass/story.scss */
+/* line 77, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .lead {
   font-size: 25px;
 }
-/* line 80, ../sass/story.scss */
+/* line 80, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content p {
   margin-bottom: 1em;
 }
-/* line 83, ../sass/story.scss */
+/* line 83, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure {
   margin: 30px 0;
 }
-/* line 85, ../sass/story.scss */
+/* line 85, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure img {
   display: block;
   vertical-align: bottom;
 }
-/* line 89, ../sass/story.scss */
+/* line 89, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure figcaption {
   width: 536px;
   margin: 0 auto;
@@ -296,16 +296,16 @@ a:hover {
   color: #6d6d6d;
   margin-top: 16px;
 }
-/* line 97, ../sass/story.scss */
+/* line 97, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_wide {
   margin: 30px -180px;
   text-align: center;
 }
-/* line 100, ../sass/story.scss */
+/* line 100, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_wide figcaption {
   text-align: left;
 }
-/* line 38, ../sass/_base.scss */
+/* line 38, /Users/akella/Desktop/git/narrative/sass/_base.scss */
 .post__content .figure_many:after {
   content: ".";
   display: block;
@@ -313,22 +313,22 @@ a:hover {
   clear: both;
   visibility: hidden;
 }
-/* line 106, ../sass/story.scss */
+/* line 106, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_many img {
   float: left;
 }
-/* line 110, ../sass/story.scss */
+/* line 110, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content li {
   padding: 18px 0;
   border-top: 1px dotted #dbdbdb;
   position: relative;
 }
-/* line 115, ../sass/story.scss */
+/* line 115, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ol {
   list-style: none;
   counter-reset: ul 0;
 }
-/* line 119, ../sass/story.scss */
+/* line 119, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ol li:before {
   counter-increment: ul 1;
   content: counter(ul, decimal) ".";
@@ -339,11 +339,11 @@ a:hover {
   left: -20px;
   text-align: left;
 }
-/* line 131, ../sass/story.scss */
+/* line 131, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ul {
   list-style: none;
 }
-/* line 134, ../sass/story.scss */
+/* line 134, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ul li:before {
   content: '•';
   position: absolute;
@@ -351,12 +351,12 @@ a:hover {
   color: #b9b9b9;
   text-align: left;
 }
-/* line 143, ../sass/story.scss */
+/* line 143, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider {
   position: relative;
   margin: 30px -180px 0 -180px;
 }
-/* line 146, ../sass/story.scss */
+/* line 146, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next, .post__content .slider .slider__prev {
   padding: 13px 20px;
   border-radius: 4px;
@@ -366,40 +366,40 @@ a:hover {
   z-index: 50;
   cursor: pointer;
 }
-/* line 154, ../sass/story.scss */
+/* line 154, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next span, .post__content .slider .slider__prev span {
   float: left;
 }
-/* line 158, ../sass/story.scss */
+/* line 158, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__slides {
   min-height: 456px;
 }
-/* line 161, ../sass/story.scss */
+/* line 161, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__slide {
   text-align: center;
   width: 1000px;
 }
-/* line 165, ../sass/story.scss */
+/* line 165, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next {
   right: 57px;
 }
-/* line 167, ../sass/story.scss */
+/* line 167, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next span {
-  background: url('../img/common-s01f066ec03.png') 0 -383px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -383px no-repeat;
   width: 24px;
   height: 45px;
 }
-/* line 171, ../sass/story.scss */
+/* line 171, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__prev {
   left: 57px;
 }
-/* line 173, ../sass/story.scss */
+/* line 173, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__prev span {
-  background: url('../img/common-s01f066ec03.png') 0 -255px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -255px no-repeat;
   width: 24px;
   height: 45px;
 }
-/* line 178, ../sass/story.scss */
+/* line 178, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider__info {
   text-align: center;
   font-size: 18px;
@@ -409,7 +409,7 @@ a:hover {
   width: 640px;
   margin: 0 auto 16px auto;
 }
-/* line 187, ../sass/story.scss */
+/* line 187, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider__descr {
   width: 536px;
   margin: 0 auto;
@@ -417,17 +417,17 @@ a:hover {
   color: #6d6d6d;
 }
 
-/* line 194, ../sass/story.scss */
+/* line 194, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags {
   list-style: none;
   padding-right: 20px;
   text-align: right;
 }
-/* line 198, ../sass/story.scss */
+/* line 198, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags li {
   display: inline-block;
 }
-/* line 201, ../sass/story.scss */
+/* line 201, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags a {
   display: inline-block;
   font-family: "Myriad Pro", arial,sans-serif;
@@ -442,7 +442,7 @@ a:hover {
   margin-left: 5px;
 }
 
-/* line 215, ../sass/story.scss */
+/* line 215, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom {
   border-top: 1px solid #e5e5e5;
   height: 50px;
@@ -451,7 +451,7 @@ a:hover {
   overflow: hidden;
 }
 
-/* line 222, ../sass/story.scss */
+/* line 222, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial {
   position: absolute;
   font-size: 14px;
@@ -464,9 +464,9 @@ a:hover {
   height: 50px;
   line-height: 50px;
 }
-/* line 233, ../sass/story.scss */
+/* line 233, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial span {
-  background: url('../img/common-s01f066ec03.png') 0 -92px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -92px no-repeat;
   width: 27px;
   height: 22px;
   display: inline-block;
@@ -476,7 +476,7 @@ a:hover {
   top: -2px;
 }
 
-/* line 242, ../sass/story.scss */
+/* line 242, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__socials {
   background: #d0d0d0;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3);
@@ -486,7 +486,7 @@ a:hover {
   text-align: center;
 }
 
-/* line 250, ../sass/story.scss */
+/* line 250, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__comment {
   cursor: pointer;
   padding: 0 17px;
@@ -499,17 +499,17 @@ a:hover {
   line-height: 50px;
   border-right: 1px solid #e5e5e5;
 }
-/* line 261, ../sass/story.scss */
+/* line 261, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__comment .post__commenticon {
   display: inline-block;
-  background: url('../img/common-s01f066ec03.png') 0 -588px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -624px no-repeat;
   width: 18px;
   height: 19px;
   vertical-align: middle;
   margin-right: 3px;
 }
 
-/* line 268, ../sass/story.scss */
+/* line 268, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes {
   float: left;
   padding: 8px 17px 0 13px;
@@ -519,36 +519,36 @@ a:hover {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 276, ../sass/story.scss */
+/* line 276, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes * {
   vertical-align: top;
 }
-/* line 279, ../sass/story.scss */
+/* line 279, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes .post__likesicon {
-  background: url('../img/common-s01f066ec03.png') 0 -68px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -68px no-repeat;
   width: 28px;
   height: 24px;
   display: inline-block;
   margin-right: 8px;
   margin-top: 4px;
 }
-/* line 285, ../sass/story.scss */
+/* line 285, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes .post__likes-more {
   line-height: 1;
   display: inline-block;
   padding-top: 9px;
 }
 
-/* line 291, ../sass/story.scss */
+/* line 291, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__share {
   float: left;
   padding: 8px 17px 0 17px;
   height: 42px;
   border-right: 1px solid #e5e5e5;
 }
-/* line 296, ../sass/story.scss */
+/* line 296, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__share .post__shareicon {
-  background: url('../img/common-s01f066ec03.png') 0 -195px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -195px no-repeat;
   width: 25px;
   height: 17px;
   display: inline-block;
@@ -556,12 +556,12 @@ a:hover {
   float: left;
   margin-top: 7px;
 }
-/* line 303, ../sass/story.scss */
+/* line 303, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__share .smalluser {
   float: left;
 }
 
-/* line 307, ../sass/story.scss */
+/* line 307, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views {
   padding-left: 15px;
   font-weight: bold;
@@ -571,40 +571,40 @@ a:hover {
   font-family: Helvetica,sans-serif;
   float: left;
 }
-/* line 315, ../sass/story.scss */
+/* line 315, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views .post__viewsicon {
-  background: url('../img/common-s01f066ec03.png') 0 -114px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -114px no-repeat;
   width: 27px;
   height: 16px;
   display: inline-block;
   margin-right: 8px;
   vertical-align: middle;
 }
-/* line 321, ../sass/story.scss */
+/* line 321, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views .smalluser {
   float: left;
 }
 
-/* line 325, ../sass/story.scss */
+/* line 325, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .smalluser {
   display: inline-block;
   text-decoration: none;
   vertical-align: middle;
   margin-right: 8px;
 }
-/* line 330, ../sass/story.scss */
+/* line 330, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .smalluser img {
   display: inline-block;
   border-radius: 30px;
 }
 
-/* line 336, ../sass/story.scss */
+/* line 336, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .comment {
   background: #f8f8f8;
   position: relative;
   padding: 50px 0 36px;
 }
-/* line 340, ../sass/story.scss */
+/* line 340, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .comment .comment__user {
   position: absolute;
   top: 18px;
@@ -615,12 +615,12 @@ a:hover {
   border: 2px solid #fff;
   box-shadow:0 1px 1px rgba(black,0.2)*/
 }
-/* line 350, ../sass/story.scss */
+/* line 350, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .comment form {
   width: 640px;
   margin: auto;
 }
-/* line 354, ../sass/story.scss */
+/* line 354, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .comment textarea {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
@@ -632,13 +632,13 @@ a:hover {
   border-radius: 3px;
   display: block;
 }
-/* line 365, ../sass/story.scss */
+/* line 365, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .comment .comment__visual {
   margin-bottom: 14px;
   position: relative;
 }
 
-/* line 370, ../sass/story.scss */
+/* line 370, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat {
   border: 1px solid #d9d9d9;
   box-shadow: 0 1px 0 #fff;
@@ -649,63 +649,72 @@ a:hover {
   background-image: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -moz-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -o-linear-gradient(#f8f8f8, #f1f1f1);
+  background-image: -ms-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: linear-gradient(#f8f8f8, #f1f1f1);
   height: 20px;
   font-size: 0;
 }
-/* line 379, ../sass/story.scss */
+/* line 379, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon {
   display: inline-block;
   height: 20px;
   width: 27px;
   border-left: 1px solid #dfdfdf;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 384, ../sass/story.scss */
+/* line 385, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon:first-child {
   border: none;
 }
-/* line 387, ../sass/story.scss */
+/* line 388, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon:hover {
   background: #fff;
 }
-/* line 391, ../sass/story.scss */
+/* line 392, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__bold {
-  background: url('../img/common-s01f066ec03.png') 0 -621px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -657px no-repeat;
   width: 28px;
   height: 20px;
 }
-/* line 393, ../sass/story.scss */
+/* line 394, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__bold:hover {
-  background: url('../img/common-s01f066ec03.png') 0 -363px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -363px no-repeat;
   width: 28px;
   height: 20px;
+  background-color: #FFF;
 }
-/* line 397, ../sass/story.scss */
+/* line 399, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__list {
-  background: url('../img/common-s01f066ec03.png') 0 -749px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -785px no-repeat;
   width: 28px;
   height: 20px;
 }
-/* line 399, ../sass/story.scss */
+/* line 401, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__list:hover {
-  background: url('../img/common-s01f066ec03.png') 0 -343px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -343px no-repeat;
   width: 28px;
   height: 20px;
+  background-color: #FFF;
 }
-/* line 403, ../sass/story.scss */
+/* line 406, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__italic {
-  background: url('../img/common-s01f066ec03.png') 0 -693px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -729px no-repeat;
   width: 27px;
   height: 20px;
 }
-/* line 405, ../sass/story.scss */
+/* line 408, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__italic:hover {
-  background: url('../img/common-s01f066ec03.png') 0 -568px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -586px no-repeat;
   width: 27px;
   height: 20px;
+  background-color: #FFF;
 }
 
-/* line 410, ../sass/story.scss */
+/* line 414, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto {
   position: absolute;
   bottom: 10px;
@@ -714,12 +723,12 @@ a:hover {
   height: 20px;
   cursor: pointer;
 }
-/* line 417, ../sass/story.scss */
+/* line 421, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__icon {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url('../img/common-s01f066ec03.png') 0 -155px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -155px no-repeat;
   width: 23px;
   height: 20px;
   opacity: .3;
@@ -730,7 +739,7 @@ a:hover {
   transition: all 0.2s ease-in-out;
   transition: all 1s linear;
 }
-/* line 426, ../sass/story.scss */
+/* line 430, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file {
   cursor: default;
   position: absolute;
@@ -744,10 +753,10 @@ a:hover {
   padding: 4px 21px 4px 11px;
   line-height: 1;
 }
-/* line 438, ../sass/story.scss */
+/* line 442, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file .addphoto__close {
   position: absolute;
-  background: url('../img/common-s01f066ec03.png') 0 -769px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -805px no-repeat;
   width: 9px;
   height: 9px;
   top: 6px;
@@ -755,7 +764,7 @@ a:hover {
   cursor: pointer;
   opacity: .2;
 }
-/* line 445, ../sass/story.scss */
+/* line 449, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file .addphoto__close:hover {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -764,28 +773,29 @@ a:hover {
   transition: all 0.1s ease-in-out;
   opacity: 1;
 }
-/* line 451, ../sass/story.scss */
+/* line 455, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__loader {
-  padding: absolute;
-  left: 60px;
-  top: 0;
-  background: url('../img/common-s01f066ec03.png') 0 -534px no-repeat;
+  position: absolute;
+  right: 50px;
+  top: 3px;
+  background: url('../img/common-s634b8a6881.png') 0 -534px no-repeat;
   width: 18px;
   height: 18px;
-  -moz-animatiom: rotate 0.2s linear;
-  -webkit-animation: rotate 0.2s linear;
-  -o-animation: rotate 0.2s linear;
-  animation: rotate 0.2s linear;
+  -moz-animatiom: rotate 1s linear 0s infinite normal;
+  -webkit-animation: rotate 1s linear 0s infinite normal;
+  -o-animation: rotate 1s linear 0s infinite normal;
+  animation: rotate 1s linear 0s infinite normal;
 }
 
-/* line 460, ../sass/story.scss */
+/* line 464, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto_error .addphoto__icon {
-  background: url('../img/common-s01f066ec03.png') 0 -471px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -471px no-repeat;
   width: 23px;
   height: 20px;
+  opacity: 1;
 }
 
-/* line 463, ../sass/story.scss */
+/* line 468, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto:hover .addphoto__icon {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -795,14 +805,17 @@ a:hover {
   opacity: 1;
 }
 
-/* line 467, ../sass/story.scss */
+/* line 472, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto_active .addphoto__icon {
-  background: url('../img/common-s01f066ec03.png') 0 0 no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 0 no-repeat;
   width: 31px;
   height: 25px;
+  opacity: 1;
+  bottom: -3px;
+  right: -3px;
 }
 
-/* line 470, ../sass/story.scss */
+/* line 478, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button {
   font-size: 14px;
   font-weight: bold;
@@ -817,61 +830,63 @@ a:hover {
   background-image: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -moz-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: -o-linear-gradient(#f8f8f8, #f1f1f1);
+  background-image: -ms-linear-gradient(#f8f8f8, #f1f1f1);
   background-image: linear-gradient(#f8f8f8, #f1f1f1);
   box-shadow: 0 1px 0 #fff;
   vertical-align: top;
 }
-/* line 483, ../sass/story.scss */
+/* line 491, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button:hover {
   color: #1da9dd;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f8f8f8));
   background-image: -webkit-linear-gradient(#fefefe, #f8f8f8);
   background-image: -moz-linear-gradient(#fefefe, #f8f8f8);
   background-image: -o-linear-gradient(#fefefe, #f8f8f8);
+  background-image: -ms-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
 
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
-/* line 3, ../sass/comment.scss */
+/* line 3, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .post .figure_first {
   margin: 0 0 -87px;
 }
 
-/* line 7, ../sass/comment.scss */
+/* line 7, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment-list {
   border-bottom: 1px solid #dadada;
   background: #f8f8f8;
 }
-/* line 10, ../sass/comment.scss */
+/* line 10, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment-list .comment {
   padding: 0;
   border-top: 1px solid #e6e6e6;
   background: none;
 }
 
-/* line 17, ../sass/comment.scss */
+/* line 17, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__text {
   margin: auto;
   width: 640px;
   padding-bottom: 1px;
 }
-/* line 21, ../sass/comment.scss */
+/* line 21, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__text p {
   font: 16px/1.8 Cambria, georgia, serif;
   margin-bottom: 1.6em;
 }
-/* line 26, ../sass/comment.scss */
+/* line 26, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment figure {
   margin-bottom: 30px;
 }
-/* line 27, ../sass/comment.scss */
+/* line 27, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__text-holder {
   padding-top: 36px;
   margin-bottom: 35px;
 }
-/* line 31, ../sass/comment.scss */
+/* line 31, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__userpic {
   border-radius: 50px;
   width: 50px;
@@ -880,7 +895,7 @@ a:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   float: left;
 }
-/* line 39, ../sass/comment.scss */
+/* line 39, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__username {
   font-size: 11px;
   color: #9f9999;
@@ -889,7 +904,7 @@ a:hover {
   margin: 8px 0 0 8px;
   width: 60px;
 }
-/* line 47, ../sass/comment.scss */
+/* line 47, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__meta {
   position: absolute;
   top: 19px;
@@ -897,7 +912,7 @@ a:hover {
   height: 22px;
   width: 150px;
 }
-/* line 54, ../sass/comment.scss */
+/* line 54, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__rating {
   border: 1px solid #dfdfdf;
   color: #9c9c9c;
@@ -907,6 +922,7 @@ a:hover {
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   line-height: 18px;
@@ -915,37 +931,38 @@ a:hover {
   border-radius: 10px;
   margin-left: 12px;
 }
-/* line 66, ../sass/comment.scss */
+/* line 66, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__rating div {
   cursor: pointer;
 }
-/* line 69, ../sass/comment.scss */
+/* line 69, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__rating-num {
   float: left;
   padding: 0 5px;
 }
-/* line 73, ../sass/comment.scss */
+/* line 73, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__rating-p {
-  background: url('../img/common-s01f066ec03.png') 0 -641px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -677px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
   border-right: 1px solid #dfdfdf;
 }
-/* line 78, ../sass/comment.scss */
+/* line 78, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__rating-m {
-  background: url('../img/common-s01f066ec03.png') 0 -661px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -697px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
   border-right: 1px solid #dfdfdf;
 }
-/* line 83, ../sass/comment.scss */
+/* line 83, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__remove, .comment .comment__edit {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.05)), color-stop(100%, rgba(0, 0, 0, 0.05)));
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   width: 20px;
@@ -958,25 +975,25 @@ a:hover {
   vertical-align: middle;
   margin-left: 12px;
 }
-/* line 95, ../sass/comment.scss */
+/* line 95, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__remove div, .comment .comment__edit div {
   overflow: hidden;
   text-indent: -9999px;
   display: inline-block;
 }
-/* line 102, ../sass/comment.scss */
+/* line 102, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__remove div {
-  background: url('../img/common-s01f066ec03.png') 0 -607px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -643px no-repeat;
   width: 13px;
   height: 14px;
 }
-/* line 103, ../sass/comment.scss */
+/* line 103, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__edit div {
-  background: url('../img/common-s01f066ec03.png') 0 -723px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -759px no-repeat;
   width: 13px;
   height: 13px;
 }
-/* line 104, ../sass/comment.scss */
+/* line 104, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__time {
   color: #9f9999;
   font: 11px Helvetica,sans-serif;
@@ -984,9 +1001,9 @@ a:hover {
   bottom: 21px;
   right: 23px;
 }
-/* line 111, ../sass/comment.scss */
+/* line 111, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__user-arr {
-  background: url('../img/common-s01f066ec03.png') 0 -681px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -717px no-repeat;
   width: 12px;
   height: 12px;
   position: absolute;
@@ -995,56 +1012,56 @@ a:hover {
   display: none;
   cursor: pointer;
 }
-/* line 120, ../sass/comment.scss */
+/* line 120, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .comment__user:hover .comment__user-arr {
   display: block;
 }
-/* line 122, ../sass/comment.scss */
+/* line 122, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment .button_reply {
   position: absolute;
   bottom: 18px;
   left: 18px;
 }
 
-/* line 129, ../sass/comment.scss */
+/* line 129, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply .comment__text {
   background: #fff;
   border: 1px solid #e6e6e6;
   border-width: 0 1px;
   background: white url(../img/bg-comment.png) repeat-y 100% 0;
 }
-/* line 135, ../sass/comment.scss */
+/* line 135, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply .comment__text-holder {
   padding: 35px 50px 0;
 }
-/* line 137, ../sass/comment.scss */
+/* line 137, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply .comment__text-holder form {
   margin-bottom: -15px;
 }
-/* line 139, ../sass/comment.scss */
+/* line 139, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply figure {
   margin: 0 -50px 30px;
   text-align: center;
 }
-/* line 143, ../sass/comment.scss */
+/* line 143, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply form {
   width: 540px;
 }
-/* line 144, ../sass/comment.scss */
+/* line 144, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_reply .comment__visual textarea {
   width: 506px;
 }
 
-/* line 147, ../sass/comment.scss */
+/* line 147, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l1 .comment__text {
   border-radius: 4px 4px 0 0;
   margin-top: -5px;
   border-top: 1px solid #e6e6e6;
   position: relative;
 }
-/* line 152, ../sass/comment.scss */
+/* line 152, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l1 .comment__text:before {
-  background: url('../img/common-s01f066ec03.png') 0 -736px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -772px no-repeat;
   width: 14px;
   height: 13px;
   content: "";
@@ -1053,80 +1070,80 @@ a:hover {
   left: 49px;
 }
 
-/* line 162, ../sass/comment.scss */
+/* line 162, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l2 .comment__text {
   background-position: -200px 0;
 }
-/* line 165, ../sass/comment.scss */
+/* line 165, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l2 .comment__text-holder {
   padding-left: 100px;
 }
-/* line 168, ../sass/comment.scss */
+/* line 168, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l2 form {
   width: 490px;
 }
-/* line 169, ../sass/comment.scss */
+/* line 169, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l2 .comment__visual textarea {
   width: 456px;
 }
 
-/* line 173, ../sass/comment.scss */
+/* line 173, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l3 .comment__text {
   background-position: -150px 0;
 }
-/* line 176, ../sass/comment.scss */
+/* line 176, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l3 .comment__text-holder {
   padding-left: 150px;
 }
-/* line 178, ../sass/comment.scss */
+/* line 178, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l3 .comment__text-holder form {
   width: 440px;
 }
-/* line 179, ../sass/comment.scss */
+/* line 179, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l3 .comment__text-holder .comment__visual textarea {
   width: 406px;
 }
 
-/* line 183, ../sass/comment.scss */
+/* line 183, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l4 .comment__text {
   background-position: -100px 0;
 }
-/* line 186, ../sass/comment.scss */
+/* line 186, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l4 .comment__text-holder {
   padding-left: 200px;
 }
-/* line 188, ../sass/comment.scss */
+/* line 188, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l4 .comment__text-holder form {
   width: 390px;
 }
-/* line 189, ../sass/comment.scss */
+/* line 189, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l4 .comment__text-holder .comment__visual textarea {
   width: 356px;
 }
 
-/* line 194, ../sass/comment.scss */
+/* line 194, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l5 .comment__text {
   background-position: -50px 0;
 }
-/* line 197, ../sass/comment.scss */
+/* line 197, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l5 .comment__text-holder {
   padding-left: 250px;
 }
-/* line 199, ../sass/comment.scss */
+/* line 199, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l5 .comment__text-holder form {
   width: 340px;
 }
-/* line 200, ../sass/comment.scss */
+/* line 200, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_l5 .comment__text-holder .comment__visual textarea {
   width: 306px;
 }
 
-/* line 204, ../sass/comment.scss */
+/* line 204, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment__author {
   background: #fbf9e5;
 }
 
-/* line 208, ../sass/comment.scss */
+/* line 208, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .comment_last .comment__text {
   border-radius: 0 0 4px 4px;
   margin-bottom: -5px;
@@ -1135,7 +1152,7 @@ a:hover {
   z-index: 10;
 }
 
-/* line 217, ../sass/comment.scss */
+/* line 217, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf {
   width: 200px;
   display: none;
@@ -1150,9 +1167,9 @@ a:hover {
   z-index: 15;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
 }
-/* line 230, ../sass/comment.scss */
+/* line 230, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf:before {
-  background: url('../img/common-s01f066ec03.png') 0 -713px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -749px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -1160,7 +1177,7 @@ a:hover {
   top: -10px;
   left: 34px;
 }
-/* line 237, ../sass/comment.scss */
+/* line 237, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .user-inf__avatar {
   height: 100px;
   width: 100px;
@@ -1170,32 +1187,32 @@ a:hover {
   margin: -10px auto 3px;
   display: block;
 }
-/* line 246, ../sass/comment.scss */
+/* line 246, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf h2 {
   font: 18px Helvetica,sans-serif;
   margin-bottom: 4px;
 }
-/* line 249, ../sass/comment.scss */
+/* line 249, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf h2 a {
   color: #000;
   text-decoration: none;
 }
-/* line 252, ../sass/comment.scss */
+/* line 252, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf h2 a:hover {
   text-decoration: underline;
 }
-/* line 255, ../sass/comment.scss */
+/* line 255, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf p {
   font: 14px Cambria,georgia,serif;
   color: #777;
   margin-bottom: 12px;
 }
-/* line 260, ../sass/comment.scss */
+/* line 260, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .button {
   padding: 3px 6px;
   margin-bottom: 10px;
 }
-/* line 264, ../sass/comment.scss */
+/* line 264, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .stats {
   border-top: 1px solid #ebe7e7;
   overflow: hidden;
@@ -1203,7 +1220,7 @@ a:hover {
   margin: 0 -15px;
   width: 230px;
 }
-/* line 270, ../sass/comment.scss */
+/* line 270, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .stats li {
   float: left;
   border-left: 1px solid #ebe7e7;
@@ -1211,7 +1228,7 @@ a:hover {
   color: #999;
   text-align: left;
 }
-/* line 276, ../sass/comment.scss */
+/* line 276, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .stats li a {
   color: #999;
   text-decoration: none;
@@ -1220,11 +1237,11 @@ a:hover {
   padding: 5px 0 0 18px;
   width: 58px;
 }
-/* line 284, ../sass/comment.scss */
+/* line 284, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .stats li:first-child {
   border: 0;
 }
-/* line 287, ../sass/comment.scss */
+/* line 287, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .user-inf .stats li strong {
   display: block;
   color: #1d1d1d;
@@ -1232,13 +1249,13 @@ a:hover {
   margin-top: 4px;
 }
 
-/* line 296, ../sass/comment.scss */
+/* line 296, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .button_reply {
   padding: 2px 5px;
 }
-/* line 298, ../sass/comment.scss */
+/* line 298, /Users/akella/Desktop/git/narrative/sass/comment.scss */
 .button_reply span {
-  background: url('../img/common-s01f066ec03.png') 0 -552px no-repeat;
+  background: url('../img/common-s634b8a6881.png') 0 -570px no-repeat;
   width: 12px;
   height: 16px;
   margin-right: 5px;
@@ -1249,7 +1266,7 @@ a:hover {
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
-/* line 2, ../sass/ie.scss */
+/* line 2, /Users/akella/Desktop/git/narrative/sass/ie.scss */
 .lteie8 body {
   background: red;
 }
