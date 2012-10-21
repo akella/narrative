@@ -1,5 +1,8 @@
 $(document).ready(function() {
 	
+$('.comment__user-arr').click(function(){
+	$(this).siblings('.user-inf').fadeIn('fast');
+});
 
 
 $('.slider').each(function(){
