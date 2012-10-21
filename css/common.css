@@ -34,6 +34,10 @@ a:hover {
 
 /* line 26, ../sass/common.scss */
 .top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 43px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
@@ -44,10 +48,9 @@ a:hover {
   border: 1px solid #ccc;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   overflow: visible;
-  position: relative;
-  z-index: 10;
+  z-index: 100;
 }
-/* line 34, ../sass/common.scss */
+/* line 37, ../sass/common.scss */
 .top .top__in {
   width: 1000px;
   margin: 0 auto;
@@ -56,7 +59,7 @@ a:hover {
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
 }
-/* line 42, ../sass/common.scss */
+/* line 45, ../sass/common.scss */
 .top .top__title {
   float: left;
   font-size: 16px;
@@ -73,7 +76,7 @@ a:hover {
   text-overflow: ellipsis;
 }
 
-/* line 58, ../sass/common.scss */
+/* line 61, ../sass/common.scss */
 .icon {
   width: 43px;
   height: 43px;
@@ -82,35 +85,35 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 65, ../sass/common.scss */
+/* line 68, ../sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 70, ../sass/common.scss */
+/* line 73, ../sass/common.scss */
 .icon_home {
   background: url('../img/common-s634b8a6881.png') 0 -428px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 73, ../sass/common.scss */
+/* line 76, ../sass/common.scss */
 .icon_comments {
   background: url('../img/common-s634b8a6881.png') 0 -212px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 76, ../sass/common.scss */
+/* line 79, ../sass/common.scss */
 .icon_compass {
   background: url('../img/common-s634b8a6881.png') 0 -25px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 79, ../sass/common.scss */
+/* line 82, ../sass/common.scss */
 .icon_add {
   background: url('../img/common-s634b8a6881.png') 0 -491px no-repeat;
   width: 52px;
@@ -120,14 +123,14 @@ a:hover {
   left: 1px;
 }
 
-/* line 85, ../sass/common.scss */
+/* line 88, ../sass/common.scss */
 .icon_user {
   background: url('../img/common-s634b8a6881.png') 0 -300px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 89, ../sass/common.scss */
+/* line 92, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -135,15 +138,15 @@ a:hover {
   margin: 0 auto;
   background: #fff;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-  padding: 34px 0 0px 0;
+  padding: 43px 0 0px 0;
 }
 
-/* line 99, ../sass/common.scss */
+/* line 102, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 102, ../sass/common.scss */
+/* line 105, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
   background: url('../img/common-s634b8a6881.png') 0 -130px no-repeat;

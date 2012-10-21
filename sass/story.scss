@@ -48,6 +48,9 @@
 		color: #d7d7d7;
 	}
 }
+.post{
+	padding-top: 34px;
+}
 .post__content{
 	width: 640px;
 	margin: 0 auto -15px auto;
@@ -337,6 +340,15 @@
 	background:#f8f8f8;
 	position: relative;
 	padding: 50px 0 36px;
+	.comment__act{
+		font-size: 14px;
+		font-weight: bold;
+		color: #9c9c9c;
+		font-family: Arial, Helvetica, sans-serif;
+		span{
+			vertical-align: middle;
+		}
+	}
 	.comment__user{
 		position: absolute;
 		top: 18px;
@@ -381,7 +393,7 @@
 		height: 20px;
 		width: 27px;
 		border-left: 1px solid #dfdfdf;
-		@include transition(all, .2s, ease-in-out);
+		@include transition(background-color, .2s, ease-in-out);
 		&:first-child{
 			border: none;
 		}
@@ -454,8 +466,9 @@
 	}
 	.addphoto__loader{
 		position:absolute;
-		right: 50px;
+		right: 30px;
 		top: 3px;
+		z-index:20;
 		@include sized-sprite($icons, addphoto_loader);
 		//loader animation
 		@include animation(rotate, 1s, linear);
@@ -475,7 +488,9 @@
 	bottom: -3px;
 	right: -3px;
 }
+
 .button{
+	vertical-align: middle;
 	font-size: 14px;
 	font-weight: bold;
 	text-shadow:0 1px 0 #fff;
@@ -487,9 +502,32 @@
 	-webkit-appearance:none;
 	@include background-image(linear-gradient(#f8f8f8, #f1f1f1));
 	box-shadow:0 1px 0 #fff;
-	vertical-align: top;
+	@include transition(all, .2s, ease-in-out);
 	&:hover{
 		color: #1da9dd;
 		@include background-image(linear-gradient(#fefefe, #f8f8f8));
+	}
+	.button__icon{
+		vertical-align: middle;
+		margin-right: 4px;
+		display: inline-block;
+	}
+}
+.button_facebook{
+	color: #3f6093;
+	margin: 0 5px;
+	.button__icon{
+		color: #3f6093;
+		@include sized-sprite($icons, button_facebook);
+	}
+}
+.button_twitter{
+	color: #2ea8dc;
+	margin: 0 5px;
+	.button__icon{
+		color: #2ea8dc;
+		position: relative;
+		top: -2px;
+		@include sized-sprite($icons, button_twitter);
 	}
 }
