@@ -20,12 +20,18 @@
 	box-shadow:0 3px 18px 0 rgba(0,0,0,0.15);
 	top:160px;
 	z-index:250;
+	.popup__close{
+		@include sized-sprite($icons, "close");
+		position:absolute;
+		top:12px;
+		right:13px;
+		cursor:pointer;
+	}
 }
 .popup_reg{
 	.popup_reg__header{
 		padding:30px 0 25px;
 		text-align:center;
-		border-bottom:1px solid #e5e5e5;
 		p{
 			font:16px/1.8 Cambria,georgia,serif;
 			color:#8f8f8f;
@@ -33,6 +39,11 @@
 		}
 		h2{
 			font: 18px Helvetica,sans-serif;
+		}
+		h1{
+			padding:0;
+			border-top:none;
+			margin:0;
 		}
 	}
 	.popup_reg__userpic{
@@ -43,23 +54,27 @@
 		box-shadow:0 24px 38px 0 rgba(0,0,0,0.2);
 		position:relative;
 		margin:0 auto 8px;
-	}
-	.socail{
-		position:absolute;
-		right:-1px;
-		bottom:-3px;
+		.addphoto{
+			right:-17px;
+			bottom:-4px;
+		}
+		.socail{
+			position:absolute;
+			right:-1px;
+			bottom:-3px;
+		}
 	}
 	h1{
 		text-align:center;
 		color:#9b9b9b;
 		font:30px/1.2 Cambria,georgia,serif;
-		margin:17px 0 21px;
+		margin-bottom:21px;
+		padding-top:17px;
+		border-top:1px solid #e5e5e5;
 	}
-
 }
 .social__fb{@include sized-sprite($icons, "icon-fb");}
 .social__tw{@include sized-sprite($icons, "icon-tw");}
-
 .reg-form{
 	padding:0 65px;
 	.row{
@@ -68,7 +83,7 @@
 		width:100%;
 		margin-bottom:15px;
 	}
-	label{
+	.label{
 		color:#6d6d6d;
 		font:16px Cambria,georgia,serif;
 		float:left;
@@ -96,7 +111,7 @@
 			display:inline-block;
 			@include sized-sprite($icons, "input_ok");
 			margin-right:8px;
-			vertical-align:middle;
+			vertical-align:text-top;
 		}
 	}
 	.input-mess__error span{@include sized-sprite($icons, "input_error");}
@@ -141,6 +156,7 @@
 		float:left;
 		list-style:none;
 		margin-left:-4px;
+		padding-bottom:2px;
 		input{
 			display:none;
 		}
@@ -160,5 +176,27 @@
 		.active .gender__male{@include sized-sprite($icons, "gender-m_active");}
 		.gender__female{@include sized-sprite($icons, "gender-f");}
 		.active .gender__female{@include sized-sprite($icons, "gender-f_active");}
+	}
+	.socail{
+		float: left;
+		font:16px/37px Cambria,georgia,serif;
+	}
+	.socail__user{
+		display:inline-block;
+		height:30px;
+		width:30px;
+		margin:-4px 5px 0 0;
+		border-radius:15px;
+		vertical-align:middle;;
+	}
+	.privacy{
+		border:1px solid #d3d3d3;
+		border-radius:3px;
+		color:#17ace5;
+		font:16px Cambria,georgia,serif;
+		float:left;
+		padding: 9px 10px;
+		width: 314px;
+		label{margin-left:4px;}
 	}
 }
