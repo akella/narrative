@@ -1460,30 +1460,64 @@ a:hover {
   right: 13px;
   cursor: pointer;
 }
-
-/* line 32, ../sass/popups.scss */
-.popup_reg .popup_reg__header {
+/* line 30, ../sass/popups.scss */
+.popup h1 {
+  text-align: center;
+  color: #9b9b9b;
+  font: 30px/1.2 Cambria, georgia, serif;
+  margin-bottom: 21px;
+  padding-top: 17px;
+  border-top: 1px solid #e5e5e5;
+}
+/* line 38, ../sass/popups.scss */
+.popup .socail {
+  float: left;
+  font: 16px/37px Cambria, georgia, serif;
+}
+/* line 42, ../sass/popups.scss */
+.popup .socail__user {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: -4px 5px 0 0;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+/* line 50, ../sass/popups.scss */
+.popup .row_btn {
+  border-top: 1px solid #e5e5e5;
+  margin: 13px -65px 0;
+  text-align: center;
+  padding: 20px 65px;
+}
+/* line 55, ../sass/popups.scss */
+.popup .row_btn .button {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+/* line 60, ../sass/popups.scss */
+.popup .popup__header {
   padding: 30px 0 25px;
   text-align: center;
 }
-/* line 35, ../sass/popups.scss */
-.popup_reg .popup_reg__header p {
+/* line 63, ../sass/popups.scss */
+.popup .popup__header p {
   font: 16px/1.8 Cambria, georgia, serif;
   color: #8f8f8f;
   margin-bottom: 5px;
 }
-/* line 40, ../sass/popups.scss */
-.popup_reg .popup_reg__header h2 {
+/* line 68, ../sass/popups.scss */
+.popup .popup__header h2 {
   font: 18px Helvetica,sans-serif;
 }
-/* line 43, ../sass/popups.scss */
-.popup_reg .popup_reg__header h1 {
+/* line 69, ../sass/popups.scss */
+.popup .popup__header h1 {
   padding: 0;
   border-top: none;
   margin: 0;
 }
-/* line 49, ../sass/popups.scss */
-.popup_reg .popup_reg__userpic {
+/* line 75, ../sass/popups.scss */
+.popup .popup_reg__userpic {
   height: 120px;
   width: 120px;
   border-radius: 60px;
@@ -1492,79 +1526,46 @@ a:hover {
   position: relative;
   margin: 0 auto 8px;
 }
-/* line 57, ../sass/popups.scss */
-.popup_reg .popup_reg__userpic .addphoto {
+/* line 83, ../sass/popups.scss */
+.popup .popup_reg__userpic .addphoto {
   right: -17px;
   bottom: -4px;
 }
-/* line 61, ../sass/popups.scss */
-.popup_reg .popup_reg__userpic .socail {
+/* line 87, ../sass/popups.scss */
+.popup .popup_reg__userpic .socail {
   position: absolute;
   right: -1px;
   bottom: -3px;
 }
-/* line 67, ../sass/popups.scss */
-.popup_reg h1 {
-  text-align: center;
-  color: #9b9b9b;
-  font: 30px/1.2 Cambria, georgia, serif;
-  margin-bottom: 21px;
-  padding-top: 17px;
-  border-top: 1px solid #e5e5e5;
-}
-/* line 75, ../sass/popups.scss */
-.popup_reg .socail {
-  float: left;
-  font: 16px/37px Cambria, georgia, serif;
-}
-/* line 79, ../sass/popups.scss */
-.popup_reg .socail__user {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  margin: -4px 5px 0 0;
-  border-radius: 15px;
-  vertical-align: middle;
-}
-/* line 87, ../sass/popups.scss */
-.popup_reg .row_btn {
-  border-top: 1px solid #e5e5e5;
-  margin: 13px -65px 0;
-  text-align: center;
-  padding: 20px 65px;
-}
-/* line 92, ../sass/popups.scss */
-.popup_reg .row_btn .button {
-  font-size: 13px;
-  padding: 6px 10px;
-}
 
-/* line 98, ../sass/popups.scss */
+/* line 94, ../sass/popups.scss */
 .social__fb {
   background: url('../img/common-sd7ec0abb9b.png') 0 -145px no-repeat;
   width: 32px;
   height: 33px;
+  cursor: pointer;
 }
 
-/* line 99, ../sass/popups.scss */
+/* line 98, ../sass/popups.scss */
 .social__tw {
   background: url('../img/common-sd7ec0abb9b.png') 0 -43px no-repeat;
   width: 32px;
   height: 34px;
+  cursor: pointer;
 }
 
-/* line 100, ../sass/popups.scss */
+/* line 102, ../sass/popups.scss */
 .reg-form {
   padding: 0 65px;
 }
-/* line 102, ../sass/popups.scss */
+/* line 104, ../sass/popups.scss */
 .reg-form .row {
   position: relative;
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
 }
-/* line 108, ../sass/popups.scss */
+/* line 110, ../sass/popups.scss */
 .reg-form .label {
   color: #6d6d6d;
   font: 16px Cambria,georgia,serif;
@@ -1573,7 +1574,7 @@ a:hover {
   margin: 8px 11px 0 0;
   text-align: right;
 }
-/* line 116, ../sass/popups.scss */
+/* line 118, ../sass/popups.scss */
 .reg-form .input {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
@@ -1584,7 +1585,7 @@ a:hover {
   color: #000;
   float: left;
 }
-/* line 126, ../sass/popups.scss */
+/* line 128, ../sass/popups.scss */
 .reg-form .input-mess {
   position: absolute;
   top: 9px;
@@ -1592,7 +1593,7 @@ a:hover {
   font: 11px Helvetica,sans-serif;
   color: #808080;
 }
-/* line 132, ../sass/popups.scss */
+/* line 134, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
   background: url('../img/common-sd7ec0abb9b.png') 0 -1199px no-repeat;
@@ -1601,13 +1602,13 @@ a:hover {
   margin-right: 8px;
   vertical-align: text-top;
 }
-/* line 139, ../sass/popups.scss */
+/* line 141, ../sass/popups.scss */
 .reg-form .input-mess__error span {
   background: url('../img/common-sd7ec0abb9b.png') 0 -1147px no-repeat;
   width: 17px;
   height: 17px;
 }
-/* line 140, ../sass/popups.scss */
+/* line 142, ../sass/popups.scss */
 .reg-form .input-inf {
   clear: both;
   display: block;
@@ -1615,7 +1616,7 @@ a:hover {
   color: #808080;
   padding: 9px 0 2px 86px;
 }
-/* line 147, ../sass/popups.scss */
+/* line 149, ../sass/popups.scss */
 .reg-form .icon-location {
   background: url('../img/common-sd7ec0abb9b.png') 0 -1510px no-repeat;
   width: 18px;
@@ -1625,12 +1626,12 @@ a:hover {
   left: 393px;
   cursor: pointer;
 }
-/* line 155, ../sass/popups.scss */
+/* line 157, ../sass/popups.scss */
 .reg-form .row_login .input {
   padding-left: 98px;
   width: 224px;
 }
-/* line 159, ../sass/popups.scss */
+/* line 161, ../sass/popups.scss */
 .reg-form .row_login .input-holder {
   color: #9a9a9a;
   font: 16px/20px Cambria, georgia, serif;
@@ -1638,14 +1639,14 @@ a:hover {
   top: 8px;
   left: 99px;
 }
-/* line 167, ../sass/popups.scss */
+/* line 169, ../sass/popups.scss */
 .reg-form .gender {
   float: left;
   list-style: none;
   margin-left: -4px;
   padding-bottom: 2px;
 }
-/* line 172, ../sass/popups.scss */
+/* line 174, ../sass/popups.scss */
 .reg-form .gender input {
   display: none;
 }
@@ -1755,30 +1756,30 @@ a:hover {
 .follow-form .row-check label {
   font: bold 14px Helvetica,sans-serif;
 }
-/* line 247, ../sass/popups.scss */
+/* line 245, ../sass/popups.scss */
 .follow-form .row_btn {
   margin: 13px -30px 0;
   padding: 20px 30px;
 }
 
-/* line 252, ../sass/popups.scss */
+/* line 250, ../sass/popups.scss */
 .tabs-info {
   padding: 10px 30px;
   display: none;
 }
 
-/* line 257, ../sass/popups.scss */
+/* line 255, ../sass/popups.scss */
 .checked .checkbox {
   background: url('../img/common-sd7ec0abb9b.png') 0 -1394px no-repeat;
   width: 13px;
   height: 13px;
 }
-/* line 258, ../sass/popups.scss */
+/* line 256, ../sass/popups.scss */
 .checked label {
   color: #16abe4;
 }
 
-/* line 260, ../sass/popups.scss */
+/* line 258, ../sass/popups.scss */
 .check {
   height: 13px;
   left: 0;
@@ -1788,7 +1789,7 @@ a:hover {
   width: 13px;
 }
 
-/* line 268, ../sass/popups.scss */
+/* line 266, ../sass/popups.scss */
 .checkbox {
   background: url('../img/common-sd7ec0abb9b.png') 0 -1674px no-repeat;
   width: 13px;
@@ -1797,14 +1798,14 @@ a:hover {
   display: inline-block;
 }
 
-/* line 273, ../sass/popups.scss */
+/* line 271, ../sass/popups.scss */
 .scroll-pane {
   width: 580px;
   height: 212px;
-  overflow: hidden;
+  overflow: auto;
 }
 
-/* line 278, ../sass/popups.scss */
+/* line 276, ../sass/popups.scss */
 .tabs-nav {
   list-style: none;
   border: 1px solid #dadada;
@@ -1813,7 +1814,7 @@ a:hover {
   margin: 6px auto -10px;
   box-shadow: 0 1px 0 0 #fff;
 }
-/* line 285, ../sass/popups.scss */
+/* line 283, ../sass/popups.scss */
 .tabs-nav li {
   color: #979797;
   float: left;
@@ -1824,22 +1825,80 @@ a:hover {
   font-weight: bold;
   box-shadow: none;
 }
-/* line 296, ../sass/popups.scss */
+/* line 292, ../sass/popups.scss */
 .tabs-nav li:first-child {
   border-radius: 4px 0 0 4px;
 }
-/* line 299, ../sass/popups.scss */
+/* line 293, ../sass/popups.scss */
 .tabs-nav li:last-child {
   border-radius: 0 4px 4px 0;
 }
-/* line 303, ../sass/popups.scss */
+/* line 295, ../sass/popups.scss */
 .tabs-nav span {
-  color: #b3b3b3;
+  color: #979797;
 }
-/* line 306, ../sass/popups.scss */
+/* line 296, ../sass/popups.scss */
 .tabs-nav .active {
   color: #16aae3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+/* line 301, ../sass/popups.scss */
+.invite {
+  padding: 0 150px 60px;
+}
+/* line 303, ../sass/popups.scss */
+.invite .row {
+  height: 36px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 3px;
+}
+/* line 309, ../sass/popups.scss */
+.invite .row input {
+  color: #808080;
+  font: 16px Cambria,georgia,serif;
+  border: none;
+  background: #f2f2f2;
+  height: 20px;
+  line-height: 20px;
+  padding: 8px 32px 8px 12px;
+}
+/* line 318, ../sass/popups.scss */
+.invite .row .button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-family: Arial,sans-serif;
+  padding: 6px 11px;
+}
+/* line 325, ../sass/popups.scss */
+.invite .row span {
+  font: 16px/36px Cambria, georgia, serif;
+  margin-left: 12px;
+}
+/* line 329, ../sass/popups.scss */
+.invite .row strong {
+  font-size: 14px;
+  color: #b3b3b3;
+  float: right;
+  line-height: 36px;
+  margin-right: 18px;
+  font-family: Arial,sans-serif;
+}
+
+/* line 341, ../sass/popups.scss */
+.popup_invite .popup__header {
+  padding: 55px 110px 10px;
+}
+/* line 343, ../sass/popups.scss */
+.popup_invite .popup__header h1 {
+  margin: 0 0 4px;
+}
+/* line 346, ../sass/popups.scss */
+.popup_invite .popup__header p {
+  line-height: 1.4;
 }
 
 /*когда включать версию для айфона*/
