@@ -1,8 +1,18 @@
 $(document).ready(function() {
 	
-$('.comment__user-arr').click(function(){
-	$(this).siblings('.user-inf').fadeIn('fast');
-});
+	$('.comment__user-arr').click(function(){
+		$(this).siblings('.user-inf').fadeIn('fast');
+	});
+
+	$('input.check').css('opacity', '0').wrap("<div class='checkbox'></div>")
+		.delegate($(this), 'change', function(){ $(this).attr('checked') ? $(this).parent().parent().addClass('checked') : $(this).parent().parent().removeClass('checked')});
+	$('input.check:checked').parent().parent().addClass('checked');
+
+
+	$('.tabs-nav li').click(function(){
+		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
+			.parents('.popup').find('.tabs-info').eq($(this).index()).fadeIn(300).siblings('.tabs-info').hide();
+	});
 
 
 $('.slider').each(function(){

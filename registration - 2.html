@@ -6,7 +6,10 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/cycle.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+	
+	
 </head>
 <body>
 <!-- BEGIN  top-->
@@ -101,20 +104,190 @@
 	<div class="popup_reg__header">
 		<h1>Now get yourself some readers</h1>
 		<p>Invite your friends to Narrative to have a great hang out</p>
+		<ul class="tabs-nav">
+			<li class="button">Twitter <span></span></li>
+			<li class="button active">Facebook <span>2</span></li>
+		</ul>
 	</div>
-	<form action="#" class="reg-form">
-		
-
-		<div class="row">
-			<label for="">Real name</label>
-			<input type="text" placeholder="Konstantin Osintsev" class="input">
-			<div class="input-mess input-mess__error"><span></span>Incorrect</div>
-		</div>
-
-		<div class="row row_btn">
-			<input type="submit" class="button" value="Start your Narrative">
-		</div>
+	
+	<form action="#" class="search-form">
+		<input type="text" class="search-form__input" placeholder="Search user">
+		<input type="submit" class="search-form__btn" value="Найти">
 	</form>
+
+	<!-- BEGIB .tabs-list -->
+	<div class="tabs-list">
+
+		<!-- BEGIB .tabs-info -->
+		<div class="tabs-info">
+			<form action="#" class="follow-form">
+				<div class="scroll-pane">
+					
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-005">
+						<label for="user-005">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Alex Matveev
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-006">
+						<label for="user-006">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Ruslan Lobachev
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-007">
+						<label for="user-007">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Šarūnas Mikelevičius
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-001">
+						<label for="user-001">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Siarhei Stashkevich
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-002">
+						<label for="user-002">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Jessica Walsh
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-003">
+						<label for="user-003">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Aliaksei Koval
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-004">
+						<label for="user-004">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Fiodor Sumkin
+						</label>
+					</div>					
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-008">
+						<label for="user-008">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Andrei Ivanov
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-009">
+						<label for="user-009">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Siarhei Stashkevich
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-010">
+						<label for="user-010">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Jessica Walsh
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-011">
+						<label for="user-011">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Aliaksei Koval
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-012">
+						<label for="user-012">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Fiodor Sumkin
+						</label>
+					</div>
+				</div>
+				<div class="row row_btn">
+					<input type="submit" class="button" value="You are all set">
+				</div>
+			</form>
+		</div>
+		<!-- END .tabs-info -->
+
+		<!-- BEGIB .tabs-info -->
+		<div class="tabs-info" style="display:block;">
+			<form action="#" class="follow-form">
+				<div class="scroll-pane">
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-001">
+						<label for="user-001">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Siarhei Stashkevich
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-002">
+						<label for="user-002">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Jessica Walsh
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-003">
+						<label for="user-003">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Aliaksei Koval
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-004">
+						<label for="user-004">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Fiodor Sumkin
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-005">
+						<label for="user-005">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Alex Matveev
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-006">
+						<label for="user-006">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Ruslan Lobachev
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-007">
+						<label for="user-007">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Šarūnas Mikelevičius
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-008">
+						<label for="user-008">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Andrei Ivanov
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-009">
+						<label for="user-009">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Siarhei Stashkevich
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-010">
+						<label for="user-010">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Jessica Walsh
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-011">
+						<label for="user-011">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Aliaksei Koval
+						</label>
+					</div>
+					<div class="row-check">
+						<input type="checkbox" class="check"  id="user-012">
+						<label for="user-012">
+							<div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Fiodor Sumkin
+						</label>
+					</div>
+				</div>
+				<div class="row row_btn">
+					<input type="submit" class="button" value="You are all set">
+				</div>
+			</form>
+		</div>
+		<!-- END .tabs-info -->
+	</div>
+	<!-- END .tabs-list -->
 </div>
 
 
