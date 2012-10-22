@@ -64,6 +64,10 @@ a{
 	float: left;
 	border-right:1px solid #e3e3e3;
 	cursor:pointer;
+	@include transition(box-shadow, .2s, ease-in-out);
+	&:hover{
+		box-shadow:inset 0 5px 3px rgba(black,.05);
+	}
 }
 .icon_right{
 	float: right;
@@ -78,6 +82,9 @@ a{
 }
 .icon_compass{
 	@include sized-sprite($icons, compass);
+	&:hover{
+		@include sized-sprite($icons, compass_hover);
+	}
 }
 .icon_add{
 	@include sized-sprite($icons, add);

@@ -697,7 +697,7 @@
 /* line 510, ../sass/story.scss */
 .button .button__icon {
   vertical-align: middle;
-  margin-right: 4px;
+  margin-right: 5px;
   display: inline-block;
 }
 
@@ -709,21 +709,21 @@
 /* line 519, ../sass/story.scss */
 .button_facebook .button__icon {
   color: #3f6093;
+  position: relative;
+  top: -2px;
   background: url('../img/common-s3312d74e8f.png') 0 -587px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 524, ../sass/story.scss */
+/* line 526, ../sass/story.scss */
 .button_twitter {
   color: #2ea8dc;
   margin: 0 5px;
 }
-/* line 527, ../sass/story.scss */
+/* line 529, ../sass/story.scss */
 .button_twitter .button__icon {
   color: #2ea8dc;
-  position: relative;
-  top: -2px;
   background: url('../img/common-s3312d74e8f.png') 0 -130px no-repeat;
   width: 20px;
   height: 17px;
