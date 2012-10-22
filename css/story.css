@@ -217,7 +217,7 @@
 }
 /* line 170, ../sass/story.scss */
 .post__content .slider .slider__next span {
-  background: url('../img/common-s3312d74e8f.png') 0 -400px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -501px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -227,7 +227,7 @@
 }
 /* line 176, ../sass/story.scss */
 .post__content .slider .slider__prev span {
-  background: url('../img/common-s3312d74e8f.png') 0 -272px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -373px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -298,7 +298,7 @@
 }
 /* line 236, ../sass/story.scss */
 .post__togglesocial span {
-  background: url('../img/common-s3312d74e8f.png') 0 -92px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -176px no-repeat;
   width: 27px;
   height: 22px;
   display: inline-block;
@@ -334,7 +334,7 @@
 /* line 264, ../sass/story.scss */
 .post__comment .post__commenticon {
   display: inline-block;
-  background: url('../img/common-s3312d74e8f.png') 0 -661px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -762px no-repeat;
   width: 18px;
   height: 19px;
   vertical-align: middle;
@@ -357,7 +357,7 @@
 }
 /* line 282, ../sass/story.scss */
 .post__likes .post__likesicon {
-  background: url('../img/common-s3312d74e8f.png') 0 -68px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -152px no-repeat;
   width: 28px;
   height: 24px;
   display: inline-block;
@@ -380,7 +380,7 @@
 }
 /* line 299, ../sass/story.scss */
 .post__share .post__shareicon {
-  background: url('../img/common-s3312d74e8f.png') 0 -212px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -296px no-repeat;
   width: 25px;
   height: 17px;
   display: inline-block;
@@ -405,7 +405,7 @@
 }
 /* line 318, ../sass/story.scss */
 .post__views .post__viewsicon {
-  background: url('../img/common-s3312d74e8f.png') 0 -114px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -198px no-repeat;
   width: 27px;
   height: 16px;
   display: inline-block;
@@ -519,39 +519,39 @@
 }
 /* line 404, ../sass/story.scss */
 .textformat .textformat__bold {
-  background: url('../img/common-s3312d74e8f.png') 0 -694px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -795px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 406, ../sass/story.scss */
 .textformat .textformat__bold:hover {
-  background: url('../img/common-s3312d74e8f.png') 0 -380px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -481px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 411, ../sass/story.scss */
 .textformat .textformat__list {
-  background: url('../img/common-s3312d74e8f.png') 0 -822px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -943px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 413, ../sass/story.scss */
 .textformat .textformat__list:hover {
-  background: url('../img/common-s3312d74e8f.png') 0 -360px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -461px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 418, ../sass/story.scss */
 .textformat .textformat__italic {
-  background: url('../img/common-s3312d74e8f.png') 0 -766px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -887px no-repeat;
   width: 27px;
   height: 20px;
 }
 /* line 420, ../sass/story.scss */
 .textformat .textformat__italic:hover {
-  background: url('../img/common-s3312d74e8f.png') 0 -623px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -724px no-repeat;
   width: 27px;
   height: 20px;
   background-color: #FFF;
@@ -571,7 +571,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url('../img/common-s3312d74e8f.png') 0 -172px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -256px no-repeat;
   width: 23px;
   height: 20px;
   opacity: .3;
@@ -599,7 +599,7 @@
 /* line 454, ../sass/story.scss */
 .addphoto .addphoto__file .addphoto__close {
   position: absolute;
-  background: url('../img/common-s3312d74e8f.png') 0 -842px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -963px no-repeat;
   width: 9px;
   height: 9px;
   top: 6px;
@@ -622,7 +622,7 @@
   right: 30px;
   top: 3px;
   z-index: 20;
-  background: url('../img/common-s3312d74e8f.png') 0 -551px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -652px no-repeat;
   width: 18px;
   height: 18px;
   -moz-animatiom: rotate 1s linear 0s infinite normal;
@@ -633,7 +633,7 @@
 
 /* line 477, ../sass/story.scss */
 .addphoto_error .addphoto__icon {
-  background: url('../img/common-s3312d74e8f.png') 0 -488px no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -589px no-repeat;
   width: 23px;
   height: 20px;
   opacity: 1;
@@ -651,7 +651,7 @@
 
 /* line 485, ../sass/story.scss */
 .addphoto_active .addphoto__icon {
-  background: url('../img/common-s3312d74e8f.png') 0 0 no-repeat;
+  background: url('../img/common-s5e7a995465.png') 0 -43px no-repeat;
   width: 31px;
   height: 25px;
   opacity: 1;
@@ -703,28 +703,46 @@
 
 /* line 516, ../sass/story.scss */
 .button_facebook {
-  color: #3f6093;
   margin: 0 5px;
 }
-/* line 519, ../sass/story.scss */
+/* line 518, ../sass/story.scss */
 .button_facebook .button__icon {
-  color: #3f6093;
   position: relative;
   top: -2px;
-  background: url('../img/common-s3312d74e8f.png') 0 -587px no-repeat;
+  margin-right: 11px;
+  background: url('../img/common-s5e7a995465.png') 0 -815px no-repeat;
+  width: 10px;
+  height: 20px;
+}
+/* line 524, ../sass/story.scss */
+.button_facebook:hover {
+  color: #3f6093;
+}
+/* line 526, ../sass/story.scss */
+.button_facebook:hover .button__icon {
+  background: url('../img/common-s5e7a995465.png') 0 -688px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 526, ../sass/story.scss */
+/* line 531, ../sass/story.scss */
 .button_twitter {
-  color: #2ea8dc;
   margin: 0 5px;
 }
-/* line 529, ../sass/story.scss */
+/* line 533, ../sass/story.scss */
 .button_twitter .button__icon {
+  background: url('../img/common-s5e7a995465.png') 0 -356px no-repeat;
+  width: 20px;
+  height: 17px;
+  margin-right: 6px;
+}
+/* line 537, ../sass/story.scss */
+.button_twitter:hover {
   color: #2ea8dc;
-  background: url('../img/common-s3312d74e8f.png') 0 -130px no-repeat;
+}
+/* line 539, ../sass/story.scss */
+.button_twitter:hover .button__icon {
+  background: url('../img/common-s5e7a995465.png') 0 -214px no-repeat;
   width: 20px;
   height: 17px;
 }

@@ -514,21 +514,30 @@
 	}
 }
 .button_facebook{
-	color: #3f6093;
 	margin: 0 5px;
 	.button__icon{
-		color: #3f6093;
 		position: relative;
 		top: -2px;
-		@include sized-sprite($icons, button_facebook);
+		margin-right: 11px;
+		@include sized-sprite($icons, button_facebook1);
+	}
+	&:hover{
+		color: #3f6093;
+		.button__icon{
+			@include sized-sprite($icons, button_facebook);
+		}
 	}
 }
 .button_twitter{
-	color: #2ea8dc;
 	margin: 0 5px;
 	.button__icon{
+		@include sized-sprite($icons, button_twitter1);
+		margin-right: 6px;
+	}
+	&:hover{
 		color: #2ea8dc;
-		
-		@include sized-sprite($icons, button_twitter);
+		.button__icon{
+			@include sized-sprite($icons, button_twitter);
+		}
 	}
 }

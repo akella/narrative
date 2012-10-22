@@ -83,54 +83,71 @@ a:hover {
   float: left;
   border-right: 1px solid #e3e3e3;
   cursor: pointer;
-  -moz-transition: box-shadow 0.2s ease-in-out;
-  -webkit-transition: box-shadow 0.2s ease-in-out;
-  -o-transition: box-shadow 0.2s ease-in-out;
-  -ms-transition: box-shadow 0.2s ease-in-out;
-  transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.1s ease-in-out;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
+  -o-transition: box-shadow 0.1s ease-in-out;
+  -ms-transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
 }
 /* line 68, ../sass/common.scss */
 .icon:hover {
-  box-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 7px 5px rgba(170, 170, 170, 0.05);
+  background-color: #fafafa;
+}
+/* line 72, ../sass/common.scss */
+.icon.icon_active {
+  box-shadow: inset 0 5px 12px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 72, ../sass/common.scss */
+/* line 76, ../sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 77, ../sass/common.scss */
+/* line 81, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-sd18b1f3028.png') 0 -488px no-repeat;
+  background: url('../img/common-sc3d362ca6a.png') 0 -763px no-repeat;
   width: 52px;
   height: 43px;
 }
-
-/* line 80, ../sass/common.scss */
-.icon_comments {
-  background: url('../img/common-sd18b1f3028.png') 0 -272px no-repeat;
-  width: 52px;
-  height: 43px;
-}
-
 /* line 83, ../sass/common.scss */
-.icon_compass {
-  background: url('../img/common-sd18b1f3028.png') 0 -68px no-repeat;
-  width: 52px;
-  height: 43px;
-}
-/* line 85, ../sass/common.scss */
-.icon_compass:hover {
-  background: url('../img/common-sd18b1f3028.png') 0 0 no-repeat;
+.icon_home.icon_active {
+  background: url('../img/common-sc3d362ca6a.png') 0 -197px no-repeat;
   width: 52px;
   height: 43px;
 }
 
+/* line 87, ../sass/common.scss */
+.icon_comments {
+  background: url('../img/common-sc3d362ca6a.png') 0 -530px no-repeat;
+  width: 52px;
+  height: 43px;
+}
 /* line 89, ../sass/common.scss */
+.icon_comments.icon_active {
+  background: url('../img/common-sc3d362ca6a.png') 0 -154px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 93, ../sass/common.scss */
+.icon_compass {
+  background: url('../img/common-sc3d362ca6a.png') 0 -68px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+/* line 95, ../sass/common.scss */
+.icon_compass.icon_active {
+  background: url('../img/common-sc3d362ca6a.png') 0 0 no-repeat;
+  width: 52px;
+  height: 43px;
+}
+
+/* line 99, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-sd18b1f3028.png') 0 -551px no-repeat;
+  background: url('../img/common-sc3d362ca6a.png') 0 -826px no-repeat;
   width: 52px;
   height: 43px;
   border: none;
@@ -138,14 +155,20 @@ a:hover {
   left: 1px;
 }
 
-/* line 95, ../sass/common.scss */
+/* line 105, ../sass/common.scss */
 .icon_user {
-  background: url('../img/common-sd18b1f3028.png') 0 -360px no-repeat;
+  background: url('../img/common-sc3d362ca6a.png') 0 -635px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+/* line 107, ../sass/common.scss */
+.icon_user.icon_active {
+  background: url('../img/common-sc3d362ca6a.png') 0 -240px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 99, ../sass/common.scss */
+/* line 112, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -156,15 +179,15 @@ a:hover {
   padding: 43px 0 0px 0;
 }
 
-/* line 109, ../sass/common.scss */
+/* line 122, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 112, ../sass/common.scss */
+/* line 125, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-sd18b1f3028.png') 0 -190px no-repeat;
+  background: url('../img/common-sc3d362ca6a.png') 0 -362px no-repeat;
   width: 28px;
   height: 25px;
 }
