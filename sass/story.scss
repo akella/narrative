@@ -227,19 +227,31 @@
 	font-size: 14px;
 	right: 20px;
 	text-align: right;
-	color: #13b3ee;
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	top: 0;
 	height: 50px;
 	line-height: 50px;
+	color: #a1a1a1;
+	cursor:pointer;
 	span{
-		@include sized-sprite($icons, arrow);
+		@include sized-sprite($icons, social);
 		display: inline-block;
 		vertical-align: middle;
 		margin-left: 3px;
 		position: relative;
 		top: -2px;
+		margin-right: 3px;
+		margin-left: 6px;
+	}
+	&:hover{
+		color: #13b3ee;
+		span{
+			
+			@include sized-sprite($icons, arrow);
+			margin-left: 3px;
+			margin-right: 0;
+		}
 	}
 }
 .post__socials{
@@ -280,15 +292,26 @@
 		vertical-align: top;
 	}
 	.post__likesicon{
-		@include sized-sprite($icons, like);
+		@include sized-sprite($icons, like0);
+		position: relative;
+		top: 7px;
+		margin-right: 12px;
+		margin-left: 3px;
 		display: inline-block;
-		margin-right: 8px;
-		margin-top: 4px;
 	}
 	.post__likes-more{
 		line-height: 1;
 		display: inline-block;
 		padding-top: 9px;
+	}
+	&:hover{
+		.post__likesicon{
+			@include sized-sprite($icons, like);
+			margin-right: 8px;
+			margin-top: 4px;
+			margin-left: 0;
+			top: 0;
+		}
 	}
 }
 .post__share{

@@ -52,6 +52,7 @@ a:hover {
 }
 /* line 37, ../sass/common.scss */
 .top .top__in {
+  position: relative;
   width: 1000px;
   margin: 0 auto;
   height: 43px;
@@ -59,7 +60,7 @@ a:hover {
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
 }
-/* line 45, ../sass/common.scss */
+/* line 46, ../sass/common.scss */
 .top .top__title {
   float: left;
   font-size: 16px;
@@ -76,7 +77,7 @@ a:hover {
   text-overflow: ellipsis;
 }
 
-/* line 61, ../sass/common.scss */
+/* line 62, ../sass/common.scss */
 .icon {
   width: 43px;
   height: 43px;
@@ -89,65 +90,65 @@ a:hover {
   -ms-transition: box-shadow 0.1s ease-in-out;
   transition: box-shadow 0.1s ease-in-out;
 }
-/* line 68, ../sass/common.scss */
+/* line 69, ../sass/common.scss */
 .icon:hover {
   box-shadow: inset 0 0 7px 5px rgba(170, 170, 170, 0.05);
   background-color: #fafafa;
 }
-/* line 72, ../sass/common.scss */
+/* line 73, ../sass/common.scss */
 .icon.icon_active {
   box-shadow: inset 0 5px 12px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 76, ../sass/common.scss */
+/* line 77, ../sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 81, ../sass/common.scss */
+/* line 82, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-sc3d362ca6a.png') 0 -763px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -794px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 83, ../sass/common.scss */
+/* line 84, ../sass/common.scss */
 .icon_home.icon_active {
-  background: url('../img/common-sc3d362ca6a.png') 0 -197px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -221px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 87, ../sass/common.scss */
+/* line 88, ../sass/common.scss */
 .icon_comments {
-  background: url('../img/common-sc3d362ca6a.png') 0 -530px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -561px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 89, ../sass/common.scss */
+/* line 90, ../sass/common.scss */
 .icon_comments.icon_active {
-  background: url('../img/common-sc3d362ca6a.png') 0 -154px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -178px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 93, ../sass/common.scss */
+/* line 94, ../sass/common.scss */
 .icon_compass {
-  background: url('../img/common-sc3d362ca6a.png') 0 -68px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -68px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 95, ../sass/common.scss */
+/* line 96, ../sass/common.scss */
 .icon_compass.icon_active {
-  background: url('../img/common-sc3d362ca6a.png') 0 0 no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 0 no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 99, ../sass/common.scss */
+/* line 100, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-sc3d362ca6a.png') 0 -826px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -857px no-repeat;
   width: 52px;
   height: 43px;
   border: none;
@@ -155,20 +156,31 @@ a:hover {
   left: 1px;
 }
 
-/* line 105, ../sass/common.scss */
+/* line 106, ../sass/common.scss */
 .icon_user {
-  background: url('../img/common-sc3d362ca6a.png') 0 -635px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -666px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 107, ../sass/common.scss */
+/* line 108, ../sass/common.scss */
 .icon_user.icon_active {
-  background: url('../img/common-sc3d362ca6a.png') 0 -240px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -264px no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 112, ../sass/common.scss */
+.icon_back {
+  position: absolute;
+  left: -53px;
+  border-left: 1px solid #e3e3e3;
+  border-right: none;
+  background: url('../img/common-s0c4a31d739.png') 0 -1070px no-repeat;
+  width: 51px;
+  height: 43px;
+}
+
+/* line 120, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -179,15 +191,15 @@ a:hover {
   padding: 43px 0 0px 0;
 }
 
-/* line 122, ../sass/common.scss */
+/* line 130, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 125, ../sass/common.scss */
+/* line 133, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-sc3d362ca6a.png') 0 -362px no-repeat;
+  background: url('../img/common-s0c4a31d739.png') 0 -386px no-repeat;
   width: 28px;
   height: 25px;
 }
