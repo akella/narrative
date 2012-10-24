@@ -1,0 +1,7 @@
+@import "base";
+
+.top_compose{
+	.top__in{
+		@include background-image(linear-gradient(#20b0e7, #19a9df));
+	}
+}
