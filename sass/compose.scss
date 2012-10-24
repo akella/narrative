@@ -5,6 +5,9 @@
 	font-size: 14px;
 	.top__in{
 		@include background-image(linear-gradient(#20b0e7, #19a9df));
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
 	}
 	.top__drafts{
 		float: left;
@@ -111,4 +114,137 @@
 			right: 33px;
 		}
 	}
+}
+.image-upload{
+	text-align: center;
+	background:#c9c9c9;
+	font-size: 11px;
+	color: #fff;
+	position: relative;
+	height: 129px;
+	.image-upload__in{
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		left: 0;
+		margin-top: -20px;
+	}
+	.image-upload__icon{
+		@include sized-sprite($icons, imageupload);
+		display: inline-block;
+	}
+}
+.compose__title{
+	font-size: 44px;
+	color: #000;
+	opacity:.5;
+	font-weight: normal;
+	border-bottom:1px solid #d0f0fb;
+	margin:0 -180px 13px -180px;
+	.compose__titlein{
+		width: 640px;
+		margin: auto;
+	}
+}
+.compose__pretext{
+	opacity:.5;
+	font-size: 25px;
+	border-bottom: 1px solid #d0f0fb;
+	padding-bottom: 14px;
+	margin:0 -180px 10px -180px;
+	.compose__pretextin{
+		width: 640px;
+		margin: auto;
+	}
+}
+.compose__text{
+	font-size: 18px;
+	line-height: 1.8;
+}
+.wyswyg{
+	position: absolute;
+	z-index:100;
+	right: 15px;
+	top: 200px;
+	background:#f2f2f2;
+	border-radius:4px;
+	padding: 11px 10px 14px 10px;
+	.wyswyg__photo{
+		margin-bottom: 4px;
+		@include sized-sprite($icons, addphoto1);
+		&:hover{
+			@include sized-sprite($icons, addphoto1hover);
+		}
+	}
+	.wyswyg__text{
+		width: 22px;
+		border: 1px solid #d9d9d9;
+		box-shadow:0 1px 0 rgba(white,.2);
+		border-radius:4px;
+		@include background-image(linear-gradient(left, #f8f8f8, #f0f0f0));
+		div{
+			@include transition(background-color,.3s,ease-in-out);
+ 			border-bottom: 1px solid #dcdcdc;
+			&:last-child{
+				border:none;
+				border-bottom-left-radius:4px;
+				border-bottom-right-radius:4px;
+			}
+			&:first-child{
+				border-top-left-radius:4px;
+				border-top-right-radius:4px;
+			}
+		}
+	}
+
+	.wyswyg__bold{
+		@include sized-sprite($icons, boldok);
+		&:hover{
+			@include sized-sprite($icons, boldhover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__italic{
+		@include sized-sprite($icons, italicok);
+		&:hover{
+			@include sized-sprite($icons, italichover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__list{
+		@include sized-sprite($icons, listok);
+		&:hover{
+			@include sized-sprite($icons, listhover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__listnum{
+		@include sized-sprite($icons, listnumok);
+		&:hover{
+			@include sized-sprite($icons, listnumhover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__video{
+		@include sized-sprite($icons, videook);
+		&:hover{
+			@include sized-sprite($icons, videohover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__h2{
+		@include sized-sprite($icons, h2ok);
+		&:hover{
+			@include sized-sprite($icons, h2hover);
+			background-color:#fff;
+		}
+	}
+	.wyswyg__link{
+		@include sized-sprite($icons, linkok);
+		&:hover{
+			@include sized-sprite($icons, linkhover);
+			background-color:#fff;
+		}
+	}
+
 }
