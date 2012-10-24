@@ -1,7 +1,114 @@
 @import "base";
 
 .top_compose{
+	font-family: Helvetica,sans-serif;
+	font-size: 14px;
 	.top__in{
 		@include background-image(linear-gradient(#20b0e7, #19a9df));
+	}
+	.top__drafts{
+		float: left;
+		font-size: 14px;
+		color: #086182;
+		height: 43px;
+		line-height: 43px;
+		font-weight: bold;
+		text-shadow:0 1px 0 #54c0e9;
+		padding: 0 15px;
+		border-right: 1px solid #1da1d3;
+		text-decoration: none;
+		cursor:pointer;
+	}
+	.top__publish{
+		float: left;
+		margin: 7px 0 0 14px;
+		white-space: nowrap;
+		.top__publishlabel{
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 10px;
+			@include sized-sprite($icons, tag);
+			position: relative;
+			top: 1px;
+		}
+		.top__publishbutton{
+			vertical-align: middle;
+			display: inline-block;
+			border: 1px solid #0c83b0;
+			border-radius: 20px;
+			font-weight: bold;
+			font-size: 14px;
+			color: #07749d;
+			text-shadow:0 1px 0 rgba(white,.3);
+			height: 26px;
+			line-height: 26px;
+			padding: 0 14px;
+			box-shadow:0 1px 0 rgba(white,.2),inset 0 1px 0 rgba(white,.2);
+			@include background-image(linear-gradient(#61d0f9, #59c9f1));
+			cursor: pointer;
+		}
+	}
+	.top__changes{
+		position: absolute;
+		right: 0;
+		font-size: 11px;
+		color: #fff;
+		right: 13px;
+		height: 42px;
+		line-height: 42px;
+	}
+	.top__changesclose{
+		@include sized-sprite($icons, changes);
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 5px;
+		cursor:pointer;
+	}
+	.top__switcher{
+		position: absolute;
+		width: 67px;
+		height: 28px;
+		top: 6px;
+		left:50%;
+		margin-left: -35px;
+		border: 1px solid #0683b3;
+		border-radius:5px;
+		box-shadow:0 1px 0 rgba(white,.2),inset 0 3px 3px -3px rgba(black,.2);
+		@include background-image(linear-gradient(#0f9ed4, #0f9ed4));
+	}
+	.top__switcherstate{
+		position: absolute;
+		right: 1px;
+		top: 2px;
+		width: 31px;
+		height: 24px;
+		border-radius:4px;
+		background:#5dcdf5;
+		@include background-image(linear-gradient(#61d0f9, #59c9f1));
+		border-left: 1px solid #0e93c5;
+		border-right: 1px solid #0e93c5;
+		border-bottom: 1px solid #0b769f;
+		@include transition(all, .3s, ease-in-out);
+		cursor: pointer;
+		z-index:2;
+	}
+	.top__switchercompose{
+		z-index:4;
+		position: absolute;
+		right: 2px;
+		top: 2px;
+		@include sized-sprite($icons, switch_edit);
+	}
+	.top__switcherpreview{
+		position: absolute;
+		right: 35px;
+		top: 2px;
+		z-index:4;
+		@include sized-sprite($icons, switcher_preview);
+	}
+	.top__switcher_2,.top__switcher:hover{
+		.top__switcherstate{
+			right: 33px;
+		}
 	}
 }
