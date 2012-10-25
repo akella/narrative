@@ -361,8 +361,9 @@
   line-height: 50px;
   border-right: 1px solid #e5e5e5;
 }
-/* line 285, ../sass/story.scss */
-.post__comment .post__commenticon {
+
+/* line 286, ../sass/story.scss */
+.post__commenticon {
   display: inline-block;
   background: url('../img/common-s0650aef3c5.png') 0 -1967px no-repeat;
   width: 18px;
