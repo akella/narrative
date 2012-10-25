@@ -34,6 +34,7 @@ a{
 	box-shadow:0 1px 0 rgba(black,.05);
 	overflow: visible;
 	z-index:100;
+	border-width:0 0 1px;
 	.top__in{
 		position: relative;
 		width: 1000px;
@@ -103,6 +104,7 @@ a{
 	border: none;
 	position: relative;
 	left: 1px;
+	background-color:#18a9df;
 }
 .icon_user{
 	@include sized-sprite($icons, user);
@@ -124,7 +126,7 @@ a{
 	width: 1000px;
 	margin: 0 auto;
 	background:#fff;
-	box-shadow:0 0 1px rgba(black,0.2);
+	box-shadow:0 2px 0 rgba(black,0.05), 0 0 1px rgba(black,0.2);
 	padding: 43px 0 0px 0;
 }
 // ============footer

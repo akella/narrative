@@ -14,6 +14,19 @@ $(document).ready(function() {
 			.parents('.popup').find('.tabs-info').eq($(this).index()).fadeIn(300).siblings('.tabs-info').hide();
 	});
 
+	$('.post__togglesocial').click(function(){
+		$(this).parent().next('.post__socials').slideToggle();
+	});
+
+	var plh = $('.search-form__input').attr('placeholder');
+	$('.search-form__input').focus(function(){
+		$(this).attr('placeholder','');
+	});
+	$('.search-form__input').blur(function(){
+		$(this).attr('placeholder',plh);
+	});
+
+
 
 $('.slider').each(function(){
 	show = $(this);

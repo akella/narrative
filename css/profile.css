@@ -1,0 +1,211 @@
+@charset "IBM866";
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* TRANSITION */
+/* line 2, ../sass/profile.scss */
+.inside {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/profile.scss */
+.profile {
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 1px 0 0 #f1f1f1;
+  padding: 43px 0 0;
+  text-align: center;
+  margin-bottom: 35px;
+}
+/* line 12, ../sass/profile.scss */
+.profile .inside {
+  position: relative;
+}
+/* line 13, ../sass/profile.scss */
+.profile .profile__pic {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 16px;
+}
+/* line 19, ../sass/profile.scss */
+.profile .button {
+  margin-bottom: -17px;
+  margin-top: 15px;
+  padding: 6px 8px;
+}
+
+/* line 25, ../sass/profile.scss */
+.profile__info {
+  padding: 32px 0 0 38px;
+  width: 370px;
+  text-align: left;
+}
+/* line 29, ../sass/profile.scss */
+.profile__info h1 {
+  font-weight: bold;
+  font: bold 25px Helvetica,sans-serif;
+  margin-bottom: 4px;
+}
+/* line 34, ../sass/profile.scss */
+.profile__info ul {
+  list-style-type: none;
+  margin-bottom: 2px;
+}
+/* line 38, ../sass/profile.scss */
+.profile__info li {
+  display: inline-block;
+  color: #999;
+  font: bold 14px Helvetica,sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  margin-right: 8px;
+}
+/* line 44, ../sass/profile.scss */
+.profile__info li a {
+  color: #999;
+  text-decoration: none;
+}
+/* line 48, ../sass/profile.scss */
+.profile__info li div {
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+/* line 54, ../sass/profile.scss */
+.profile__info .icon_location {
+  background: url('../img/common-s0650aef3c5.png') 0 -2076px no-repeat;
+  width: 12px;
+  height: 17px;
+}
+/* line 57, ../sass/profile.scss */
+.profile__info .icon_twitter {
+  background: url('../img/common-s0650aef3c5.png') 0 -1123px no-repeat;
+  width: 18px;
+  height: 16px;
+}
+/* line 60, ../sass/profile.scss */
+.profile__info .icon_site {
+  background: url('../img/common-s0650aef3c5.png') 0 -1678px no-repeat;
+  width: 16px;
+  height: 16px;
+}
+/* line 61, ../sass/profile.scss */
+.profile__info p {
+  color: #6f6f6f;
+  font: 16px/22px Cambria, georgia, serif;
+}
+
+/* line 66, ../sass/profile.scss */
+.profile__stats {
+  list-style: none;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  text-align: left;
+}
+/* line 72, ../sass/profile.scss */
+.profile__stats li {
+  border-left: 1px solid #d3d3d3;
+  float: left;
+}
+/* line 75, ../sass/profile.scss */
+.profile__stats li:first-child {
+  border: none;
+}
+/* line 79, ../sass/profile.scss */
+.profile__stats a {
+  color: #999;
+  font: 11px Helvetica,sans-serif;
+  text-decoration: none;
+  padding: 6px 9px 2px 10px;
+  display: block;
+}
+/* line 86, ../sass/profile.scss */
+.profile__stats strong {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+/* line 92, ../sass/profile.scss */
+.profile__stats .active strong {
+  color: #19a9e0;
+}
+
+/* line 94, ../sass/profile.scss */
+.profile__pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #fff;
+  box-shadow: 0 24px 38px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 103, ../sass/profile.scss */
+.user-list .user-inf {
+  display: block;
+  border-top: 1px solid #e5e5e5;
+  min-height: 93px;
+  padding: 5px 0 5px 20px;
+  line-height: 93px;
+}
+/* line 109, ../sass/profile.scss */
+.user-list .user-inf:first-child {
+  border-top: 0;
+}
+/* line 110, ../sass/profile.scss */
+.user-list .user-inf .user-inf__avatar {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+/* line 117, ../sass/profile.scss */
+.user-list .user-inf h2 {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  width: 150px;
+  margin-right: 30px;
+}
+/* line 124, ../sass/profile.scss */
+.user-list .user-inf p {
+  font-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 320px;
+  line-height: 1.4;
+  margin-right: 7px;
+}
+/* line 132, ../sass/profile.scss */
+.user-list .user-inf .stats {
+  border-top: 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 222px;
+}
+/* line 137, ../sass/profile.scss */
+.user-list .user-inf .stats li a {
+  padding-left: 13px;
+  width: 55px;
+}
+/* line 142, ../sass/profile.scss */
+.user-list .user-inf .button {
+  vertical-align: middle;
+  padding: 6px 0;
+  width: 118px;
+  text-align: center;
+}
+
+/* line 150, ../sass/profile.scss */
+.load-more {
+  margin-top: 14px;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 1px 0 0 #f1f1f1 inset;
+  text-align: center;
+  padding-top: 15px;
+}
+/* line 156, ../sass/profile.scss */
+.load-more .button {
+  padding: 6px 22px;
+}

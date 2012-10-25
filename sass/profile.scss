@@ -155,9 +155,3 @@
 	padding-top:15px;
 	.button{padding:6px 22px;}
 }
-.button_active{
-	border-color:#0085b7;
-	text-shadow:0 1px 0 rgba(0,0,0,0.15);
-	color: #fff;
-	@include background-image(linear-gradient(#21aee2, #19a6da));
-}
