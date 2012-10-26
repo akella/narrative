@@ -483,6 +483,7 @@
 	text-shadow:0 1px 0 #fff;
 	text-decoration: none;
 	line-height:1.3;
+	&:hover{color:#c0c0c0;}
 }
 .post-list__month{
 	line-height: 1.3;
@@ -499,5 +500,4 @@
 		&:hover{color:#c0c0c0;}
 	}
 	.active a{color:#11b0eb;}
-
 }
