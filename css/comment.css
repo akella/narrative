@@ -479,7 +479,6 @@
 /* line 322, ../sass/comment.scss */
 .post__load-all {
   border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
   font-family: Helvetica,sans-serif;
   height: 48px;
   margin-top: 12px;
@@ -489,7 +488,7 @@
   padding: 0 19px;
   background: #fff;
 }
-/* line 333, ../sass/comment.scss */
+/* line 332, ../sass/comment.scss */
 .post__load-all a {
   font-size: 14px;
   color: #afafaf;
@@ -498,13 +497,12 @@
   margin-left: 134px;
 }
 
-/* line 341, ../sass/comment.scss */
+/* line 340, ../sass/comment.scss */
 .post__add-comment {
-  padding: 20px 0;
-  width: 640px;
-  margin: 0 auto;
+  padding: 20px 180px;
+  border-top: 1px solid #e5e5e5;
 }
-/* line 345, ../sass/comment.scss */
+/* line 343, ../sass/comment.scss */
 .post__add-comment textarea {
   background: #f2f2f2;
   border: 1px solid #D3D3D3;
@@ -517,19 +515,19 @@
   width: 606px;
 }
 
-/* line 357, ../sass/comment.scss */
-.devider {
+/* line 355, ../sass/comment.scss */
+.hr {
   margin: 14px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* line 364, ../sass/comment.scss */
+/* line 362, ../sass/comment.scss */
 .post-list {
   padding-top: 43px;
 }
 
-/* line 365, ../sass/comment.scss */
+/* line 363, ../sass/comment.scss */
 .post_item {
   background: #fff;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.2);
@@ -539,18 +537,18 @@
   width: 1000px;
   z-index: 9;
 }
-/* line 373, ../sass/comment.scss */
+/* line 371, ../sass/comment.scss */
 .post_item figure img {
   vertical-align: top;
 }
 
-/* line 376, ../sass/comment.scss */
+/* line 374, ../sass/comment.scss */
 .post__header {
   display: inline-block;
   width: 960px;
   padding: 20px 20px 16px;
 }
-/* line 380, ../sass/comment.scss */
+/* line 378, ../sass/comment.scss */
 .post__header .post__retweet-author, .post__header .post__author-pic {
   border-radius: 50%;
   height: 60px;
@@ -559,33 +557,33 @@
   float: left;
   margin: 0 11px 0 0;
 }
-/* line 388, ../sass/comment.scss */
+/* line 386, ../sass/comment.scss */
 .post__header .post__author-pic {
   margin-right: 16px;
 }
-/* line 389, ../sass/comment.scss */
+/* line 387, ../sass/comment.scss */
 .post__header .post__shareicon {
   margin-top: 20px;
 }
-/* line 390, ../sass/comment.scss */
+/* line 388, ../sass/comment.scss */
 .post__header .post__author {
   float: left;
   position: relative;
 }
-/* line 393, ../sass/comment.scss */
+/* line 391, ../sass/comment.scss */
 .post__header .post__author .user-more-arr {
   left: 59px;
   bottom: 1px;
 }
-/* line 398, ../sass/comment.scss */
+/* line 396, ../sass/comment.scss */
 .post__header .post__author:hover .user-more-arr {
   display: block;
 }
-/* line 399, ../sass/comment.scss */
+/* line 397, ../sass/comment.scss */
 .post__header .post__author:hover .post__author-name {
   color: #a3a3a3;
 }
-/* line 402, ../sass/comment.scss */
+/* line 400, ../sass/comment.scss */
 .post__header .post__author-name {
   color: #000;
   font: bold 18px Helvetica,sans-serif;
@@ -599,40 +597,40 @@
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-/* line 411, ../sass/comment.scss */
+/* line 409, ../sass/comment.scss */
 .post__header .user-inf_popup {
   left: 19px;
   top: 73px;
 }
 
-/* line 417, ../sass/comment.scss */
+/* line 415, ../sass/comment.scss */
 .post__meta {
   float: right;
   margin-top: -5px;
 }
-/* line 420, ../sass/comment.scss */
+/* line 418, ../sass/comment.scss */
 .post__meta span {
   color: #9f9999;
   font: 11px Helvetica,sans-serif;
 }
 
-/* line 426, ../sass/comment.scss */
+/* line 424, ../sass/comment.scss */
 .control-nav {
   display: inline-block;
   position: relative;
   margin-left: 3px;
 }
-/* line 431, ../sass/comment.scss */
+/* line 429, ../sass/comment.scss */
 .control-nav:hover ul {
   display: block;
 }
-/* line 432, ../sass/comment.scss */
+/* line 430, ../sass/comment.scss */
 .control-nav:hover .control-nav__arr {
   background: url('../img/common-s0650aef3c5.png') 0 -1746px no-repeat;
   width: 18px;
   height: 18px;
 }
-/* line 434, ../sass/comment.scss */
+/* line 432, ../sass/comment.scss */
 .control-nav ul {
   position: absolute;
   width: 143px;
@@ -647,7 +645,7 @@
   padding: 8px 0 4px;
   display: none;
 }
-/* line 447, ../sass/comment.scss */
+/* line 445, ../sass/comment.scss */
 .control-nav ul:before {
   background: url('../img/common-s0650aef3c5.png') 0 -2223px no-repeat;
   width: 21px;
@@ -657,7 +655,7 @@
   top: -10px;
   right: 12px;
 }
-/* line 455, ../sass/comment.scss */
+/* line 453, ../sass/comment.scss */
 .control-nav a {
   color: #a8a8a8;
   width: 113px;
@@ -667,13 +665,13 @@
   display: block;
   font-weight: bold;
 }
-/* line 463, ../sass/comment.scss */
+/* line 461, ../sass/comment.scss */
 .control-nav a:hover {
   color: #11b0eb;
   background: #f3f3f3;
 }
 
-/* line 469, ../sass/comment.scss */
+/* line 467, ../sass/comment.scss */
 .control-nav__arr {
   background: url('../img/common-s0650aef3c5.png') 0 -1820px no-repeat;
   width: 18px;
@@ -683,16 +681,16 @@
   cursor: pointer;
 }
 
-/* line 476, ../sass/comment.scss */
+/* line 474, ../sass/comment.scss */
 .post-list__manag {
   text-align: center;
 }
-/* line 478, ../sass/comment.scss */
+/* line 476, ../sass/comment.scss */
 .post-list__manag .button {
   padding: 5px 23px 6px;
 }
 
-/* line 482, ../sass/comment.scss */
+/* line 480, ../sass/comment.scss */
 .post-list__year {
   color: #9c9c9c;
   font: bold 18px Arial, sans-serif;
@@ -701,28 +699,28 @@
   line-height: 1.3;
 }
 
-/* line 489, ../sass/comment.scss */
+/* line 487, ../sass/comment.scss */
 .post-list__month {
   line-height: 1.3;
   padding: 4px 0 0;
 }
-/* line 492, ../sass/comment.scss */
+/* line 490, ../sass/comment.scss */
 .post-list__month li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 496, ../sass/comment.scss */
+/* line 494, ../sass/comment.scss */
 .post-list__month a {
   color: #9c9c9c;
   font: bold 14px Arial, sans-serif;
   text-shadow: 0 1px 0 #fff;
   text-decoration: none;
 }
-/* line 501, ../sass/comment.scss */
+/* line 499, ../sass/comment.scss */
 .post-list__month a:hover {
   color: #c0c0c0;
 }
-/* line 503, ../sass/comment.scss */
+/* line 501, ../sass/comment.scss */
 .post-list__month .active a {
   color: #11b0eb;
 }
