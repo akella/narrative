@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('.comment__user-arr').click(function(){
+	$('.user-more-arr').click(function(){
 		$(this).siblings('.user-inf').fadeIn('fast');
 	});
 

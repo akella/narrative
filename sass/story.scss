@@ -270,6 +270,7 @@
 	text-align: center;
 	position: relative;
 	z-index:2;
+	display: none;
 }
 .post__comment{
 	cursor: pointer;
@@ -329,14 +330,7 @@
 	float: left;
 	padding: 10px 10px 0 15px;
 	height: 42px;
-	border-right: 1px solid #e5e5e5;
-	.post__shareicon{
-		@include sized-sprite($icons, share);
-		display: inline-block;
-		margin-right: 11px;
-		float: left;
-		margin-top: 3px;
-	}
+	border-right: 1px solid #e5e5e5;	
 	.smalluser{
 		float: left;
 	}
@@ -345,6 +339,13 @@
 			@include sized-sprite($icons, share_active);
 		}
 	}
+}
+.post__shareicon{
+	@include sized-sprite($icons, share);
+	display: inline-block;
+	margin-right: 11px;
+	float: left;
+	margin-top: 3px;
 }
 .post__views{
 	padding-left: 20px;

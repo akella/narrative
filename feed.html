@@ -22,21 +22,45 @@
 
 <!-- BEGIN  .post-list-->
 <div class="post-list">
+	<!-- BEGIN  .post-->
 	<article class="post post_item">
 		<figure>
 			<img src="http://placekitten.com/1000/542" height="542" alt="">
 		</figure>
 
-		<header class="post__authors">
-			<div class="post__retweet-author"></div>
+		<header class="post__header">
+			<a href="#" class="post__retweet-author" style="background-image:url(http://placekitten.com/60/60)"></a>
 			<div class="post__shareicon"></div>
 			<div class="post__author">
-				<div class="post__author-pic"></div>
-				<a href="#">Siarhei Stashkevich</a>
+				<div class="post__author-pic" style="background-image:url(http://placekitten.com/60/60)"></div>
+				<a class="post__author-name" href="#">Siarhei Stashkevich</a>
+				<div class="user-more-arr"></div>
+				<div class="user-inf user-inf_popup">
+					<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
+					<h2><a href="#">Jessica Walsh</a></h2>
+					<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
+					<button class="button">Read Jessica</button>
+					<ul class="stats">
+						<li><a href="#">Readers<strong>525</strong></a></li>
+						<li><a href="#">Reading<strong>19</strong></a></li>
+						<li><a href="#">Stories<strong>56</strong></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="post__meta">
+				<span>5 mins ago</span>
+				<div class="control-nav">
+					<div class="control-nav__arr"></div>
+					<ul>
+						<li><a href="#">Hide Post</a></li>
+						<li><a href="#">Report spam</a></li>
+						<li><a href="#">Delete</a></li>
+					</ul>
+				</div>
 			</div>
 		</header>
 		<div class="post__content">
-			<h1>Яндекс попробует научить пользователей правописанию</h1>
+			<h1>Блоги, которые удобно вести, читать и комментировать</h1>
 			<p class="lead">Принятие этих новых законов об уголовной ответственности за клевету, «иностранных агентах» и т.п., будут иметь (это уже очевидно) тяжелые последствия. Речь даже не о гражданских правах, главенстве закона или качестве жизни, все это очень романтично и красиво, но не главное. </p>
 			<p>Объясню на абстрактном примере, образно, почему нельзя спрашивать чем конкретно оскорбили ревнителей православия. Допустим, у вас дома случайно оказался чемодан с кокаином, а на следующий день его легализовали по всей стране. Теперь вы можете спокойно сдать его в любой аптеке, получить огромные деньги или нюхать во дворе, в песочнице на глазах у детей. Да, дикое сравнение, абсурд. Но разве не абсурд вместо принудительных работ или административного штрафа давать реальный тюремный срок за художественную/политическую акцию? </p>
 			<p>Пример скандала в кафе четко иллюстрирует с кем мы имеем дело — с наркоманами и драг-диллерами, в одночасье оказавшимися в более выгодном положение чем те, кто негативно относится к наркотикам и ведет здоровый образ жизни. Спрашивать таких, почему они на глазах у детей нюхают кокаин просто бессмысленно. Да потому что теперь им это разрешено законом. Лучше с ними вообще не вступать в спор, по крайней мере не вести его на их языке.</p>
@@ -63,7 +87,9 @@
 			<div class="post__views"><div class="post__viewsicon"></div> 525</div>
 			<div class="post__togglesocial">Social share <span></span></div>
 		</footer>
-
+		<div class="post__socials">
+			<img src="img/social.png" alt="">
+		</div>
 		
 		<!-- BEGN comment-list -->
 		<div class="comment-list">
@@ -72,8 +98,8 @@
 				<div class="comment__user">
 					<div class="comment__userpic" style="background-image:url(http://placekitten.com/50/50)"></div>
 					<span class="comment__username">Anatoliy Gromov</span>
-					<div class="comment__user-arr"></div>
-					<div class="user-inf">
+					<div class="user-more-arr"></div>
+					<div class="user-inf user-inf_popup">
 						<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
 						<h2><a href="#">Jessica Walsh</a></h2>
 						<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
@@ -105,8 +131,8 @@
 				<div class="comment__user">
 					<div class="comment__userpic" style="background-image:url(http://placekitten.com/50/50)"></div>
 					<span class="comment__username">Alex Mauzon</span>
-					<div class="comment__user-arr"></div>
-					<div class="user-inf">
+					<div class="user-more-arr"></div>
+					<div class="user-inf user-inf_popup">
 						<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
 						<h2><a href="#">Jessica Walsh</a></h2>
 						<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
@@ -143,7 +169,250 @@
 	</article>
 	<!-- END .post -->
 
-<hr class="devider">
+	<hr class="devider">
+
+	<!-- BEGIN  .post-->
+	<article class="post post_item">
+		<header class="post__header">
+			<div class="post__author">
+				<div class="post__author-pic" style="background-image:url(http://placekitten.com/60/60)"></div>
+				<a class="post__author-name" href="#">Jessica Walsh</a>
+				<div class="user-more-arr"></div>
+				<div class="user-inf user-inf_popup">
+					<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
+					<h2><a href="#">Jessica Walsh</a></h2>
+					<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
+					<button class="button">Read Jessica</button>
+					<ul class="stats">
+						<li><a href="#">Readers<strong>525</strong></a></li>
+						<li><a href="#">Reading<strong>19</strong></a></li>
+						<li><a href="#">Stories<strong>56</strong></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="post__meta">
+				<span>5 mins ago</span>
+				<div class="control-nav">
+					<div class="control-nav__arr"></div>
+					<ul>
+						<li><a href="#">Hide Post</a></li>
+						<li><a href="#">Report spam</a></li>
+						<li><a href="#">Delete</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="post__content">
+			<h1>Персоны грата: Деятели моды, которые сделают осенний сезон особенным</h1>
+			<p class="lead">Первая публичная коллекция Эди Слимана, громкое возвращение марки Эльзы Скьяпарелли и совместная коллекция Анны Делло Руссо и H&M</p>
+			<p>Пару дней назад Look At Me писал о модных событиях, которых следует ждать этой осенью. Теперь мы говорим о людях, заранее заставивших нас предвкушать наступление сентября, октября и ноября. Среди них Карин Ройтфельд, сделавшая не только журнал CR Fashion Book, но и коллекцию косметики для M.A.C., Диего Делла Валле, возрождающий бренд Schiaparelli, а также Жиль Зандер, которая продемонстрирует свою первую женскую коллекцию Jil Sander за семь лет.</p>
+		</div>
+		<!-- END POST_CONTENT -->
+
+		<ul class="post__tags">
+			<li><a href="#">блоги</a></li>
+			<li><a href="#">дизайн</a></li>
+			<li><a href="#">новая экономика</a></li>
+		</ul>
+
+		<footer class="post__bottom">
+			<div class="post__comment"><div class="post__commenticon"></div> Add comment</div>
+			<div class="post__likes"><div class="post__likesicon"></div>Nice story</div>
+			<div class="post__share"><div class="post__shareicon"></div>Share</div>
+			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
+			<div class="post__togglesocial">Social share <span></span></div>
+		</footer>
+
+		<div class="post__socials">
+			<img src="img/social.png" alt="">
+		</div>
+
+		<!-- BEGN comment-list -->
+		<div class="comment-list">
+			<div class="post__add-comment">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Type here to leave your comment"></textarea>
+			</div>
+		</div>
+		<!-- END comment-list -->
+	</article>
+	<!-- END .post -->
+
+	<hr class="devider">
+
+	<div class="post-list__manag">
+		<button class="button">Load more</button>
+	</div>
+
+	<hr class="devider">
+
+	<!-- BEGIN  .post-->
+	<article class="post post_item">
+		<header class="post__header">
+			<div class="post__author">
+				<div class="post__author-pic" style="background-image:url(http://placekitten.com/60/60)"></div>
+				<a class="post__author-name" href="#">Jessica Walsh</a>
+				<div class="user-more-arr"></div>
+				<div class="user-inf user-inf_popup">
+					<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
+					<h2><a href="#">Jessica Walsh</a></h2>
+					<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
+					<button class="button">Read Jessica</button>
+					<ul class="stats">
+						<li><a href="#">Readers<strong>525</strong></a></li>
+						<li><a href="#">Reading<strong>19</strong></a></li>
+						<li><a href="#">Stories<strong>56</strong></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="post__meta">
+				<span>5 mins ago</span>
+				<div class="control-nav">
+					<div class="control-nav__arr"></div>
+					<ul>
+						<li><a href="#">Hide Post</a></li>
+						<li><a href="#">Report spam</a></li>
+						<li><a href="#">Delete</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="post__content">
+			<h1>Персоны грата: Деятели моды, которые сделают осенний сезон особенным</h1>
+			<p class="lead">Первая публичная коллекция Эди Слимана, громкое возвращение марки Эльзы Скьяпарелли и совместная коллекция Анны Делло Руссо и H&M</p>
+			<p>Пару дней назад Look At Me писал о модных событиях, которых следует ждать этой осенью. Теперь мы говорим о людях, заранее заставивших нас предвкушать наступление сентября, октября и ноября. Среди них Карин Ройтфельд, сделавшая не только журнал CR Fashion Book, но и коллекцию косметики для M.A.C., Диего Делла Валле, возрождающий бренд Schiaparelli, а также Жиль Зандер, которая продемонстрирует свою первую женскую коллекцию Jil Sander за семь лет.</p>
+		</div>
+		<!-- END POST_CONTENT -->
+
+		<ul class="post__tags">
+			<li><a href="#">блоги</a></li>
+			<li><a href="#">дизайн</a></li>
+			<li><a href="#">новая экономика</a></li>
+		</ul>
+
+		<footer class="post__bottom">
+			<div class="post__comment"><div class="post__commenticon"></div> Add comment</div>
+			<div class="post__likes"><div class="post__likesicon"></div>Nice story</div>
+			<div class="post__share"><div class="post__shareicon"></div>Share</div>
+			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
+			<div class="post__togglesocial">Social share <span></span></div>
+		</footer>
+
+		<div class="post__socials">
+			<img src="img/social.png" alt="">
+		</div>
+
+		<!-- BEGN comment-list -->
+		<div class="comment-list">
+			<div class="post__add-comment">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Type here to leave your comment"></textarea>
+			</div>
+		</div>
+		<!-- END comment-list -->
+	</article>
+	<!-- END .post -->
+
+	<hr class="devider">
+
+	<div class="post-list__manag">
+		<a href="#" class="post-list__year">2011</a>
+		<ul  class="post-list__month">
+			<li><a href="#">December</a></li>
+			<li><a href="#">November</a></li>
+			<li><a href="#">October</a></li>
+			<li class="active"><a href="#">September</a></li>
+			<li><a href="#">August</a></li>
+			<li><a href="#">July</a></li>
+			<li><a href="#">June</a></li>
+			<li><a href="#">May</a></li>
+			<li><a href="#">April</a></li>
+			<li><a href="#">March</a></li>
+			<li><a href="#">February</a></li>
+			<li><a href="#">January</a></li>
+		</ul>
+	</div>
+
+	<hr class="devider">
+
+<!-- BEGIN  .post-->
+	<article class="post post_item">
+		<header class="post__header">
+			<div class="post__author">
+				<div class="post__author-pic" style="background-image:url(http://placekitten.com/60/60)"></div>
+				<a class="post__author-name" href="#">Jessica Walsh</a>
+				<div class="user-more-arr"></div>
+				<div class="user-inf user-inf_popup">
+					<a href="#" class="user-inf__avatar" style="background-image:url(http://placekitten.com/100/100)"></a>
+					<h2><a href="#">Jessica Walsh</a></h2>
+					<p>Graphic designer, writer, publisher, art & culture zealot, and Senior Tutor RCA.</p>
+					<button class="button">Read Jessica</button>
+					<ul class="stats">
+						<li><a href="#">Readers<strong>525</strong></a></li>
+						<li><a href="#">Reading<strong>19</strong></a></li>
+						<li><a href="#">Stories<strong>56</strong></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="post__meta">
+				<span>5 mins ago</span>
+				<div class="control-nav">
+					<div class="control-nav__arr"></div>
+					<ul>
+						<li><a href="#">Hide Post</a></li>
+						<li><a href="#">Report spam</a></li>
+						<li><a href="#">Delete</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="post__content">
+			<h1>Персоны грата: Деятели моды, которые сделают осенний сезон особенным</h1>
+			<p class="lead">Первая публичная коллекция Эди Слимана, громкое возвращение марки Эльзы Скьяпарелли и совместная коллекция Анны Делло Руссо и H&M</p>
+			<p>Пару дней назад Look At Me писал о модных событиях, которых следует ждать этой осенью. Теперь мы говорим о людях, заранее заставивших нас предвкушать наступление сентября, октября и ноября. Среди них Карин Ройтфельд, сделавшая не только журнал CR Fashion Book, но и коллекцию косметики для M.A.C., Диего Делла Валле, возрождающий бренд Schiaparelli, а также Жиль Зандер, которая продемонстрирует свою первую женскую коллекцию Jil Sander за семь лет.</p>
+		</div>
+		<!-- END POST_CONTENT -->
+
+		<ul class="post__tags">
+			<li><a href="#">блоги</a></li>
+			<li><a href="#">дизайн</a></li>
+			<li><a href="#">новая экономика</a></li>
+		</ul>
+
+		<footer class="post__bottom">
+			<div class="post__comment"><div class="post__commenticon"></div> Add comment</div>
+			<div class="post__likes"><div class="post__likesicon"></div>Nice story</div>
+			<div class="post__share"><div class="post__shareicon"></div>Share</div>
+			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
+			<div class="post__togglesocial">Social share <span></span></div>
+		</footer>
+
+		<div class="post__socials">
+			<img src="img/social.png" alt="">
+		</div>
+
+		<!-- BEGN comment-list -->
+		<div class="comment-list">
+			<div class="post__add-comment">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Type here to leave your comment"></textarea>
+			</div>
+		</div>
+		<!-- END comment-list -->
+	</article>
+	<!-- END .post -->
+
+	<hr class="devider">
+
+	<div class="post-list__manag">
+		<a href="#" class="post-list__year">2010</a>
+	</div>
+
+	<hr class="devider">
+
+	<div class="post-list__manag">
+		<a href="#" class="post-list__year">2009</a>
+	</div>
+
+	<hr class="devider">
+
 
 </div>
 <!-- END .post-list-->
