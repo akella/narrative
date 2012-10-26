@@ -45,6 +45,7 @@ header, footer, article, nav, section {
   left: 0;
   width: 100%;
   height: 43px;
+  background: #fff;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
   background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
@@ -56,7 +57,7 @@ header, footer, article, nav, section {
   z-index: 100;
   border-width: 0 0 1px;
 }
-/* line 40, ../sass/common.scss */
+/* line 41, ../sass/common.scss */
 .top .top__in {
   position: relative;
   width: 1000px;
@@ -66,7 +67,7 @@ header, footer, article, nav, section {
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
 }
-/* line 49, ../sass/common.scss */
+/* line 50, ../sass/common.scss */
 .top .top__title {
   float: left;
   font-size: 16px;
@@ -83,7 +84,7 @@ header, footer, article, nav, section {
   text-overflow: ellipsis;
 }
 
-/* line 66, ../sass/common.scss */
+/* line 67, ../sass/common.scss */
 .icon {
   width: 43px;
   height: 43px;
@@ -96,98 +97,99 @@ header, footer, article, nav, section {
   -ms-transition: box-shadow 0.1s ease-in-out;
   transition: box-shadow 0.1s ease-in-out;
 }
-/* line 73, ../sass/common.scss */
+/* line 74, ../sass/common.scss */
 .icon:hover {
   box-shadow: inset 0 0 7px 5px rgba(170, 170, 170, 0.05);
   background-color: #fafafa;
 }
-/* line 77, ../sass/common.scss */
+/* line 78, ../sass/common.scss */
 .icon.icon_active {
   box-shadow: inset 0 5px 12px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 81, ../sass/common.scss */
+/* line 82, ../sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 86, ../sass/common.scss */
+/* line 87, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-s0650aef3c5.png') 0 -1414px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -1414px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 88, ../sass/common.scss */
+/* line 89, ../sass/common.scss */
 .icon_home.icon_active {
-  background: url('../img/common-s0650aef3c5.png') 0 -315px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -315px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 92, ../sass/common.scss */
+/* line 93, ../sass/common.scss */
 .icon_comments {
-  background: url('../img/common-s0650aef3c5.png') 0 -983px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -983px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 94, ../sass/common.scss */
+/* line 95, ../sass/common.scss */
 .icon_comments.icon_active {
-  background: url('../img/common-s0650aef3c5.png') 0 -272px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -272px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 98, ../sass/common.scss */
+/* line 99, ../sass/common.scss */
 .icon_compass {
-  background: url('../img/common-s0650aef3c5.png') 0 -129px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -129px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 100, ../sass/common.scss */
+/* line 101, ../sass/common.scss */
 .icon_compass.icon_active {
-  background: url('../img/common-s0650aef3c5.png') 0 0 no-repeat;
+  background: url('../img/common-s000f685688.png') 0 0 no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 104, ../sass/common.scss */
+/* line 105, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-s0650aef3c5.png') 0 -1477px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -1477px no-repeat;
   width: 52px;
-  height: 43px;
+  height: 44px;
   border: none;
   position: relative;
   left: 1px;
   background-color: #18a9df;
+  margin-bottom: -1px;
 }
 
-/* line 111, ../sass/common.scss */
-.icon_user {
-  background: url('../img/common-s0650aef3c5.png') 0 -1259px no-repeat;
-  width: 52px;
-  height: 43px;
-}
 /* line 113, ../sass/common.scss */
+.icon_user {
+  background: url('../img/common-s000f685688.png') 0 -1259px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+/* line 115, ../sass/common.scss */
 .icon_user.icon_active {
-  background: url('../img/common-s0650aef3c5.png') 0 -358px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -358px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 117, ../sass/common.scss */
+/* line 119, ../sass/common.scss */
 .icon_back {
   position: absolute;
   left: -53px;
   border-left: 1px solid #e3e3e3;
   border-right: none;
-  background: url('../img/common-s0650aef3c5.png') 0 -1838px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -1839px no-repeat;
   width: 51px;
   height: 43px;
 }
 
-/* line 125, ../sass/common.scss */
+/* line 127, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -198,15 +200,15 @@ header, footer, article, nav, section {
   padding: 43px 0 0px 0;
 }
 
-/* line 135, ../sass/common.scss */
+/* line 137, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 138, ../sass/common.scss */
+/* line 140, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-s0650aef3c5.png') 0 -699px no-repeat;
+  background: url('../img/common-s000f685688.png') 0 -699px no-repeat;
   width: 28px;
   height: 25px;
 }

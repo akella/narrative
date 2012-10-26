@@ -47,13 +47,14 @@
 		border-radius:15px;
 		vertical-align:middle;;
 	}
-	.row_btn{
+	.reg-form .row_btn, .row_btn{
 		border-top:1px solid #e5e5e5;
 		margin:9px -65px 0;
 		text-align:center;
 		padding:20px 65px;
 		.button{
-			padding:6px 8px;
+			padding:6px 11px;
+			height:32px;
 		}
 	}
 	.popup__header{
@@ -327,7 +328,7 @@
 	}
 }
 .invite{
-	padding:0 150px 60px;
+	padding:0 154px 60px 150px;
 	.row{
 		height:36px;
 		border:1px solid #d3d3d3;
@@ -348,7 +349,7 @@
 			top:2px;
 			right:2px;
 			font-family:Arial,sans-serif;
-			padding:6px 11px;
+			padding:5px 15px;
 		}
 		span{
 			font:16px/36px Cambria,georgia,serif;

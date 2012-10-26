@@ -19,7 +19,8 @@
 	.button{
 		margin-bottom: -17px;
 		margin-top: 15px;
-		padding: 6px 8px;
+		padding: 5px 12px;
+		position: relative;
 	}
 }
 .profile__info{
@@ -148,10 +149,10 @@
 	}
 }
 .load-more{
-	margin-top:14px;
+	margin-top:17px;
 	border-top:1px solid #ddd;
 	box-shadow:0 1px 0 0 #f1f1f1 inset;
 	text-align: center;
 	padding-top:15px;
-	.button{padding:6px 22px;}
+	.button{padding:5px 26px;}
 }
