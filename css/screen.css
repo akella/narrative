@@ -1096,12 +1096,12 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 /* line 7, ../sass/comment.scss */
-.post_no-indent {
+.top-no-indent {
   padding-top: 0;
 }
 
 /* line 8, ../sass/comment.scss */
-.site_no-indent {
+.top-no-indent {
   padding-top: 0;
 }
 
@@ -1844,7 +1844,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 13, ../sass/popups.scss */
 .popup {
-  position: fixed;
+  position: absolute;
   left: 50%;
   width: 640px;
   margin-left: -320px;
@@ -1856,7 +1856,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 23, ../sass/popups.scss */
 .popup .popup__close {
-  background: url('../img/common-s000f685688.png') 0 -1695px no-repeat;
+  background: url('common-s000f685688.png') 0 -1695px no-repeat;
   width: 17px;
   height: 17px;
   position: absolute;
@@ -1944,7 +1944,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 94, ../sass/popups.scss */
 .social__fb {
-  background: url('../img/common-s000f685688.png') 0 -172px no-repeat;
+  background: url('common-s000f685688.png') 0 -172px no-repeat;
   width: 32px;
   height: 33px;
   cursor: pointer;
@@ -1952,7 +1952,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 98, ../sass/popups.scss */
 .social__tw {
-  background: url('../img/common-s000f685688.png') 0 -43px no-repeat;
+  background: url('common-s000f685688.png') 0 -43px no-repeat;
   width: 32px;
   height: 34px;
   cursor: pointer;
@@ -2005,7 +2005,7 @@ input[type="submit"]::-moz-focus-inner {
 /* line 138, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
-  background: url('../img/common-s000f685688.png') 0 -1730px no-repeat;
+  background: url('common-s000f685688.png') 0 -1730px no-repeat;
   width: 17px;
   height: 17px;
   margin-right: 8px;
@@ -2015,7 +2015,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 147, ../sass/popups.scss */
 .reg-form .input-mess__error span {
-  background: url('../img/common-s000f685688.png') 0 -1581px no-repeat;
+  background: url('common-s000f685688.png') 0 -1581px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -2029,7 +2029,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 155, ../sass/popups.scss */
 .reg-form .icon-location {
-  background: url('../img/common-s000f685688.png') 0 -2041px no-repeat;
+  background: url('common-s000f685688.png') 0 -2041px no-repeat;
   width: 18px;
   height: 18px;
   position: absolute;
@@ -2080,25 +2080,25 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 193, ../sass/popups.scss */
 .reg-form .gender .gender__male {
-  background: url('../img/common-s000f685688.png') 0 -1184px no-repeat;
+  background: url('common-s000f685688.png') 0 -1184px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 194, ../sass/popups.scss */
 .reg-form .gender .active .gender__male {
-  background: url('../img/common-s000f685688.png') 0 -531px no-repeat;
+  background: url('common-s000f685688.png') 0 -531px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 195, ../sass/popups.scss */
 .reg-form .gender .gender__female {
-  background: url('../img/common-s000f685688.png') 0 -1093px no-repeat;
+  background: url('common-s000f685688.png') 0 -1093px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 196, ../sass/popups.scss */
 .reg-form .gender .active .gender__female {
-  background: url('../img/common-s000f685688.png') 0 -605px no-repeat;
+  background: url('common-s000f685688.png') 0 -605px no-repeat;
   width: 26px;
   height: 30px;
 }
@@ -2143,7 +2143,7 @@ input[type="submit"]::-moz-focus-inner {
   position: absolute;
   right: 21px;
   top: 20px;
-  background: url('../img/common-s000f685688.png') 0 -1938px no-repeat;
+  background: url('common-s000f685688.png') 0 -1938px no-repeat;
   width: 32px;
   height: 30px;
   border: none;
@@ -2186,7 +2186,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 263, ../sass/popups.scss */
 .checked .checkbox {
-  background: url('../img/common-s000f685688.png') 0 -1925px no-repeat;
+  background: url('common-s000f685688.png') 0 -1925px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -2207,7 +2207,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 274, ../sass/popups.scss */
 .checkbox {
-  background: url('../img/common-s000f685688.png') 0 -2280px no-repeat;
+  background: url('common-s000f685688.png') 0 -2280px no-repeat;
   width: 13px;
   height: 13px;
   position: relative;
@@ -2926,6 +2926,11 @@ input[type="submit"]::-moz-focus-inner {
   width: 22px;
   height: 29px;
   background-color: #fff;
+}
+
+/* line 251, ../sass/compose.scss */
+.top-no-indent {
+  padding-top: 0;
 }
 
 /* line 2, ../sass/ie.scss */
