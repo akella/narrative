@@ -120,8 +120,9 @@
 		counter-reset: ul 0;
 		li{
 			&:before{
+				
+				content: counter(ul, decimal) ".";
 				counter-increment: ul 1;
-				content:  counter(ul, decimal) ".";
 				font-size: 18px;
 				color: #b9b9b9;
 				width: 30px;
@@ -135,11 +136,17 @@
 		list-style:none;
 		li{
 			&:before{
-				content:'•';
+				content:'';
+				height:6px;
+				width:6px;
+				border-radius:3px;
+				color:#bebebe;
+				display:block;
 				position: absolute;
 				left: -14px;
-				color: #b9b9b9;
+				background: #b9b9b9;
 				text-align: left;
+				top:31px;
 			}
 		}
 	}
@@ -227,11 +234,8 @@
 	position: relative;
 	overflow: hidden;
 	font-family: Helvetica,sans-serif;
-	a{
-		color:#abafb1;
-		text-decoration: none;
-		&:hover{color:#11b0eb;}
-	}
+	color:#abafb1;
+	@include background-image(linear-gradient(#fff, #fafafa));
 }
 .post__togglesocial{
 	position: absolute;

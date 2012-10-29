@@ -19,7 +19,7 @@
 	.button{
 		margin-bottom: -17px;
 		margin-top: 15px;
-		padding: 5px 12px;
+		padding: 5px 14px;
 		position: relative;
 	}
 }
@@ -60,8 +60,9 @@
 	}
 	.icon_site{@include sized-sprite($icons, "icon_site");}
 	p{
-		color:#6f6f6f;
+		color:#1d1d1d;
 		font:16px/22px Cambria,georgia,serif;
+		opacity:0.6;
 	}
 }
 .profile__stats{

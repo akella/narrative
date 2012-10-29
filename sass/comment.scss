@@ -22,8 +22,11 @@
 	}
 	.mess__author{background:#fbf9e5;}
 }
+.post__socials + .mess-list > *:first-child{
+	box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05) inset;
+}
 .mess{
-	box-shadow:0 10px 8px -8px rgba(black, 0.05) inset;
+	box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05) inset;
 	.mess__text{
 		margin: auto;
 		width: 640px;
@@ -34,6 +37,7 @@
 		}
 		h1{
 			font:28px/1.25 Cambria,georgia,serif;
+			color:#222;
 		}
 		.mess__details{
 			font: 14px/1.15 Helvetica,sans-serif;
@@ -46,19 +50,20 @@
 		margin-bottom:35px;
 	}
 	.mess__userpic{
-		border-radius:50px;
+		border-radius:50%;
 		width: 50px;
 		height: 50px;
 		border: 2px solid #fff;
 		box-shadow:0 1px 1px rgba(black,0.2);
 		float: left;
+		margin-right:8px;
 	}
 	.mess__username{
 		font-size: 11px;
 		color:#9f9999;
 		font: 11px/1.3 Helvetica,sans-serif;
 		float: left;
-		margin:8px 0 0 8px;
+		margin:8px 0 0 0;
 		width:60px;
 	}
 	.mess__meta{
@@ -160,7 +165,6 @@
 	.mess__text-holder{
 		padding:35px 50px 0;
 		form{margin: 5px 0 -15px -10px;}
-		.button{padding: 5px 10px;}
 	}
 	figure{
 		margin:0 -50px 30px;
@@ -241,12 +245,27 @@
 	}
 }
 .mess_last{
+	position: relative;
 	.mess__text{
 		border-radius:0 0 4px 4px;
 		margin-bottom:-5px;
 		border-bottom:1px solid #e6e6e6;
 		position:relative;
 		z-index:10;
+	}
+	&:hover:after{
+		display: block;
+	}
+	&:after{
+		position: absolute;
+		display: none;
+		width:1000px;
+		height:6px;
+		left:0;
+		bottom:0;
+		background:#f8f8f8;
+		content:"";
+		@include transition(all, .2s, ease-in-out);
 	}
 }
 .mess__like{
@@ -266,8 +285,12 @@
 }
 .mess__userlist{
 	display:inline-block;
-	padding:14px 0 8px;
-	.mess__userpic{margin-right:3px;}
+	padding:17px 0 8px;
+	.mess__userpic{
+		margin-right:8px;
+		height:46px;
+		width:46px;
+	}
 }
 .user-inf{
 	background:#fff;
@@ -302,7 +325,7 @@
 			color:#999;
 			text-align:left;
 			a{
-				color:#999;
+				color:#919191;
 				text-decoration:none;
 				display:block;
 				height:41px;
@@ -348,6 +371,7 @@
 	h2{margin-bottom:4px;}
 	p{margin-bottom:12px;}
 	.button{margin-bottom:9px;}
+	.button{padding:2px 12px;}
 	.stats{
 		margin:0 -15px;
 		width:225px;
@@ -406,7 +430,12 @@
 }
 
 
-.post-list{padding-top:43px;}
+.post-list{
+	padding-top:43px;
+	.mess-list .mess:first-child{
+		box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05) inset;
+	}
+}
 .post_item{
 	background: #fff;
 	box-shadow: 0 2px 0 rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.2);
@@ -463,7 +492,7 @@
 	float:right;
 	margin-top:-5px;
 	span{
-	color: #9f9999;
+	color: #b8b8b8;
 	font: 11px Helvetica,sans-serif;
 	}
 }
@@ -485,9 +514,9 @@
 		border-radius:5px;
 		z-index:15;
 		box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
-		top:34px;
+		top:33px;
 		right:-15px;
-		padding:8px 0 4px;
+		padding:8px 0 7px;
 		display: none;
 		&:before{
 			@include sized-sprite($icons, "user-top");
@@ -500,11 +529,10 @@
 	a{
 		color:#a8a8a8;
 		width:113px;
-		padding:4px 15px;
-		font-size:12px;
+		padding:4px 15px 5px;
+		font:bold 12px Helvetica,sans-serif;
 		text-decoration: none;
 		display: block;
-		font-weight:bold;
 		&:hover{
 			color:#11b0eb;
 			background:#f3f3f3;
@@ -521,7 +549,7 @@
 .post-list__manag{
 	text-align: center;
 	.button{
-		padding:5px 23px 6px;
+		padding:5px 26px 6px;
 	}
 }
 .post-list__year{

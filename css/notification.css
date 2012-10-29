@@ -47,3 +47,171 @@
 .top .tabs-nav li:first-child {
   border: none;
 }
+
+/* line 30, ../sass/notification.scss */
+.notif {
+  width: 1000px;
+  margin: 0 auto;
+  height: 43px;
+  position: relative;
+  z-index: 10;
+}
+/* line 36, ../sass/notification.scss */
+.notif .mess-list {
+  position: absolute;
+  width: 490px;
+  left: 10px;
+  top: 53px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.15);
+}
+/* line 46, ../sass/notification.scss */
+.notif .mess {
+  min-height: 86px;
+}
+/* line 48, ../sass/notification.scss */
+.notif .mess .mess__text {
+  width: 390px;
+  margin-left: 75px;
+}
+/* line 51, ../sass/notification.scss */
+.notif .mess .mess__text .mess__details {
+  font-size: 12px;
+  margin: 0;
+}
+/* line 55, ../sass/notification.scss */
+.notif .mess .mess__text h1 {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #222;
+}
+/* line 60, ../sass/notification.scss */
+.notif .mess .mess__text p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 4px 0 15px;
+}
+/* line 66, ../sass/notification.scss */
+.notif .mess:first-child {
+  border-radius: 4px 4px 0 0;
+  border-top: 0;
+}
+/* line 70, ../sass/notification.scss */
+.notif .mess:last-child {
+  border-radius: 0 0 4px 4px;
+}
+/* line 71, ../sass/notification.scss */
+.notif .mess .mess__user {
+  left: 11px;
+  top: 19px;
+}
+/* line 75, ../sass/notification.scss */
+.notif .mess .mess__userpic {
+  height: 47px;
+  width: 47px;
+}
+/* line 79, ../sass/notification.scss */
+.notif .mess .mess__text-holder {
+  padding-top: 14px;
+  margin-bottom: 15px;
+}
+/* line 83, ../sass/notification.scss */
+.notif .mess .mess__time {
+  right: 9px;
+  bottom: 7px;
+}
+/* line 87, ../sass/notification.scss */
+.notif .mess textarea {
+  width: 362px;
+  height: 83px;
+}
+/* line 91, ../sass/notification.scss */
+.notif .mess .mess__visual {
+  margin-bottom: 10px;
+}
+/* line 94, ../sass/notification.scss */
+.notif form .button_reply {
+  opacity: 1;
+  position: static;
+}
+/* line 99, ../sass/notification.scss */
+.notif .mess__userlist {
+  padding: 8px 0 0;
+  display: block;
+  overflow: hidden;
+}
+/* line 103, ../sass/notification.scss */
+.notif .mess__userlist .mess__userpic {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  box-shadow: none;
+  margin-right: 9px;
+}
+/* line 112, ../sass/notification.scss */
+.notif .mess__visual_reply textarea {
+  height: 20px;
+}
+/* line 114, ../sass/notification.scss */
+.notif .load-more {
+  margin-top: 0;
+  text-align: left;
+  padding: 14px 0 14px 75px;
+}
+/* line 118, ../sass/notification.scss */
+.notif .load-more .button {
+  padding: 2px 14px;
+}
+/* line 120, ../sass/notification.scss */
+.notif .mess__meta {
+  top: 10px;
+  right: 12px;
+}
+/* line 124, ../sass/notification.scss */
+.notif .mess__like {
+  background: url('../img/common-s2100b5eb7b.png') 0 -2321px no-repeat;
+  width: 16px;
+  height: 14px;
+}
+/* line 125, ../sass/notification.scss */
+.notif .mess__share {
+  background: url('../img/common-s2100b5eb7b.png') 0 -2211px no-repeat;
+  width: 21px;
+  height: 14px;
+}
+/* line 126, ../sass/notification.scss */
+.notif .mess__comment {
+  background: url('../img/common-s2100b5eb7b.png') 0 -2348px no-repeat;
+  width: 15px;
+  height: 15px;
+}
+/* line 127, ../sass/notification.scss */
+.notif .mess-list__arr {
+  height: 16px;
+  width: 16px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 4px;
+  position: absolute;
+  left: 61px;
+  top: -7px;
+  background: #fff;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 138, ../sass/notification.scss */
+.notif .mess__author .mess-list__arr {
+  background: #fbf9e5;
+}
+/* line 141, ../sass/notification.scss */
+.notif .mess__author:hover .mess-list__arr {
+  background: #fbfbfb;
+}

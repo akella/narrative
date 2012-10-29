@@ -26,3 +26,119 @@
 		border:none;
 	}
 }
+
+.notif{
+	width:1000px;
+	margin:0 auto;
+	height:43px;
+	position: relative;
+	z-index:10;
+	.mess-list{
+		position: absolute;
+		width:490px;
+		left:10px;
+		top:53px;
+		border-radius:4px;
+		background:#fff;
+		border:1px solid #e8e8e8;
+		box-shadow:0 3px 18px rgba(0,0,0,.15);
+	}
+	.mess{
+		min-height:86px;
+		.mess__text{
+			width:390px;
+			margin-left:75px;
+			.mess__details{
+				font-size:12px;
+				margin:0;
+			}
+			h1{
+				font-size:18px;
+				line-height:1.2;
+				color:#222;
+			}
+			p{
+				font-size:16px;
+				line-height:1.5;
+				margin:4px 0 15px;
+			}
+		}
+		&:first-child{
+			border-radius:4px 4px 0 0;
+			border-top:0;
+		}
+		&:last-child{border-radius:0 0 4px 4px;}
+		.mess__user{
+			left:11px;
+			top:19px;
+		}
+		.mess__userpic{
+			height:47px;
+			width:47px;
+		}
+		.mess__text-holder{
+			padding-top:14px;
+			margin-bottom:15px;
+		}
+		.mess__time{
+			right:9px;
+			bottom:7px;
+		}
+		textarea{
+			width:362px;
+			height:83px;
+		}
+		.mess__visual{margin-bottom:10px;}
+	}
+	form{
+		.button_reply{
+			opacity:1;
+			position: static;
+		}
+	}
+	.mess__userlist{
+		padding:8px 0 0;
+		display: block;
+		overflow: hidden;
+		.mess__userpic{
+			width:32px;
+			height:32px;
+			border:0;
+			box-shadow:none;
+			margin-right:9px;
+		}
+	}
+	.mess__visual_reply{
+		textarea{height:20px;}
+	}
+	.load-more{
+		margin-top:0;
+		text-align:left;
+		padding:14px 0 14px 75px;
+		.button{padding:2px 14px;}
+	}
+	.mess__meta{
+		top:10px;
+		right:12px;
+	}
+	.mess__like{@include sized-sprite($icons, "like2");}
+	.mess__share{@include sized-sprite($icons, "share2");}
+	.mess__comment{@include sized-sprite($icons, "commenticon2");}
+	.mess-list__arr{
+		height:16px;
+		width:16px;
+		@include rotate(45deg);
+		border-radius:4px;
+		position: absolute;
+		left:61px;
+		top:-7px;
+		background:#fff;
+		@include transition(all, .2s, ease-in-out);
+	}
+	.mess__author .mess-list__arr{
+		background:#fbf9e5;
+	}
+	.mess__author:hover .mess-list__arr{
+		background:#fbfbfb;
+	}
+}
