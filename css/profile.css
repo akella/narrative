@@ -210,3 +210,24 @@
 .load-more .button {
   padding: 5px 26px;
 }
+
+/* line 159, ../sass/profile.scss */
+.profile-closed {
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 163, ../sass/profile.scss */
+.profile-closed h1, .profile-closed p {
+  font: 44px Cambria,georgia,serif;
+  color: #9b9b9b;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+/* line 168, ../sass/profile.scss */
+.profile-closed h1 {
+  margin-bottom: 30px;
+}
+/* line 169, ../sass/profile.scss */
+.profile-closed p {
+  font-size: 25px;
+}

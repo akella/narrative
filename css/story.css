@@ -499,36 +499,36 @@
 }
 
 /* line 383, ../sass/story.scss */
-.comment {
+.mess {
   background: #f8f8f8;
   position: relative;
   padding: 50px 0 36px;
   border-top: 1px solid #e6e6e6;
 }
 /* line 388, ../sass/story.scss */
-.comment .comment__act {
+.mess .mess__act {
   font-size: 14px;
   font-weight: bold;
   color: #9c9c9c;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* line 393, ../sass/story.scss */
-.comment .comment__act span {
+.mess .mess__act span {
   vertical-align: middle;
 }
 /* line 397, ../sass/story.scss */
-.comment .comment__user {
+.mess .mess__user {
   position: absolute;
   top: 18px;
   left: 18px;
 }
 /* line 402, ../sass/story.scss */
-.comment form {
+.mess form {
   width: 640px;
   margin: auto;
 }
 /* line 406, ../sass/story.scss */
-.comment textarea {
+.mess textarea {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
   height: 151px;
@@ -540,12 +540,12 @@
   display: block;
 }
 /* line 417, ../sass/story.scss */
-.comment .comment__visual {
+.mess .mess__visual {
   margin-bottom: 14px;
   position: relative;
 }
 /* line 421, ../sass/story.scss */
-.comment .button {
+.mess .button {
   padding: 5px 14px;
 }
 

@@ -1,0 +1,49 @@
+@charset "IBM866";
+/*когда включать версию для айфона*/
+/*когда включать широкую версию*/
+/* TRANSITION */
+/* line 2, ../sass/notification.scss */
+.top .top__title_m {
+  width: 170px;
+  margin-right: 3px;
+}
+
+/* line 6, ../sass/notification.scss */
+.top .tabs-nav {
+  margin: 7px 0 0;
+  float: left;
+}
+/* line 9, ../sass/notification.scss */
+.top .tabs-nav li {
+  border-left: 1px solid #dadada;
+  padding: 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f0f0f0));
+  background-image: -webkit-linear-gradient(#fefefe, #f0f0f0);
+  background-image: -moz-linear-gradient(#fefefe, #f0f0f0);
+  background-image: -o-linear-gradient(#fefefe, #f0f0f0);
+  background-image: linear-gradient(#fefefe, #f0f0f0);
+}
+/* line 13, ../sass/notification.scss */
+.top .tabs-nav li a {
+  text-decoration: none;
+  color: #979797;
+  padding: 4px 10px;
+  display: block;
+}
+/* line 20, ../sass/notification.scss */
+.top .tabs-nav li:hover {
+  color: #1da9dd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f8f8f8));
+  background-image: -webkit-linear-gradient(#fefefe, #f8f8f8);
+  background-image: -moz-linear-gradient(#fefefe, #f8f8f8);
+  background-image: -o-linear-gradient(#fefefe, #f8f8f8);
+  background-image: linear-gradient(#fefefe, #f8f8f8);
+}
+/* line 24, ../sass/notification.scss */
+.top .tabs-nav .active a {
+  color: #16AAE3;
+}
+/* line 25, ../sass/notification.scss */
+.top .tabs-nav li:first-child {
+  border: none;
+}

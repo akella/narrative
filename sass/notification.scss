@@ -1,0 +1,28 @@
+@import "base";
+.top .top__title_m{
+	width:170px;
+	margin-right:3px;
+}
+.top .tabs-nav{
+	margin:7px 0 0;
+	float:left;
+	li{
+		border-left:1px solid #dadada;
+		padding:0;
+		@include background-image(linear-gradient(#fefefe, #f0f0f0));
+		a{
+			text-decoration:none;
+			color:#979797;
+			padding:4px 10px;
+			display:block;
+		}
+	}
+	li:hover{
+		color: #1da9dd;
+		@include background-image(linear-gradient(#fefefe, #f8f8f8));
+	}
+	.active a{color:#16AAE3;}
+	li:first-child{
+		border:none;
+	}
+}

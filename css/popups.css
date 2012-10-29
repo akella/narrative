@@ -443,30 +443,31 @@
   font-weight: bold;
   box-shadow: none;
   font-family: Helvetica,sans-serif;
+  border-radius: 0;
 }
-/* line 321, ../sass/popups.scss */
+/* line 322, ../sass/popups.scss */
 .tabs-nav li:first-child {
   border-radius: 4px 0 0 4px;
 }
-/* line 322, ../sass/popups.scss */
+/* line 323, ../sass/popups.scss */
 .tabs-nav li:last-child {
   border-radius: 0 4px 4px 0;
 }
-/* line 324, ../sass/popups.scss */
+/* line 325, ../sass/popups.scss */
 .tabs-nav span {
   color: #cfcfcf;
 }
-/* line 325, ../sass/popups.scss */
+/* line 326, ../sass/popups.scss */
 .tabs-nav .active {
   color: #16aae3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
 }
 
-/* line 330, ../sass/popups.scss */
+/* line 331, ../sass/popups.scss */
 .invite {
   padding: 0 154px 60px 150px;
 }
-/* line 332, ../sass/popups.scss */
+/* line 333, ../sass/popups.scss */
 .invite .row {
   height: 36px;
   border: 1px solid #d3d3d3;
@@ -474,7 +475,7 @@
   position: relative;
   border-radius: 3px;
 }
-/* line 338, ../sass/popups.scss */
+/* line 339, ../sass/popups.scss */
 .invite .row input {
   color: #808080;
   font: 16px Cambria,georgia,serif;
@@ -484,7 +485,7 @@
   line-height: 20px;
   padding: 8px 32px 8px 12px;
 }
-/* line 347, ../sass/popups.scss */
+/* line 348, ../sass/popups.scss */
 .invite .row .button {
   position: absolute;
   top: 2px;
@@ -492,12 +493,12 @@
   font-family: Arial,sans-serif;
   padding: 5px 15px;
 }
-/* line 354, ../sass/popups.scss */
+/* line 355, ../sass/popups.scss */
 .invite .row span {
   font: 16px/36px Cambria, georgia, serif;
   margin-left: 12px;
 }
-/* line 358, ../sass/popups.scss */
+/* line 359, ../sass/popups.scss */
 .invite .row strong {
   font-size: 14px;
   color: #b3b3b3;
@@ -515,7 +516,7 @@
 .popup_invite .popup__header h1 {
   margin: 0 0 4px;
 }
-/* line 375, ../sass/popups.scss */
+/* line 373, ../sass/popups.scss */
 .popup_invite .popup__header p {
   line-height: 1.4;
 }

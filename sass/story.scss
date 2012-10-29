@@ -380,12 +380,12 @@
 
 	}
 }
-.comment{
+.mess{
 	background:#f8f8f8;
 	position: relative;
 	padding: 50px 0 36px;
 	border-top: 1px solid #e6e6e6;
-	.comment__act{
+	.mess__act{
 		font-size: 14px;
 		font-weight: bold;
 		color: #9c9c9c;
@@ -394,7 +394,7 @@
 			vertical-align: middle;
 		}
 	}
-	.comment__user{
+	.mess__user{
 		position: absolute;
 		top: 18px;
 		left: 18px;
@@ -414,7 +414,7 @@
 		border-radius:3px;
 		display: block;
 	}
-	.comment__visual{
+	.mess__visual{
 		margin-bottom: 14px;
 		position: relative;
 	}
