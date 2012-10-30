@@ -576,3 +576,11 @@
 	}
 	.active a{color:#11b0eb;}
 }
+.read-more{
+	@include sized-sprite($icons, "read-more");
+	font: 0/0 a;
+	text-shadow:none;
+	color:transparent;
+	display:inline-block;
+	vertical-align:middle;
+}

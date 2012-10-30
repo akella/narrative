@@ -22,11 +22,11 @@ $break-large: 1180px; /*когда включать широкую версию*
     -ms-transition:     $what $length $easing;
     transition:         $what $length $easing;
 }
-@mixin animation($what: all, $length: 1s, $easing: ease-in-out) {
-    -moz-animatiom:    $what $length $easing 0s infinite normal;
-    -webkit-animation: $what $length $easing 0s infinite normal;
-    -o-animation:      $what $length $easing 0s infinite normal;
-    animation:         $what $length $easing 0s infinite normal;
+@mixin animation($what: all, $length: 1s, $easing: ease-in-out, $iteration:infinite, $fillmode:none) {
+    -moz-animatiom:    $what $length $easing 0s $iteration normal $fillmode;
+    -webkit-animation: $what $length $easing 0s $iteration normal $fillmode;
+    -o-animation:      $what $length $easing 0s $iteration normal $fillmode;
+    animation:         $what $length $easing 0s $iteration normal $fillmode;
 }
 
 @mixin hide-text{

@@ -28,7 +28,7 @@
 }
 /* line 23, ../sass/popups.scss */
 .popup .popup__close {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1695px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1695px no-repeat;
   width: 17px;
   height: 17px;
   position: absolute;
@@ -120,7 +120,7 @@
 
 /* line 97, ../sass/popups.scss */
 .social__fb {
-  background: url('../img/common-s2100b5eb7b.png') 0 -172px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -172px no-repeat;
   width: 32px;
   height: 33px;
   cursor: pointer;
@@ -128,7 +128,7 @@
 
 /* line 101, ../sass/popups.scss */
 .social__tw {
-  background: url('../img/common-s2100b5eb7b.png') 0 -43px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -43px no-repeat;
   width: 32px;
   height: 34px;
   cursor: pointer;
@@ -193,7 +193,7 @@
 /* line 150, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
-  background: url('../img/common-s2100b5eb7b.png') 0 -1730px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1730px no-repeat;
   width: 17px;
   height: 17px;
   margin-right: 8px;
@@ -203,7 +203,7 @@
 }
 /* line 159, ../sass/popups.scss */
 .reg-form .input-mess__error span {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1581px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1581px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -217,7 +217,7 @@
 }
 /* line 167, ../sass/popups.scss */
 .reg-form .icon-location {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2041px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2041px no-repeat;
   width: 18px;
   height: 18px;
   position: absolute;
@@ -268,25 +268,25 @@
 }
 /* line 205, ../sass/popups.scss */
 .reg-form .gender .gender__male {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1184px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1184px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 206, ../sass/popups.scss */
 .reg-form .gender .active .gender__male {
-  background: url('../img/common-s2100b5eb7b.png') 0 -531px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -531px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 207, ../sass/popups.scss */
 .reg-form .gender .gender__female {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1093px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1093px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 208, ../sass/popups.scss */
 .reg-form .gender .active .gender__female {
-  background: url('../img/common-s2100b5eb7b.png') 0 -605px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -605px no-repeat;
   width: 26px;
   height: 30px;
 }
@@ -331,7 +331,7 @@
   position: absolute;
   right: 21px;
   top: 20px;
-  background: url('../img/common-s2100b5eb7b.png') 0 -1938px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1938px no-repeat;
   width: 32px;
   height: 30px;
   border: none;
@@ -374,7 +374,7 @@
 
 /* line 275, ../sass/popups.scss */
 .checked .checkbox {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1925px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1925px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -395,7 +395,7 @@
 
 /* line 286, ../sass/popups.scss */
 .checkbox {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2383px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2383px no-repeat;
   width: 13px;
   height: 13px;
   position: relative;
@@ -535,4 +535,11 @@
 /* line 385, ../sass/popups.scss */
 .popup_invite .popup__header p {
   line-height: 1.4;
+}
+
+/* line 388, ../sass/popups.scss */
+.popup_bottom {
+  position: fixed;
+  bottom: 30px;
+  top: auto;
 }

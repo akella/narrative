@@ -30,9 +30,10 @@
 .notif{
 	width:1000px;
 	margin:0 auto;
-	height:43px;
+	height:0;
 	position: relative;
 	z-index:10;
+	display:none;
 	.mess-list{
 		position: absolute;
 		width:490px;
@@ -132,13 +133,37 @@
 		position: absolute;
 		left:61px;
 		top:-7px;
-		background:#fff;
+		background:#fbf9e5;
 		@include transition(all, .2s, ease-in-out);
 	}
-	.mess__author .mess-list__arr{
-		background:#fbf9e5;
+
+	.notif_animation{
+		background:#fff;;
+		@include animation(bgcolor, 1s, linear, 1, forwards);
 	}
 	.mess__author:hover .mess-list__arr{
 		background:#fbfbfb;
 	}
+}
+
+
+@-moz-keyframes bgcolor
+{
+	from {background: #fbf9e5;}
+	to {background: #fff;}
+}
+@-webkit-keyframes bgcolor
+{
+	from {background: #fbf9e5;}
+	to {background: #fff;}
+}
+@-o-keyframes bgcolor
+{
+	from {background: #fbf9e5;}
+	to {background: #fff;}
+}
+@keyframes bgcolor
+{
+	from {background:#fbf9e5;}
+	to {background:#fff;}
 }

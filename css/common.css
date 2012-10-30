@@ -116,46 +116,46 @@ header, footer, article, nav, section {
 
 /* line 87, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1414px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1414px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 89, ../sass/common.scss */
 .icon_home.icon_active {
-  background: url('../img/common-s2100b5eb7b.png') 0 -315px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -315px no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 93, ../sass/common.scss */
 .icon_comments {
-  background: url('../img/common-s2100b5eb7b.png') 0 -983px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -983px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 95, ../sass/common.scss */
 .icon_comments.icon_active {
-  background: url('../img/common-s2100b5eb7b.png') 0 -272px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -272px no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 99, ../sass/common.scss */
 .icon_compass {
-  background: url('../img/common-s2100b5eb7b.png') 0 -129px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -129px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 101, ../sass/common.scss */
 .icon_compass.icon_active {
-  background: url('../img/common-s2100b5eb7b.png') 0 0 no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 0 no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 105, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1477px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1477px no-repeat;
   width: 52px;
   height: 44px;
   border: none;
@@ -167,13 +167,13 @@ header, footer, article, nav, section {
 
 /* line 113, ../sass/common.scss */
 .icon_user {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1259px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1259px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 115, ../sass/common.scss */
 .icon_user.icon_active {
-  background: url('../img/common-s2100b5eb7b.png') 0 -358px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -358px no-repeat;
   width: 52px;
   height: 43px;
 }
@@ -184,7 +184,7 @@ header, footer, article, nav, section {
   left: -53px;
   border-left: 1px solid #e3e3e3;
   border-right: none;
-  background: url('../img/common-s2100b5eb7b.png') 0 -1839px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1839px no-repeat;
   width: 51px;
   height: 43px;
 }
@@ -208,7 +208,7 @@ header, footer, article, nav, section {
 /* line 140, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-s2100b5eb7b.png') 0 -699px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -699px no-repeat;
   width: 28px;
   height: 25px;
 }

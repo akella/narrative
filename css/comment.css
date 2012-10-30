@@ -134,7 +134,7 @@
 }
 /* line 98, ../sass/comment.scss */
 .mess .mess__rating-p {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2118px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2118px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -142,7 +142,7 @@
 }
 /* line 103, ../sass/comment.scss */
 .mess .mess__rating-m {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2191px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2191px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -175,13 +175,13 @@
 }
 /* line 127, ../sass/comment.scss */
 .mess .mess__remove div {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1987px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1987px no-repeat;
   width: 13px;
   height: 14px;
 }
 /* line 128, ../sass/comment.scss */
 .mess .mess__edit div {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2296px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2296px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -213,7 +213,7 @@
 
 /* line 148, ../sass/comment.scss */
 .user-more-arr {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2254px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2254px no-repeat;
   width: 12px;
   height: 12px;
   position: absolute;
@@ -267,7 +267,7 @@
 }
 /* line 184, ../sass/comment.scss */
 .mess_l1 .mess__text:before, .mess__text-ans:before {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2335px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2335px no-repeat;
   width: 14px;
   height: 13px;
   content: "";
@@ -410,7 +410,7 @@
 
 /* line 271, ../sass/comment.scss */
 .mess__like {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2138px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2138px no-repeat;
   width: 28px;
   height: 24px;
   cursor: pointer;
@@ -419,7 +419,7 @@
 
 /* line 276, ../sass/comment.scss */
 .mess__share {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2077px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2077px no-repeat;
   width: 31px;
   height: 24px;
   cursor: pointer;
@@ -428,7 +428,7 @@
 
 /* line 281, ../sass/comment.scss */
 .mess__comment {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2405px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2405px no-repeat;
   width: 18px;
   height: 18px;
   cursor: pointer;
@@ -532,7 +532,7 @@
 }
 /* line 358, ../sass/comment.scss */
 .user-inf_popup:before {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2286px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2286px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -576,7 +576,7 @@
 }
 /* line 383, ../sass/comment.scss */
 .mess .button_reply span, .button_reply span {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1785px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1785px no-repeat;
   width: 12px;
   height: 16px;
   margin-right: 6px;
@@ -740,7 +740,7 @@
 }
 /* line 506, ../sass/comment.scss */
 .control-nav:hover .control-nav__arr {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1747px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1747px no-repeat;
   width: 18px;
   height: 18px;
 }
@@ -761,7 +761,7 @@
 }
 /* line 521, ../sass/comment.scss */
 .control-nav ul:before {
-  background: url('../img/common-s2100b5eb7b.png') 0 -2286px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -2286px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -786,7 +786,7 @@
 
 /* line 542, ../sass/comment.scss */
 .control-nav__arr {
-  background: url('../img/common-s2100b5eb7b.png') 0 -1821px no-repeat;
+  background: url('../img/common-sc4eac29533.png') 0 -1821px no-repeat;
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -840,4 +840,16 @@
 /* line 577, ../sass/comment.scss */
 .post-list__month .active a {
   color: #11b0eb;
+}
+
+/* line 579, ../sass/comment.scss */
+.read-more {
+  background: url('../img/common-sc4eac29533.png') 0 -2309px no-repeat;
+  width: 24px;
+  height: 12px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
 }
