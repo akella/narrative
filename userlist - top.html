@@ -10,20 +10,11 @@
 </head>
 <body>
 <!-- BEGIN  top-->
-<header class="top"><div class="top__in">
-	<div class="icon icon_home"></div>
-	<div class="icon icon_comments"></div>
-	<div class="icon icon_compass"></div>
-	<div class="top__title">Siarhei is reading</div>
-	<div class="icon icon_user icon_right">
-		<ul class="control-nav">
-			<li><a href="#">My profile</a></li>
-			<li><a href="#">Settings</a></li>
-			<li><a href="#">Invitations <span>2</span></a></li>
-			<li class="sign-out"><a href="#">Sign out</a></li>
-		</ul>
-	</div>
-	<div class="icon icon_add icon_right"></div>
+<header class="top top_sign-up"><div class="top__in">
+	<span class="top__narrative"></span>
+	Sign up with
+	<button class="button button_facebook"><span class="button__icon"></span>Facebook</button> or 
+	<button class="button button_twitter"><div class="button__icon"></div>Twitter</button>
 </div></header>
 <!-- END top-->
 <!-- BEGIN  profile-->
@@ -126,67 +117,5 @@
 <footer class="footer">
 	<div class="footer__narrative"></div>
 </footer>
-
-
-<div class="popup-wrap"></div>
-<div class="popup">
-	<div class="popup__close"></div>
-	<div class="popup__header">
-		<div class="popup_reg__userpic" style="background-image:url(http://placekitten.com/120/120);">
-			<div class="addphoto">
-				<div class="addphoto__icon"></div>
-			</div>
-		</div>
-	</div>
-	<form action="#" class="reg-form">
-		<div class="row row_login">
-			<label for="" class="label">Username</label>
-			<input type="text" placeholder="osintsev" class="input">
-			<span class="input-holder">narrative.ai/</span>
-			<span class="input-inf">Latin letters A-Z, simple numbers 0-9 only</span>
-			<div class="input-mess"><span></span>Nice one</div>
-		</div>
-		<div class="row">
-			<label for="" class="label">Real name</label>
-			<input type="text" placeholder="Konstantin Osintsev" class="input">
-			<div class="input-mess input-mess__error"><span></span>Incorrect</div>
-		</div>
-		<div class="row">
-			<label for="" class="label">Email</label>
-			<input type="text" placeholder="osintsev@gmail.com" class="input">
-		</div>
-		<div class="row">
-			<label for="" class="label">Location</label>
-			<input type="text" placeholder="Moscow" class="input">
-			<div class="icon-location"></div>
-		</div>
-		<div class="row">
-			<label for="" class="label">Gender</label>
-			<ul class="gender">
-				<li class="active"><div class="gender__male"><input type="radio" name="gender">male</div></li>
-				<li><div class="gender__female"><input type="radio" name="gender">female</div></li>
-			</ul>
-		</div>
-		<div class="row">
-			<label for="" class="label">Facebook</label>
-			<div class="socail"><div class="socail__user" style="background-image:url(http://placekitten.com/30/30);"></div> Konstantin Osintsev</div>
-		</div>
-		<div class="row">
-			<label for="" class="label">Twitter</label>
-			<div class="socail social__tw"></div>
-		</div>
-		<div class="row">
-			<span class="label">Privacy</span>
-			<div class="privacy">
-				<input type="checkbox" id="check-privacy" class="check"> <label for="check-privacy">Stories are not public</label>
-			</div>
-		</div>
-		<div class="row row_btn">
-			<input type="submit" class="button button_save" value="Save changes">
-		</div>
-	</form>
-</div>
-
-
 </body>
 </html>

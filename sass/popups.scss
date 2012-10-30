@@ -26,6 +26,9 @@
 		top:12px;
 		right:13px;
 		cursor:pointer;
+		&:hover{
+			@include sized-sprite($icons, "close1");
+		}
 	}
 	h1{
 		text-align:center;
@@ -68,7 +71,10 @@
 			color:#8f8f8f;
 			margin-bottom:5px;
 		}
-		h2{font: bold 18px Helvetica,sans-serif;}
+		h2{
+			font-size:18px;
+			font-weight:bold;
+		}
 		h1{
 			padding:5px 0 0;
 			border-top:none;
@@ -145,7 +151,7 @@
 		position:absolute;
 		top:11px;
 		left:431px;
-		font: 11px Helvetica,sans-serif;
+		font-size:11px;
 		color:#808080;
 		span{
 			display:inline-block;
@@ -160,7 +166,7 @@
 	.input-inf{
 		clear:both;
 		display:block;
-		font: 11px Helvetica,sans-serif;
+		font-size:11px;
 		color:#b8b8b8;
 		padding:6px 0 0 86px;
 	}
@@ -228,7 +234,7 @@
 		padding:4px 15px;
 		line-height:20px;
 		color:#929292;
-		font:12px Helvetica,sans-serif;
+		font-size:12px;
 		border-radius:14px;
 		border:1px solid #d5d5d5;
 		background:#f2f2f2;
@@ -259,7 +265,10 @@
 			float:left;
 			margin:6px 10px 0 0;
 		}
-		label{font:bold 14px Helvetica,sans-serif;}
+		label{
+			font-weight:bold;
+			font-size:14px;
+		}
 	}
 	.row_btn{
 		margin:26px 0 0 -30px;
@@ -329,7 +338,6 @@
 		cursor:pointer;
 		font-weight:bold;
 		box-shadow:none;
-		font-family:Helvetica,sans-serif;
 		border-radius:0;
 		&:first-child{border-radius:4px 0 0 4px;}
 		&:last-child{border-radius:0 4px 4px 0;}

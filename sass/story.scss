@@ -27,7 +27,6 @@
 	text-align: center;
 	padding-bottom: 34px;
 	border-bottom: 1px solid #e5e5e5;
-	font-family: Helvetica,sans-serif;
 	width: 640px;
 	margin: 0 auto 33px auto;
 	.author__pic{
@@ -210,7 +209,6 @@
 	}
 	a{
 		display: inline-block;
-		font-family: Helvetica,arial,sans-serif;
 		font-size: 12px;
 		color: #939393 ;
 		background:#f8f8f8;
@@ -233,7 +231,6 @@
 	margin-top: 20px;
 	position: relative;
 	overflow: hidden;
-	font-family: Helvetica,sans-serif;
 	color:#abafb1;
 	@include background-image(linear-gradient(#fff, #fafafa));
 }
@@ -242,7 +239,6 @@
 	font-size: 14px;
 	right: 15px;
 	text-align: right;
-	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	top: 0;
 	height: 50px;
@@ -285,7 +281,6 @@
 	cursor: pointer;
 	padding: 0 18px 0 19px;
 	color: #abafb1;
-	font-family: Helvetica,sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	float: left;
@@ -340,7 +335,8 @@
 	padding: 10px 10px 10px 15px;
 	height: 30px;
 	border-right: 1px solid #e5e5e5;
-	font:bold 14px  Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:14px;
 	color: #abafb1;
 	line-height:30px;
 	.smalluser{
@@ -359,7 +355,8 @@
 .post__views{
 	padding: 14px 0 14px 20px;
 	color: #abafb1;
-	font:bold 14px  Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
 	float: left;
 	height:22px;
 	line-height:22px;
