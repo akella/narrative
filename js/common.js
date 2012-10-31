@@ -5,24 +5,6 @@ $(document).ready(function() {
 		return $(this).length;
 	}
 
-	$('.user-more-arr').click(function(){
-		$(this).siblings('.user-inf_popup').fadeToggle('fast');
-	});
-
-	$('html').click(function(e) {
-		if($('.user-inf_popup').is(":visible")){ 
-			if (e.target.class != 'user-inf_popup' && $(e.target).parents('.user-inf_popup').length == 0) {
-				$('.user-inf_popup').fadeOut();
-			}
-		}
-
-		if ($('.icon_comments').hasClass("icon_active")){
-			if (e.target.class != 'notif' && e.target.class != 'icon_comments' && $(e.target).parents('.notif').length == 0) {
-				$('.notif').fadeOut();
-				$('.icon_comments').removeClass('icon_active');
-			}
-		}
-	});
 
 	if ($('.popup').exists()){
 		var win = $(window);
@@ -88,6 +70,19 @@ $(document).ready(function() {
 		$(this).attr('placeholder',plh);
 	});
 
+	$('.hide-post').click(function(){
+		$(this).parents('.post').slideUp();
+		$(this).parents('.post').next('.post-mini').slideDown();
+		return false;
+	});
+		$('.post-mini__expand').click(function(){
+		$(this).parent().prev('.post').slideDown();
+		$(this).parent().slideUp();
+		return false;
+	});
+	
+	
+
 	$('.icon_comments').click(function(){
 		var notif = $('.notif')
 		if ($(this).hasClass('icon_active')){
@@ -95,16 +90,32 @@ $(document).ready(function() {
 			notif.find('.mess__author').removeClass('notif_animation');
 			notif.find('.mess-list__arr').removeClass('notif_animation');
 			$(this).removeClass('icon_active');
+			$('.popup-wrap-tr').hide();
 		}
 		else{
 			notif.fadeIn('fast');
 			notif.find('.mess__author').addClass('notif_animation');
 			notif.find('.mess-list__arr').addClass('notif_animation');
 			$(this).addClass('icon_active');
+			$('.popup-wrap-tr').show();
 		}
 		
 	});
 
+	$('.user-more-arr').click(function(){
+		$(this).siblings('.user-inf_popup').fadeToggle('fast');
+	});
+	$('.user-inf_popup').mouseout(function(e){
+			$(this).fadeOut('fast');
+		
+	});
+
+	$('.popup-wrap-tr').click(function(){
+		if ($('.notif').is(':visible')){
+			$('.notif').fadeOut('fast');
+			$('.icon_comments').removeClass('icon_active');
+		}
+	});
 
 $('.slider').each(function(){
 	show = $(this);

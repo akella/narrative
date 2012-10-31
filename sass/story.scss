@@ -516,6 +516,12 @@
 		@include animation(rotate, 1s, linear);
 	}
 }
+.loader{
+	display: inline-block;
+	@include sized-sprite($icons, addphoto_loader);
+	//loader animation
+	@include animation(rotate, 1s, linear);
+}
 .addphoto_error .addphoto__icon{
 	@include sized-sprite($icons, addphoto_error);
 	opacity:1;
@@ -603,5 +609,21 @@ input[type="submit"]::-moz-focus-inner { padding: 0; border: 0 }
 		color: #fff;
 		@include background-image(linear-gradient(#d12855, #c9204d));
 		box-shadow:0 1px 0 rgba(white,0.2);
+	}
+}
+.button_loader{
+	color:transparent;
+	text-shadow:none;
+	position:relative;
+	.loader{
+		position: absolute;
+		left:50%;
+		top:50%;
+		margin:-9px 0 0 -9px;
+		
+	}
+	&:hover{
+		color:transparent;
+		text-shadow:none;
 	}
 }

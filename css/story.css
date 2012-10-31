@@ -699,6 +699,18 @@
 }
 
 /* line 519, ../sass/story.scss */
+.loader {
+  display: inline-block;
+  background: url('../img/common-s776d82c5d6.png') 0 -1729px no-repeat;
+  width: 18px;
+  height: 18px;
+  -moz-animatiom: rotate 1s linear 0s infinite normal none;
+  -webkit-animation: rotate 1s linear 0s infinite normal none;
+  -o-animation: rotate 1s linear 0s infinite normal none;
+  animation: rotate 1s linear 0s infinite normal none;
+}
+
+/* line 525, ../sass/story.scss */
 .addphoto_error .addphoto__icon {
   background: url('../img/common-s776d82c5d6.png') 0 -1457px no-repeat;
   width: 23px;
@@ -706,7 +718,7 @@
   opacity: 1;
 }
 
-/* line 523, ../sass/story.scss */
+/* line 529, ../sass/story.scss */
 .addphoto:hover .addphoto__icon {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -716,7 +728,7 @@
   opacity: 1;
 }
 
-/* line 527, ../sass/story.scss */
+/* line 533, ../sass/story.scss */
 .addphoto_active .addphoto__icon {
   background: url('../img/common-s776d82c5d6.png') 0 -104px no-repeat;
   width: 31px;
@@ -726,7 +738,7 @@
   right: -3px;
 }
 
-/* line 534, ../sass/story.scss */
+/* line 540, ../sass/story.scss */
 .button {
   vertical-align: middle;
   font: bold  14px Arial, sans-serif;
@@ -752,7 +764,7 @@
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 551, ../sass/story.scss */
+/* line 557, ../sass/story.scss */
 .button:hover {
   color: #1da9dd;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f8f8f8));
@@ -761,30 +773,30 @@
   background-image: -o-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
-/* line 555, ../sass/story.scss */
+/* line 561, ../sass/story.scss */
 .button .button__icon {
   vertical-align: middle;
   margin-right: 5px;
   display: inline-block;
 }
 
-/* line 561, ../sass/story.scss */
+/* line 567, ../sass/story.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 562, ../sass/story.scss */
+/* line 568, ../sass/story.scss */
 input[type="submit"]::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 563, ../sass/story.scss */
+/* line 569, ../sass/story.scss */
 .button_facebook {
   margin: 0 5px;
 }
-/* line 565, ../sass/story.scss */
+/* line 571, ../sass/story.scss */
 .button_facebook .button__icon {
   position: relative;
   top: -2px;
@@ -793,40 +805,40 @@ input[type="submit"]::-moz-focus-inner {
   width: 10px;
   height: 20px;
 }
-/* line 571, ../sass/story.scss */
+/* line 577, ../sass/story.scss */
 .button_facebook:hover {
   color: #3f6093;
 }
-/* line 573, ../sass/story.scss */
+/* line 579, ../sass/story.scss */
 .button_facebook:hover .button__icon {
   background: url('../img/common-s776d82c5d6.png') 0 -1782px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 578, ../sass/story.scss */
+/* line 584, ../sass/story.scss */
 .button_twitter {
   margin: 0 5px;
 }
-/* line 580, ../sass/story.scss */
+/* line 586, ../sass/story.scss */
 .button_twitter .button__icon {
   background: url('../img/common-s776d82c5d6.png') 0 -1026px no-repeat;
   width: 20px;
   height: 17px;
   margin-right: 6px;
 }
-/* line 584, ../sass/story.scss */
+/* line 590, ../sass/story.scss */
 .button_twitter:hover {
   color: #2ea8dc;
 }
-/* line 586, ../sass/story.scss */
+/* line 592, ../sass/story.scss */
 .button_twitter:hover .button__icon {
   background: url('../img/common-s776d82c5d6.png') 0 -682px no-repeat;
   width: 20px;
   height: 17px;
 }
 
-/* line 591, ../sass/story.scss */
+/* line 597, ../sass/story.scss */
 .button_active {
   border-color: #0085b7;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -839,7 +851,7 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 599, ../sass/story.scss */
+/* line 605, ../sass/story.scss */
 .button_unread:hover {
   background-color: #d12855;
   border-color: #ac0b36;
@@ -851,4 +863,23 @@ input[type="submit"]::-moz-focus-inner {
   background-image: -o-linear-gradient(#d12855, #c9204d);
   background-image: linear-gradient(#d12855, #c9204d);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* line 614, ../sass/story.scss */
+.button_loader {
+  color: transparent;
+  text-shadow: none;
+  position: relative;
+}
+/* line 618, ../sass/story.scss */
+.button_loader .loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -9px 0 0 -9px;
+}
+/* line 625, ../sass/story.scss */
+.button_loader:hover {
+  color: transparent;
+  text-shadow: none;
 }

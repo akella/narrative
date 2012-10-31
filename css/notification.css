@@ -54,7 +54,7 @@
   margin: 0 auto;
   height: 0;
   position: relative;
-  z-index: 10;
+  z-index: 250;
   display: none;
 }
 /* line 37, ../sass/notification.scss */
@@ -172,19 +172,19 @@
 }
 /* line 125, ../sass/notification.scss */
 .notif .mess__like {
-  background: url('../img/common-sc4eac29533.png') 0 -2321px no-repeat;
+  background: url('../img/common-s776d82c5d6.png') 0 -2338px no-repeat;
   width: 16px;
   height: 14px;
 }
 /* line 126, ../sass/notification.scss */
 .notif .mess__share {
-  background: url('../img/common-sc4eac29533.png') 0 -2211px no-repeat;
+  background: url('../img/common-s776d82c5d6.png') 0 -2228px no-repeat;
   width: 21px;
   height: 14px;
 }
 /* line 127, ../sass/notification.scss */
 .notif .mess__comment {
-  background: url('../img/common-sc4eac29533.png') 0 -2348px no-repeat;
+  background: url('../img/common-s776d82c5d6.png') 0 -2365px no-repeat;
   width: 15px;
   height: 15px;
 }

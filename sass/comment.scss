@@ -357,7 +357,7 @@
 	padding:0 15px;
 	border:1px solid #ebe7e7;
 	border-radius:5px;
-	z-index:15;
+	z-index:250;
 	box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
 	&:before{
 		@include sized-sprite($icons, "user-top");
@@ -409,6 +409,10 @@
 		text-decoration:none;
 		font-weight:bold;
 		margin-left:134px;
+	}
+	.loader{
+		margin:0 3px 0 2px;
+		vertical-align:middle;
 	}
 }
 .post__add-comment{
@@ -599,4 +603,24 @@
 	color:transparent;
 	display:inline-block;
 	vertical-align:middle;
+}
+.post-mini{
+	overflow: hidden;
+	color:#9c9c9c;
+	font:14px Arial, sans-serif;
+	width:960px;
+	margin:14px auto;
+	font-weight:bold;
+	display: none;
+	.post-mini__expand{
+		float:right;
+		font-size:11px;
+		font-weight:normal;
+		border:1px solid #d3d3d3;
+		height:17px;
+		line-height:17px;
+		border-radius:8px;
+		padding:0 9px;
+		cursor:pointer;
+	}
 }

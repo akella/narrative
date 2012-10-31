@@ -10,6 +10,17 @@
 	width:100%;
 	z-index:200;
 }
+.popup-wrap-tr{
+	position:fixed;
+	top:0;
+	left:0;
+	background:none;
+	opacity:0;
+	height:100%;
+	width:100%;
+	z-index:200;
+	display: none;
+}
 .popup{
 	position:absolute;
 	left:50%;

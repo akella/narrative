@@ -531,7 +531,7 @@
   padding: 0 15px;
   border: 1px solid #ebe7e7;
   border-radius: 5px;
-  z-index: 15;
+  z-index: 250;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 /* line 362, ../sass/comment.scss */
@@ -609,13 +609,18 @@
   font-weight: bold;
   margin-left: 134px;
 }
+/* line 413, ../sass/comment.scss */
+.post__load-all .loader {
+  margin: 0 3px 0 2px;
+  vertical-align: middle;
+}
 
-/* line 414, ../sass/comment.scss */
+/* line 418, ../sass/comment.scss */
 .post__add-comment {
   padding: 20px 180px;
   border-top: 1px solid #e5e5e5;
 }
-/* line 417, ../sass/comment.scss */
+/* line 421, ../sass/comment.scss */
 .post__add-comment textarea {
   background: #f2f2f2;
   border: 1px solid #D3D3D3;
@@ -628,23 +633,23 @@
   width: 606px;
 }
 
-/* line 429, ../sass/comment.scss */
+/* line 433, ../sass/comment.scss */
 .hr {
   margin: 14px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* line 436, ../sass/comment.scss */
+/* line 440, ../sass/comment.scss */
 .post-list {
   padding-top: 43px;
 }
-/* line 438, ../sass/comment.scss */
+/* line 442, ../sass/comment.scss */
 .post-list .mess-list .mess:first-child {
   box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05) inset;
 }
 
-/* line 442, ../sass/comment.scss */
+/* line 446, ../sass/comment.scss */
 .post_item {
   background: #fff;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.2);
@@ -654,18 +659,18 @@
   width: 1000px;
   z-index: 9;
 }
-/* line 450, ../sass/comment.scss */
+/* line 454, ../sass/comment.scss */
 .post_item figure img {
   vertical-align: top;
 }
 
-/* line 453, ../sass/comment.scss */
+/* line 457, ../sass/comment.scss */
 .post__header {
   display: inline-block;
   width: 960px;
   padding: 20px 20px 16px;
 }
-/* line 457, ../sass/comment.scss */
+/* line 461, ../sass/comment.scss */
 .post__header .post__retweet-author, .post__header .post__author-pic {
   border-radius: 50%;
   height: 60px;
@@ -674,33 +679,33 @@
   float: left;
   margin: 0 11px 0 0;
 }
-/* line 465, ../sass/comment.scss */
+/* line 469, ../sass/comment.scss */
 .post__header .post__author-pic {
   margin-right: 16px;
 }
-/* line 466, ../sass/comment.scss */
+/* line 470, ../sass/comment.scss */
 .post__header .post__shareicon {
   margin-top: 20px;
 }
-/* line 467, ../sass/comment.scss */
+/* line 471, ../sass/comment.scss */
 .post__header .post__author {
   float: left;
   position: relative;
 }
-/* line 470, ../sass/comment.scss */
+/* line 474, ../sass/comment.scss */
 .post__header .post__author .user-more-arr {
   left: 59px;
   bottom: 1px;
 }
-/* line 475, ../sass/comment.scss */
+/* line 479, ../sass/comment.scss */
 .post__header .post__author:hover .user-more-arr {
   display: block;
 }
-/* line 476, ../sass/comment.scss */
+/* line 480, ../sass/comment.scss */
 .post__header .post__author:hover .post__author-name {
   color: #a3a3a3;
 }
-/* line 479, ../sass/comment.scss */
+/* line 483, ../sass/comment.scss */
 .post__header .post__author-name {
   color: #000;
   font-size: 18px;
@@ -714,41 +719,41 @@
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-/* line 488, ../sass/comment.scss */
+/* line 492, ../sass/comment.scss */
 .post__header .user-inf_popup {
   left: 19px;
   top: 73px;
 }
 
-/* line 494, ../sass/comment.scss */
+/* line 498, ../sass/comment.scss */
 .post__meta {
   float: right;
   margin-top: -5px;
 }
-/* line 497, ../sass/comment.scss */
+/* line 501, ../sass/comment.scss */
 .post__meta span {
   color: #b8b8b8;
   font-size: 11px;
 }
 
-/* line 503, ../sass/comment.scss */
+/* line 507, ../sass/comment.scss */
 .control-nav-holder {
   display: inline-block;
   position: relative;
   margin-left: 3px;
 }
-/* line 508, ../sass/comment.scss */
+/* line 512, ../sass/comment.scss */
 .control-nav-holder:hover ul {
   display: block;
 }
-/* line 509, ../sass/comment.scss */
+/* line 513, ../sass/comment.scss */
 .control-nav-holder:hover .control-nav__arr {
   background: url('../img/common-s776d82c5d6.png') 0 -1764px no-repeat;
   width: 18px;
   height: 18px;
 }
 
-/* line 512, ../sass/comment.scss */
+/* line 516, ../sass/comment.scss */
 .control-nav__arr {
   background: url('../img/common-s776d82c5d6.png') 0 -1838px no-repeat;
   width: 18px;
@@ -758,7 +763,7 @@
   cursor: pointer;
 }
 
-/* line 518, ../sass/comment.scss */
+/* line 522, ../sass/comment.scss */
 .control-nav {
   position: absolute;
   width: 143px;
@@ -773,7 +778,7 @@
   padding: 8px 0 7px;
   display: none;
 }
-/* line 531, ../sass/comment.scss */
+/* line 535, ../sass/comment.scss */
 .control-nav:before {
   background: url('../img/common-s776d82c5d6.png') 0 -2303px no-repeat;
   width: 21px;
@@ -783,7 +788,7 @@
   top: -10px;
   right: 12px;
 }
-/* line 538, ../sass/comment.scss */
+/* line 542, ../sass/comment.scss */
 .control-nav a {
   color: #a8a8a8;
   width: 113px;
@@ -794,35 +799,35 @@
   font-weight: bold;
   position: relative;
 }
-/* line 547, ../sass/comment.scss */
+/* line 551, ../sass/comment.scss */
 .control-nav a:hover {
   color: #11b0eb;
   background: #f3f3f3;
 }
-/* line 551, ../sass/comment.scss */
+/* line 555, ../sass/comment.scss */
 .control-nav a span {
   color: #11b0eb;
   position: absolute;
   top: 3px;
   right: 14px;
 }
-/* line 558, ../sass/comment.scss */
+/* line 562, ../sass/comment.scss */
 .control-nav .sign-out {
   border-top: 1px solid #e5e5e5;
   margin-top: 3px;
   padding-top: 3px;
 }
 
-/* line 565, ../sass/comment.scss */
+/* line 569, ../sass/comment.scss */
 .post-list__manag {
   text-align: center;
 }
-/* line 567, ../sass/comment.scss */
+/* line 571, ../sass/comment.scss */
 .post-list__manag .button {
   padding: 5px 26px 6px;
 }
 
-/* line 571, ../sass/comment.scss */
+/* line 575, ../sass/comment.scss */
 .post-list__year {
   color: #9c9c9c;
   font: bold 18px Arial, sans-serif;
@@ -830,38 +835,38 @@
   text-decoration: none;
   line-height: 1.3;
 }
-/* line 577, ../sass/comment.scss */
+/* line 581, ../sass/comment.scss */
 .post-list__year:hover {
   color: #c0c0c0;
 }
 
-/* line 579, ../sass/comment.scss */
+/* line 583, ../sass/comment.scss */
 .post-list__month {
   line-height: 1.3;
   padding: 4px 0 0;
 }
-/* line 582, ../sass/comment.scss */
+/* line 586, ../sass/comment.scss */
 .post-list__month li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 586, ../sass/comment.scss */
+/* line 590, ../sass/comment.scss */
 .post-list__month a {
   color: #9c9c9c;
   font: bold 14px Arial, sans-serif;
   text-shadow: 0 1px 0 #fff;
   text-decoration: none;
 }
-/* line 591, ../sass/comment.scss */
+/* line 595, ../sass/comment.scss */
 .post-list__month a:hover {
   color: #c0c0c0;
 }
-/* line 593, ../sass/comment.scss */
+/* line 597, ../sass/comment.scss */
 .post-list__month .active a {
   color: #11b0eb;
 }
 
-/* line 595, ../sass/comment.scss */
+/* line 599, ../sass/comment.scss */
 .read-more {
   background: url('../img/common-s776d82c5d6.png') 0 -2326px no-repeat;
   width: 24px;
@@ -871,4 +876,27 @@
   color: transparent;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* line 607, ../sass/comment.scss */
+.post-mini {
+  overflow: hidden;
+  color: #9c9c9c;
+  font: 14px Arial, sans-serif;
+  width: 960px;
+  margin: 14px auto;
+  font-weight: bold;
+  display: none;
+}
+/* line 615, ../sass/comment.scss */
+.post-mini .post-mini__expand {
+  float: right;
+  font-size: 11px;
+  font-weight: normal;
+  border: 1px solid #d3d3d3;
+  height: 17px;
+  line-height: 17px;
+  border-radius: 8px;
+  padding: 0 9px;
+  cursor: pointer;
 }
