@@ -1,4 +1,7 @@
 @import "base";
+@media all and (max-width:1020px) {
+	.discover{overflow: hidden;}
+}
 .search-block{
 	padding-top:43px;
 	border-bottom: 1px solid #ddd;
@@ -23,14 +26,8 @@
 }
 .l{
 	display: inline-block;
-	width:100%;
-	.l-col3{
-		float: left;
-		width:320px;
-		margin-right:20px;
-	}
-	.l-col3_last{margin-right:0;}
-
+	width:1020px;
+	margin:0 -10px;
 }
 .post_small{
 	padding-top:0;
@@ -38,6 +35,9 @@
 	position: relative;
 	box-shadow:0 2px 2px 0 rgba(black,.1);
 	margin-bottom:20px;
+	width:320px;
+	margin:0 10px 20px;
+	float: left;
 	.post__content{
 		width:auto;
 		padding:0 30px;

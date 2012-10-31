@@ -2,59 +2,59 @@
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
-/* line 2, ../sass/discover.scss */
+@media all and (max-width: 1020px) {
+  /* line 3, ../sass/discover.scss */
+  .discover {
+    overflow: hidden;
+  }
+}
+/* line 5, ../sass/discover.scss */
 .search-block {
   padding-top: 43px;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 1px 0 0 #f1f1f1;
   margin-bottom: 20px;
 }
-/* line 7, ../sass/discover.scss */
+/* line 10, ../sass/discover.scss */
 .search-block .search-form {
   width: 510px;
   margin: 0 auto;
   border: 0;
   padding: 15px 0 13px;
 }
-/* line 12, ../sass/discover.scss */
+/* line 15, ../sass/discover.scss */
 .search-block .search-form .search-form__input {
   width: 477px;
 }
-/* line 13, ../sass/discover.scss */
+/* line 16, ../sass/discover.scss */
 .search-block .search-form .search-form__btn {
   top: 15px;
   right: 0;
 }
 
-/* line 20, ../sass/discover.scss */
+/* line 23, ../sass/discover.scss */
 .discover {
   margin: 0 auto -23px;
   width: 1000px;
 }
 
-/* line 24, ../sass/discover.scss */
+/* line 27, ../sass/discover.scss */
 .l {
   display: inline-block;
-  width: 100%;
-}
-/* line 27, ../sass/discover.scss */
-.l .l-col3 {
-  float: left;
-  width: 320px;
-  margin-right: 20px;
-}
-/* line 32, ../sass/discover.scss */
-.l .l-col3_last {
-  margin-right: 0;
+  width: 1020px;
+  margin: 0 -10px;
 }
 
-/* line 35, ../sass/discover.scss */
+/* line 32, ../sass/discover.scss */
 .post_small {
   padding-top: 0;
   background: #fff;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  width: 320px;
+  margin: 0 10px 20px;
+  float: left;
 }
 /* line 41, ../sass/discover.scss */
 .post_small .post__content {

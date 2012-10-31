@@ -1,5 +1,8 @@
 @import "compass/css3";
-$icons: sprite-map("common/*.png");
+
+$icons: sprite-map("common/*.png",
+  $spacing: 10px,
+  $layout: smart);
 
 $break-small: 500px; /*когда включать версию для айфона*/
 $break-large: 1180px; /*когда включать широкую версию*/

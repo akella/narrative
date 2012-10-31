@@ -85,6 +85,9 @@
 		text-decoration:none;
 		padding: 6px 9px 2px 10px;
 		display: block;
+		&:hover{
+			strong{color:#19a9e0;}
+		}
 	}
 	strong{
 		display: block;

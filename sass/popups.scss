@@ -29,7 +29,7 @@
 	background:#f8f8f8;
 	border-radius:4px;
 	box-shadow:0 3px 18px 0 rgba(0,0,0,0.15);
-	top:160px;
+	top:50%;
 	z-index:250;
 	.popup__close{
 		@include sized-sprite($icons, "close");
@@ -184,7 +184,7 @@
 	.icon-location{
 		@include sized-sprite($icons, "location");
 		position:absolute;
-		top:9px;
+		top:10px;
 		left:393px;
 		cursor:pointer;
 	}
@@ -374,7 +374,8 @@
 			background:#f2f2f2;
 			height:20px;
 			line-height:20px;
-			padding:8px 32px 8px 12px;
+			padding:8px 82px 8px 12px;
+			outline:none;
 		}
 		.button{
 			position:absolute;
@@ -408,4 +409,82 @@
 	position: fixed;
 	bottom:30px;
 	top:auto;
+}
+.popup_users{
+	width:480px;
+	background:#fff;
+	display: none;
+	.popup_users__top{
+		height:41px;
+		border-bottom:1px solid #ebebeb;
+		@include background-image(linear-gradient(#fff, #f7f7f7));
+		border-radius:4px 4px 0 0;
+		font-size:14px;
+		font-weight:bold;
+		padding:0 0 0 15px;
+		color:#a0a0a0;
+		line-height:41px;
+		position:relative;
+	}
+	.likeicon, .commenticon, .shareicon, .viewsicon{
+		position: absolute;
+		top:50%;
+		left:50%;
+	}
+	.likeicon{
+		@include sized-sprite($icons, like0);
+		margin:-9px 0 0 -10px;
+	}
+	.commenticon{
+		@include sized-sprite($icons, commenticon);
+		margin:-12px 0 0 -9px;
+	}
+	.shareicon{
+		@include sized-sprite($icons, share);
+		margin:-12px 0 0 -15px;
+	}
+	.viewsicon{
+		@include sized-sprite($icons, views);
+		margin:-8px 0 0 -14px;
+	}
+}
+.users{
+	border-radius:0 0 4px 4px;
+	height:360px;
+	width:476px;
+	padding:0;
+	.users__item{
+		overflow: hidden;
+		border-bottom:1px solid #ebebeb;
+		height:59px;
+		line-height:59px;
+		padding:0 0 0 15px;
+		width:444px;
+		&:last-child{
+			border-radius:0 0 4px 4px;
+		}
+	}
+	.users__pic{
+		display: inline-block;
+		height:30px;
+		width:30px;
+		border-radius:15px;
+		vertical-align:middle;
+	}
+	.users__name{
+		font-size:14px;
+		color:#000;
+		font-weight:bold;
+		display: inline-block;
+		text-decoration: none;
+		vertical-align:middle;
+	}
+	.button{
+		width:100px;
+		padding:4px 0;
+		text-align:center;
+		font-size:11px;
+		float:right;
+		margin-top:15px;
+	}
 }

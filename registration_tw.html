@@ -130,25 +130,48 @@
 
 
 <div class="popup-wrap"></div>
-<div class="popup popup_invite">
-	<div class="popup__close"></div>
+<div class="popup">
 	<div class="popup__header">
-		<h1>You’ve got 2 invitations</h1>
-		<p>We are building a respected quality driven community. Please choose the person who would enjoy the service and contribute to it</p>
+		<div class="popup_reg__userpic" style="background-image:url(http://placekitten.com/120/120);">
+			<div class="socail social__tw"></div>
+		</div>
+		<p>You’ve signed via Facebook as</p>
+		<h2>Konstantin Osintsev</h2>
 	</div>
-	<div class="invite">
-		<div class="row">
-			<form action="#">
-				<input type="text" placeholder="enter email">
-				<button class="button">Send</button>
-			</form>
+	<form action="#" class="reg-form">
+		<h1>Complete your profile to start<br> using Narrative</h1>
+		<div class="row row_login">
+			<label for="" class="label">Username</label>
+			<input type="text" value="osintsev" class="input">
+			<span class="input-holder">narrative.ai/</span>
+			<span class="input-inf">Latin letters A-Z, simple numbers 0-9 only</span>
+			<div class="input-mess"><span></span>Nice one</div>
 		</div>
 		<div class="row">
-			<span>mail@ufoby.com</span>
-			<strong>Sent</strong>
+			<label for="" class="label">Real name</label>
+			<input type="text" value="Konstantin Osintsev" class="input">
+			<div class="input-mess input-mess__error"><span></span>Incorrect</div>
 		</div>
-	</div>
-
+		<div class="row">
+			<label for="" class="label">Email</label>
+			<input type="text" value="osintsev@gmail.com" class="input">
+		</div>
+		<div class="row">
+			<label for="" class="label">Location</label>
+			<input type="text" value="Moscow" class="input">
+			<div class="icon-location"></div>
+		</div>
+		<div class="row">
+			<label for="" class="label">Gender</label>
+			<ul class="gender">
+				<li class="active"><div class="gender__male"><input type="radio" name="gender">male</div></li>
+				<li><div class="gender__female"><input type="radio" name="gender">female</div></li>
+			</ul>
+		</div>
+		<div class="row row_btn">
+			<input type="submit" class="button" value="Start your Narrative">
+		</div>
+	</form>
 </div>
 
 

@@ -52,6 +52,7 @@
 			.mess__details{
 				font-size:12px;
 				margin:0;
+				font-family: Helvetica,arial,sans-serif;
 			}
 			h1{
 				font-size:18px;
@@ -88,6 +89,7 @@
 		textarea{
 			width:362px;
 			height:83px;
+			resize: none;
 		}
 		.mess__visual{margin-bottom:10px;}
 	}
@@ -110,7 +112,10 @@
 		}
 	}
 	.mess__visual_reply{
-		textarea{height:20px;}
+		textarea{
+			height:20px;
+			resize: none;
+		}
 	}
 	.load-more{
 		margin-top:0;
@@ -122,6 +127,7 @@
 		top:10px;
 		right:12px;
 	}
+	.mess__like, .mess__share, .mess__comment{cursor:default;}
 	.mess__like{@include sized-sprite($icons, "like2");}
 	.mess__share{@include sized-sprite($icons, "share2");}
 	.mess__comment{@include sized-sprite($icons, "commenticon2");}
@@ -137,15 +143,15 @@
 		@include transition(all, .2s, ease-in-out);
 	}
 
-	.notif_animation{
-		background:#fff;;
-		@include animation(bgcolor, 1s, linear, 1, forwards);
-	}
+
 	.mess__author:hover .mess-list__arr{
 		background:#fbfbfb;
 	}
 }
-
+.new_animation{
+	background:#fff;;
+	@include animation(bgcolor, 1s, linear, 1, forwards);
+}
 
 @-moz-keyframes bgcolor
 {

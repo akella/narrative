@@ -1,23 +1,29 @@
 $(document).ready(function() {
-	
-	// function element exists
+
+
+// function element exists
 	jQuery.fn.exists = function() {
 		return $(this).length;
 	}
 
 
+// popup
 	if ($('.popup').exists()){
 		var win = $(window);
 		var popup = $('.popup');
 		var w = win.height();
-		var p = popup.height() + parseInt(popup.css('top'));
+		var p = popup.height();
+		var pt = (-1) * popup.height() / 2;
+		p = p + (w / 2) + pt;
+		popup.css('marginTop', pt)
+
 		$(window).resize(function(){
 			w = win.height();
 			if (w >= p){
 				popup.css('position','fixed');
 			}
 			else{
-				popup.css('position','absolute');
+				popup.css({'position':'absolute', 'marginTop':'0', 'top':'45px'});
 				win.scroll(function(){
 				var wst = win.scrollTop();
 					if(wst + w >= p+30){ 
@@ -34,7 +40,7 @@ $(document).ready(function() {
 			popup.css('position','fixed');
 		}
 		else{
-			popup.css('position','absolute');
+			popup.css({'position':'absolute', 'marginTop':'0', 'top':'45px'});
 			win.scroll(function(){
 			var wst = win.scrollTop();
 				if(wst + w >= p+30){ 
@@ -47,21 +53,37 @@ $(document).ready(function() {
 		}
 	};
 
+	$('.popup__close').click(function(){
+		$(this).parents('.popup').fadeOut('fast');
+		$('.popup-wrap-tr').hide();
+		$('.popup-wrap').fadeOut('fast');
+	});
 
+//popup-users
+	$('.post__likes-more').click(function(){
+		$('.popup_users').fadeIn('fast');
+	});
+
+//checkbox
 	$('input.check').css('opacity', '0').wrap("<div class='checkbox'></div>")
 		.delegate($(this), 'change', function(){ $(this).attr('checked') ? $(this).parent().parent().addClass('checked') : $(this).parent().parent().removeClass('checked')});
 	$('input.check:checked').parent().parent().addClass('checked');
 
 
+//tabs
 	$('.tabs-nav li').click(function(){
 		if (!($(this).hasClass('active'))) $(this).addClass('active').siblings().removeClass('active')
 			.parents('.popup').find('.tabs-info').eq($(this).index()).fadeIn(300).siblings('.tabs-info').hide();
 	});
 
+
+//social
 	$('.post__togglesocial').click(function(){
 		$(this).parent().next('.post__socials').slideToggle();
 	});
 
+
+//search-form
 	var plh = $('.search-form__input').attr('placeholder');
 	$('.search-form__input').focus(function(){
 		$(this).attr('placeholder','');
@@ -70,6 +92,8 @@ $(document).ready(function() {
 		$(this).attr('placeholder',plh);
 	});
 
+
+//post
 	$('.hide-post').click(function(){
 		$(this).parents('.post').slideUp();
 		$(this).parents('.post').next('.post-mini').slideDown();
@@ -80,34 +104,25 @@ $(document).ready(function() {
 		$(this).parent().slideUp();
 		return false;
 	});
-	
-	
 
+
+//notification
 	$('.icon_comments').click(function(){
 		var notif = $('.notif')
 		if ($(this).hasClass('icon_active')){
 			notif.fadeOut('fast');
-			notif.find('.mess__author').removeClass('notif_animation');
-			notif.find('.mess-list__arr').removeClass('notif_animation');
+			notif.find('.mess__author').removeClass('new_animation');
+			notif.find('.mess-list__arr').removeClass('new_animation');
 			$(this).removeClass('icon_active');
 			$('.popup-wrap-tr').hide();
 		}
 		else{
 			notif.fadeIn('fast');
-			notif.find('.mess__author').addClass('notif_animation');
-			notif.find('.mess-list__arr').addClass('notif_animation');
+			notif.find('.mess__author').addClass('new_animation');
+			notif.find('.mess-list__arr').addClass('new_animation');
 			$(this).addClass('icon_active');
 			$('.popup-wrap-tr').show();
 		}
-		
-	});
-
-	$('.user-more-arr').click(function(){
-		$(this).siblings('.user-inf_popup').fadeToggle('fast');
-	});
-	$('.user-inf_popup').mouseout(function(e){
-			$(this).fadeOut('fast');
-		
 	});
 
 	$('.popup-wrap-tr').click(function(){
@@ -115,42 +130,64 @@ $(document).ready(function() {
 			$('.notif').fadeOut('fast');
 			$('.icon_comments').removeClass('icon_active');
 		}
+		$(this).hide();
 	});
 
-$('.slider').each(function(){
-	show = $(this);
-	prev = show.children('.slider__prev');
-	next = show.children('.slider__next');
-	slider = show.children('.slider__slides');
-	slidecount = false;
-	if(show.children('.slider__info').length>0){
-		slidecount = show.children('.slider__info');
-	}
 
-	slider.cycle({
-	    fx:     'scrollHorz',
-	    speed:  'fast',
-	    timeout: 0,
-	    next: show.children('.slider__next'),
-	    prev: show.children('.slider__prev'),
-	    after: function (curr,next,opts) {
-	    		go = $(curr).closest('.slider').children('.slider__info');
-				go.html((opts.currSlide + 1) + " / " + opts.slideCount + "");
-				var index = opts.currSlide;
-				var $ht = $(this).height();
-				//set the container's height to that of the current slide
-				$(this).parent().css("height", $ht);
-	    }
-
+//user-inf_popup
+	$('.user-more-arr').click(function(){
+		$(this).siblings('.user-inf_popup').fadeToggle('fast');
 	});
+	$('.user-inf_popup').hover(
+		function () {},
+		function () {
+			$(this).delay('300').fadeOut();
+		}
+	);
 
-	function onAfter(curr,next,opts) {
-		  
-	}
 
-})
+//discover
+	if ($('.discover').exists()){
+		$('.discover .l').masonry({
+			itemSelector: '.post_small',
+		});
+	};
 
 
+//textarea
+	$('.mess_add-closed textarea').click(function(){
+		$(this).parents('.mess_add-closed').removeClass('mess_add-closed');
+	})
+
+
+// slider
+	$('.slider').each(function(){
+		show = $(this);
+		prev = show.children('.slider__prev');
+		next = show.children('.slider__next');
+		slider = show.children('.slider__slides');
+		slidecount = false;
+		if(show.children('.slider__info').length>0){
+			slidecount = show.children('.slider__info');
+		}
+		slider.cycle({
+			fx:	 'scrollHorz',
+			speed:  'fast',
+			timeout: 0,
+			next: show.children('.slider__next'),
+			prev: show.children('.slider__prev'),
+			after: function (curr,next,opts) {
+					go = $(curr).closest('.slider').children('.slider__info');
+					go.html((opts.currSlide + 1) + " / " + opts.slideCount + "");
+					var index = opts.currSlide;
+					var $ht = $(this).height();
+					//set the container's height to that of the current slide
+					$(this).parent().css("height", $ht);
+			}
+		});
+		function onAfter(curr,next,opts) {	  
+		}
+	})
 
 
 });
