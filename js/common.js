@@ -10,45 +10,50 @@ $(document).ready(function() {
 // popup
 	if ($('.popup').exists()){
 		var win = $(window);
+		var content = $('body');
 		var popup = $('.popup');
 		var w = win.height();
 		var p = popup.height();
-		var pt = (-1) * popup.height() / 2;
-		p = p + (w / 2) + pt;
-		popup.css('marginTop', pt)
+		var c = content.height();
 
 		$(window).resize(function(){
 			w = win.height();
-			if (w >= p){
-				popup.css('position','fixed');
+			if (w >= p + 97){
+				popup.addClass('popup_center').removeClass('popup_bottom').removeClass('popup_top');
+				popup.css('marginTop', pt + 21);
 			}
 			else{
-				popup.css({'position':'absolute', 'marginTop':'0', 'top':'45px'});
+				popup.addClass('popup_top').css('marginTop', 0).removeClass('popup_bottom').removeClass('popup_center');
 				win.scroll(function(){
 				var wst = win.scrollTop();
-					if(wst + w >= p+30){ 
-					popup.css('position','fixed').addClass('popup_bottom');
-				}
-				else{
-					popup.css('position','absolute').removeClass('popup_bottom');
-				}
+					if (c < p + 97){content.css('minHeight', p +97);}
+					if(wst + w >= p+27){ 
+						popup.addClass('popup_bottom').removeClass('popup_top');
+					}
+					else{
+						popup.addClass('popup_top').removeClass('popup_bottom');
+					}
+					
 				});
 			}
 		});
 
-		if (w >= p){
-			popup.css('position','fixed');
+		if (w >= p + 97){
+			popup.addClass('popup_center').removeClass('popup_bottom').removeClass('popup_top');
+			popup.css('marginTop', pt + 21);
 		}
 		else{
-			popup.css({'position':'absolute', 'marginTop':'0', 'top':'45px'});
+			popup.addClass('popup_top').css('marginTop', 0).removeClass('popup_bottom').removeClass('popup_center');
 			win.scroll(function(){
 			var wst = win.scrollTop();
-				if(wst + w >= p+30){ 
-					popup.css('position','fixed').addClass('popup_bottom');
+				if (c < p + 97){content.css('minHeight', p +97);}
+				if(wst + w >= p+27){ 
+					popup.addClass('popup_bottom').removeClass('popup_top');
 				}
 				else{
-					popup.css('position','absolute').removeClass('popup_bottom');
+					popup.addClass('popup_top').removeClass('popup_bottom');
 				}
+				
 			});
 		}
 	};

@@ -407,8 +407,17 @@
 }
 .popup_bottom{
 	position: fixed;
-	bottom:30px;
+	bottom:27px;
 	top:auto;
+}
+.popup_top{
+	position: absolute;
+	bottom:auto;
+	top:70px;
+	margin-top:0;
+}
+.popup_center{
+	position:fixed;
 }
 .popup_users{
 	width:480px;

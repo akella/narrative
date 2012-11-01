@@ -561,17 +561,30 @@
 /* line 408, ../sass/popups.scss */
 .popup_bottom {
   position: fixed;
-  bottom: 30px;
+  bottom: 27px;
   top: auto;
 }
 
 /* line 413, ../sass/popups.scss */
+.popup_top {
+  position: absolute;
+  bottom: auto;
+  top: 70px;
+  margin-top: 0;
+}
+
+/* line 419, ../sass/popups.scss */
+.popup_center {
+  position: fixed;
+}
+
+/* line 422, ../sass/popups.scss */
 .popup_users {
   width: 480px;
   background: #fff;
   display: none;
 }
-/* line 417, ../sass/popups.scss */
+/* line 426, ../sass/popups.scss */
 .popup_users .popup_users__top {
   height: 41px;
   border-bottom: 1px solid #ebebeb;
@@ -588,34 +601,34 @@
   line-height: 41px;
   position: relative;
 }
-/* line 429, ../sass/popups.scss */
+/* line 438, ../sass/popups.scss */
 .popup_users .likeicon, .popup_users .commenticon, .popup_users .shareicon, .popup_users .viewsicon {
   position: absolute;
   top: 50%;
   left: 50%;
 }
-/* line 434, ../sass/popups.scss */
+/* line 443, ../sass/popups.scss */
 .popup_users .likeicon {
   background: url('../img/common-s447a2e30b1.png') -397px -28px no-repeat;
   width: 21px;
   height: 18px;
   margin: -9px 0 0 -10px;
 }
-/* line 438, ../sass/popups.scss */
+/* line 447, ../sass/popups.scss */
 .popup_users .commenticon {
   background: url('../img/common-s447a2e30b1.png') -56px -1px no-repeat;
   width: 18px;
   height: 19px;
   margin: -12px 0 0 -9px;
 }
-/* line 442, ../sass/popups.scss */
+/* line 451, ../sass/popups.scss */
 .popup_users .shareicon {
   background: url('../img/common-s447a2e30b1.png') -92px -97px no-repeat;
   width: 31px;
   height: 24px;
   margin: -12px 0 0 -15px;
 }
-/* line 446, ../sass/popups.scss */
+/* line 455, ../sass/popups.scss */
 .popup_users .viewsicon {
   background: url('../img/common-s447a2e30b1.png') -196px -28px no-repeat;
   width: 27px;
@@ -623,14 +636,14 @@
   margin: -8px 0 0 -14px;
 }
 
-/* line 451, ../sass/popups.scss */
+/* line 460, ../sass/popups.scss */
 .users {
   border-radius: 0 0 4px 4px;
   height: 360px;
   width: 476px;
   padding: 0;
 }
-/* line 456, ../sass/popups.scss */
+/* line 465, ../sass/popups.scss */
 .users .users__item {
   overflow: hidden;
   border-bottom: 1px solid #ebebeb;
@@ -639,11 +652,11 @@
   padding: 0 0 0 15px;
   width: 444px;
 }
-/* line 463, ../sass/popups.scss */
+/* line 472, ../sass/popups.scss */
 .users .users__item:last-child {
   border-radius: 0 0 4px 4px;
 }
-/* line 467, ../sass/popups.scss */
+/* line 476, ../sass/popups.scss */
 .users .users__pic {
   display: inline-block;
   height: 30px;
@@ -651,7 +664,7 @@
   border-radius: 15px;
   vertical-align: middle;
 }
-/* line 474, ../sass/popups.scss */
+/* line 483, ../sass/popups.scss */
 .users .users__name {
   font-size: 14px;
   color: #000;
@@ -660,7 +673,7 @@
   text-decoration: none;
   vertical-align: middle;
 }
-/* line 482, ../sass/popups.scss */
+/* line 491, ../sass/popups.scss */
 .users .button {
   width: 100px;
   padding: 4px 0;
