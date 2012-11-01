@@ -20,7 +20,7 @@ $(document).ready(function() {
 			w = win.height();
 			if (w >= p + 97){
 				popup.addClass('popup_center').removeClass('popup_bottom').removeClass('popup_top');
-				popup.css('marginTop', pt + 21);
+				popup.css('marginTop', (-1) * p /2 + 21);
 			}
 			else{
 				popup.addClass('popup_top').css('marginTop', 0).removeClass('popup_bottom').removeClass('popup_center');
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 		if (w >= p + 97){
 			popup.addClass('popup_center').removeClass('popup_bottom').removeClass('popup_top');
-			popup.css('marginTop', pt + 21);
+			popup.css('marginTop', (-1) * p /2 + 21);
 		}
 		else{
 			popup.addClass('popup_top').css('marginTop', 0).removeClass('popup_bottom').removeClass('popup_center');
