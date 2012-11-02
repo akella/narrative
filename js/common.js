@@ -163,6 +163,23 @@ $(document).ready(function() {
 	$('.mess_add-closed textarea').click(function(){
 		$(this).parents('.mess_add-closed').removeClass('mess_add-closed');
 	})
+	
+	if ($('.discover').exists()){
+		$(document).ready(function(){
+			$('.mess__visual textarea').autosize();  
+		});
+	};
+
+
+//start reading | reading
+	$('.button_read').click(function(){
+		if ($(this).hasClass('button_active')){
+			$(this).removeClass('button_active').html('Start reading');
+		}
+		else{
+			$(this).addClass('button_active').html('Reading');
+		}
+	});
 
 
 // slider

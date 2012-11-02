@@ -31,28 +31,30 @@
 .profile .button {
   margin-bottom: -16px;
   margin-top: 17px;
-  padding: 5px 14px;
+  padding: 5px 0;
+  width: 119px;
+  text-align: center;
   position: relative;
 }
 
-/* line 26, ../sass/profile.scss */
+/* line 28, ../sass/profile.scss */
 .profile__info {
   padding: 29px 0 0 38px;
   width: 370px;
   text-align: left;
 }
-/* line 30, ../sass/profile.scss */
+/* line 32, ../sass/profile.scss */
 .profile__info h1 {
   font-weight: bold;
   font-size: 25px;
   margin-bottom: -1px;
 }
-/* line 35, ../sass/profile.scss */
+/* line 37, ../sass/profile.scss */
 .profile__info ul {
   list-style-type: none;
   margin-bottom: 2px;
 }
-/* line 39, ../sass/profile.scss */
+/* line 41, ../sass/profile.scss */
 .profile__info li {
   display: inline-block;
   color: #999;
@@ -61,43 +63,43 @@
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   margin-right: 8px;
 }
-/* line 46, ../sass/profile.scss */
+/* line 48, ../sass/profile.scss */
 .profile__info li a {
   color: #999;
   text-decoration: none;
 }
-/* line 50, ../sass/profile.scss */
+/* line 52, ../sass/profile.scss */
 .profile__info li div {
   display: inline-block;
   margin-right: 6px;
   vertical-align: middle;
 }
-/* line 56, ../sass/profile.scss */
+/* line 58, ../sass/profile.scss */
 .profile__info .icon_location {
   background: url('../img/common-s447a2e30b1.png') -257px -28px no-repeat;
   width: 12px;
   height: 17px;
 }
-/* line 59, ../sass/profile.scss */
+/* line 61, ../sass/profile.scss */
 .profile__info .icon_twitter {
   background: url('../img/common-s447a2e30b1.png') -223px -28px no-repeat;
   width: 18px;
   height: 16px;
 }
-/* line 62, ../sass/profile.scss */
+/* line 64, ../sass/profile.scss */
 .profile__info .icon_site {
   background: url('../img/common-s447a2e30b1.png') -241px -28px no-repeat;
   width: 16px;
   height: 16px;
 }
-/* line 63, ../sass/profile.scss */
+/* line 65, ../sass/profile.scss */
 .profile__info p {
   color: #1d1d1d;
   font: 16px/22px Cambria, georgia, serif;
   opacity: 0.6;
 }
 
-/* line 69, ../sass/profile.scss */
+/* line 71, ../sass/profile.scss */
 .profile__stats {
   list-style: none;
   position: absolute;
@@ -105,16 +107,16 @@
   top: 30px;
   text-align: left;
 }
-/* line 75, ../sass/profile.scss */
+/* line 77, ../sass/profile.scss */
 .profile__stats li {
   border-left: 1px solid #d3d3d3;
   float: left;
 }
-/* line 78, ../sass/profile.scss */
+/* line 80, ../sass/profile.scss */
 .profile__stats li:first-child {
   border: none;
 }
-/* line 82, ../sass/profile.scss */
+/* line 84, ../sass/profile.scss */
 .profile__stats a {
   color: #999;
   font-size: 11px;
@@ -122,11 +124,11 @@
   padding: 6px 9px 2px 10px;
   display: block;
 }
-/* line 89, ../sass/profile.scss */
+/* line 91, ../sass/profile.scss */
 .profile__stats a:hover strong {
   color: #19a9e0;
 }
-/* line 92, ../sass/profile.scss */
+/* line 94, ../sass/profile.scss */
 .profile__stats strong {
   display: block;
   font-size: 30px;
@@ -134,12 +136,12 @@
   color: #000;
   line-height: 1;
 }
-/* line 99, ../sass/profile.scss */
+/* line 101, ../sass/profile.scss */
 .profile__stats .active strong {
   color: #19a9e0;
 }
 
-/* line 101, ../sass/profile.scss */
+/* line 103, ../sass/profile.scss */
 .profile__pic {
   width: 120px;
   height: 120px;
@@ -148,7 +150,7 @@
   box-shadow: 0 24px 38px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 110, ../sass/profile.scss */
+/* line 112, ../sass/profile.scss */
 .user-list .user-inf {
   display: block;
   border-top: 1px solid #e5e5e5;
@@ -156,11 +158,11 @@
   padding: 5px 0 5px 20px;
   line-height: 93px;
 }
-/* line 116, ../sass/profile.scss */
+/* line 118, ../sass/profile.scss */
 .user-list .user-inf:first-child {
   border-top: 0;
 }
-/* line 117, ../sass/profile.scss */
+/* line 119, ../sass/profile.scss */
 .user-list .user-inf .user-inf__avatar {
   height: 60px;
   width: 60px;
@@ -168,7 +170,7 @@
   vertical-align: middle;
   margin-right: 15px;
 }
-/* line 124, ../sass/profile.scss */
+/* line 126, ../sass/profile.scss */
 .user-list .user-inf h2 {
   display: inline-block;
   vertical-align: middle;
@@ -176,7 +178,7 @@
   width: 150px;
   margin-right: 30px;
 }
-/* line 131, ../sass/profile.scss */
+/* line 133, ../sass/profile.scss */
 .user-list .user-inf p {
   font-size: 16px;
   vertical-align: middle;
@@ -185,19 +187,19 @@
   line-height: 1.4;
   margin-right: 7px;
 }
-/* line 139, ../sass/profile.scss */
+/* line 141, ../sass/profile.scss */
 .user-list .user-inf .stats {
   border-top: 0;
   display: inline-block;
   vertical-align: middle;
   width: 222px;
 }
-/* line 144, ../sass/profile.scss */
+/* line 146, ../sass/profile.scss */
 .user-list .user-inf .stats li a {
   padding-left: 13px;
   width: 55px;
 }
-/* line 149, ../sass/profile.scss */
+/* line 151, ../sass/profile.scss */
 .user-list .user-inf .button {
   vertical-align: middle;
   padding: 6px 0;
@@ -205,7 +207,7 @@
   text-align: center;
 }
 
-/* line 157, ../sass/profile.scss */
+/* line 159, ../sass/profile.scss */
 .load-more {
   margin-top: 17px;
   border-top: 1px solid #ddd;
@@ -213,28 +215,28 @@
   text-align: center;
   padding-top: 15px;
 }
-/* line 163, ../sass/profile.scss */
+/* line 165, ../sass/profile.scss */
 .load-more .button {
   padding: 5px 26px;
 }
 
-/* line 165, ../sass/profile.scss */
+/* line 167, ../sass/profile.scss */
 .profile-closed {
   width: 640px;
   margin: 0 auto;
   text-align: center;
 }
-/* line 169, ../sass/profile.scss */
+/* line 171, ../sass/profile.scss */
 .profile-closed h1, .profile-closed p {
   font: 44px Cambria,georgia,serif;
   color: #9b9b9b;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
-/* line 174, ../sass/profile.scss */
+/* line 176, ../sass/profile.scss */
 .profile-closed h1 {
   margin-bottom: 30px;
 }
-/* line 175, ../sass/profile.scss */
+/* line 177, ../sass/profile.scss */
 .profile-closed p {
   font-size: 25px;
 }

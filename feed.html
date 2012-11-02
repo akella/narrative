@@ -6,6 +6,7 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/cycle.js"></script>
+	<script type="text/javascript" src="js/jquery.autosize-min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
@@ -437,10 +438,9 @@
 		</ul>
 
 		<footer class="post__bottom">
-			<div class="post__comment"><div class="post__commenticon"></div>Add comment</div>
-			<div class="post__likes"><div class="post__likesicon"></div>Nice story</div>
-			<div class="post__share"><div class="post__shareicon"></div>Share</div>
-			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
+			<div class="post__comment"><a href="#"><div class="post__commenticon"></div>Add comment</a></div>
+			<div class="post__likes"><a href="#"><div class="post__likesicon"></div>Nice story</a></div>
+			<div class="post__share"><a href="#"><div class="post__shareicon"></div>Share</a></div>			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
 			<div class="post__togglesocial">Social share <span></span></div>
 		</footer>
 
@@ -549,9 +549,9 @@
 		</ul>
 
 		<footer class="post__bottom">
-			<div class="post__comment"><div class="post__commenticon"></div>Add comment</div>
-			<div class="post__likes"><div class="post__likesicon"></div>Nice story</div>
-			<div class="post__share"><div class="post__shareicon"></div>Share</div>
+			<div class="post__comment"><a href="#"><div class="post__commenticon"></div>Add comment</a></div>
+			<div class="post__likes"><a href="#"><div class="post__likesicon"></div>Nice story</a></div>
+			<div class="post__share"><a href="#"><div class="post__shareicon"></div>Share</a></div>
 			<div class="post__views"><div class="post__viewsicon"></div> 4</div>
 			<div class="post__togglesocial">Social share <span></span></div>
 		</footer>
@@ -617,75 +617,75 @@
 </footer>
 <div class="popup-wrap-tr"></div>
 <!-- BEGIN .popup_users  -->
-				<div class="popup popup_users">
-					<div class="popup_users__top">
-						<div class="popup__close"></div>
-						<strong>24</strong>
-						<div class="likeicon"></div>
-					</div>
-					<div class="users scroll-pane">
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Siarhei Stashkevich</a>
-							<button class="button">Start reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Aliaksei Koval</a>
-							<button class="button button_active">Reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Alex Matveev</a>
-							<button class="button button_unread">Unread</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Šarūnas Mikelevičius</a>
-							<button class="button button_active">Reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Jessica Walsh</a>
-							<button class="button">Start reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Fiodor Sumkin</a>
-							<button class="button">Start reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Siarhei Stashkevich</a>
-							<button class="button">Start reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Aliaksei Koval</a>
-							<button class="button button_active">Reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Alex Matveev</a>
-							<button class="button button_unread">Unread</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Šarūnas Mikelevičius</a>
-							<button class="button button_active">Reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Jessica Walsh</a>
-							<button class="button">Start reading</button>
-						</div>
-						<div class="users__item">
-							<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
-							<a href="#" class="users__name">Fiodor Sumkin</a>
-							<button class="button">Start reading</button>
-						</div>
-					</div>
-				</div>
-				<!-- END .popup_users  -->
+<div class="popup popup_users">
+	<div class="popup_users__top">
+		<div class="popup__close"></div>
+		<strong>24</strong>
+		<div class="likeicon"></div>
+	</div>
+	<div class="users scroll-pane">
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Siarhei Stashkevich</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Aliaksei Koval</a>
+			<button class="button button_read button_active">Reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Alex Matveev</a>
+			<button class="button button_unread">Unread</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Šarūnas Mikelevičius</a>
+			<button class="button button_read button_active">Reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Jessica Walsh</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Fiodor Sumkin</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Siarhei Stashkevich</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Aliaksei Koval</a>
+			<button class="button button_read button_active">Reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Alex Matveev</a>
+			<button class="button button_unread">Unread</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Šarūnas Mikelevičius</a>
+			<button class="button button_read button_active">Reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Jessica Walsh</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+		<div class="users__item">
+			<div class="users__pic" style="background-image:url(http://placekitten.com/30/30)"></div>
+			<a href="#" class="users__name">Fiodor Sumkin</a>
+			<button class="button button_read">Start reading</button>
+		</div>
+	</div>
+</div>
+<!-- END .popup_users  -->
 </body>
 </html>

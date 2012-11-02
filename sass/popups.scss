@@ -31,6 +31,7 @@
 	box-shadow:0 3px 18px 0 rgba(0,0,0,0.15);
 	top:50%;
 	z-index:250;
+	@include transition(all, .2s, ease-in-out);
 	.popup__close{
 		@include sized-sprite($icons, "close");
 		position:absolute;

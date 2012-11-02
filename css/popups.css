@@ -38,8 +38,13 @@
   box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.15);
   top: 50%;
   z-index: 250;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 34, ../sass/popups.scss */
+/* line 35, ../sass/popups.scss */
 .popup .popup__close {
   background: url('../img/common-s447a2e30b1.png') -330px -28px no-repeat;
   width: 17px;
@@ -49,13 +54,13 @@
   right: 13px;
   cursor: pointer;
 }
-/* line 40, ../sass/popups.scss */
+/* line 41, ../sass/popups.scss */
 .popup .popup__close:hover {
   background: url('../img/common-s447a2e30b1.png') -347px -28px no-repeat;
   width: 17px;
   height: 17px;
 }
-/* line 44, ../sass/popups.scss */
+/* line 45, ../sass/popups.scss */
 .popup h1 {
   text-align: center;
   color: #9b9b9b;
@@ -64,12 +69,12 @@
   padding-top: 17px;
   border-top: 1px solid #e5e5e5;
 }
-/* line 52, ../sass/popups.scss */
+/* line 53, ../sass/popups.scss */
 .popup .socail {
   float: left;
   font: 16px/37px Cambria, georgia, serif;
 }
-/* line 56, ../sass/popups.scss */
+/* line 57, ../sass/popups.scss */
 .popup .socail__user {
   display: inline-block;
   height: 30px;
@@ -78,45 +83,45 @@
   border-radius: 15px;
   vertical-align: middle;
 }
-/* line 64, ../sass/popups.scss */
+/* line 65, ../sass/popups.scss */
 .popup .reg-form .row_btn, .popup .row_btn {
   border-top: 1px solid #e5e5e5;
   margin: 40px -65px 0;
   text-align: center;
   padding: 20px 65px;
 }
-/* line 69, ../sass/popups.scss */
+/* line 70, ../sass/popups.scss */
 .popup .reg-form .row_btn .button, .popup .row_btn .button {
   padding: 0 13px;
   height: 32px;
 }
-/* line 73, ../sass/popups.scss */
+/* line 74, ../sass/popups.scss */
 .popup .reg-form .row_btn .button_save, .popup .row_btn .button_save {
   padding: 6px 14px;
 }
-/* line 77, ../sass/popups.scss */
+/* line 78, ../sass/popups.scss */
 .popup .popup__header {
   padding: 30px 0 25px;
   text-align: center;
 }
-/* line 80, ../sass/popups.scss */
+/* line 81, ../sass/popups.scss */
 .popup .popup__header p {
   font: 16px/1.8 Cambria, georgia, serif;
   color: #8f8f8f;
   margin-bottom: 5px;
 }
-/* line 85, ../sass/popups.scss */
+/* line 86, ../sass/popups.scss */
 .popup .popup__header h2 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 89, ../sass/popups.scss */
+/* line 90, ../sass/popups.scss */
 .popup .popup__header h1 {
   padding: 5px 0 0;
   border-top: none;
   margin: 0;
 }
-/* line 95, ../sass/popups.scss */
+/* line 96, ../sass/popups.scss */
 .popup .popup_reg__userpic {
   height: 120px;
   width: 120px;
@@ -126,19 +131,19 @@
   position: relative;
   margin: 0 auto 8px;
 }
-/* line 103, ../sass/popups.scss */
+/* line 104, ../sass/popups.scss */
 .popup .popup_reg__userpic .addphoto {
   right: -17px;
   bottom: -4px;
 }
-/* line 107, ../sass/popups.scss */
+/* line 108, ../sass/popups.scss */
 .popup .popup_reg__userpic .socail {
   position: absolute;
   right: -1px;
   bottom: -3px;
 }
 
-/* line 114, ../sass/popups.scss */
+/* line 115, ../sass/popups.scss */
 .social__fb {
   background: url('../img/common-s447a2e30b1.png') -273px -52px no-repeat;
   width: 32px;
@@ -146,7 +151,7 @@
   cursor: pointer;
 }
 
-/* line 118, ../sass/popups.scss */
+/* line 119, ../sass/popups.scss */
 .social__tw {
   background: url('../img/common-s447a2e30b1.png') -305px -52px no-repeat;
   width: 32px;
@@ -154,16 +159,16 @@
   cursor: pointer;
 }
 
-/* line 122, ../sass/popups.scss */
+/* line 123, ../sass/popups.scss */
 .reg-form {
   padding: 0 65px;
 }
-/* line 124, ../sass/popups.scss */
+/* line 125, ../sass/popups.scss */
 .reg-form h1 {
   margin: 0 -65px 21px;
   padding: 17px 65px 0;
 }
-/* line 128, ../sass/popups.scss */
+/* line 129, ../sass/popups.scss */
 .reg-form .row {
   position: relative;
   display: block;
@@ -171,7 +176,7 @@
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 135, ../sass/popups.scss */
+/* line 136, ../sass/popups.scss */
 .reg-form .label {
   color: #6d6d6d;
   font: 16px Cambria,georgia,serif;
@@ -180,7 +185,7 @@
   margin: 7px 17px 0 -6px;
   text-align: right;
 }
-/* line 143, ../sass/popups.scss */
+/* line 144, ../sass/popups.scss */
 .reg-form .input {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
@@ -192,17 +197,17 @@
   float: left;
   outline: none;
 }
-/* line 155, ../sass/popups.scss */
+/* line 156, ../sass/popups.scss */
 .reg-form .input::-webkit-input-placeholder {
   /* для webkit браузеров */
   color: #000;
 }
-/* line 158, ../sass/popups.scss */
+/* line 159, ../sass/popups.scss */
 .reg-form .input:-moz-placeholder {
   /* для браузеров mozilla */
   color: #000;
 }
-/* line 161, ../sass/popups.scss */
+/* line 162, ../sass/popups.scss */
 .reg-form .input-mess {
   position: absolute;
   top: 11px;
@@ -210,7 +215,7 @@
   font-size: 11px;
   color: #808080;
 }
-/* line 167, ../sass/popups.scss */
+/* line 168, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
   background: url('../img/common-s447a2e30b1.png') 0 -140px no-repeat;
@@ -221,13 +226,13 @@
   position: relative;
   top: -2px;
 }
-/* line 176, ../sass/popups.scss */
+/* line 177, ../sass/popups.scss */
 .reg-form .input-mess__error span {
   background: url('../img/common-s447a2e30b1.png') -364px -28px no-repeat;
   width: 17px;
   height: 17px;
 }
-/* line 177, ../sass/popups.scss */
+/* line 178, ../sass/popups.scss */
 .reg-form .input-inf {
   clear: both;
   display: block;
@@ -235,7 +240,7 @@
   color: #b8b8b8;
   padding: 6px 0 0 86px;
 }
-/* line 184, ../sass/popups.scss */
+/* line 185, ../sass/popups.scss */
 .reg-form .icon-location {
   background: url('../img/common-s447a2e30b1.png') -38px -1px no-repeat;
   width: 18px;
@@ -245,12 +250,12 @@
   left: 393px;
   cursor: pointer;
 }
-/* line 192, ../sass/popups.scss */
+/* line 193, ../sass/popups.scss */
 .reg-form .row_login .input {
   padding-left: 98px;
   width: 224px;
 }
-/* line 196, ../sass/popups.scss */
+/* line 197, ../sass/popups.scss */
 .reg-form .row_login .input-holder {
   color: #9a9a9a;
   font: 16px/20px Cambria, georgia, serif;
@@ -258,59 +263,59 @@
   top: 8px;
   left: 99px;
 }
-/* line 204, ../sass/popups.scss */
+/* line 205, ../sass/popups.scss */
 .reg-form .gender {
   float: left;
   list-style: none;
   margin-left: -4px;
   padding-bottom: 2px;
 }
-/* line 209, ../sass/popups.scss */
+/* line 210, ../sass/popups.scss */
 .reg-form .gender input {
   display: none;
 }
-/* line 210, ../sass/popups.scss */
+/* line 211, ../sass/popups.scss */
 .reg-form .gender li {
   float: left;
   border-right: 1px solid #e5e5e5;
   padding: 4px 6px 0 0;
   margin-right: 6px;
 }
-/* line 215, ../sass/popups.scss */
+/* line 216, ../sass/popups.scss */
 .reg-form .gender li:last-child {
   border: none;
 }
-/* line 216, ../sass/popups.scss */
+/* line 217, ../sass/popups.scss */
 .reg-form .gender li div {
   cursor: pointer;
   overflow: hidden;
   text-indent: -9999px;
 }
-/* line 222, ../sass/popups.scss */
+/* line 223, ../sass/popups.scss */
 .reg-form .gender .gender__male {
   background: url('../img/common-s447a2e30b1.png') -221px -52px no-repeat;
   width: 26px;
   height: 30px;
 }
-/* line 223, ../sass/popups.scss */
+/* line 224, ../sass/popups.scss */
 .reg-form .gender .active .gender__male {
   background: url('../img/common-s447a2e30b1.png') -169px -52px no-repeat;
   width: 26px;
   height: 30px;
 }
-/* line 224, ../sass/popups.scss */
+/* line 225, ../sass/popups.scss */
 .reg-form .gender .gender__female {
   background: url('../img/common-s447a2e30b1.png') -247px -52px no-repeat;
   width: 26px;
   height: 30px;
 }
-/* line 225, ../sass/popups.scss */
+/* line 226, ../sass/popups.scss */
 .reg-form .gender .active .gender__female {
   background: url('../img/common-s447a2e30b1.png') -195px -52px no-repeat;
   width: 26px;
   height: 30px;
 }
-/* line 228, ../sass/popups.scss */
+/* line 229, ../sass/popups.scss */
 .reg-form .privacy {
   border: 1px solid #d3d3d3;
   border-radius: 3px;
@@ -320,19 +325,19 @@
   padding: 9px 10px;
   width: 314px;
 }
-/* line 236, ../sass/popups.scss */
+/* line 237, ../sass/popups.scss */
 .reg-form .privacy label {
   margin-left: 4px;
 }
 
-/* line 239, ../sass/popups.scss */
+/* line 240, ../sass/popups.scss */
 .search-form {
   border: 1px solid #e5e5e5;
   border-width: 1px 0;
   padding: 20px 29px;
   position: relative;
 }
-/* line 244, ../sass/popups.scss */
+/* line 245, ../sass/popups.scss */
 .search-form .search-form__input {
   padding: 4px 15px;
   line-height: 20px;
@@ -346,7 +351,7 @@
   display: block;
   outline: none;
 }
-/* line 257, ../sass/popups.scss */
+/* line 258, ../sass/popups.scss */
 .search-form .search-form__btn {
   position: absolute;
   right: 21px;
@@ -360,51 +365,51 @@
   cursor: pointer;
 }
 
-/* line 270, ../sass/popups.scss */
+/* line 271, ../sass/popups.scss */
 .follow-form .row-check {
   float: left;
   width: 268px;
   padding: 11px 0;
   position: relative;
 }
-/* line 275, ../sass/popups.scss */
+/* line 276, ../sass/popups.scss */
 .follow-form .row-check .checkbox {
   float: left;
   margin: 6px 10px 0 0;
 }
-/* line 279, ../sass/popups.scss */
+/* line 280, ../sass/popups.scss */
 .follow-form .row-check label {
   font-weight: bold;
   font-size: 14px;
 }
-/* line 284, ../sass/popups.scss */
+/* line 285, ../sass/popups.scss */
 .follow-form .row_btn {
   margin: 26px 0 0 -30px;
   padding: 20px 0 20px;
 }
-/* line 287, ../sass/popups.scss */
+/* line 288, ../sass/popups.scss */
 .follow-form .row_btn .button {
   padding: 0 15px;
 }
 
-/* line 290, ../sass/popups.scss */
+/* line 291, ../sass/popups.scss */
 .tabs-info {
   padding: 9px 0 0 30px;
   display: none;
 }
 
-/* line 295, ../sass/popups.scss */
+/* line 296, ../sass/popups.scss */
 .checked .checkbox {
   background: url('../img/common-s447a2e30b1.png') -93px -28px no-repeat;
   width: 13px;
   height: 13px;
 }
-/* line 296, ../sass/popups.scss */
+/* line 297, ../sass/popups.scss */
 .checked label {
   color: #16abe4;
 }
 
-/* line 298, ../sass/popups.scss */
+/* line 299, ../sass/popups.scss */
 .check {
   height: 13px;
   left: 0;
@@ -414,7 +419,7 @@
   width: 13px;
 }
 
-/* line 306, ../sass/popups.scss */
+/* line 307, ../sass/popups.scss */
 .checkbox {
   background: url('../img/common-s447a2e30b1.png') -106px -28px no-repeat;
   width: 13px;
@@ -423,7 +428,7 @@
   display: inline-block;
 }
 
-/* line 311, ../sass/popups.scss */
+/* line 312, ../sass/popups.scss */
 .scroll-pane {
   padding-top: 3px;
   width: 600px;
@@ -432,35 +437,35 @@
 }
 
 /* Webkit-scrollbar */
-/* line 318, ../sass/popups.scss */
+/* line 319, ../sass/popups.scss */
 .scroll-pane::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   -webkit-border-radius: 4px;
 }
 
-/* line 323, ../sass/popups.scss */
+/* line 324, ../sass/popups.scss */
 .scroll-pane::-webkit-scrollbar:hover {
   background-color: #e7e7e7;
 }
 
-/* line 326, ../sass/popups.scss */
+/* line 327, ../sass/popups.scss */
 .scroll-pane::-webkit-scrollbar-thumb {
   -webkit-border-radius: 4px;
   background-color: #adadad;
 }
 
-/* line 330, ../sass/popups.scss */
+/* line 331, ../sass/popups.scss */
 .scroll-pane::-webkit-scrollbar-thumb:hover {
   background-color: #868484;
 }
 
-/* line 333, ../sass/popups.scss */
+/* line 334, ../sass/popups.scss */
 .scroll-pane::-webkit-scrollbar-thumb:active {
   background-color: #868484;
 }
 
-/* line 336, ../sass/popups.scss */
+/* line 337, ../sass/popups.scss */
 .tabs-nav {
   list-style: none;
   border: 1px solid #dadada;
@@ -469,7 +474,7 @@
   margin: 6px auto -10px;
   box-shadow: 0 1px 0 0 #fff;
 }
-/* line 343, ../sass/popups.scss */
+/* line 344, ../sass/popups.scss */
 .tabs-nav li {
   color: #979797;
   float: left;
@@ -481,29 +486,29 @@
   box-shadow: none;
   border-radius: 0;
 }
-/* line 353, ../sass/popups.scss */
+/* line 354, ../sass/popups.scss */
 .tabs-nav li:first-child {
   border-radius: 4px 0 0 4px;
 }
-/* line 354, ../sass/popups.scss */
+/* line 355, ../sass/popups.scss */
 .tabs-nav li:last-child {
   border-radius: 0 4px 4px 0;
 }
-/* line 356, ../sass/popups.scss */
+/* line 357, ../sass/popups.scss */
 .tabs-nav span {
   color: #cfcfcf;
 }
-/* line 357, ../sass/popups.scss */
+/* line 358, ../sass/popups.scss */
 .tabs-nav .active {
   color: #16aae3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15) inset;
 }
 
-/* line 362, ../sass/popups.scss */
+/* line 363, ../sass/popups.scss */
 .invite {
   padding: 0 154px 60px 150px;
 }
-/* line 364, ../sass/popups.scss */
+/* line 365, ../sass/popups.scss */
 .invite .row {
   height: 36px;
   border: 1px solid #d3d3d3;
@@ -511,7 +516,7 @@
   position: relative;
   border-radius: 3px;
 }
-/* line 370, ../sass/popups.scss */
+/* line 371, ../sass/popups.scss */
 .invite .row input {
   color: #808080;
   font: 16px Cambria,georgia,serif;
@@ -522,7 +527,7 @@
   padding: 8px 82px 8px 12px;
   outline: none;
 }
-/* line 380, ../sass/popups.scss */
+/* line 381, ../sass/popups.scss */
 .invite .row .button {
   position: absolute;
   top: 2px;
@@ -530,12 +535,12 @@
   font-family: Arial,sans-serif;
   padding: 5px 15px;
 }
-/* line 387, ../sass/popups.scss */
+/* line 388, ../sass/popups.scss */
 .invite .row span {
   font: 16px/36px Cambria, georgia, serif;
   margin-left: 12px;
 }
-/* line 391, ../sass/popups.scss */
+/* line 392, ../sass/popups.scss */
 .invite .row strong {
   font-size: 14px;
   color: #b3b3b3;
@@ -545,27 +550,27 @@
   font-family: Arial,sans-serif;
 }
 
-/* line 402, ../sass/popups.scss */
+/* line 403, ../sass/popups.scss */
 .popup_invite .popup__header {
   padding: 55px 110px 10px;
 }
-/* line 404, ../sass/popups.scss */
+/* line 405, ../sass/popups.scss */
 .popup_invite .popup__header h1 {
   margin: 0 0 4px;
 }
-/* line 405, ../sass/popups.scss */
+/* line 406, ../sass/popups.scss */
 .popup_invite .popup__header p {
   line-height: 1.4;
 }
 
-/* line 408, ../sass/popups.scss */
+/* line 409, ../sass/popups.scss */
 .popup_bottom {
   position: fixed;
   bottom: 27px;
   top: auto;
 }
 
-/* line 413, ../sass/popups.scss */
+/* line 414, ../sass/popups.scss */
 .popup_top {
   position: absolute;
   bottom: auto;
@@ -573,18 +578,18 @@
   margin-top: 0;
 }
 
-/* line 419, ../sass/popups.scss */
+/* line 420, ../sass/popups.scss */
 .popup_center {
   position: fixed;
 }
 
-/* line 422, ../sass/popups.scss */
+/* line 423, ../sass/popups.scss */
 .popup_users {
   width: 480px;
   background: #fff;
   display: none;
 }
-/* line 426, ../sass/popups.scss */
+/* line 427, ../sass/popups.scss */
 .popup_users .popup_users__top {
   height: 41px;
   border-bottom: 1px solid #ebebeb;
@@ -601,34 +606,34 @@
   line-height: 41px;
   position: relative;
 }
-/* line 438, ../sass/popups.scss */
+/* line 439, ../sass/popups.scss */
 .popup_users .likeicon, .popup_users .commenticon, .popup_users .shareicon, .popup_users .viewsicon {
   position: absolute;
   top: 50%;
   left: 50%;
 }
-/* line 443, ../sass/popups.scss */
+/* line 444, ../sass/popups.scss */
 .popup_users .likeicon {
   background: url('../img/common-s447a2e30b1.png') -397px -28px no-repeat;
   width: 21px;
   height: 18px;
   margin: -9px 0 0 -10px;
 }
-/* line 447, ../sass/popups.scss */
+/* line 448, ../sass/popups.scss */
 .popup_users .commenticon {
   background: url('../img/common-s447a2e30b1.png') -56px -1px no-repeat;
   width: 18px;
   height: 19px;
   margin: -12px 0 0 -9px;
 }
-/* line 451, ../sass/popups.scss */
+/* line 452, ../sass/popups.scss */
 .popup_users .shareicon {
   background: url('../img/common-s447a2e30b1.png') -92px -97px no-repeat;
   width: 31px;
   height: 24px;
   margin: -12px 0 0 -15px;
 }
-/* line 455, ../sass/popups.scss */
+/* line 456, ../sass/popups.scss */
 .popup_users .viewsicon {
   background: url('../img/common-s447a2e30b1.png') -196px -28px no-repeat;
   width: 27px;
@@ -636,14 +641,14 @@
   margin: -8px 0 0 -14px;
 }
 
-/* line 460, ../sass/popups.scss */
+/* line 461, ../sass/popups.scss */
 .users {
   border-radius: 0 0 4px 4px;
   height: 360px;
   width: 476px;
   padding: 0;
 }
-/* line 465, ../sass/popups.scss */
+/* line 466, ../sass/popups.scss */
 .users .users__item {
   overflow: hidden;
   border-bottom: 1px solid #ebebeb;
@@ -652,11 +657,11 @@
   padding: 0 0 0 15px;
   width: 444px;
 }
-/* line 472, ../sass/popups.scss */
+/* line 473, ../sass/popups.scss */
 .users .users__item:last-child {
   border-radius: 0 0 4px 4px;
 }
-/* line 476, ../sass/popups.scss */
+/* line 477, ../sass/popups.scss */
 .users .users__pic {
   display: inline-block;
   height: 30px;
@@ -664,7 +669,7 @@
   border-radius: 15px;
   vertical-align: middle;
 }
-/* line 483, ../sass/popups.scss */
+/* line 484, ../sass/popups.scss */
 .users .users__name {
   font-size: 14px;
   color: #000;
@@ -673,7 +678,7 @@
   text-decoration: none;
   vertical-align: middle;
 }
-/* line 491, ../sass/popups.scss */
+/* line 492, ../sass/popups.scss */
 .users .button {
   width: 100px;
   padding: 4px 0;
