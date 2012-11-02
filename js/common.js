@@ -160,15 +160,22 @@ $(document).ready(function() {
 
 
 //textarea
+
 	$('.mess_add-closed textarea').click(function(){
 		$(this).parents('.mess_add-closed').removeClass('mess_add-closed');
 	})
 	
-	if ($('.discover').exists()){
+	if ($('.mess__visual textarea').exists()){
 		$(document).ready(function(){
 			$('.mess__visual textarea').autosize();  
 		});
 	};
+	if ($('.compose__textarea').exists()){
+		$(document).ready(function(){
+			$('.compose__textarea').autosize();  
+		});
+	};
+
 
 
 //start reading | reading
