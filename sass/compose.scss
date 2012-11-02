@@ -3,6 +3,7 @@
 .top_compose{
 	font-size: 14px;
 	.top__in{
+		background:#20b0e7;
 		@include background-image(linear-gradient(#20b0e7, #19a9df));
 		border-bottom: none;
 		border-left: none;
@@ -46,6 +47,7 @@
 			line-height: 26px;
 			padding: 0 14px;
 			box-shadow:0 1px 0 rgba(white,.2),inset 0 1px 0 rgba(white,.2);
+			background:#61d0f9;
 			@include background-image(linear-gradient(#61d0f9, #59c9f1));
 			cursor: pointer;
 		}
@@ -76,6 +78,7 @@
 		border: 1px solid #0683b3;
 		border-radius:5px;
 		box-shadow:0 1px 0 rgba(white,.2),inset 0 3px 3px -3px rgba(black,.2);
+		background:#0f9ed4;
 		@include background-image(linear-gradient(#0f9ed4, #0f9ed4));
 	}
 	.top__switcherstate{
@@ -180,6 +183,7 @@
 		border: 1px solid #d9d9d9;
 		box-shadow:0 1px 0 rgba(white,.2);
 		border-radius:4px;
+		background:#f8f8f8;
 		@include background-image(linear-gradient(left, #f8f8f8, #f0f0f0));
 		div{
 			@include transition(background-color,.3s,ease-in-out);

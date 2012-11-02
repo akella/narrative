@@ -17,38 +17,40 @@
 .top .tabs-nav li {
   border-left: 1px solid #dadada;
   padding: 0;
+  background: #fefefe;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f0f0f0));
   background-image: -webkit-linear-gradient(#fefefe, #f0f0f0);
   background-image: -moz-linear-gradient(#fefefe, #f0f0f0);
   background-image: -o-linear-gradient(#fefefe, #f0f0f0);
   background-image: linear-gradient(#fefefe, #f0f0f0);
 }
-/* line 13, ../sass/notification.scss */
+/* line 14, ../sass/notification.scss */
 .top .tabs-nav li a {
   text-decoration: none;
   color: #979797;
   padding: 4px 10px;
   display: block;
 }
-/* line 20, ../sass/notification.scss */
+/* line 21, ../sass/notification.scss */
 .top .tabs-nav li:hover {
   color: #1da9dd;
+  background: #fefefe;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #f8f8f8));
   background-image: -webkit-linear-gradient(#fefefe, #f8f8f8);
   background-image: -moz-linear-gradient(#fefefe, #f8f8f8);
   background-image: -o-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
-/* line 24, ../sass/notification.scss */
+/* line 26, ../sass/notification.scss */
 .top .tabs-nav .active a {
   color: #16AAE3;
 }
-/* line 25, ../sass/notification.scss */
+/* line 27, ../sass/notification.scss */
 .top .tabs-nav li:first-child {
   border: none;
 }
 
-/* line 30, ../sass/notification.scss */
+/* line 32, ../sass/notification.scss */
 .notif {
   width: 1000px;
   margin: 0 auto;
@@ -57,7 +59,7 @@
   z-index: 250;
   display: none;
 }
-/* line 37, ../sass/notification.scss */
+/* line 39, ../sass/notification.scss */
 .notif .mess-list {
   position: absolute;
   width: 490px;
@@ -68,84 +70,84 @@
   border: 1px solid #e8e8e8;
   box-shadow: 0 3px 18px rgba(0, 0, 0, 0.15);
 }
-/* line 47, ../sass/notification.scss */
+/* line 49, ../sass/notification.scss */
 .notif .mess {
   min-height: 86px;
 }
-/* line 49, ../sass/notification.scss */
+/* line 51, ../sass/notification.scss */
 .notif .mess .mess__text {
   width: 390px;
   margin-left: 75px;
 }
-/* line 52, ../sass/notification.scss */
+/* line 54, ../sass/notification.scss */
 .notif .mess .mess__text .mess__details {
   font-size: 12px;
   margin: 0;
   font-family: Helvetica,arial,sans-serif;
 }
-/* line 57, ../sass/notification.scss */
+/* line 59, ../sass/notification.scss */
 .notif .mess .mess__text h1 {
   font-size: 18px;
   line-height: 1.2;
   color: #222;
 }
-/* line 62, ../sass/notification.scss */
+/* line 64, ../sass/notification.scss */
 .notif .mess .mess__text p {
   font-size: 16px;
   line-height: 1.5;
   margin: 4px 0 15px;
 }
-/* line 68, ../sass/notification.scss */
+/* line 70, ../sass/notification.scss */
 .notif .mess:first-child {
   border-radius: 4px 4px 0 0;
   border-top: 0;
 }
-/* line 72, ../sass/notification.scss */
+/* line 74, ../sass/notification.scss */
 .notif .mess:last-child {
   border-radius: 0 0 4px 4px;
 }
-/* line 73, ../sass/notification.scss */
+/* line 75, ../sass/notification.scss */
 .notif .mess .mess__user {
   left: 11px;
   top: 19px;
 }
-/* line 77, ../sass/notification.scss */
+/* line 79, ../sass/notification.scss */
 .notif .mess .mess__userpic {
   height: 47px;
   width: 47px;
 }
-/* line 81, ../sass/notification.scss */
+/* line 83, ../sass/notification.scss */
 .notif .mess .mess__text-holder {
   padding-top: 14px;
   margin-bottom: 15px;
 }
-/* line 85, ../sass/notification.scss */
+/* line 87, ../sass/notification.scss */
 .notif .mess .mess__time {
   right: 9px;
   bottom: 7px;
 }
-/* line 89, ../sass/notification.scss */
+/* line 91, ../sass/notification.scss */
 .notif .mess textarea {
   width: 362px;
   height: 83px;
   resize: none;
 }
-/* line 94, ../sass/notification.scss */
+/* line 96, ../sass/notification.scss */
 .notif .mess .mess__visual {
   margin-bottom: 10px;
 }
-/* line 97, ../sass/notification.scss */
+/* line 99, ../sass/notification.scss */
 .notif form .button_reply {
   opacity: 1;
   position: static;
 }
-/* line 102, ../sass/notification.scss */
+/* line 104, ../sass/notification.scss */
 .notif .mess__userlist {
   padding: 8px 0 0;
   display: block;
   overflow: hidden;
 }
-/* line 106, ../sass/notification.scss */
+/* line 108, ../sass/notification.scss */
 .notif .mess__userlist .mess__userpic {
   width: 32px;
   height: 32px;
@@ -153,49 +155,49 @@
   box-shadow: none;
   margin-right: 9px;
 }
-/* line 115, ../sass/notification.scss */
+/* line 117, ../sass/notification.scss */
 .notif .mess__visual_reply textarea {
   height: 20px;
   resize: none;
 }
-/* line 120, ../sass/notification.scss */
+/* line 122, ../sass/notification.scss */
 .notif .load-more {
   margin-top: 0;
   text-align: left;
   padding: 14px 0 14px 75px;
 }
-/* line 124, ../sass/notification.scss */
+/* line 126, ../sass/notification.scss */
 .notif .load-more .button {
   padding: 2px 14px;
 }
-/* line 126, ../sass/notification.scss */
+/* line 128, ../sass/notification.scss */
 .notif .mess__meta {
   top: 10px;
   right: 12px;
 }
-/* line 130, ../sass/notification.scss */
+/* line 132, ../sass/notification.scss */
 .notif .mess__like, .notif .mess__share, .notif .mess__comment {
   cursor: default;
 }
-/* line 131, ../sass/notification.scss */
+/* line 133, ../sass/notification.scss */
 .notif .mess__like {
   background: url('../img/common-s447a2e30b1.png') -140px -28px no-repeat;
   width: 16px;
   height: 14px;
 }
-/* line 132, ../sass/notification.scss */
+/* line 134, ../sass/notification.scss */
 .notif .mess__share {
   background: url('../img/common-s447a2e30b1.png') -119px -28px no-repeat;
   width: 21px;
   height: 14px;
 }
-/* line 133, ../sass/notification.scss */
+/* line 135, ../sass/notification.scss */
 .notif .mess__comment {
   background: url('../img/common-s447a2e30b1.png') -169px -28px no-repeat;
   width: 15px;
   height: 15px;
 }
-/* line 134, ../sass/notification.scss */
+/* line 136, ../sass/notification.scss */
 .notif .mess-list__arr {
   height: 16px;
   width: 16px;
@@ -215,62 +217,63 @@
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 146, ../sass/notification.scss */
-.notif .new_animation {
+/* line 149, ../sass/notification.scss */
+.notif .mess__author:hover .mess-list__arr {
+  background: #fbfbfb;
+}
+
+/* line 153, ../sass/notification.scss */
+.new_animation {
   background: #fff;
   -moz-animatiom: bgcolor 1s linear 0s 1 normal forwards;
   -webkit-animation: bgcolor 1s linear 0s 1 normal forwards;
   -o-animation: bgcolor 1s linear 0s 1 normal forwards;
   animation: bgcolor 1s linear 0s 1 normal forwards;
 }
-/* line 150, ../sass/notification.scss */
-.notif .mess__author:hover .mess-list__arr {
-  background: #fbfbfb;
-}
 
 @-moz-keyframes bgcolor {
-  /* line 158, ../sass/notification.scss */
+  /* line 160, ../sass/notification.scss */
   from {
     background: #fbf9e5;
   }
 
-  /* line 159, ../sass/notification.scss */
+  /* line 161, ../sass/notification.scss */
   to {
     background: #fff;
   }
 }
 
 @-webkit-keyframes bgcolor {
-  /* line 163, ../sass/notification.scss */
+  /* line 165, ../sass/notification.scss */
   from {
     background: #fbf9e5;
   }
 
-  /* line 164, ../sass/notification.scss */
+  /* line 166, ../sass/notification.scss */
   to {
     background: #fff;
   }
 }
 
 @-o-keyframes bgcolor {
-  /* line 168, ../sass/notification.scss */
+  /* line 170, ../sass/notification.scss */
   from {
     background: #fbf9e5;
   }
 
-  /* line 169, ../sass/notification.scss */
+  /* line 171, ../sass/notification.scss */
   to {
     background: #fff;
   }
 }
 
 @keyframes bgcolor {
-  /* line 173, ../sass/notification.scss */
+  /* line 175, ../sass/notification.scss */
   from {
     background: #fbf9e5;
   }
 
-  /* line 174, ../sass/notification.scss */
+  /* line 176, ../sass/notification.scss */
   to {
     background: #fff;
   }

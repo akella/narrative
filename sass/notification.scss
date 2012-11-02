@@ -9,6 +9,7 @@
 	li{
 		border-left:1px solid #dadada;
 		padding:0;
+		background:#fefefe;
 		@include background-image(linear-gradient(#fefefe, #f0f0f0));
 		a{
 			text-decoration:none;
@@ -19,6 +20,7 @@
 	}
 	li:hover{
 		color: #1da9dd;
+		background:#fefefe;
 		@include background-image(linear-gradient(#fefefe, #f8f8f8));
 	}
 	.active a{color:#16AAE3;}

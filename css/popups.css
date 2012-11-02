@@ -593,6 +593,7 @@
 .popup_users .popup_users__top {
   height: 41px;
   border-bottom: 1px solid #ebebeb;
+  background: #fff;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
   background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
@@ -606,34 +607,34 @@
   line-height: 41px;
   position: relative;
 }
-/* line 439, ../sass/popups.scss */
+/* line 440, ../sass/popups.scss */
 .popup_users .likeicon, .popup_users .commenticon, .popup_users .shareicon, .popup_users .viewsicon {
   position: absolute;
   top: 50%;
   left: 50%;
 }
-/* line 444, ../sass/popups.scss */
+/* line 445, ../sass/popups.scss */
 .popup_users .likeicon {
   background: url('../img/common-s447a2e30b1.png') -397px -28px no-repeat;
   width: 21px;
   height: 18px;
   margin: -9px 0 0 -10px;
 }
-/* line 448, ../sass/popups.scss */
+/* line 449, ../sass/popups.scss */
 .popup_users .commenticon {
   background: url('../img/common-s447a2e30b1.png') -56px -1px no-repeat;
   width: 18px;
   height: 19px;
   margin: -12px 0 0 -9px;
 }
-/* line 452, ../sass/popups.scss */
+/* line 453, ../sass/popups.scss */
 .popup_users .shareicon {
   background: url('../img/common-s447a2e30b1.png') -92px -97px no-repeat;
   width: 31px;
   height: 24px;
   margin: -12px 0 0 -15px;
 }
-/* line 456, ../sass/popups.scss */
+/* line 457, ../sass/popups.scss */
 .popup_users .viewsicon {
   background: url('../img/common-s447a2e30b1.png') -196px -28px no-repeat;
   width: 27px;
@@ -641,14 +642,14 @@
   margin: -8px 0 0 -14px;
 }
 
-/* line 461, ../sass/popups.scss */
+/* line 462, ../sass/popups.scss */
 .users {
   border-radius: 0 0 4px 4px;
   height: 360px;
   width: 476px;
   padding: 0;
 }
-/* line 466, ../sass/popups.scss */
+/* line 467, ../sass/popups.scss */
 .users .users__item {
   overflow: hidden;
   border-bottom: 1px solid #ebebeb;
@@ -657,11 +658,11 @@
   padding: 0 0 0 15px;
   width: 444px;
 }
-/* line 473, ../sass/popups.scss */
+/* line 474, ../sass/popups.scss */
 .users .users__item:last-child {
   border-radius: 0 0 4px 4px;
 }
-/* line 477, ../sass/popups.scss */
+/* line 478, ../sass/popups.scss */
 .users .users__pic {
   display: inline-block;
   height: 30px;
@@ -669,7 +670,7 @@
   border-radius: 15px;
   vertical-align: middle;
 }
-/* line 484, ../sass/popups.scss */
+/* line 485, ../sass/popups.scss */
 .users .users__name {
   font-size: 14px;
   color: #000;
@@ -678,7 +679,7 @@
   text-decoration: none;
   vertical-align: middle;
 }
-/* line 492, ../sass/popups.scss */
+/* line 493, ../sass/popups.scss */
 .users .button {
   width: 100px;
   padding: 4px 0;
