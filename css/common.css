@@ -240,12 +240,8 @@ header, footer, article, nav, section {
 .icon_user .control-nav a {
   padding-top: 3px;
 }
-/* line 165, ../sass/common.scss */
-.icon_user:hover .control-nav {
-  display: block;
-}
 
-/* line 167, ../sass/common.scss */
+/* line 166, ../sass/common.scss */
 .icon_back {
   position: absolute;
   left: -53px;
@@ -256,7 +252,7 @@ header, footer, article, nav, section {
   height: 43px;
 }
 
-/* line 175, ../sass/common.scss */
+/* line 174, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -267,12 +263,12 @@ header, footer, article, nav, section {
   padding: 43px 0 0px 0;
 }
 
-/* line 185, ../sass/common.scss */
+/* line 184, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 188, ../sass/common.scss */
+/* line 187, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
   background: url('../img/common-s447a2e30b1.png') -257px -97px no-repeat;

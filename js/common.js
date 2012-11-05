@@ -119,6 +119,7 @@ $(document).ready(function() {
 			notif.find('.mess__author').removeClass('new_animation');
 			notif.find('.mess-list__arr').removeClass('new_animation');
 			$(this).removeClass('icon_active');
+			/*$('body').css('minHeight', 'auto');*/
 			$('.popup-wrap-tr').hide();
 		}
 		else{
@@ -127,6 +128,8 @@ $(document).ready(function() {
 			notif.find('.mess-list__arr').addClass('new_animation');
 			$(this).addClass('icon_active');
 			$('.popup-wrap-tr').show();
+			/*var bh = notif.children('.mess-list').height();
+			$('body').css('minHeight', bh + 83);*/
 		}
 	});
 
@@ -150,20 +153,36 @@ $(document).ready(function() {
 		}
 	);
 
+//control-nav
+	$('.icon_user').click(function(){
+		$(this).children('.control-nav').fadeToggle('fast');
+	});
+	$('.control-nav__arr').click(function(){
+		$(this).next('.control-nav').fadeToggle('fast');
+	});
+	$('.control-nav').hover(
+		function () {},
+		function () {
+			$(this).delay('300').fadeOut();
+		}
+	);
+	
 
 //discover
 	if ($('.discover').exists()){
 		$('.discover .l').masonry({
 			itemSelector: '.post_small',
+			isAnimated: true
 		});
 	};
+// Это надо удалить и сделать настоящее добавление новостей.
+	$('#append').click(function(){
+		var $box = $('.append-post .post').clone().css({'top':'auto','left':'-3000px'});
+		$('.discover .l').append( $box ).masonry( 'appended', $box );
 
+	});
 
 //textarea
-
-	$('.mess_add-closed textarea').click(function(){
-		$(this).parents('.mess_add-closed').removeClass('mess_add-closed');
-	})
 	
 	if ($('.mess__visual textarea').exists()){
 		$(document).ready(function(){
@@ -175,7 +194,15 @@ $(document).ready(function() {
 			$('.compose__textarea').autosize();  
 		});
 	};
-
+	if ($('.mess_add-closed').exists()){
+		$(document).ready(function(){
+			$('.mess_add-closed textarea').height(23);
+		});
+	};
+	$('.mess_add-closed textarea').click(function(){
+		$(this).parents('.mess_add-closed').removeClass('mess_add-closed');
+		$(this).height('125');
+	});
 
 
 //start reading | reading
@@ -187,6 +214,13 @@ $(document).ready(function() {
 			$(this).addClass('button_active').html('Reading');
 		}
 	});
+
+
+//gender
+	$('.gender li').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+
 
 
 // slider
