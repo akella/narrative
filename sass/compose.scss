@@ -205,6 +205,7 @@
 	padding: 11px 10px 14px 10px;
 	.wyswyg__photo{
 		margin-bottom: 4px;
+		position: relative;
 		@include sized-sprite($icons, addphoto1);
 		&:hover{
 			@include sized-sprite($icons, addphoto1hover);
@@ -262,6 +263,7 @@
 	}
 	.wyswyg__video{
 		@include sized-sprite($icons, videook);
+		position: relative;
 		&:hover{
 			@include sized-sprite($icons, videohover);
 			background-color:#fff;
@@ -276,11 +278,131 @@
 	}
 	.wyswyg__link{
 		@include sized-sprite($icons, linkok);
+		position: relative;
 		&:hover{
 			@include sized-sprite($icons, linkhover);
 			background-color:#fff;
 		}
 	}
-
+	.wyswyg__drop{
+		position: absolute;
+		box-shadow:0 1px 4px 0 rgba(0,0,0,0.15);
+		border:1px solid #d7d7d7 !important;
+		top:-1px;
+		right:46px;
+		background:#fff;
+		border-radius:5px;
+		z-index:20;
+		display: none;
+		.wyswyg__drop-arr{
+			height:16px;
+			width:16px;
+			@include rotate(45deg);
+			border-radius:4px;
+			position: absolute;
+			right:-6px;
+			background:#fff;
+			@include transition(all, .2s, ease-in-out);
+			box-shadow:0 1px 4px 0 rgba(0,0,0,0.15);
+			border:1px solid #d7d7d7;
+			z-index:25;
+			top:10px;
+		}
+		form{
+			padding:20px;
+			position: relative;
+			background:#fff;
+			border-radius:5px;
+			z-index:30;
+		}
+		.rows{
+			background:#f2f2f2;
+			border:1px solid #d9d9d9;
+			border-radius:4px;
+		}
+		.input{
+			color:#939393;
+			font-size:14px;
+			border:0;
+			border-top:1px solid #d9d9d9;
+			padding:2px 10px;
+			height:24px;
+			line-height:24px;
+			background:none;
+			width:272px;
+			&:first-child{
+				border:none;
+			}
+		}
+		.button{
+			padding: 5px 15px;
+			position: absolute;
+			right: 26px;
+			bottom: 24px;
+			font-size:12px;
+			padding: 2px 8px;
+		}
+		label{
+			color:#a8a8a8;
+			font-size:12px;
+			font-weight:bold;
+			display: block;
+			margin: -10px 0 5px;
+		}
+	}
+	.wyswyg__drop_photo{
+		list-style: none;
+		top:-10px;
+		li{
+			border-top:1px solid #e5e5e5;
+			&:first-child{
+				border:none;
+				a{border-radius:5px 5px 0 0;}
+			}
+			&:last-child a{border-radius:0 0 5px 5px;}
+			&:hover{
+				background:#ececec;
+				color:#11b0eb;
+				.wyswyg__drop-arr{background:#ececec;}
+			}
+		}
+		a{
+			display: block;
+			height:37px;
+			line-height:37px;
+			font-size:12px;
+			font-weight:bold;
+			color:#a8a8a8;
+			padding:0 11px;
+			white-space:nowrap;
+			width:167px;
+			position: relative;
+			z-index:30;
+			background:#fff;
+			@include transition(all, .2s, ease-in-out);
+			span{
+				display: inline-block;
+				vertical-align: middle;
+				margin-right:9px;
+				position: relative;
+				top:-2px;
+			}
+			.photo_1{@include sized-sprite($icons, "drop-img-1");}
+			.photo_g{@include sized-sprite($icons, "drop-img-g");}
+			.photo_31{@include sized-sprite($icons, "drop-img-31");}
+			.photo_12{@include sized-sprite($icons, "drop-img-12");}
+			.photo_11{@include sized-sprite($icons, "drop-img-11");}
+			&:hover{
+				background:#ececec;
+				color:#11b0eb;
+				.photo_1{@include sized-sprite($icons, "drop-img-1_hover");}
+				.photo_g{@include sized-sprite($icons, "drop-img-g_hover");}
+				.photo_31{@include sized-sprite($icons, "drop-img-31_hover");}
+				.photo_12{@include sized-sprite($icons, "drop-img-12_hover");}
+				.photo_11{@include sized-sprite($icons, "drop-img-11_hover");}
+				.wyswyg__drop-arr{background:#ececec;}
+			}
+		}
+	}
 }
 .top-no-indent{padding-top:0;}

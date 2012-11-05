@@ -153,6 +153,7 @@ $(document).ready(function() {
 		}
 	);
 
+
 //control-nav
 	$('.icon_user').click(function(){
 		$(this).children('.control-nav').fadeToggle('fast');
@@ -175,15 +176,15 @@ $(document).ready(function() {
 			isAnimated: true
 		});
 	};
-// Это надо удалить и сделать настоящее добавление новостей.
+	// add new posts
 	$('#append').click(function(){
 		var $box = $('.append-post .post').clone().css({'top':'auto','left':'-3000px'});
 		$('.discover .l').append( $box ).masonry( 'appended', $box );
 
 	});
 
+
 //textarea
-	
 	if ($('.mess__visual textarea').exists()){
 		$(document).ready(function(){
 			$('.mess__visual textarea').autosize();  
@@ -221,6 +222,20 @@ $(document).ready(function() {
 		$(this).addClass('active').siblings().removeClass('active');
 	});
 
+
+//wyswyg
+	$('.wyswyg__photo').click(function(){
+		$(this).children('.wyswyg__drop').fadeToggle('fast');
+	});
+	$('.wyswyg__video, .wyswyg__link').click(function(){
+		$(this).children('.wyswyg__drop').fadeIn('fast');
+	});
+	$('.wyswyg__drop').hover(
+		function () {},
+		function () {
+			$(this).delay('300').fadeOut();
+		}
+	);
 
 
 // slider
