@@ -225,9 +225,11 @@ $(document).ready(function() {
 
 //wyswyg
 	$('.wyswyg__photo').click(function(){
+		$('.wyswyg__drop').fadeOut('fast');
 		$(this).children('.wyswyg__drop').fadeToggle('fast');
 	});
 	$('.wyswyg__video, .wyswyg__link').click(function(){
+		$('.wyswyg__drop').fadeOut('fast');
 		$(this).children('.wyswyg__drop').fadeIn('fast');
 	});
 	$('.wyswyg__drop').hover(
@@ -236,6 +238,19 @@ $(document).ready(function() {
 			$(this).delay('300').fadeOut();
 		}
 	);
+
+
+//top__switcher
+	$('.top__switchercompose').click(function(){
+		if ($(this).parent().hasClass('top__switcher_2')) {
+			$(this).parent().addClass('top__switcher_1').removeClass('top__switcher_2');
+		};	
+	});
+	$('.top__switcherpreview').click(function(){
+		if ($(this).parent().hasClass('top__switcher_1')) {
+			$(this).parent().addClass('top__switcher_2').removeClass('top__switcher_1');
+		};
+	});
 
 
 // slider

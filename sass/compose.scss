@@ -102,6 +102,7 @@
 		position: absolute;
 		right: 2px;
 		top: 2px;
+		cursor:pointer;
 		@include sized-sprite($icons, switch_edit);
 	}
 	.top__switcherpreview{
@@ -109,9 +110,10 @@
 		right: 35px;
 		top: 2px;
 		z-index:4;
+		cursor:pointer;
 		@include sized-sprite($icons, switcher_preview);
 	}
-	.top__switcher_2,.top__switcher:hover{
+	.top__switcher_2{
 		.top__switcherstate{
 			right: 33px;
 		}
