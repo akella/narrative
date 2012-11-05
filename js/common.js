@@ -225,17 +225,32 @@ $(document).ready(function() {
 
 //wyswyg
 	$('.wyswyg__photo').click(function(){
-		$('.wyswyg__drop').fadeOut('fast');
+		$(this).next().children().children('.wyswyg__drop').fadeOut('fast');
 		$(this).children('.wyswyg__drop').fadeToggle('fast');
 	});
 	$('.wyswyg__video, .wyswyg__link').click(function(){
-		$('.wyswyg__drop').fadeOut('fast');
+		$(this).siblings().children('.wyswyg__drop').fadeOut('fast');
+		$(this).parent().prev().children('.wyswyg__drop').fadeOut('fast');
 		$(this).children('.wyswyg__drop').fadeIn('fast');
 	});
 	$('.wyswyg__drop').hover(
 		function () {},
 		function () {
 			$(this).delay('300').fadeOut();
+		}
+	);
+
+
+//compose__drop
+	$('.top__publishlabel, .top__drafts').click(function(){
+		$(this).children('.compose__drop').fadeIn('fast');
+		$(this).addClass('active');
+	});
+	$('.compose__drop').hover(
+		function () {},
+		function () {
+			$(this).delay('300').fadeOut();
+			$(this).parent().removeClass('active');
 		}
 	);
 
