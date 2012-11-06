@@ -131,7 +131,7 @@ header, footer, article, nav, section {
 }
 /* line 96, ../sass/common.scss */
 .icon:hover {
-  box-shadow: inset 0 0 12px 5px rgba(170, 170, 170, 0.05);
+  box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.09);
   background-color: #fafafa;
 }
 /* line 100, ../sass/common.scss */
