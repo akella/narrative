@@ -3,6 +3,7 @@
 // .whatever{@include sized-sprite($icons, badge_hit);}
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
+
 body{
 	font: {
 	    family: Helvetica, arial, sans-serif;
@@ -70,7 +71,7 @@ header,footer,article,nav,section{display: block;}
 		@include sized-sprite($icons, narrativesmall);
 	}
 }
-
+.top{-webkit-transform: translateZ(0);}
 .top_sign-up{
 	color: #9c9c9c;
 	font:bold 14px/42px Arial,Helvetica,sans-serif;

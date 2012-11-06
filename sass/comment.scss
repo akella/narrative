@@ -201,6 +201,7 @@
 	border-radius:4px;
 	padding:35px 50px 15px;
 	margin-top:15px;
+	box-shadow:0 1px 3px 0 rgba(0,0,0,0.05);
 }
 .mess__text-ans-l2{
 	padding:35px 50px 15px 100px;
@@ -252,7 +253,8 @@
 	}
 }
 .mess_last{
-	position: relative;
+	position:relative;
+
 	.mess__text{
 		border-radius:0 0 4px 4px;
 		margin-bottom:-5px;
@@ -274,6 +276,7 @@
 		content:"";
 		@include transition(all, .2s, ease-in-out);
 	}
+	&:last-child .mess__text{box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05);}
 }
 .mess__like{
 	@include sized-sprite($icons, "like1");
@@ -343,7 +346,7 @@
 			color:#999;
 			text-align:left;
 			a{
-				color:#919191;
+				color:#b3b3b3;
 				text-decoration:none;
 				display:block;
 				height:41px;
