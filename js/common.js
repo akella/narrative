@@ -256,9 +256,16 @@ $(document).ready(function() {
 
 
 //compose__drop
-	$('.top__publishlabel, .top__drafts').click(function(){
+	$('.top__drafts').click(function(){
 		$(this).children('.compose__drop').fadeIn('fast');
 		$(this).addClass('active');
+		$(this).next().children().removeClass('active').children('.compose__drop').fadeOut();
+	});
+	$('.top__publishlabel').click(function(){
+		$(this).children('.compose__drop').fadeIn('fast');
+		$(this).addClass('active');
+		$(this).parent().prev().removeClass('active').children('.compose__drop').fadeOut();
+
 	});
 	$('.compose__drop').hover(
 		function () {},

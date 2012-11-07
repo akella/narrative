@@ -152,6 +152,141 @@
 		@include sized-sprite($icons, imageupload);
 		display: inline-block;
 	}
+	.loader{
+		display: inline-block;
+	}
+}
+.image-container{
+	position: relative;
+}
+.figure_many .image-container{
+	float: left;
+}
+.manag-block{
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+.image-manag{
+	float: left;
+	background:#515050;
+	border-radius:3px;
+	margin-right:10px;
+	color:#fff;
+	height:23px;
+	cursor:pointer;
+	font:11px/23px Helvetica,arial,sans-serif;
+	div{
+		text-align:center;
+		width:33px;
+		float: left;
+		padding:0;
+		line-height: 21px;
+		padding-bottom:2px;
+		background:#515050;
+		&:hover{background:#11b0eb;}
+	}
+	div:first-child{
+		border-right:1px solid #626262;
+		border-radius:3px 0 0 3px;
+	}
+	div:last-child{
+		border-radius:0 3px 3px 0;
+	}
+	.image-remove{
+		@include sized-sprite($icons, "remove-2");
+		display: inline-block;
+		vertical-align:middle;
+	}
+	.image-move{
+		@include sized-sprite($icons, "move");
+		display: inline-block;
+		vertical-align:middle;
+	}
+	.image-order{
+		@include sized-sprite($icons, "order");
+		display: inline-block;
+		vertical-align:middle;
+	}
+	.image-size-l{
+		@include sized-sprite($icons, "size-l");
+		display: inline-block;
+		vertical-align:middle;
+	}
+	.image-size-m{
+		@include sized-sprite($icons, "size-m");
+		display: inline-block;
+		vertical-align:middle;
+	}
+	&.image-cancel{padding:0 12px;}
+	&.image-save{
+		padding:0 12px;
+	}
+	&:hover{background:#11b0eb;}
+}
+.image-border{
+	border:2px solid #11b0eb;
+	border-radius:4px;
+	overflow: hidden;
+	position: relative;
+}
+.figure_many .image-border {
+	box-shadow:0 0 0 2px #11b0eb;
+	border:0;
+	border-radius:1px;
+}
+.slider__slides .image-container{
+	border:2px solid #11b0eb;
+	display: inline-block;
+	margin-top:2px;
+	border-radius:4px;
+	overflow: hidden;
+	img{vertical-align: top;}
+}
+.slider-builder{
+	margin-bottom:30px;
+	.image-border{
+		background:#c9c9c9;
+		width:550px;
+		padding:57px 45px;
+		height:342px;
+		margin:0 auto;
+	}
+	.image-m{
+		text-align: center;
+		margin:0 10px;
+		display: inline-block;
+		.image-m__holder{
+			height:79px;
+			width:112px;
+			border:2px dashed #fff;
+			border-radius:4px;
+			cursor:pointer;
+		}
+		span{
+			font-size:12px;
+			color:#fff;
+			display: block;
+		}
+		img{
+			vertical-align: top;
+			box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
+			cursor:pointer;
+		}
+	}
+	.devider{
+		display: inline-block;
+		width:0;
+		height:104px;
+		border-left:2px solid #11b0eb;
+	}
+}
+.image-move-ico{
+	@include sized-sprite($icons, "move-icon");
+	position: absolute;
+	top:90px;
+	left:285px;
+	cursor:pointer;
 }
 .compose__title{
 	font-size: 44px;
@@ -427,6 +562,7 @@
 .compose__drop{
 	box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
 	background:#fff;
+	border:1px solid #ebe7e7;
 	position: absolute;
 	width:382px;
 	top:45px;
