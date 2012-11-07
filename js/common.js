@@ -288,7 +288,6 @@ $(document).ready(function() {
 	})
 
 
-
 // slider
 	$('.slider').each(function(){
 		show = $(this);
