@@ -47,7 +47,9 @@
 		box-shadow:0 3px 18px rgba(0,0,0,.15);
 	}
 	.mess{
-		min-height:86px;
+		@include clr;
+		padding-bottom:10px;
+		//min-height:86px;
 		border-top:none;
 		border-bottom: 1px solid #E6E6E6;
 		&:last-child{border-bottom:none;}

@@ -11,7 +11,7 @@
 		border-top:1px solid #e6e6e6;
 		background:none;
 		box-shadow:none;
-		@include transition(all, .2s, ease-in-out);
+		@include transition(background, .2s, ease-in-out);
 		&:hover{
 			background:#fbfbfb;
 			.button_reply{opacity:1;}
