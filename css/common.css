@@ -180,9 +180,10 @@ header, footer, article, nav, section {
 }
 /* line 126, ../sass/common.scss */
 .icon_comments span {
-  font: 8px/12px Helvetica, sans-serif;
+  font: 8px/8px Helvetica, sans-serif;
+  padding: 2px 0;
   color: #fff;
-  height: 12px;
+  height: 8px;
   width: 12px;
   display: block;
   text-align: center;
@@ -198,20 +199,20 @@ header, footer, article, nav, section {
   margin: 14px 0 0 20px;
 }
 
-/* line 141, ../sass/common.scss */
+/* line 142, ../sass/common.scss */
 .icon_compass {
   background: url('../img/common-s83ad53eaf5.png') -136px -164px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 143, ../sass/common.scss */
+/* line 144, ../sass/common.scss */
 .icon_compass.icon_active {
   background: url('../img/common-s83ad53eaf5.png') -396px -164px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 147, ../sass/common.scss */
+/* line 148, ../sass/common.scss */
 .icon_add {
   background: url('../img/common-s83ad53eaf5.png') -380px -120px no-repeat;
   width: 52px;
@@ -223,30 +224,30 @@ header, footer, article, nav, section {
   margin-bottom: -1px;
 }
 
-/* line 155, ../sass/common.scss */
+/* line 156, ../sass/common.scss */
 .icon_user {
   background: url('../img/common-s83ad53eaf5.png') -225px -120px no-repeat;
   width: 52px;
   height: 43px;
   position: relative;
 }
-/* line 158, ../sass/common.scss */
+/* line 159, ../sass/common.scss */
 .icon_user.icon_active {
   background: url('../img/common-s83ad53eaf5.png') -448px -164px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 161, ../sass/common.scss */
+/* line 162, ../sass/common.scss */
 .icon_user .control-nav {
   top: 53px;
   right: -2px;
 }
-/* line 164, ../sass/common.scss */
+/* line 165, ../sass/common.scss */
 .icon_user .control-nav a {
   padding-top: 3px;
 }
 
-/* line 167, ../sass/common.scss */
+/* line 168, ../sass/common.scss */
 .icon_back {
   position: absolute;
   left: -53px;
@@ -257,7 +258,7 @@ header, footer, article, nav, section {
   height: 43px;
 }
 
-/* line 175, ../sass/common.scss */
+/* line 176, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -268,12 +269,12 @@ header, footer, article, nav, section {
   padding: 43px 0 0px 0;
 }
 
-/* line 185, ../sass/common.scss */
+/* line 186, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 188, ../sass/common.scss */
+/* line 189, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
   background: url('../img/common-s83ad53eaf5.png') -268px -75px no-repeat;

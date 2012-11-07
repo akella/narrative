@@ -58,11 +58,26 @@ $(document).ready(function() {
 		}
 	};
 
+
 	$('.popup__close').click(function(){
 		$(this).parents('.popup').fadeOut('fast');
 		$('.popup-wrap-tr').hide();
 		$('.popup-wrap').fadeOut('fast');
 	});
+
+
+// wyswyg
+	if ($('.wyswyg').exists()){
+		$(window).scroll(function(){
+			if ($(window).scrollTop() > 150) {
+				$('.wyswyg').css({'position':'fixed','top':'50px'});
+			}
+			else{
+				$('.wyswyg').css({'position':'absolute','top':'200px'});
+			}
+		});
+	}
+
 
 //popup-users
 	$('.post__likes-more').click(function(){
@@ -114,26 +129,24 @@ $(document).ready(function() {
 
 //notification
 	$('.icon_comments').click(function(){
-		var notif = $('.notif')
+		var notif = $('.notif');
 		if ($(this).hasClass('icon_active')){
 			notif.fadeOut('fast');
-			notif.find('.mess__author').removeClass('new_animation');
-			notif.find('.mess-list__arr').removeClass('new_animation');
 			$(this).removeClass('icon_active');
-			/*$('body').css('minHeight', 'auto');*/
 			$('.popup-wrap-tr').hide();
 		}
 		else{
 			notif.fadeIn('fast');
-			notif.find('.mess__author').addClass('new_animation');
-			notif.find('.mess-list__arr').addClass('new_animation');
 			$(this).addClass('icon_active');
 			$('.popup-wrap-tr').show();
-			/*var bh = notif.children('.mess-list').height();
-			$('body').css('minHeight', bh + 83);*/
-		}
+			if ($(window).height() < (notif.children('.mess-list').height() + 83)){
+				notif.children('.mess-list').height($(window).height()-83).css({'overflow':'auto'});
+			}
+			else {
+				notif.children('.mess-list').height('auto').css({'overflow':'visible'});
+			};
+		};
 	});
-
 	$('.popup-wrap-tr').click(function(){
 		if ($('.notif').is(':visible')){
 			$('.notif').fadeOut('fast');
@@ -267,6 +280,13 @@ $(document).ready(function() {
 			$(this).parent().addClass('top__switcher_2').removeClass('top__switcher_1');
 		};
 	});
+
+
+//new-new
+	$('.new-new').delay('2000').slideDown('slow',function(){
+		$(this).addClass('new_animation');
+	})
+
 
 
 // slider

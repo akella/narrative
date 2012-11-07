@@ -48,6 +48,12 @@
 	}
 	.mess{
 		min-height:86px;
+		border-top:none;
+		border-bottom: 1px solid #E6E6E6;
+		&:last-child{border-bottom:none;}
+		form{
+			width:394px;
+		}
 		.mess__text{
 			width:390px;
 			margin-left:75px;
@@ -123,6 +129,8 @@
 		margin-top:0;
 		text-align:left;
 		padding:14px 0 14px 75px;
+		border:none;
+		box-shadow:none;
 		.button{padding:2px 14px;}
 	}
 	.mess__meta{
@@ -134,44 +142,39 @@
 	.mess__share{@include sized-sprite($icons, "share2");}
 	.mess__comment{@include sized-sprite($icons, "commenticon2");}
 	.mess-list__arr{
-		height:16px;
-		width:16px;
-		@include rotate(45deg);
-		border-radius:4px;
+		background: url("../img/common-s83ad53eaf5.png") no-repeat scroll -9px -22px transparent;
+		height: 10px;
 		position: absolute;
 		left:61px;
-		top:-7px;
-		background:#fbf9e5;
-		@include transition(all, .2s, ease-in-out);
-	}
-
-
-	.mess__author:hover .mess-list__arr{
-		background:#fbfbfb;
+		top: 1px;
+		width: 21px;
+		z-index:100;
 	}
 }
-.new_animation{
-	background:#fff;;
-	@include animation(bgcolor, 1s, linear, 1, forwards);
+.mess-list .new_animation{
+	background:#fbf9e5;
+	@include animation(bgcolor, 2s, linear, 1, forwards);
+	&:hover{background:#fbf9e5;}
 }
+.new-new{display: none;}
 
 @-moz-keyframes bgcolor
 {
-	from {background: #fbf9e5;}
-	to {background: #fff;}
+	from {background: #fff;}
+	to {background: #fbf9e5;}
 }
 @-webkit-keyframes bgcolor
 {
-	from {background: #fbf9e5;}
-	to {background: #fff;}
+	from {background: #fff;}
+	to {background: #fbf9e5;}
 }
 @-o-keyframes bgcolor
 {
-	from {background: #fbf9e5;}
-	to {background: #fff;}
+	from {background: #fff;}
+	to {background: #fbf9e5;}
 }
 @keyframes bgcolor
 {
-	from {background:#fbf9e5;}
-	to {background:#fff;}
+	from {background:#fff;}
+	to {background:#fbf9e5;}
 }
