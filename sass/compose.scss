@@ -8,6 +8,11 @@
 		border-bottom: none;
 		border-left: none;
 		border-right: none;
+		position: absolute;
+		top:0;
+		left:50%;
+		margin-left:-500px;
+		border-bottom:1px solid #aeaeae;
 	}
 	.top__drafts{
 		float: left;

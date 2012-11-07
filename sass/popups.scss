@@ -9,6 +9,7 @@
 	height:100%;
 	width:100%;
 	z-index:200;
+	display:none;
 }
 .popup-wrap-tr{
 	position:fixed;
@@ -439,6 +440,7 @@
 	width:480px;
 	background:#fff;
 	display: none;
+	margin-left:-240px;
 	.popup_users__top{
 		height:41px;
 		border-bottom:1px solid #ebebeb;

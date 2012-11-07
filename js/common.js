@@ -67,6 +67,7 @@ $(document).ready(function() {
 //popup-users
 	$('.post__likes-more').click(function(){
 		$('.popup_users').fadeIn('fast');
+		$('.popup-wrap').fadeIn('fast');
 	});
 
 //checkbox
