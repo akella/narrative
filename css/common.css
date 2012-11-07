@@ -1,4 +1,3 @@
-@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
@@ -51,6 +50,7 @@ header, footer, article, nav, section {
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
   background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
   background-image: -o-linear-gradient(#ffffff, #f7f7f7);
+  background-image: -ms-linear-gradient(#ffffff, #f7f7f7);
   background-image: linear-gradient(#ffffff, #f7f7f7);
   border: 1px solid #ccc;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -180,7 +180,7 @@ header, footer, article, nav, section {
 }
 /* line 126, ../sass/common.scss */
 .icon_comments span {
-  font: 8px/8px Helvetica, sans-serif;
+  font: 8px/9px Helvetica, sans-serif;
   padding: 2px 0;
   color: #fff;
   height: 8px;
@@ -195,6 +195,7 @@ header, footer, article, nav, section {
   background-image: -webkit-linear-gradient(#1db2eb, #16abe3);
   background-image: -moz-linear-gradient(#1db2eb, #16abe3);
   background-image: -o-linear-gradient(#1db2eb, #16abe3);
+  background-image: -ms-linear-gradient(#1db2eb, #16abe3);
   background-image: linear-gradient(#1db2eb, #16abe3);
   margin: 14px 0 0 20px;
 }
