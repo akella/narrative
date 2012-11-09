@@ -1,3 +1,4 @@
+@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
@@ -41,7 +42,7 @@
 }
 /* line 35, ../sass/popups.scss */
 .popup .popup__close {
-  background: url('../img/common-s83ad53eaf5.png') -17px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -144px -1px no-repeat;
   width: 17px;
   height: 17px;
   position: absolute;
@@ -51,7 +52,7 @@
 }
 /* line 41, ../sass/popups.scss */
 .popup .popup__close:hover {
-  background: url('../img/common-s83ad53eaf5.png') -46px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -127px -1px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -145,7 +146,7 @@
 
 /* line 119, ../sass/popups.scss */
 .social__fb {
-  background: url('../img/common-s83ad53eaf5.png') -364px -75px no-repeat;
+  background: url('../img/common-s2da0677168.png') -457px -70px no-repeat;
   width: 32px;
   height: 33px;
   cursor: pointer;
@@ -153,7 +154,7 @@
 
 /* line 123, ../sass/popups.scss */
 .social__tw {
-  background: url('../img/common-s83ad53eaf5.png') -420px -75px no-repeat;
+  background: url('../img/common-s2da0677168.png') 0 -148px no-repeat;
   width: 32px;
   height: 34px;
   cursor: pointer;
@@ -218,7 +219,7 @@
 /* line 172, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
-  background: url('../img/common-s83ad53eaf5.png') 0 -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -93px -1px no-repeat;
   width: 17px;
   height: 17px;
   margin-right: 8px;
@@ -228,7 +229,7 @@
 }
 /* line 181, ../sass/popups.scss */
 .reg-form .input-mess__error span {
-  background: url('../img/common-s83ad53eaf5.png') -73px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -110px -1px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -242,7 +243,7 @@
 }
 /* line 189, ../sass/popups.scss */
 .reg-form .icon-location {
-  background: url('../img/common-s83ad53eaf5.png') -121px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -161px -1px no-repeat;
   width: 18px;
   height: 18px;
   position: absolute;
@@ -300,25 +301,25 @@
 }
 /* line 236, ../sass/popups.scss */
 .reg-form .gender .gender__male {
-  background: url('../img/common-s83ad53eaf5.png') -32px -164px no-repeat;
+  background: url('../img/common-s2da0677168.png') -54px -103px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 237, ../sass/popups.scss */
 .reg-form .gender .active .gender__male {
-  background: url('../img/common-s83ad53eaf5.png') -17px -120px no-repeat;
+  background: url('../img/common-s2da0677168.png') -379px -70px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 238, ../sass/popups.scss */
 .reg-form .gender .gender__female {
-  background: url('../img/common-s83ad53eaf5.png') -43px -120px no-repeat;
+  background: url('../img/common-s2da0677168.png') -405px -70px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 239, ../sass/popups.scss */
 .reg-form .gender .active .gender__female {
-  background: url('../img/common-s83ad53eaf5.png') -58px -164px no-repeat;
+  background: url('../img/common-s2da0677168.png') -431px -70px no-repeat;
   width: 26px;
   height: 30px;
 }
@@ -363,7 +364,7 @@
   position: absolute;
   right: 21px;
   top: 20px;
-  background: url('../img/common-s83ad53eaf5.png') 0 -164px no-repeat;
+  background: url('../img/common-s2da0677168.png') -22px -103px no-repeat;
   width: 32px;
   height: 30px;
   border: none;
@@ -407,7 +408,7 @@
 
 /* line 309, ../sass/popups.scss */
 .checked .checkbox {
-  background: url('../img/common-s83ad53eaf5.png') -93px -22px no-repeat;
+  background: url('../img/common-s2da0677168.png') -107px -21px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -428,7 +429,7 @@
 
 /* line 320, ../sass/popups.scss */
 .checkbox {
-  background: url('../img/common-s83ad53eaf5.png') 0 -46px no-repeat;
+  background: url('../img/common-s2da0677168.png') -94px -21px no-repeat;
   width: 13px;
   height: 13px;
   position: relative;
@@ -609,7 +610,6 @@
   background-image: -webkit-linear-gradient(#ffffff, #f7f7f7);
   background-image: -moz-linear-gradient(#ffffff, #f7f7f7);
   background-image: -o-linear-gradient(#ffffff, #f7f7f7);
-  background-image: -ms-linear-gradient(#ffffff, #f7f7f7);
   background-image: linear-gradient(#ffffff, #f7f7f7);
   border-radius: 4px 4px 0 0;
   font-size: 14px;
@@ -627,28 +627,28 @@
 }
 /* line 462, ../sass/popups.scss */
 .popup_users .likeicon {
-  background: url('../img/common-s83ad53eaf5.png') -90px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -179px -1px no-repeat;
   width: 21px;
   height: 18px;
   margin: -9px 0 0 -10px;
 }
 /* line 466, ../sass/popups.scss */
 .popup_users .commenticon {
-  background: url('../img/common-s83ad53eaf5.png') -211px -1px no-repeat;
+  background: url('../img/common-s2da0677168.png') -272px -1px no-repeat;
   width: 18px;
   height: 19px;
-  margin: -12px 0 0 -9px;
+  margin: -8px 0 0 -9px;
 }
 /* line 470, ../sass/popups.scss */
 .popup_users .shareicon {
-  background: url('../img/common-s83ad53eaf5.png') -152px -75px no-repeat;
+  background: url('../img/common-s2da0677168.png') -233px -70px no-repeat;
   width: 31px;
   height: 24px;
   margin: -12px 0 0 -15px;
 }
 /* line 474, ../sass/popups.scss */
 .popup_users .viewsicon {
-  background: url('../img/common-s83ad53eaf5.png') -307px -22px no-repeat;
+  background: url('../img/common-s2da0677168.png') -355px -21px no-repeat;
   width: 27px;
   height: 16px;
   margin: -8px 0 0 -14px;

@@ -465,7 +465,7 @@
 	}
 	.commenticon{
 		@include sized-sprite($icons, commenticon);
-		margin:-12px 0 0 -9px;
+		margin:-8px 0 0 -9px;
 	}
 	.shareicon{
 		@include sized-sprite($icons, share);
