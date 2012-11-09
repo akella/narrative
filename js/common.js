@@ -295,6 +295,12 @@ $(document).ready(function() {
 	})
 
 
+//addphoto__icon
+$('.addphoto__icon').click(function(){
+	$(this).next('.addphoto__input').click();
+});
+
+
 // slider
 	$('.slider').each(function(){
 		show = $(this);
@@ -323,6 +329,28 @@ $(document).ready(function() {
 		function onAfter(curr,next,opts) {	  
 		}
 	})
+
+
+	//slider
+	$(function() {
+		$( "#slider" ).slider({
+			min: 1,
+			max: 10,
+			value: 7
+		});
+	});
+	$('.image-manag .slider-m').click(function(){
+		var val = $("#slider").slider( "value" );
+		if (val>1) {
+			$( "#slider" ).slider("value",val-1);
+		};
+	});
+	$('.image-manag .slider-p').click(function(){
+		var val = $("#slider").slider( "value" );
+		if (val<10) {
+			$( "#slider" ).slider("value",val+1);
+		};
+	});
 
 
 });

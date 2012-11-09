@@ -144,7 +144,7 @@
 	.mess__share{@include sized-sprite($icons, "share2");}
 	.mess__comment{@include sized-sprite($icons, "commenticon2");}
 	.mess-list__arr{
-		background: url("../img/common-s83ad53eaf5.png") no-repeat scroll -9px -22px transparent;
+		@include sized-sprite($icons, "user-top");
 		height: 10px;
 		position: absolute;
 		left:61px;

@@ -512,6 +512,7 @@
 		@include transition(all, .2s, ease-in-out);
 		transition:all 1s linear;
 	}
+	.addphoto__input{display: none;}
 	.addphoto__file{
 		cursor:default;
 		position: absolute;

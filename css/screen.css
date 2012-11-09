@@ -35,11 +35,23 @@ a:hover {
 }
 
 /* line 27, ../sass/common.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 28, ../sass/common.scss */
+input[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 29, ../sass/common.scss */
 header, footer, article, nav, section {
   display: block;
 }
 
-/* line 30, ../sass/common.scss */
+/* line 32, ../sass/common.scss */
 .top {
   position: fixed;
   top: 0;
@@ -58,7 +70,7 @@ header, footer, article, nav, section {
   z-index: 300;
   border-width: 0 0 1px;
 }
-/* line 43, ../sass/common.scss */
+/* line 45, ../sass/common.scss */
 .top .top__in {
   position: relative;
   width: 1000px;
@@ -67,7 +79,7 @@ header, footer, article, nav, section {
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
 }
-/* line 51, ../sass/common.scss */
+/* line 53, ../sass/common.scss */
 .top .top__title {
   float: left;
   font-size: 16px;
@@ -82,41 +94,41 @@ header, footer, article, nav, section {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 65, ../sass/common.scss */
+/* line 67, ../sass/common.scss */
 .top .top__narrative {
   display: block;
   position: absolute;
   left: 50%;
   margin-left: -14px;
   top: 12px;
-  background: url('../img/common-s2da0677168.png') -351px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -191px -42px no-repeat;
   width: 28px;
   height: 25px;
 }
 
-/* line 74, ../sass/common.scss */
+/* line 76, ../sass/common.scss */
 .top {
   -webkit-transform: translateZ(0);
 }
 
-/* line 75, ../sass/common.scss */
+/* line 77, ../sass/common.scss */
 .top_sign-up {
   color: #9c9c9c;
   font: bold 14px/42px Arial, Helvetica, sans-serif;
   text-align: right;
 }
-/* line 79, ../sass/common.scss */
+/* line 81, ../sass/common.scss */
 .top_sign-up .top__in {
   border-left-color: transparent;
   border-right-color: transparent;
 }
-/* line 83, ../sass/common.scss */
+/* line 85, ../sass/common.scss */
 .top_sign-up .top__narrative {
   left: 12px;
   margin-left: 0;
 }
 
-/* line 89, ../sass/common.scss */
+/* line 91, ../sass/common.scss */
 .icon {
   width: 43px;
   height: 43px;
@@ -129,56 +141,56 @@ header, footer, article, nav, section {
   -ms-transition: box-shadow 0.1s ease-in-out;
   transition: box-shadow 0.1s ease-in-out;
 }
-/* line 96, ../sass/common.scss */
+/* line 98, ../sass/common.scss */
 .icon:hover {
   box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.09);
   background-color: #fafafa;
 }
-/* line 100, ../sass/common.scss */
+/* line 102, ../sass/common.scss */
 .icon.icon_active {
   box-shadow: inset 0 5px 12px -3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 104, ../sass/common.scss */
+/* line 106, ../sass/common.scss */
 .icon_right {
   float: right;
   border-right: none;
   border-left: 1px solid #e3e3e3;
 }
 
-/* line 109, ../sass/common.scss */
+/* line 111, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-s2da0677168.png') -240px -148px no-repeat;
+  background: url('../img/common-saba030bf35.png') -275px -148px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 111, ../sass/common.scss */
+/* line 113, ../sass/common.scss */
 .icon_home.icon_active {
-  background: url('../img/common-s2da0677168.png') -84px -148px no-repeat;
+  background: url('../img/common-saba030bf35.png') -223px -148px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 115, ../sass/common.scss */
-.icon_comments {
-  background: url('../img/common-s2da0677168.png') -188px -148px no-repeat;
-  width: 52px;
-  height: 43px;
-}
 /* line 117, ../sass/common.scss */
-.icon_comments.icon_active {
-  background: url('../img/common-s2da0677168.png') -32px -148px no-repeat;
+.icon_comments {
+  background: url('../img/common-saba030bf35.png') -395px -105px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 119, ../sass/common.scss */
+.icon_comments.icon_active {
+  background: url('../img/common-saba030bf35.png') -343px -105px no-repeat;
+  width: 52px;
+  height: 43px;
+}
+/* line 121, ../sass/common.scss */
 .icon_comments.icon_active span {
   background: #fff;
   border-color: #fff;
   box-shadow: none;
   color: #39b3e6;
 }
-/* line 126, ../sass/common.scss */
+/* line 128, ../sass/common.scss */
 .icon_comments span {
   font: 8px/9px Helvetica, sans-serif;
   padding: 2px 0;
@@ -199,22 +211,22 @@ header, footer, article, nav, section {
   margin: 14px 0 0 20px;
 }
 
-/* line 142, ../sass/common.scss */
+/* line 144, ../sass/common.scss */
 .icon_compass {
-  background: url('../img/common-s2da0677168.png') -284px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -135px -105px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 144, ../sass/common.scss */
+/* line 146, ../sass/common.scss */
 .icon_compass.icon_active {
-  background: url('../img/common-s2da0677168.png') -232px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -193px no-repeat;
   width: 52px;
   height: 43px;
 }
 
-/* line 148, ../sass/common.scss */
+/* line 150, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-s2da0677168.png') -114px -191px no-repeat;
+  background: url('../img/common-saba030bf35.png') -327px -148px no-repeat;
   width: 52px;
   height: 44px;
   border: none;
@@ -224,41 +236,41 @@ header, footer, article, nav, section {
   margin-bottom: -1px;
 }
 
-/* line 156, ../sass/common.scss */
+/* line 158, ../sass/common.scss */
 .icon_user {
-  background: url('../img/common-s2da0677168.png') -388px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -447px -105px no-repeat;
   width: 52px;
   height: 43px;
   position: relative;
 }
-/* line 159, ../sass/common.scss */
+/* line 161, ../sass/common.scss */
 .icon_user.icon_active {
-  background: url('../img/common-s2da0677168.png') -292px -148px no-repeat;
+  background: url('../img/common-saba030bf35.png') -187px -105px no-repeat;
   width: 52px;
   height: 43px;
 }
-/* line 162, ../sass/common.scss */
+/* line 164, ../sass/common.scss */
 .icon_user .control-nav {
   top: 53px;
   right: -2px;
 }
-/* line 165, ../sass/common.scss */
+/* line 167, ../sass/common.scss */
 .icon_user .control-nav a {
   padding-top: 3px;
 }
 
-/* line 168, ../sass/common.scss */
+/* line 170, ../sass/common.scss */
 .icon_back {
   position: absolute;
   left: -53px;
   border-left: 1px solid #e3e3e3;
   border-right: none;
-  background: url('../img/common-s2da0677168.png') -63px -191px no-repeat;
+  background: url('../img/common-saba030bf35.png') -52px -193px no-repeat;
   width: 51px;
   height: 43px;
 }
 
-/* line 176, ../sass/common.scss */
+/* line 178, ../sass/common.scss */
 .site {
   position: relative;
   z-index: 9;
@@ -269,15 +281,15 @@ header, footer, article, nav, section {
   padding: 43px 0 0px 0;
 }
 
-/* line 186, ../sass/common.scss */
+/* line 188, ../sass/common.scss */
 .footer {
   text-align: center;
   padding: 20px 0;
 }
-/* line 189, ../sass/common.scss */
+/* line 191, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-s2da0677168.png') -351px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -191px -42px no-repeat;
   width: 28px;
   height: 25px;
 }
@@ -526,7 +538,7 @@ header, footer, article, nav, section {
 }
 /* line 176, ../sass/story.scss */
 .post__content .slider .slider__next span {
-  background: url('../img/common-s2da0677168.png') -80px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -379px -148px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -536,7 +548,7 @@ header, footer, article, nav, section {
 }
 /* line 182, ../sass/story.scss */
 .post__content .slider .slider__prev span {
-  background: url('../img/common-s2da0677168.png') -104px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -403px -148px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -616,7 +628,7 @@ header, footer, article, nav, section {
 }
 /* line 240, ../sass/story.scss */
 .post__bottom a:hover .post__commenticon {
-  background: url('../img/common-s2da0677168.png') -95px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
   width: 26px;
   height: 25px;
   margin-right: 1px;
@@ -625,7 +637,7 @@ header, footer, article, nav, section {
 }
 /* line 246, ../sass/story.scss */
 .post__bottom a:hover .post__likesicon {
-  background: url('../img/common-s2da0677168.png') -292px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
   width: 28px;
   height: 24px;
   margin-right: 8px;
@@ -635,7 +647,7 @@ header, footer, article, nav, section {
 }
 /* line 253, ../sass/story.scss */
 .post__bottom a:hover .post__shareicon {
-  background: url('../img/common-s2da0677168.png') -109px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -655,7 +667,7 @@ header, footer, article, nav, section {
 }
 /* line 270, ../sass/story.scss */
 .post__togglesocial span {
-  background: url('../img/common-s2da0677168.png') -32px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -55px -1px no-repeat;
   width: 21px;
   height: 17px;
   display: inline-block;
@@ -672,7 +684,7 @@ header, footer, article, nav, section {
 }
 /* line 282, ../sass/story.scss */
 .post__togglesocial:hover span {
-  background: url('../img/common-s2da0677168.png') 0 -191px no-repeat;
+  background: url('../img/common-saba030bf35.png') -27px -71px no-repeat;
   width: 27px;
   height: 22px;
   margin-left: 1px;
@@ -710,7 +722,7 @@ header, footer, article, nav, section {
 /* line 313, ../sass/story.scss */
 .post__commenticon {
   display: inline-block;
-  background: url('../img/common-s2da0677168.png') -272px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -300px -1px no-repeat;
   width: 18px;
   height: 19px;
   vertical-align: middle;
@@ -720,7 +732,7 @@ header, footer, article, nav, section {
 }
 /* line 320, ../sass/story.scss */
 .post__commenticon:hover {
-  background: url('../img/common-s2da0677168.png') -95px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
   width: 26px;
   height: 25px;
   margin-right: 1px;
@@ -745,7 +757,7 @@ header, footer, article, nav, section {
 }
 /* line 339, ../sass/story.scss */
 .post__likes .post__likesicon {
-  background: url('../img/common-s2da0677168.png') -179px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -207px -1px no-repeat;
   width: 21px;
   height: 18px;
   position: relative;
@@ -757,7 +769,7 @@ header, footer, article, nav, section {
 }
 /* line 347, ../sass/story.scss */
 .post__likes .post__likesicon:hover {
-  background: url('../img/common-s2da0677168.png') -292px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
   width: 28px;
   height: 24px;
   margin-right: 8px;
@@ -791,7 +803,7 @@ header, footer, article, nav, section {
 
 /* line 375, ../sass/story.scss */
 .post__shareicon {
-  background: url('../img/common-s2da0677168.png') -233px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -148px no-repeat;
   width: 31px;
   height: 24px;
   display: inline-block;
@@ -802,7 +814,7 @@ header, footer, article, nav, section {
 }
 /* line 382, ../sass/story.scss */
 .post__shareicon:hover {
-  background: url('../img/common-s2da0677168.png') -109px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -819,7 +831,7 @@ header, footer, article, nav, section {
 }
 /* line 392, ../sass/story.scss */
 .post__views .post__viewsicon {
-  background: url('../img/common-s2da0677168.png') -355px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -349px -22px no-repeat;
   width: 27px;
   height: 16px;
   display: inline-block;
@@ -934,39 +946,39 @@ header, footer, article, nav, section {
 }
 /* line 477, ../sass/story.scss */
 .textformat .textformat__bold {
-  background: url('../img/common-s2da0677168.png') -45px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -360px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 479, ../sass/story.scss */
 .textformat .textformat__bold:hover {
-  background: url('../img/common-s2da0677168.png') -309px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -407px -1px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 484, ../sass/story.scss */
 .textformat .textformat__list {
-  background: url('../img/common-s2da0677168.png') -438px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -435px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 486, ../sass/story.scss */
 .textformat .textformat__list:hover {
-  background: url('../img/common-s2da0677168.png') -360px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -66px -42px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 491, ../sass/story.scss */
 .textformat .textformat__italic {
-  background: url('../img/common-s2da0677168.png') -411px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -71px no-repeat;
   width: 27px;
   height: 20px;
 }
 /* line 493, ../sass/story.scss */
 .textformat .textformat__italic:hover {
-  background: url('../img/common-s2da0677168.png') 0 -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -94px -42px no-repeat;
   width: 27px;
   height: 20px;
   background-color: #FFF;
@@ -986,7 +998,7 @@ header, footer, article, nav, section {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url('../img/common-s2da0677168.png') -444px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -433px -22px no-repeat;
   width: 23px;
   height: 20px;
   opacity: .3;
@@ -998,6 +1010,10 @@ header, footer, article, nav, section {
   transition: all 1s linear;
 }
 /* line 515, ../sass/story.scss */
+.addphoto .addphoto__input {
+  display: none;
+}
+/* line 516, ../sass/story.scss */
 .addphoto .addphoto__file {
   cursor: default;
   position: absolute;
@@ -1011,10 +1027,10 @@ header, footer, article, nav, section {
   padding: 4px 21px 4px 11px;
   line-height: 1;
 }
-/* line 527, ../sass/story.scss */
+/* line 528, ../sass/story.scss */
 .addphoto .addphoto__file .addphoto__close {
   position: absolute;
-  background: url('../img/common-s2da0677168.png') 0 -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -22px no-repeat;
   width: 9px;
   height: 9px;
   top: 6px;
@@ -1022,7 +1038,7 @@ header, footer, article, nav, section {
   cursor: pointer;
   opacity: .2;
 }
-/* line 534, ../sass/story.scss */
+/* line 535, ../sass/story.scss */
 .addphoto .addphoto__file .addphoto__close:hover {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -1031,13 +1047,13 @@ header, footer, article, nav, section {
   transition: all 0.1s ease-in-out;
   opacity: 1;
 }
-/* line 540, ../sass/story.scss */
+/* line 541, ../sass/story.scss */
 .addphoto .addphoto__loader {
   position: absolute;
   right: 30px;
   top: 1px;
   z-index: 20;
-  background: url('../img/common-s2da0677168.png') -254px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -282px -1px no-repeat;
   width: 18px;
   height: 18px;
   -moz-animatiom: rotate 1s linear 0s infinite normal none;
@@ -1046,10 +1062,10 @@ header, footer, article, nav, section {
   animation: rotate 1s linear 0s infinite normal none;
 }
 
-/* line 550, ../sass/story.scss */
+/* line 551, ../sass/story.scss */
 .loader {
   display: inline-block;
-  background: url('../img/common-s2da0677168.png') -254px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -282px -1px no-repeat;
   width: 18px;
   height: 18px;
   -moz-animatiom: rotate 1s linear 0s infinite normal none;
@@ -1058,15 +1074,15 @@ header, footer, article, nav, section {
   animation: rotate 1s linear 0s infinite normal none;
 }
 
-/* line 556, ../sass/story.scss */
+/* line 557, ../sass/story.scss */
 .addphoto_error .addphoto__icon {
-  background: url('../img/common-s2da0677168.png') -337px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -410px -22px no-repeat;
   width: 23px;
   height: 20px;
   opacity: 1;
 }
 
-/* line 560, ../sass/story.scss */
+/* line 561, ../sass/story.scss */
 .addphoto:hover .addphoto__icon {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -1076,9 +1092,9 @@ header, footer, article, nav, section {
   opacity: 1;
 }
 
-/* line 564, ../sass/story.scss */
+/* line 565, ../sass/story.scss */
 .addphoto_active .addphoto__icon {
-  background: url('../img/common-s2da0677168.png') -320px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -296px -71px no-repeat;
   width: 31px;
   height: 25px;
   opacity: 1;
@@ -1086,7 +1102,7 @@ header, footer, article, nav, section {
   right: -3px;
 }
 
-/* line 571, ../sass/story.scss */
+/* line 572, ../sass/story.scss */
 .button {
   vertical-align: middle;
   font: bold  14px Arial, sans-serif;
@@ -1113,7 +1129,7 @@ header, footer, article, nav, section {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 589, ../sass/story.scss */
+/* line 590, ../sass/story.scss */
 .button:hover {
   color: #1da9dd;
   background: #fefefe;
@@ -1123,72 +1139,72 @@ header, footer, article, nav, section {
   background-image: -o-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
-/* line 594, ../sass/story.scss */
+/* line 595, ../sass/story.scss */
 .button .button__icon {
   vertical-align: middle;
   margin-right: 5px;
   display: inline-block;
 }
 
-/* line 600, ../sass/story.scss */
+/* line 601, ../sass/story.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 601, ../sass/story.scss */
+/* line 602, ../sass/story.scss */
 input[type="submit"]::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 602, ../sass/story.scss */
+/* line 603, ../sass/story.scss */
 .button_facebook {
   margin: 0 5px;
 }
-/* line 604, ../sass/story.scss */
+/* line 605, ../sass/story.scss */
 .button_facebook .button__icon {
   position: relative;
   top: -2px;
   margin-right: 11px;
-  background: url('../img/common-s2da0677168.png') -10px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -16px -1px no-repeat;
   width: 10px;
   height: 20px;
 }
-/* line 610, ../sass/story.scss */
+/* line 611, ../sass/story.scss */
 .button_facebook:hover {
   color: #3f6093;
 }
-/* line 612, ../sass/story.scss */
+/* line 613, ../sass/story.scss */
 .button_facebook:hover .button__icon {
-  background: url('../img/common-s2da0677168.png') 0 -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -105px -1px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 617, ../sass/story.scss */
+/* line 618, ../sass/story.scss */
 .button_twitter {
   margin: 0 5px;
 }
-/* line 619, ../sass/story.scss */
+/* line 620, ../sass/story.scss */
 .button_twitter .button__icon {
-  background: url('../img/common-s2da0677168.png') -73px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -115px -1px no-repeat;
   width: 20px;
   height: 17px;
   margin-right: 6px;
 }
-/* line 623, ../sass/story.scss */
+/* line 624, ../sass/story.scss */
 .button_twitter:hover {
   color: #2ea8dc;
 }
-/* line 625, ../sass/story.scss */
+/* line 626, ../sass/story.scss */
 .button_twitter:hover .button__icon {
-  background: url('../img/common-s2da0677168.png') -53px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -135px -1px no-repeat;
   width: 20px;
   height: 17px;
 }
 
-/* line 630, ../sass/story.scss */
+/* line 631, ../sass/story.scss */
 .button_active, .button_reading {
   border-color: #0085b7;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -1202,7 +1218,7 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 639, ../sass/story.scss */
+/* line 640, ../sass/story.scss */
 .button_unread:hover {
   background-color: #d12855;
   border-color: #ac0b36;
@@ -1216,20 +1232,20 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 648, ../sass/story.scss */
+/* line 649, ../sass/story.scss */
 .button_loader {
   color: transparent;
   text-shadow: none;
   position: relative;
 }
-/* line 652, ../sass/story.scss */
+/* line 653, ../sass/story.scss */
 .button_loader .loader {
   position: absolute;
   left: 50%;
   top: 50%;
   margin: -9px 0 0 -9px;
 }
-/* line 659, ../sass/story.scss */
+/* line 660, ../sass/story.scss */
 .button_loader:hover {
   color: transparent;
   text-shadow: none;
@@ -1302,21 +1318,22 @@ input[type="submit"]::-moz-focus-inner {
   font-size: 14px;
   line-height: 1.15;
   margin: 0;
+  font-family: Helvetica,arial,sans-serif;
 }
-/* line 45, ../sass/comment.scss */
+/* line 46, ../sass/comment.scss */
 .mess figure {
   margin-bottom: 30px;
 }
-/* line 47, ../sass/comment.scss */
+/* line 48, ../sass/comment.scss */
 .mess figure img {
   border-radius: 3px;
 }
-/* line 49, ../sass/comment.scss */
+/* line 50, ../sass/comment.scss */
 .mess .mess__text-holder {
   padding-top: 36px;
   margin-bottom: 35px;
 }
-/* line 53, ../sass/comment.scss */
+/* line 54, ../sass/comment.scss */
 .mess .mess__userpic {
   border-radius: 50%;
   width: 50px;
@@ -1326,7 +1343,7 @@ input[type="submit"]::-moz-focus-inner {
   float: left;
   margin-right: 8px;
 }
-/* line 62, ../sass/comment.scss */
+/* line 63, ../sass/comment.scss */
 .mess .mess__username {
   font-size: 11px;
   color: #9f9999;
@@ -1336,7 +1353,7 @@ input[type="submit"]::-moz-focus-inner {
   margin: 8px 0 0 0;
   width: 60px;
 }
-/* line 71, ../sass/comment.scss */
+/* line 72, ../sass/comment.scss */
 .mess .mess__meta {
   position: absolute;
   top: 20px;
@@ -1345,7 +1362,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
   font-family: Arial,sans-serif;
 }
-/* line 79, ../sass/comment.scss */
+/* line 80, ../sass/comment.scss */
 .mess .mess__rating {
   border: 1px solid #dfdfdf;
   color: #9c9c9c;
@@ -1364,33 +1381,33 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 10px;
   margin-left: 12px;
 }
-/* line 92, ../sass/comment.scss */
+/* line 93, ../sass/comment.scss */
 .mess .mess__rating div {
   cursor: pointer;
   height: 20px;
 }
-/* line 97, ../sass/comment.scss */
+/* line 98, ../sass/comment.scss */
 .mess .mess__rating-num {
   float: left;
   padding: 0 5px;
 }
-/* line 101, ../sass/comment.scss */
+/* line 102, ../sass/comment.scss */
 .mess .mess__rating-p {
-  background: url('../img/common-s2da0677168.png') -466px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -388px -1px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
   border-right: 1px solid #dfdfdf;
 }
-/* line 106, ../sass/comment.scss */
+/* line 107, ../sass/comment.scss */
 .mess .mess__rating-m {
-  background: url('../img/common-s2da0677168.png') -290px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -341px -1px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
   border-right: 1px solid #dfdfdf;
 }
-/* line 111, ../sass/comment.scss */
+/* line 112, ../sass/comment.scss */
 .mess .mess__remove, .mess .mess__edit {
   background: #fff;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.05)), color-stop(100%, rgba(0, 0, 0, 0.05)));
@@ -1409,26 +1426,26 @@ input[type="submit"]::-moz-focus-inner {
   vertical-align: middle;
   margin-left: 12px;
 }
-/* line 124, ../sass/comment.scss */
+/* line 125, ../sass/comment.scss */
 .mess .mess__remove div, .mess .mess__edit div {
   overflow: hidden;
   text-indent: -9999px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 131, ../sass/comment.scss */
+/* line 132, ../sass/comment.scss */
 .mess .mess__remove div {
-  background: url('../img/common-s2da0677168.png') -170px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -151px -22px no-repeat;
   width: 13px;
   height: 14px;
 }
-/* line 132, ../sass/comment.scss */
+/* line 133, ../sass/comment.scss */
 .mess .mess__edit div {
-  background: url('../img/common-s2da0677168.png') -81px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -75px -22px no-repeat;
   width: 13px;
   height: 13px;
 }
-/* line 133, ../sass/comment.scss */
+/* line 134, ../sass/comment.scss */
 .mess .mess__time {
   color: #9f9999;
   position: absolute;
@@ -1436,12 +1453,12 @@ input[type="submit"]::-moz-focus-inner {
   bottom: 21px;
   right: 23px;
 }
-/* line 141, ../sass/comment.scss */
+/* line 142, ../sass/comment.scss */
 .mess .mess__user:hover .user-more-arr {
   display: block;
 }
 
-/* line 145, ../sass/comment.scss */
+/* line 146, ../sass/comment.scss */
 .button_reply {
   position: absolute;
   bottom: 19px;
@@ -1454,9 +1471,9 @@ input[type="submit"]::-moz-focus-inner {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 152, ../sass/comment.scss */
+/* line 153, ../sass/comment.scss */
 .user-more-arr {
-  background: url('../img/common-s2da0677168.png') -18px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -49px -22px no-repeat;
   width: 12px;
   height: 12px;
   position: absolute;
@@ -1471,47 +1488,47 @@ input[type="submit"]::-moz-focus-inner {
   transition: all 0.1s ease-in-out;
 }
 
-/* line 163, ../sass/comment.scss */
+/* line 164, ../sass/comment.scss */
 .mess_reply .mess__text {
   background: #fff;
   border: 1px solid #e6e6e6;
   border-width: 0 1px;
   background: white url(../img/bg-comment.png) repeat-y 100% 0;
 }
-/* line 169, ../sass/comment.scss */
+/* line 170, ../sass/comment.scss */
 .mess_reply .mess__text-holder {
   padding: 35px 50px 0;
 }
-/* line 171, ../sass/comment.scss */
+/* line 172, ../sass/comment.scss */
 .mess_reply .mess__text-holder form {
   margin: 5px 0 -15px -10px;
 }
-/* line 173, ../sass/comment.scss */
+/* line 174, ../sass/comment.scss */
 .mess_reply figure {
   margin: 0 -50px 30px;
   text-align: center;
 }
-/* line 177, ../sass/comment.scss */
+/* line 178, ../sass/comment.scss */
 .mess_reply form {
   width: 550px;
 }
-/* line 178, ../sass/comment.scss */
+/* line 179, ../sass/comment.scss */
 .mess_reply .mess__visual textarea {
   width: 516px;
   height: 127px;
   resize: none;
 }
 
-/* line 184, ../sass/comment.scss */
+/* line 185, ../sass/comment.scss */
 .mess_l1 .mess__text, .mess__text-ans {
   border-radius: 4px 4px 0 0;
   margin-top: -5px;
   border-top: 1px solid #e6e6e6;
   position: relative;
 }
-/* line 189, ../sass/comment.scss */
+/* line 190, ../sass/comment.scss */
 .mess_l1 .mess__text:before, .mess__text-ans:before {
-  background: url('../img/common-s2da0677168.png') -30px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -61px -22px no-repeat;
   width: 14px;
   height: 13px;
   content: "";
@@ -1520,7 +1537,7 @@ input[type="submit"]::-moz-focus-inner {
   left: 49px;
 }
 
-/* line 197, ../sass/comment.scss */
+/* line 198, ../sass/comment.scss */
 .mess__text-ans {
   background: #fff;
   border: 1px solid #e6e6e6;
@@ -1531,100 +1548,100 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
-/* line 206, ../sass/comment.scss */
+/* line 207, ../sass/comment.scss */
 .mess__text-ans-l2 {
   padding: 35px 50px 15px 100px;
   border-top: 1px solid #e6e6e6;
   background: url(../img/bg-comment.png) repeat-y -200px 0;
   margin: 0 -50px -15px;
 }
-/* line 211, ../sass/comment.scss */
+/* line 212, ../sass/comment.scss */
 .mess__text-ans-l2 form {
   width: 500px;
   margin-left: -5px;
 }
-/* line 215, ../sass/comment.scss */
+/* line 216, ../sass/comment.scss */
 .mess__text-ans-l2 textarea {
   height: 127px;
 }
-/* line 218, ../sass/comment.scss */
+/* line 219, ../sass/comment.scss */
 .mess__text-ans-l2 .mess__visual textarea {
   width: 466px;
 }
 
-/* line 221, ../sass/comment.scss */
+/* line 222, ../sass/comment.scss */
 .mess_l2 .mess__text {
   background-position: -200px 0;
 }
-/* line 222, ../sass/comment.scss */
+/* line 223, ../sass/comment.scss */
 .mess_l2 .mess__text-holder {
   padding-left: 100px;
 }
-/* line 223, ../sass/comment.scss */
+/* line 224, ../sass/comment.scss */
 .mess_l2 form {
   width: 500px;
 }
-/* line 224, ../sass/comment.scss */
+/* line 225, ../sass/comment.scss */
 .mess_l2 .mess__visual textarea {
   width: 466px;
 }
 
-/* line 227, ../sass/comment.scss */
+/* line 228, ../sass/comment.scss */
 .mess_l3 .mess__text {
   background-position: -150px 0;
 }
-/* line 228, ../sass/comment.scss */
+/* line 229, ../sass/comment.scss */
 .mess_l3 .mess__text-holder {
   padding-left: 150px;
 }
-/* line 230, ../sass/comment.scss */
+/* line 231, ../sass/comment.scss */
 .mess_l3 .mess__text-holder form {
   width: 450px;
 }
-/* line 231, ../sass/comment.scss */
+/* line 232, ../sass/comment.scss */
 .mess_l3 .mess__text-holder .mess__visual textarea {
   width: 416px;
 }
 
-/* line 235, ../sass/comment.scss */
+/* line 236, ../sass/comment.scss */
 .mess_l4 .mess__text {
   background-position: -100px 0;
 }
-/* line 238, ../sass/comment.scss */
+/* line 239, ../sass/comment.scss */
 .mess_l4 .mess__text-holder {
   padding-left: 200px;
 }
-/* line 240, ../sass/comment.scss */
+/* line 241, ../sass/comment.scss */
 .mess_l4 .mess__text-holder form {
   width: 400px;
 }
-/* line 241, ../sass/comment.scss */
+/* line 242, ../sass/comment.scss */
 .mess_l4 .mess__text-holder .mess__visual textarea {
   width: 366px;
 }
 
-/* line 246, ../sass/comment.scss */
+/* line 247, ../sass/comment.scss */
 .mess_l5 .mess__text {
   background-position: -50px 0;
 }
-/* line 249, ../sass/comment.scss */
+/* line 250, ../sass/comment.scss */
 .mess_l5 .mess__text-holder {
   padding-left: 250px;
 }
-/* line 251, ../sass/comment.scss */
+/* line 252, ../sass/comment.scss */
 .mess_l5 .mess__text-holder form {
   width: 350px;
 }
-/* line 252, ../sass/comment.scss */
+/* line 253, ../sass/comment.scss */
 .mess_l5 .mess__text-holder .mess__visual textarea {
   width: 316px;
 }
 
-/* line 255, ../sass/comment.scss */
+/* line 256, ../sass/comment.scss */
 .mess_last {
   position: relative;
 }
-/* line 258, ../sass/comment.scss */
+/* line 259, ../sass/comment.scss */
 .mess_last .mess__text {
   border-radius: 0 0 4px 4px;
   margin-bottom: -5px;
@@ -1632,11 +1649,11 @@ input[type="submit"]::-moz-focus-inner {
   position: relative;
   z-index: 10;
 }
-/* line 265, ../sass/comment.scss */
+/* line 266, ../sass/comment.scss */
 .mess_last:hover:after {
   display: block;
 }
-/* line 268, ../sass/comment.scss */
+/* line 269, ../sass/comment.scss */
 .mess_last:after {
   position: absolute;
   display: none;
@@ -1652,111 +1669,111 @@ input[type="submit"]::-moz-focus-inner {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 279, ../sass/comment.scss */
+/* line 280, ../sass/comment.scss */
 .mess_last:last-child .mess__text {
   box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05);
 }
 
-/* line 281, ../sass/comment.scss */
+/* line 282, ../sass/comment.scss */
 .mess__like {
-  background: url('../img/common-s2da0677168.png') -264px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -240px -71px no-repeat;
   width: 28px;
   height: 24px;
   cursor: pointer;
   float: right;
 }
 
-/* line 286, ../sass/comment.scss */
+/* line 287, ../sass/comment.scss */
 .mess__share {
-  background: url('../img/common-s2da0677168.png') -78px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -147px -71px no-repeat;
   width: 31px;
   height: 24px;
   cursor: pointer;
   float: right;
 }
 
-/* line 291, ../sass/comment.scss */
+/* line 292, ../sass/comment.scss */
 .mess__comment {
-  background: url('../img/common-s2da0677168.png') -236px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -189px -1px no-repeat;
   width: 18px;
   height: 18px;
   cursor: pointer;
   float: right;
 }
 
-/* line 296, ../sass/comment.scss */
+/* line 297, ../sass/comment.scss */
 .mess__userlist {
   display: inline-block;
   padding: 17px 0 8px;
 }
-/* line 299, ../sass/comment.scss */
+/* line 300, ../sass/comment.scss */
 .mess__userlist .mess__userpic {
   margin-right: 8px;
   height: 46px;
   width: 46px;
 }
 
-/* line 305, ../sass/comment.scss */
+/* line 306, ../sass/comment.scss */
 .mess_add, .mess-list .mess_add {
   padding: 50px 0 36px;
 }
 
-/* line 306, ../sass/comment.scss */
+/* line 307, ../sass/comment.scss */
 .mess_add-closed, .mess-list .mess_add-closed {
   padding: 20px 0 6px;
 }
-/* line 308, ../sass/comment.scss */
+/* line 309, ../sass/comment.scss */
 .mess_add-closed .mess__user, .mess-list .mess_add-closed .mess__user {
   display: none;
 }
-/* line 309, ../sass/comment.scss */
+/* line 310, ../sass/comment.scss */
 .mess_add-closed .textformat, .mess-list .mess_add-closed .textformat {
   display: none;
 }
-/* line 310, ../sass/comment.scss */
+/* line 311, ../sass/comment.scss */
 .mess_add-closed .addphoto, .mess-list .mess_add-closed .addphoto {
   display: none;
 }
-/* line 311, ../sass/comment.scss */
+/* line 312, ../sass/comment.scss */
 .mess_add-closed .button, .mess-list .mess_add-closed .button {
   display: none;
 }
-/* line 312, ../sass/comment.scss */
+/* line 313, ../sass/comment.scss */
 .mess_add-closed textarea, .mess-list .mess_add-closed textarea {
   padding: 12px 16px;
 }
 
-/* line 315, ../sass/comment.scss */
+/* line 316, ../sass/comment.scss */
 .user-inf {
   background: #fff;
 }
-/* line 317, ../sass/comment.scss */
+/* line 318, ../sass/comment.scss */
 .user-inf .user-inf__avatar {
   border-radius: 50%;
   border: 2px solid #ebebeb;
 }
-/* line 321, ../sass/comment.scss */
+/* line 322, ../sass/comment.scss */
 .user-inf h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.4;
 }
-/* line 325, ../sass/comment.scss */
+/* line 326, ../sass/comment.scss */
 .user-inf h2 a {
   color: #000;
   text-decoration: none;
 }
-/* line 330, ../sass/comment.scss */
+/* line 331, ../sass/comment.scss */
 .user-inf p {
   font: 14px/1.2 Cambria, georgia, serif;
   color: #1d1d1d;
   opacity: 0.6;
 }
-/* line 335, ../sass/comment.scss */
+/* line 336, ../sass/comment.scss */
 .user-inf .button {
   padding: 2px 10px;
 }
-/* line 336, ../sass/comment.scss */
+/* line 337, ../sass/comment.scss */
 .user-inf .stats {
   border-top: 1px solid #ebe7e7;
   overflow: hidden;
@@ -1764,7 +1781,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 230px;
   line-height: 1.4;
 }
-/* line 342, ../sass/comment.scss */
+/* line 343, ../sass/comment.scss */
 .user-inf .stats li {
   float: left;
   border-left: 1px solid #ebe7e7;
@@ -1772,7 +1789,7 @@ input[type="submit"]::-moz-focus-inner {
   color: #999;
   text-align: left;
 }
-/* line 348, ../sass/comment.scss */
+/* line 349, ../sass/comment.scss */
 .user-inf .stats li a {
   color: #b3b3b3;
   text-decoration: none;
@@ -1781,11 +1798,11 @@ input[type="submit"]::-moz-focus-inner {
   padding: 5px 0 0 15px;
   width: 55px;
 }
-/* line 356, ../sass/comment.scss */
+/* line 357, ../sass/comment.scss */
 .user-inf .stats li:first-child {
   border: 0;
 }
-/* line 357, ../sass/comment.scss */
+/* line 358, ../sass/comment.scss */
 .user-inf .stats li strong {
   display: block;
   color: #1d1d1d;
@@ -1793,7 +1810,7 @@ input[type="submit"]::-moz-focus-inner {
   margin-top: 4px;
 }
 
-/* line 367, ../sass/comment.scss */
+/* line 368, ../sass/comment.scss */
 .user-inf_popup {
   width: 200px;
   display: none;
@@ -1807,9 +1824,9 @@ input[type="submit"]::-moz-focus-inner {
   z-index: 250;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 379, ../sass/comment.scss */
+/* line 380, ../sass/comment.scss */
 .user-inf_popup:before {
-  background: url('../img/common-s2da0677168.png') -7px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -42px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -1817,43 +1834,43 @@ input[type="submit"]::-moz-focus-inner {
   top: -10px;
   left: 34px;
 }
-/* line 386, ../sass/comment.scss */
+/* line 387, ../sass/comment.scss */
 .user-inf_popup .user-inf__avatar {
   height: 100px;
   width: 100px;
   margin: -12px auto 5px;
   display: block;
 }
-/* line 392, ../sass/comment.scss */
+/* line 393, ../sass/comment.scss */
 .user-inf_popup h2 {
   margin-bottom: 4px;
 }
-/* line 393, ../sass/comment.scss */
+/* line 394, ../sass/comment.scss */
 .user-inf_popup p {
   margin-bottom: 12px;
 }
-/* line 394, ../sass/comment.scss */
+/* line 395, ../sass/comment.scss */
 .user-inf_popup .button {
   margin-bottom: 9px;
 }
-/* line 395, ../sass/comment.scss */
+/* line 396, ../sass/comment.scss */
 .user-inf_popup .button {
   padding: 2px 12px;
 }
-/* line 396, ../sass/comment.scss */
+/* line 397, ../sass/comment.scss */
 .user-inf_popup .stats {
   margin: 0 -15px;
   width: 225px;
   padding-left: 5px;
 }
 
-/* line 402, ../sass/comment.scss */
+/* line 403, ../sass/comment.scss */
 .mess .button_reply, .button_reply {
   padding: 2px 10px 2px 8px;
 }
-/* line 404, ../sass/comment.scss */
+/* line 405, ../sass/comment.scss */
 .mess .button_reply span, .button_reply span {
-  background: url('../img/common-s2da0677168.png') -432px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -26px -1px no-repeat;
   width: 12px;
   height: 16px;
   margin-right: 6px;
@@ -1863,7 +1880,7 @@ input[type="submit"]::-moz-focus-inner {
   top: -1px;
 }
 
-/* line 414, ../sass/comment.scss */
+/* line 415, ../sass/comment.scss */
 .post__load-all {
   border-top: 1px solid #e5e5e5;
   height: 48px;
@@ -1874,7 +1891,7 @@ input[type="submit"]::-moz-focus-inner {
   padding: 0 19px;
   background: #fff;
 }
-/* line 423, ../sass/comment.scss */
+/* line 424, ../sass/comment.scss */
 .post__load-all a {
   font-size: 14px;
   color: #afafaf;
@@ -1882,29 +1899,29 @@ input[type="submit"]::-moz-focus-inner {
   font-weight: bold;
   margin-left: 134px;
 }
-/* line 430, ../sass/comment.scss */
+/* line 431, ../sass/comment.scss */
 .post__load-all .loader {
   margin: 0 3px 0 2px;
   vertical-align: middle;
 }
 
-/* line 437, ../sass/comment.scss */
+/* line 438, ../sass/comment.scss */
 .hr {
   margin: 14px 0;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #f1f1f1;
 }
 
-/* line 444, ../sass/comment.scss */
+/* line 445, ../sass/comment.scss */
 .post-list {
   padding-top: 43px;
 }
-/* line 446, ../sass/comment.scss */
+/* line 447, ../sass/comment.scss */
 .post-list .mess-list .mess:first-child {
   box-shadow: 0 10px 8px -8px rgba(0, 0, 0, 0.05) inset;
 }
 
-/* line 450, ../sass/comment.scss */
+/* line 451, ../sass/comment.scss */
 .post_item {
   background: #fff;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 0 1px rgba(0, 0, 0, 0.2);
@@ -1914,18 +1931,18 @@ input[type="submit"]::-moz-focus-inner {
   width: 1000px;
   z-index: 9;
 }
-/* line 458, ../sass/comment.scss */
+/* line 459, ../sass/comment.scss */
 .post_item figure img {
   vertical-align: top;
 }
 
-/* line 461, ../sass/comment.scss */
+/* line 462, ../sass/comment.scss */
 .post__header {
   display: inline-block;
   width: 960px;
   padding: 20px 20px 16px;
 }
-/* line 465, ../sass/comment.scss */
+/* line 466, ../sass/comment.scss */
 .post__header .post__retweet-author, .post__header .post__author-pic {
   border-radius: 50%;
   height: 60px;
@@ -1934,34 +1951,34 @@ input[type="submit"]::-moz-focus-inner {
   float: left;
   margin: 0 11px 0 0;
 }
-/* line 473, ../sass/comment.scss */
+/* line 474, ../sass/comment.scss */
 .post__header .post__author-pic {
   margin-right: 16px;
 }
-/* line 474, ../sass/comment.scss */
+/* line 475, ../sass/comment.scss */
 .post__header .post__shareicon {
   margin-top: 20px;
 }
-/* line 475, ../sass/comment.scss */
+/* line 476, ../sass/comment.scss */
 .post__header .post__author {
   float: left;
   position: relative;
   font-weight: bold;
 }
-/* line 479, ../sass/comment.scss */
+/* line 480, ../sass/comment.scss */
 .post__header .post__author .user-more-arr {
   left: 59px;
   bottom: 1px;
 }
-/* line 484, ../sass/comment.scss */
+/* line 485, ../sass/comment.scss */
 .post__header .post__author:hover .user-more-arr {
   display: block;
 }
-/* line 485, ../sass/comment.scss */
+/* line 486, ../sass/comment.scss */
 .post__header .post__author:hover .post__author-name {
   color: #a3a3a3;
 }
-/* line 488, ../sass/comment.scss */
+/* line 489, ../sass/comment.scss */
 .post__header .post__author-name {
   color: #000;
   font-size: 18px;
@@ -1975,39 +1992,39 @@ input[type="submit"]::-moz-focus-inner {
   -ms-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
-/* line 497, ../sass/comment.scss */
+/* line 498, ../sass/comment.scss */
 .post__header .user-inf_popup {
   left: 19px;
   top: 73px;
 }
 
-/* line 503, ../sass/comment.scss */
+/* line 504, ../sass/comment.scss */
 .post__meta {
   float: right;
   margin-top: -5px;
 }
-/* line 506, ../sass/comment.scss */
+/* line 507, ../sass/comment.scss */
 .post__meta span {
   color: #b8b8b8;
   font-size: 11px;
 }
 
-/* line 512, ../sass/comment.scss */
+/* line 513, ../sass/comment.scss */
 .control-nav-holder {
   display: inline-block;
   position: relative;
   margin-left: 3px;
 }
-/* line 517, ../sass/comment.scss */
+/* line 518, ../sass/comment.scss */
 .control-nav-holder:hover .control-nav__arr {
-  background: url('../img/common-s2da0677168.png') -200px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -246px -1px no-repeat;
   width: 18px;
   height: 18px;
 }
 
-/* line 520, ../sass/comment.scss */
+/* line 521, ../sass/comment.scss */
 .control-nav__arr {
-  background: url('../img/common-s2da0677168.png') -218px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -264px -1px no-repeat;
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -2015,7 +2032,7 @@ input[type="submit"]::-moz-focus-inner {
   cursor: pointer;
 }
 
-/* line 526, ../sass/comment.scss */
+/* line 527, ../sass/comment.scss */
 .control-nav {
   position: absolute;
   width: 143px;
@@ -2030,9 +2047,9 @@ input[type="submit"]::-moz-focus-inner {
   padding: 8px 0 7px;
   display: none;
 }
-/* line 539, ../sass/comment.scss */
+/* line 540, ../sass/comment.scss */
 .control-nav:before {
-  background: url('../img/common-s2da0677168.png') -7px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -42px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -2040,7 +2057,7 @@ input[type="submit"]::-moz-focus-inner {
   top: -10px;
   right: 12px;
 }
-/* line 546, ../sass/comment.scss */
+/* line 547, ../sass/comment.scss */
 .control-nav a {
   color: #a8a8a8;
   width: 113px;
@@ -2051,35 +2068,35 @@ input[type="submit"]::-moz-focus-inner {
   font-weight: bold;
   position: relative;
 }
-/* line 555, ../sass/comment.scss */
+/* line 556, ../sass/comment.scss */
 .control-nav a:hover {
   color: #11b0eb;
   background: #f3f3f3;
 }
-/* line 559, ../sass/comment.scss */
+/* line 560, ../sass/comment.scss */
 .control-nav a span {
   color: #11b0eb;
   position: absolute;
   top: 3px;
   right: 14px;
 }
-/* line 566, ../sass/comment.scss */
+/* line 567, ../sass/comment.scss */
 .control-nav .sign-out {
   border-top: 1px solid #e5e5e5;
   margin: 3px 0 -4px;
   padding-top: 3px;
 }
 
-/* line 573, ../sass/comment.scss */
+/* line 574, ../sass/comment.scss */
 .post-list__manag {
   text-align: center;
 }
-/* line 575, ../sass/comment.scss */
+/* line 576, ../sass/comment.scss */
 .post-list__manag .button {
   padding: 5px 26px 6px;
 }
 
-/* line 579, ../sass/comment.scss */
+/* line 580, ../sass/comment.scss */
 .post-list__year {
   color: #9c9c9c;
   font: bold 18px Arial, sans-serif;
@@ -2087,41 +2104,41 @@ input[type="submit"]::-moz-focus-inner {
   text-decoration: none;
   line-height: 1.3;
 }
-/* line 585, ../sass/comment.scss */
+/* line 586, ../sass/comment.scss */
 .post-list__year:hover {
   color: #c0c0c0;
 }
 
-/* line 587, ../sass/comment.scss */
+/* line 588, ../sass/comment.scss */
 .post-list__month {
   line-height: 1.3;
   padding: 4px 0 0;
 }
-/* line 590, ../sass/comment.scss */
+/* line 591, ../sass/comment.scss */
 .post-list__month li {
   display: inline-block;
   margin: 0 3px;
 }
-/* line 594, ../sass/comment.scss */
+/* line 595, ../sass/comment.scss */
 .post-list__month a {
   color: #9c9c9c;
   font: bold 14px Arial, sans-serif;
   text-shadow: 0 1px 0 #fff;
   text-decoration: none;
 }
-/* line 600, ../sass/comment.scss */
+/* line 601, ../sass/comment.scss */
 .post-list__month .active a {
   color: #11b0eb;
 }
-/* line 601, ../sass/comment.scss */
+/* line 602, ../sass/comment.scss */
 .post-list__month .disabled a {
   color: #c0c0c0;
   cursor: default;
 }
 
-/* line 606, ../sass/comment.scss */
+/* line 607, ../sass/comment.scss */
 .read-more {
-  background: url('../img/common-s2da0677168.png') -44px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -25px -22px no-repeat;
   width: 24px;
   height: 12px;
   font: 0/0 a;
@@ -2131,7 +2148,7 @@ input[type="submit"]::-moz-focus-inner {
   vertical-align: middle;
 }
 
-/* line 614, ../sass/comment.scss */
+/* line 615, ../sass/comment.scss */
 .post-mini {
   overflow: hidden;
   color: #9c9c9c;
@@ -2141,7 +2158,7 @@ input[type="submit"]::-moz-focus-inner {
   font-weight: bold;
   display: none;
 }
-/* line 622, ../sass/comment.scss */
+/* line 623, ../sass/comment.scss */
 .post-mini .post-mini__expand {
   float: right;
   font-size: 11px;
@@ -2197,7 +2214,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 35, ../sass/popups.scss */
 .popup .popup__close {
-  background: url('../img/common-s2da0677168.png') -144px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -155px -1px no-repeat;
   width: 17px;
   height: 17px;
   position: absolute;
@@ -2207,7 +2224,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 41, ../sass/popups.scss */
 .popup .popup__close:hover {
-  background: url('../img/common-s2da0677168.png') -127px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -172px -1px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -2301,7 +2318,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 119, ../sass/popups.scss */
 .social__fb {
-  background: url('../img/common-s2da0677168.png') -457px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -431px -71px no-repeat;
   width: 32px;
   height: 33px;
   cursor: pointer;
@@ -2309,7 +2326,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 123, ../sass/popups.scss */
 .social__tw {
-  background: url('../img/common-s2da0677168.png') 0 -148px no-repeat;
+  background: url('../img/common-saba030bf35.png') -463px -71px no-repeat;
   width: 32px;
   height: 34px;
   cursor: pointer;
@@ -2374,7 +2391,7 @@ input[type="submit"]::-moz-focus-inner {
 /* line 172, ../sass/popups.scss */
 .reg-form .input-mess span {
   display: inline-block;
-  background: url('../img/common-s2da0677168.png') -93px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -38px -1px no-repeat;
   width: 17px;
   height: 17px;
   margin-right: 8px;
@@ -2384,7 +2401,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 181, ../sass/popups.scss */
 .reg-form .input-mess__error span {
-  background: url('../img/common-s2da0677168.png') -110px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -88px -1px no-repeat;
   width: 17px;
   height: 17px;
 }
@@ -2398,7 +2415,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 189, ../sass/popups.scss */
 .reg-form .icon-location {
-  background: url('../img/common-s2da0677168.png') -161px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -228px -1px no-repeat;
   width: 18px;
   height: 18px;
   position: absolute;
@@ -2456,25 +2473,25 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 236, ../sass/popups.scss */
 .reg-form .gender .gender__male {
-  background: url('../img/common-s2da0677168.png') -54px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -327px -71px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 237, ../sass/popups.scss */
 .reg-form .gender .active .gender__male {
-  background: url('../img/common-s2da0677168.png') -379px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -379px -71px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 238, ../sass/popups.scss */
 .reg-form .gender .gender__female {
-  background: url('../img/common-s2da0677168.png') -405px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -353px -71px no-repeat;
   width: 26px;
   height: 30px;
 }
 /* line 239, ../sass/popups.scss */
 .reg-form .gender .active .gender__female {
-  background: url('../img/common-s2da0677168.png') -431px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -405px -71px no-repeat;
   width: 26px;
   height: 30px;
 }
@@ -2519,7 +2536,7 @@ input[type="submit"]::-moz-focus-inner {
   position: absolute;
   right: 21px;
   top: 20px;
-  background: url('../img/common-s2da0677168.png') -22px -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -103px -105px no-repeat;
   width: 32px;
   height: 30px;
   border: none;
@@ -2563,7 +2580,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 309, ../sass/popups.scss */
 .checked .checkbox {
-  background: url('../img/common-s2da0677168.png') -107px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -101px -22px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -2584,7 +2601,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* line 320, ../sass/popups.scss */
 .checkbox {
-  background: url('../img/common-s2da0677168.png') -94px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -88px -22px no-repeat;
   width: 13px;
   height: 13px;
   position: relative;
@@ -2782,28 +2799,28 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 462, ../sass/popups.scss */
 .popup_users .likeicon {
-  background: url('../img/common-s2da0677168.png') -179px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -207px -1px no-repeat;
   width: 21px;
   height: 18px;
   margin: -9px 0 0 -10px;
 }
 /* line 466, ../sass/popups.scss */
 .popup_users .commenticon {
-  background: url('../img/common-s2da0677168.png') -272px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -300px -1px no-repeat;
   width: 18px;
   height: 19px;
   margin: -8px 0 0 -9px;
 }
 /* line 470, ../sass/popups.scss */
 .popup_users .shareicon {
-  background: url('../img/common-s2da0677168.png') -233px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -148px no-repeat;
   width: 31px;
   height: 24px;
   margin: -12px 0 0 -15px;
 }
 /* line 474, ../sass/popups.scss */
 .popup_users .viewsicon {
-  background: url('../img/common-s2da0677168.png') -355px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -349px -22px no-repeat;
   width: 27px;
   height: 16px;
   margin: -8px 0 0 -14px;
@@ -2933,19 +2950,19 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 58, ../sass/profile.scss */
 .profile__info .icon_location {
-  background: url('../img/common-s2da0677168.png') -20px -1px no-repeat;
+  background: url('../img/common-saba030bf35.png') -76px -1px no-repeat;
   width: 12px;
   height: 17px;
 }
 /* line 61, ../sass/profile.scss */
 .profile__info .icon_twitter {
-  background: url('../img/common-s2da0677168.png') -382px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -376px -22px no-repeat;
   width: 18px;
   height: 16px;
 }
 /* line 64, ../sass/profile.scss */
 .profile__info .icon_site {
-  background: url('../img/common-s2da0677168.png') -400px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -1px no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -3300,25 +3317,27 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 143, ../sass/notification.scss */
 .notif .mess__like {
-  background: url('../img/common-s2da0677168.png') -141px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -135px -22px no-repeat;
   width: 16px;
   height: 14px;
 }
 /* line 144, ../sass/notification.scss */
 .notif .mess__share {
-  background: url('../img/common-s2da0677168.png') -120px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -114px -22px no-repeat;
   width: 21px;
   height: 14px;
 }
 /* line 145, ../sass/notification.scss */
 .notif .mess__comment {
-  background: url('../img/common-s2da0677168.png') -272px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -105px no-repeat;
   width: 15px;
   height: 15px;
 }
 /* line 146, ../sass/notification.scss */
 .notif .mess-list__arr {
-  background: url("../img/common-s83ad53eaf5.png") no-repeat scroll -9px -22px transparent;
+  background: url('../img/common-saba030bf35.png') 0 -42px no-repeat;
+  width: 21px;
+  height: 10px;
   height: 10px;
   position: absolute;
   left: 61px;
@@ -3605,7 +3624,7 @@ input[type="submit"]::-moz-focus-inner {
   display: inline-block;
   vertical-align: middle;
   margin-left: 4px;
-  background: url('../img/common-s2da0677168.png') -187px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -285px -42px no-repeat;
   width: 28px;
   height: 28px;
   position: relative;
@@ -3614,7 +3633,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 45, ../sass/compose.scss */
 .top_compose .top__publish .top__publishlabel.active {
-  background: url('../img/common-s2da0677168.png') -215px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -313px -42px no-repeat;
   width: 28px;
   height: 28px;
   position: relative;
@@ -3653,7 +3672,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 77, ../sass/compose.scss */
 .top_compose .top__changesclose {
-  background: url('../img/common-s2da0677168.png') -27px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -463px -1px no-repeat;
   width: 20px;
   height: 21px;
   display: inline-block;
@@ -3711,7 +3730,7 @@ input[type="submit"]::-moz-focus-inner {
   right: 2px;
   top: 2px;
   cursor: pointer;
-  background: url('../img/common-s2da0677168.png') -47px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -116px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -3722,7 +3741,7 @@ input[type="submit"]::-moz-focus-inner {
   top: 2px;
   z-index: 4;
   cursor: pointer;
-  background: url('../img/common-s2da0677168.png') -140px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -178px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -3732,13 +3751,13 @@ input[type="submit"]::-moz-focus-inner {
 }
 /* line 133, ../sass/compose.scss */
 .top_compose .top__switcher_2 .top__switchercompose {
-  background: url('../img/common-s2da0677168.png') -171px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -209px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
 /* line 134, ../sass/compose.scss */
 .top_compose .top__switcher_2 .top__switcherpreview {
-  background: url('../img/common-s2da0677168.png') -202px -70px no-repeat;
+  background: url('../img/common-saba030bf35.png') -85px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -3751,45 +3770,48 @@ input[type="submit"]::-moz-focus-inner {
   color: #fff;
   position: relative;
   height: 129px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 144, ../sass/compose.scss */
+/* line 145, ../sass/compose.scss */
 .image-upload .image-upload__in {
   position: absolute;
   width: 100%;
   top: 50%;
   left: 0;
   margin-top: -20px;
+  font-family: Helvetica,arial,sans-serif;
 }
-/* line 151, ../sass/compose.scss */
+/* line 153, ../sass/compose.scss */
 .image-upload .image-upload__icon {
-  background: url('../img/common-s2da0677168.png') -467px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -318px -1px no-repeat;
   width: 23px;
   height: 20px;
   display: inline-block;
 }
-/* line 155, ../sass/compose.scss */
+/* line 157, ../sass/compose.scss */
 .image-upload .loader {
   display: inline-block;
 }
 
-/* line 159, ../sass/compose.scss */
+/* line 161, ../sass/compose.scss */
 .image-container {
   position: relative;
 }
 
-/* line 162, ../sass/compose.scss */
+/* line 164, ../sass/compose.scss */
 .figure_many .image-container {
   float: left;
 }
 
-/* line 165, ../sass/compose.scss */
+/* line 167, ../sass/compose.scss */
 .manag-block {
   position: absolute;
   top: 10px;
   left: 10px;
+  z-index: 10;
 }
 
-/* line 170, ../sass/compose.scss */
+/* line 173, ../sass/compose.scss */
 .image-manag {
   float: left;
   background: #515050;
@@ -3800,7 +3822,7 @@ input[type="submit"]::-moz-focus-inner {
   cursor: pointer;
   font: 11px/23px Helvetica, arial, sans-serif;
 }
-/* line 179, ../sass/compose.scss */
+/* line 182, ../sass/compose.scss */
 .image-manag div {
   text-align: center;
   width: 33px;
@@ -3810,73 +3832,73 @@ input[type="submit"]::-moz-focus-inner {
   padding-bottom: 2px;
   background: #515050;
 }
-/* line 187, ../sass/compose.scss */
+/* line 190, ../sass/compose.scss */
 .image-manag div:hover {
   background: #11b0eb;
 }
-/* line 189, ../sass/compose.scss */
+/* line 192, ../sass/compose.scss */
 .image-manag div:first-child {
   border-right: 1px solid #626262;
   border-radius: 3px 0 0 3px;
 }
-/* line 193, ../sass/compose.scss */
+/* line 196, ../sass/compose.scss */
 .image-manag div:last-child {
   border-radius: 0 3px 3px 0;
 }
-/* line 196, ../sass/compose.scss */
+/* line 199, ../sass/compose.scss */
 .image-manag .image-remove {
-  background: url('../img/common-s2da0677168.png') -68px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -21px -42px no-repeat;
   width: 13px;
   height: 13px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 201, ../sass/compose.scss */
+/* line 204, ../sass/compose.scss */
 .image-manag .image-move {
-  background: url('../img/common-s2da0677168.png') -416px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -394px -22px no-repeat;
   width: 16px;
   height: 16px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 206, ../sass/compose.scss */
+/* line 209, ../sass/compose.scss */
 .image-manag .image-order {
-  background: url('../img/common-s2da0677168.png') -157px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -164px -22px no-repeat;
   width: 13px;
   height: 14px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 211, ../sass/compose.scss */
+/* line 214, ../sass/compose.scss */
 .image-manag .image-size-l {
-  background: url('../img/common-s2da0677168.png') 0 -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -18px -22px no-repeat;
   width: 7px;
   height: 9px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 216, ../sass/compose.scss */
+/* line 219, ../sass/compose.scss */
 .image-manag .image-size-m {
-  background: url('../img/common-s2da0677168.png') -9px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -9px -22px no-repeat;
   width: 9px;
   height: 9px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 221, ../sass/compose.scss */
+/* line 224, ../sass/compose.scss */
 .image-manag.image-cancel {
   padding: 0 12px;
 }
-/* line 222, ../sass/compose.scss */
+/* line 225, ../sass/compose.scss */
 .image-manag.image-save {
   padding: 0 12px;
 }
-/* line 225, ../sass/compose.scss */
+/* line 228, ../sass/compose.scss */
 .image-manag:hover {
   background: #11b0eb;
 }
 
-/* line 227, ../sass/compose.scss */
+/* line 230, ../sass/compose.scss */
 .image-border {
   border: 2px solid #11b0eb;
   border-radius: 4px;
@@ -3884,14 +3906,14 @@ input[type="submit"]::-moz-focus-inner {
   position: relative;
 }
 
-/* line 233, ../sass/compose.scss */
+/* line 236, ../sass/compose.scss */
 .figure_many .image-border {
   box-shadow: 0 0 0 2px #11b0eb;
   border: 0;
   border-radius: 1px;
 }
 
-/* line 238, ../sass/compose.scss */
+/* line 241, ../sass/compose.scss */
 .slider__slides .image-container {
   border: 2px solid #11b0eb;
   display: inline-block;
@@ -3899,16 +3921,16 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 4px;
   overflow: hidden;
 }
-/* line 244, ../sass/compose.scss */
+/* line 247, ../sass/compose.scss */
 .slider__slides .image-container img {
   vertical-align: top;
 }
 
-/* line 246, ../sass/compose.scss */
+/* line 249, ../sass/compose.scss */
 .slider-builder {
   margin-bottom: 30px;
 }
-/* line 248, ../sass/compose.scss */
+/* line 251, ../sass/compose.scss */
 .slider-builder .image-border {
   background: #c9c9c9;
   width: 550px;
@@ -3916,13 +3938,13 @@ input[type="submit"]::-moz-focus-inner {
   height: 342px;
   margin: 0 auto;
 }
-/* line 255, ../sass/compose.scss */
+/* line 258, ../sass/compose.scss */
 .slider-builder .image-m {
   text-align: center;
   margin: 0 10px;
   display: inline-block;
 }
-/* line 259, ../sass/compose.scss */
+/* line 262, ../sass/compose.scss */
 .slider-builder .image-m .image-m__holder {
   height: 79px;
   width: 112px;
@@ -3930,19 +3952,19 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 266, ../sass/compose.scss */
+/* line 269, ../sass/compose.scss */
 .slider-builder .image-m span {
   font-size: 12px;
   color: #fff;
   display: block;
 }
-/* line 271, ../sass/compose.scss */
+/* line 274, ../sass/compose.scss */
 .slider-builder .image-m img {
   vertical-align: top;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-/* line 277, ../sass/compose.scss */
+/* line 280, ../sass/compose.scss */
 .slider-builder .devider {
   display: inline-block;
   width: 0;
@@ -3950,9 +3972,9 @@ input[type="submit"]::-moz-focus-inner {
   border-left: 2px solid #11b0eb;
 }
 
-/* line 284, ../sass/compose.scss */
+/* line 287, ../sass/compose.scss */
 .image-move-ico {
-  background: url('../img/common-s2da0677168.png') -27px -191px no-repeat;
+  background: url('../img/common-saba030bf35.png') -31px -148px no-repeat;
   width: 36px;
   height: 36px;
   position: absolute;
@@ -3961,7 +3983,7 @@ input[type="submit"]::-moz-focus-inner {
   cursor: pointer;
 }
 
-/* line 291, ../sass/compose.scss */
+/* line 294, ../sass/compose.scss */
 .compose__title {
   font-size: 44px;
   color: #000;
@@ -3970,18 +3992,18 @@ input[type="submit"]::-moz-focus-inner {
   border-bottom: 1px solid #d0f0fb;
   margin: 0 -180px 13px -180px;
 }
-/* line 298, ../sass/compose.scss */
+/* line 301, ../sass/compose.scss */
 .compose__title .compose__titlein {
   width: 640px;
   margin: auto;
 }
-/* line 301, ../sass/compose.scss */
+/* line 304, ../sass/compose.scss */
 .compose__title .compose__titlein textarea {
   height: 66px;
   font-size: 44px;
 }
 
-/* line 307, ../sass/compose.scss */
+/* line 310, ../sass/compose.scss */
 .compose__pretext {
   opacity: .5;
   font-size: 25px;
@@ -3989,28 +4011,28 @@ input[type="submit"]::-moz-focus-inner {
   padding-bottom: 14px;
   margin: 0 -180px 10px -180px;
 }
-/* line 313, ../sass/compose.scss */
+/* line 316, ../sass/compose.scss */
 .compose__pretext .compose__pretextin {
   width: 640px;
   margin: auto;
 }
-/* line 316, ../sass/compose.scss */
+/* line 319, ../sass/compose.scss */
 .compose__pretext .compose__pretextin textarea {
   font-size: 25px;
   height: 38px;
 }
 
-/* line 322, ../sass/compose.scss */
+/* line 325, ../sass/compose.scss */
 .compose__text {
   font-size: 18px;
   line-height: 1.8;
 }
-/* line 325, ../sass/compose.scss */
+/* line 328, ../sass/compose.scss */
 .compose__text textarea {
   line-height: 1.8;
 }
 
-/* line 329, ../sass/compose.scss */
+/* line 332, ../sass/compose.scss */
 .compose__textarea {
   padding: 0;
   margin: 0;
@@ -4024,13 +4046,13 @@ input[type="submit"]::-moz-focus-inner {
   font-size: 18px;
 }
 
-/* line 343, ../sass/compose.scss */
+/* line 346, ../sass/compose.scss */
 .compose figure textarea, .slider__descr textarea {
   font-size: 16px;
   color: #6d6d6d;
 }
 
-/* line 350, ../sass/compose.scss */
+/* line 353, ../sass/compose.scss */
 .wyswyg {
   position: absolute;
   z-index: 100;
@@ -4040,21 +4062,21 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 4px;
   padding: 11px 10px 14px 10px;
 }
-/* line 358, ../sass/compose.scss */
+/* line 361, ../sass/compose.scss */
 .wyswyg .wyswyg__photo {
   margin-bottom: 4px;
   position: relative;
-  background: url('../img/common-s2da0677168.png') -121px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -241px -42px no-repeat;
   width: 22px;
   height: 27px;
 }
-/* line 362, ../sass/compose.scss */
+/* line 365, ../sass/compose.scss */
 .wyswyg .wyswyg__photo:hover {
-  background: url('../img/common-s2da0677168.png') -143px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -169px -42px no-repeat;
   width: 22px;
   height: 27px;
 }
-/* line 366, ../sass/compose.scss */
+/* line 369, ../sass/compose.scss */
 .wyswyg .wyswyg__text {
   width: 22px;
   border: 1px solid #d9d9d9;
@@ -4067,7 +4089,7 @@ input[type="submit"]::-moz-focus-inner {
   background-image: -o-linear-gradient(left, #f8f8f8, #f0f0f0);
   background-image: linear-gradient(left, #f8f8f8, #f0f0f0);
 }
-/* line 373, ../sass/compose.scss */
+/* line 376, ../sass/compose.scss */
 .wyswyg .wyswyg__text div {
   -moz-transition: background-color 0.3s ease-in-out;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -4076,111 +4098,111 @@ input[type="submit"]::-moz-focus-inner {
   transition: background-color 0.3s ease-in-out;
   border-bottom: 1px solid #dcdcdc;
 }
-/* line 376, ../sass/compose.scss */
+/* line 379, ../sass/compose.scss */
 .wyswyg .wyswyg__text div:last-child {
   border: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 381, ../sass/compose.scss */
+/* line 384, ../sass/compose.scss */
 .wyswyg .wyswyg__text div:first-child {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-/* line 388, ../sass/compose.scss */
+/* line 391, ../sass/compose.scss */
 .wyswyg .wyswyg__bold {
-  background: url('../img/common-s2da0677168.png') -243px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -407px -42px no-repeat;
   width: 22px;
   height: 28px;
 }
-/* line 390, ../sass/compose.scss */
+/* line 393, ../sass/compose.scss */
 .wyswyg .wyswyg__bold:hover {
-  background: url('../img/common-s2da0677168.png') -287px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -385px -42px no-repeat;
   width: 22px;
   height: 28px;
   background-color: #fff;
 }
-/* line 395, ../sass/compose.scss */
+/* line 398, ../sass/compose.scss */
 .wyswyg .wyswyg__italic {
-  background: url('../img/common-s2da0677168.png') -375px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -15px -105px no-repeat;
   width: 22px;
   height: 29px;
 }
-/* line 397, ../sass/compose.scss */
+/* line 400, ../sass/compose.scss */
 .wyswyg .wyswyg__italic:hover {
-  background: url('../img/common-s2da0677168.png') 0 -103px no-repeat;
+  background: url('../img/common-saba030bf35.png') -81px -105px no-repeat;
   width: 22px;
   height: 29px;
   background-color: #fff;
 }
-/* line 402, ../sass/compose.scss */
+/* line 405, ../sass/compose.scss */
 .wyswyg .wyswyg__list {
-  background: url('../img/common-s2da0677168.png') -331px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -263px -42px no-repeat;
   width: 22px;
   height: 28px;
 }
-/* line 404, ../sass/compose.scss */
+/* line 407, ../sass/compose.scss */
 .wyswyg .wyswyg__list:hover {
-  background: url('../img/common-s2da0677168.png') -265px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -429px -42px no-repeat;
   width: 22px;
   height: 28px;
   background-color: #fff;
 }
-/* line 409, ../sass/compose.scss */
+/* line 412, ../sass/compose.scss */
 .wyswyg .wyswyg__listnum {
-  background: url('../img/common-s2da0677168.png') -309px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -341px -42px no-repeat;
   width: 22px;
   height: 28px;
 }
-/* line 411, ../sass/compose.scss */
+/* line 414, ../sass/compose.scss */
 .wyswyg .wyswyg__listnum:hover {
-  background: url('../img/common-s2da0677168.png') -353px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') -363px -42px no-repeat;
   width: 22px;
   height: 28px;
   background-color: #fff;
-}
-/* line 416, ../sass/compose.scss */
-.wyswyg .wyswyg__video {
-  background: url('../img/common-s2da0677168.png') -441px -41px no-repeat;
-  width: 22px;
-  height: 29px;
-  position: relative;
 }
 /* line 419, ../sass/compose.scss */
-.wyswyg .wyswyg__video:hover {
-  background: url('../img/common-s2da0677168.png') -397px -41px no-repeat;
-  width: 22px;
-  height: 29px;
-  background-color: #fff;
-}
-/* line 424, ../sass/compose.scss */
-.wyswyg .wyswyg__h2 {
-  background: url('../img/common-s2da0677168.png') -165px -41px no-repeat;
-  width: 22px;
-  height: 27px;
-}
-/* line 426, ../sass/compose.scss */
-.wyswyg .wyswyg__h2:hover {
-  background: url('../img/common-s2da0677168.png') -73px -41px no-repeat;
-  width: 22px;
-  height: 27px;
-  background-color: #fff;
-}
-/* line 431, ../sass/compose.scss */
-.wyswyg .wyswyg__link {
-  background: url('../img/common-s2da0677168.png') -463px -41px no-repeat;
+.wyswyg .wyswyg__video {
+  background: url('../img/common-saba030bf35.png') -451px -42px no-repeat;
   width: 22px;
   height: 29px;
   position: relative;
 }
-/* line 434, ../sass/compose.scss */
-.wyswyg .wyswyg__link:hover {
-  background: url('../img/common-s2da0677168.png') -419px -41px no-repeat;
+/* line 422, ../sass/compose.scss */
+.wyswyg .wyswyg__video:hover {
+  background: url('../img/common-saba030bf35.png') -473px -42px no-repeat;
   width: 22px;
   height: 29px;
   background-color: #fff;
 }
-/* line 439, ../sass/compose.scss */
+/* line 427, ../sass/compose.scss */
+.wyswyg .wyswyg__h2 {
+  background: url('../img/common-saba030bf35.png') -121px -42px no-repeat;
+  width: 22px;
+  height: 27px;
+}
+/* line 429, ../sass/compose.scss */
+.wyswyg .wyswyg__h2:hover {
+  background: url('../img/common-saba030bf35.png') -219px -42px no-repeat;
+  width: 22px;
+  height: 27px;
+  background-color: #fff;
+}
+/* line 434, ../sass/compose.scss */
+.wyswyg .wyswyg__link {
+  background: url('../img/common-saba030bf35.png') -37px -105px no-repeat;
+  width: 22px;
+  height: 29px;
+  position: relative;
+}
+/* line 437, ../sass/compose.scss */
+.wyswyg .wyswyg__link:hover {
+  background: url('../img/common-saba030bf35.png') -59px -105px no-repeat;
+  width: 22px;
+  height: 29px;
+  background-color: #fff;
+}
+/* line 442, ../sass/compose.scss */
 .wyswyg .wyswyg__drop {
   position: absolute;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
@@ -4192,7 +4214,7 @@ input[type="submit"]::-moz-focus-inner {
   z-index: 20;
   display: none;
 }
-/* line 449, ../sass/compose.scss */
+/* line 452, ../sass/compose.scss */
 .wyswyg .wyswyg__drop .wyswyg__drop-arr {
   height: 16px;
   width: 16px;
@@ -4215,21 +4237,26 @@ input[type="submit"]::-moz-focus-inner {
   z-index: 25;
   top: 10px;
 }
-/* line 463, ../sass/compose.scss */
+/* line 466, ../sass/compose.scss */
+.wyswyg .wyswyg__drop .wyswyg__drop-holder {
+  position: relative;
+}
+/* line 469, ../sass/compose.scss */
 .wyswyg .wyswyg__drop form {
   padding: 20px;
   position: relative;
   background: #fff;
   border-radius: 5px;
   z-index: 30;
+  width: 294px;
 }
-/* line 470, ../sass/compose.scss */
+/* line 477, ../sass/compose.scss */
 .wyswyg .wyswyg__drop .rows {
   background: #f2f2f2;
   border: 1px solid #d9d9d9;
   border-radius: 4px;
 }
-/* line 475, ../sass/compose.scss */
+/* line 482, ../sass/compose.scss */
 .wyswyg .wyswyg__drop .input {
   color: #939393;
   font-size: 14px;
@@ -4241,20 +4268,20 @@ input[type="submit"]::-moz-focus-inner {
   background: none;
   width: 272px;
 }
-/* line 485, ../sass/compose.scss */
+/* line 492, ../sass/compose.scss */
 .wyswyg .wyswyg__drop .input:first-child {
   border: none;
 }
-/* line 489, ../sass/compose.scss */
+/* line 496, ../sass/compose.scss */
 .wyswyg .wyswyg__drop .button {
-  padding: 5px 15px;
   position: absolute;
-  right: 26px;
-  bottom: 24px;
+  right: 6px;
+  bottom: 4px;
   font-size: 12px;
-  padding: 2px 8px;
+  padding: 0 8px;
+  height: 21px;
 }
-/* line 497, ../sass/compose.scss */
+/* line 504, ../sass/compose.scss */
 .wyswyg .wyswyg__drop label {
   color: #a8a8a8;
   font-size: 12px;
@@ -4262,37 +4289,37 @@ input[type="submit"]::-moz-focus-inner {
   display: block;
   margin: -10px 0 5px;
 }
-/* line 505, ../sass/compose.scss */
+/* line 512, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo {
   list-style: none;
   top: -10px;
 }
-/* line 508, ../sass/compose.scss */
+/* line 515, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li {
   border-top: 1px solid #e5e5e5;
 }
-/* line 510, ../sass/compose.scss */
+/* line 517, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li:first-child {
   border: none;
 }
-/* line 512, ../sass/compose.scss */
+/* line 519, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li:first-child a {
   border-radius: 5px 5px 0 0;
 }
-/* line 514, ../sass/compose.scss */
+/* line 521, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li:last-child a {
   border-radius: 0 0 5px 5px;
 }
-/* line 515, ../sass/compose.scss */
+/* line 522, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li:hover {
   background: #ececec;
   color: #11b0eb;
 }
-/* line 518, ../sass/compose.scss */
+/* line 525, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo li:hover .wyswyg__drop-arr {
   background: #ececec;
 }
-/* line 521, ../sass/compose.scss */
+/* line 528, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo a {
   display: block;
   height: 37px;
@@ -4312,7 +4339,7 @@ input[type="submit"]::-moz-focus-inner {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 535, ../sass/compose.scss */
+/* line 542, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo a span {
   display: inline-block;
   vertical-align: middle;
@@ -4320,82 +4347,82 @@ input[type="submit"]::-moz-focus-inner {
   position: relative;
   top: -2px;
 }
-/* line 542, ../sass/compose.scss */
+/* line 549, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo a .photo_1 {
-  background: url('../img/common-s2da0677168.png') -238px -21px no-repeat;
+  background: url('../img/common-saba030bf35.png') -232px -22px no-repeat;
   width: 17px;
   height: 15px;
-}
-/* line 543, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a .photo_g {
-  background: url('../img/common-s2da0677168.png') -321px -21px no-repeat;
-  width: 17px;
-  height: 15px;
-}
-/* line 544, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a .photo_31 {
-  background: url('../img/common-s2da0677168.png') -255px -21px no-repeat;
-  width: 17px;
-  height: 15px;
-}
-/* line 545, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a .photo_12 {
-  background: url('../img/common-s2da0677168.png') -304px -21px no-repeat;
-  width: 17px;
-  height: 15px;
-}
-/* line 546, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a .photo_11 {
-  background: url('../img/common-s2da0677168.png') -183px -21px no-repeat;
-  width: 19px;
-  height: 15px;
-}
-/* line 547, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover {
-  background: #ececec;
-  color: #11b0eb;
 }
 /* line 550, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover .photo_1 {
-  background: url('../img/common-s2da0677168.png') -28px -41px no-repeat;
+.wyswyg .wyswyg__drop_photo a .photo_g {
+  background: url('../img/common-saba030bf35.png') -215px -22px no-repeat;
   width: 17px;
   height: 15px;
 }
 /* line 551, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover .photo_g {
-  background: url('../img/common-s2da0677168.png') -221px -21px no-repeat;
+.wyswyg .wyswyg__drop_photo a .photo_31 {
+  background: url('../img/common-saba030bf35.png') -300px -22px no-repeat;
   width: 17px;
   height: 15px;
 }
 /* line 552, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover .photo_31 {
-  background: url('../img/common-s2da0677168.png') -338px -21px no-repeat;
+.wyswyg .wyswyg__drop_photo a .photo_12 {
+  background: url('../img/common-saba030bf35.png') -34px -42px no-repeat;
   width: 17px;
   height: 15px;
 }
 /* line 553, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover .photo_12 {
-  background: url('../img/common-s2da0677168.png') -287px -21px no-repeat;
-  width: 17px;
-  height: 15px;
-}
-/* line 554, ../sass/compose.scss */
-.wyswyg .wyswyg__drop_photo a:hover .photo_11 {
-  background: url('../img/common-s2da0677168.png') -202px -21px no-repeat;
+.wyswyg .wyswyg__drop_photo a .photo_11 {
+  background: url('../img/common-saba030bf35.png') -177px -22px no-repeat;
   width: 19px;
   height: 15px;
 }
-/* line 555, ../sass/compose.scss */
+/* line 554, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover {
+  background: #ececec;
+  color: #11b0eb;
+}
+/* line 557, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover .photo_1 {
+  background: url('../img/common-saba030bf35.png') -266px -22px no-repeat;
+  width: 17px;
+  height: 15px;
+}
+/* line 558, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover .photo_g {
+  background: url('../img/common-saba030bf35.png') -283px -22px no-repeat;
+  width: 17px;
+  height: 15px;
+}
+/* line 559, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover .photo_31 {
+  background: url('../img/common-saba030bf35.png') -317px -22px no-repeat;
+  width: 17px;
+  height: 15px;
+}
+/* line 560, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover .photo_12 {
+  background: url('../img/common-saba030bf35.png') -249px -22px no-repeat;
+  width: 17px;
+  height: 15px;
+}
+/* line 561, ../sass/compose.scss */
+.wyswyg .wyswyg__drop_photo a:hover .photo_11 {
+  background: url('../img/common-saba030bf35.png') -196px -22px no-repeat;
+  width: 19px;
+  height: 15px;
+}
+/* line 562, ../sass/compose.scss */
 .wyswyg .wyswyg__drop_photo a:hover .wyswyg__drop-arr {
   background: #ececec;
 }
 
-/* line 560, ../sass/compose.scss */
+/* line 567, ../sass/compose.scss */
 .top-no-indent {
   padding-top: 0;
 }
 
-/* line 562, ../sass/compose.scss */
+/* line 569, ../sass/compose.scss */
 .compose__drop {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   background: #fff;
@@ -4408,9 +4435,9 @@ input[type="submit"]::-moz-focus-inner {
   padding: 20px 20px 16px;
   display: none;
 }
-/* line 573, ../sass/compose.scss */
+/* line 580, ../sass/compose.scss */
 .compose__drop .compose__drop-arr {
-  background: url('../img/common-s2da0677168.png') -7px -41px no-repeat;
+  background: url('../img/common-saba030bf35.png') 0 -42px no-repeat;
   width: 21px;
   height: 10px;
   position: absolute;
@@ -4418,7 +4445,7 @@ input[type="submit"]::-moz-focus-inner {
   left: 50%;
   margin-left: -9px;
 }
-/* line 580, ../sass/compose.scss */
+/* line 587, ../sass/compose.scss */
 .compose__drop input[type="text"] {
   padding: 8px 17px 12px;
   height: 27px;
@@ -4430,7 +4457,7 @@ input[type="submit"]::-moz-focus-inner {
   font: 16px/27px Cambria, georgia, serif;
   margin-bottom: 7px;
 }
-/* line 591, ../sass/compose.scss */
+/* line 598, ../sass/compose.scss */
 .compose__drop label {
   display: block;
   font-size: 11px;
@@ -4440,18 +4467,18 @@ input[type="submit"]::-moz-focus-inner {
   line-height: 1.3;
 }
 
-/* line 600, ../sass/compose.scss */
+/* line 607, ../sass/compose.scss */
 .top__drafts .compose__drop {
   left: 10px;
   top: 51px;
   width: 285px;
   cursor: default;
 }
-/* line 605, ../sass/compose.scss */
+/* line 612, ../sass/compose.scss */
 .top__drafts .compose__drop .compose__drop-arr {
   left: 24px;
 }
-/* line 606, ../sass/compose.scss */
+/* line 613, ../sass/compose.scss */
 .top__drafts .compose__drop .drafts-save {
   font-size: 11px;
   color: #9f9999;
@@ -4459,37 +4486,174 @@ input[type="submit"]::-moz-focus-inner {
   display: block;
   margin: -3px 0 15px 5px;
 }
-/* line 613, ../sass/compose.scss */
+/* line 620, ../sass/compose.scss */
 .top__drafts .compose__drop * {
   text-shadow: none;
   line-height: 1.4;
 }
-/* line 617, ../sass/compose.scss */
+/* line 624, ../sass/compose.scss */
 .top__drafts .compose__drop .drafts-button {
   padding: 2px 16px;
   position: absolute;
   right: 16px;
   top: 11px;
 }
-/* line 623, ../sass/compose.scss */
+/* line 630, ../sass/compose.scss */
 .top__drafts .compose__drop .mess-list {
   background: #fff;
   margin: 0 -20px;
 }
-/* line 627, ../sass/compose.scss */
+/* line 634, ../sass/compose.scss */
 .top__drafts .compose__drop .mess {
   border-color: #e5e5e5;
   padding: 11px 20px;
 }
-/* line 631, ../sass/compose.scss */
+/* line 638, ../sass/compose.scss */
 .top__drafts .compose__drop .mess__time {
   font-weight: normal;
   position: static;
 }
-/* line 635, ../sass/compose.scss */
+/* line 642, ../sass/compose.scss */
 .top__drafts .compose__drop h1 {
   color: #222;
   font: 18px/1.2 Cambria, georgia, serif;
+}
+
+/* line 650, ../sass/compose.scss */
+.image-manag .slider-m {
+  background: url('../img/common-saba030bf35.png') -51px -42px no-repeat;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin: 4px 5px 0 5px;
+}
+/* line 655, ../sass/compose.scss */
+.image-manag .slider-p {
+  background: url('../img/common-saba030bf35.png') -334px -22px no-repeat;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin: 4px 5px 0 5px;
+}
+/* line 660, ../sass/compose.scss */
+.image-manag .ui-helper-hidden {
+  display: none;
+}
+/* line 661, ../sass/compose.scss */
+.image-manag .ui-helper-hidden-accessible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 662, ../sass/compose.scss */
+.image-manag .ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+/* line 663, ../sass/compose.scss */
+.image-manag .ui-helper-clearfix:before, .image-manag .ui-helper-clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 664, ../sass/compose.scss */
+.image-manag .ui-helper-clearfix:after {
+  clear: both;
+}
+/* line 665, ../sass/compose.scss */
+.image-manag .ui-helper-clearfix {
+  zoom: 1;
+}
+/* line 666, ../sass/compose.scss */
+.image-manag .ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+}
+/* line 667, ../sass/compose.scss */
+.image-manag .ui-state-disabled {
+  cursor: default !important;
+}
+/* line 668, ../sass/compose.scss */
+.image-manag .ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+/* line 669, ../sass/compose.scss */
+.image-manag .ui-widget-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 670, ../sass/compose.scss */
+.image-manag .ui-slider {
+  position: relative;
+  text-align: left;
+}
+/* line 673, ../sass/compose.scss */
+.image-manag .ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: default;
+}
+/* line 674, ../sass/compose.scss */
+.image-manag .ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0;
+}
+/* line 676, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal {
+  width: 65px;
+  height: 3px;
+  background: #fff;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin-top: 10px;
+}
+/* line 684, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal:hover {
+  background: #fff;
+}
+/* line 685, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal .ui-slider-handle {
+  top: -4px;
+  margin-left: -1px;
+  background: #fff;
+  height: 11px;
+  width: 3px;
+}
+/* line 692, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%;
+}
+/* line 696, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal .ui-slider-range-min {
+  left: 0;
+}
+/* line 697, ../sass/compose.scss */
+.image-manag .ui-slider-horizontal .ui-slider-range-max {
+  right: 0;
 }
 
 /* Social Likes Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
