@@ -224,7 +224,7 @@
 }
 /* line 178, ../sass/story.scss */
 .post__content .slider .slider__next span {
-  background: url('../img/common-saba030bf35.png') -379px -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -132px -102px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -234,7 +234,7 @@
 }
 /* line 184, ../sass/story.scss */
 .post__content .slider .slider__prev span {
-  background: url('../img/common-saba030bf35.png') -403px -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -156px -102px no-repeat;
   width: 24px;
   height: 45px;
 }
@@ -315,7 +315,7 @@
 }
 /* line 242, ../sass/story.scss */
 .post__bottom a:hover .post__commenticon {
-  background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -227px -41px no-repeat;
   width: 26px;
   height: 25px;
   margin-right: 1px;
@@ -324,7 +324,7 @@
 }
 /* line 248, ../sass/story.scss */
 .post__bottom a:hover .post__likesicon {
-  background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -292px -69px no-repeat;
   width: 28px;
   height: 24px;
   margin-right: 8px;
@@ -334,7 +334,7 @@
 }
 /* line 255, ../sass/story.scss */
 .post__bottom a:hover .post__shareicon {
-  background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -78px -69px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -354,7 +354,7 @@
 }
 /* line 272, ../sass/story.scss */
 .post__togglesocial span {
-  background: url('../img/common-saba030bf35.png') -55px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -54px -1px no-repeat;
   width: 21px;
   height: 17px;
   display: inline-block;
@@ -371,7 +371,7 @@
 }
 /* line 284, ../sass/story.scss */
 .post__togglesocial:hover span {
-  background: url('../img/common-saba030bf35.png') -27px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -20px -69px no-repeat;
   width: 27px;
   height: 22px;
   margin-left: 1px;
@@ -409,7 +409,7 @@
 /* line 315, ../sass/story.scss */
 .post__commenticon {
   display: inline-block;
-  background: url('../img/common-saba030bf35.png') -300px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -306px -1px no-repeat;
   width: 18px;
   height: 19px;
   vertical-align: middle;
@@ -419,7 +419,7 @@
 }
 /* line 322, ../sass/story.scss */
 .post__commenticon:hover {
-  background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -227px -41px no-repeat;
   width: 26px;
   height: 25px;
   margin-right: 1px;
@@ -444,7 +444,7 @@
 }
 /* line 341, ../sass/story.scss */
 .post__likes .post__likesicon {
-  background: url('../img/common-saba030bf35.png') -207px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -195px -1px no-repeat;
   width: 21px;
   height: 18px;
   position: relative;
@@ -456,7 +456,7 @@
 }
 /* line 349, ../sass/story.scss */
 .post__likes .post__likesicon:hover {
-  background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -292px -69px no-repeat;
   width: 28px;
   height: 24px;
   margin-right: 8px;
@@ -490,7 +490,7 @@
 
 /* line 377, ../sass/story.scss */
 .post__shareicon {
-  background: url('../img/common-saba030bf35.png') 0 -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -47px -69px no-repeat;
   width: 31px;
   height: 24px;
   display: inline-block;
@@ -501,7 +501,7 @@
 }
 /* line 384, ../sass/story.scss */
 .post__shareicon:hover {
-  background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -78px -69px no-repeat;
   width: 31px;
   height: 24px;
 }
@@ -518,7 +518,7 @@
 }
 /* line 394, ../sass/story.scss */
 .post__views .post__viewsicon {
-  background: url('../img/common-saba030bf35.png') -349px -22px no-repeat;
+  background: url('../img/common-s9379dba048.png') -388px -21px no-repeat;
   width: 27px;
   height: 16px;
   display: inline-block;
@@ -634,39 +634,39 @@
 }
 /* line 479, ../sass/story.scss */
 .textformat .textformat__bold {
-  background: url('../img/common-saba030bf35.png') -360px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -394px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 481, ../sass/story.scss */
 .textformat .textformat__bold:hover {
-  background: url('../img/common-saba030bf35.png') -407px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -450px -1px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 486, ../sass/story.scss */
 .textformat .textformat__list {
-  background: url('../img/common-saba030bf35.png') -435px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -343px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
 /* line 488, ../sass/story.scss */
 .textformat .textformat__list:hover {
-  background: url('../img/common-saba030bf35.png') -66px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -422px -1px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
 /* line 493, ../sass/story.scss */
 .textformat .textformat__italic {
-  background: url('../img/common-saba030bf35.png') 0 -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -70px -41px no-repeat;
   width: 27px;
   height: 20px;
 }
 /* line 495, ../sass/story.scss */
 .textformat .textformat__italic:hover {
-  background: url('../img/common-saba030bf35.png') -94px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -97px -41px no-repeat;
   width: 27px;
   height: 20px;
   background-color: #FFF;
@@ -686,7 +686,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url('../img/common-saba030bf35.png') -433px -22px no-repeat;
+  background: url('../img/common-s9379dba048.png') -477px -21px no-repeat;
   width: 23px;
   height: 20px;
   opacity: .3;
@@ -718,7 +718,7 @@
 /* line 530, ../sass/story.scss */
 .addphoto .addphoto__file .addphoto__close {
   position: absolute;
-  background: url('../img/common-saba030bf35.png') 0 -22px no-repeat;
+  background: url('../img/common-s9379dba048.png') -9px -21px no-repeat;
   width: 9px;
   height: 9px;
   top: 6px;
@@ -741,28 +741,37 @@
   right: 30px;
   top: 1px;
   z-index: 20;
-  background: url(../img/loader.gif) no-repeat 0 0;
+  display: inline-block;
+  background: url('../img/common-s9379dba048.png') 0 -1px no-repeat;
   width: 16px;
   height: 16px;
+  -moz-animatiom: rotate 1s linear 0s infinite normal none;
+  -webkit-animation: rotate 1s linear 0s infinite normal none;
+  -o-animation: rotate 1s linear 0s infinite normal none;
+  animation: rotate 1s linear 0s infinite normal none;
 }
 
 /* line 556, ../sass/story.scss */
 .loader {
   display: inline-block;
-  background: url(../img/loader.gif) no-repeat 0 0;
+  background: url('../img/common-s9379dba048.png') 0 -1px no-repeat;
   width: 16px;
   height: 16px;
+  -moz-animatiom: rotate 1s linear 0s infinite normal none;
+  -webkit-animation: rotate 1s linear 0s infinite normal none;
+  -o-animation: rotate 1s linear 0s infinite normal none;
+  animation: rotate 1s linear 0s infinite normal none;
 }
 
-/* line 566, ../sass/story.scss */
+/* line 565, ../sass/story.scss */
 .addphoto_error .addphoto__icon {
-  background: url('../img/common-saba030bf35.png') -410px -22px no-repeat;
+  background: url('../img/common-s9379dba048.png') -431px -21px no-repeat;
   width: 23px;
   height: 20px;
   opacity: 1;
 }
 
-/* line 570, ../sass/story.scss */
+/* line 569, ../sass/story.scss */
 .addphoto:hover .addphoto__icon {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -772,9 +781,9 @@
   opacity: 1;
 }
 
-/* line 574, ../sass/story.scss */
+/* line 573, ../sass/story.scss */
 .addphoto_active .addphoto__icon {
-  background: url('../img/common-saba030bf35.png') -296px -71px no-repeat;
+  background: url('../img/common-s9379dba048.png') -124px -41px no-repeat;
   width: 31px;
   height: 25px;
   opacity: 1;
@@ -782,7 +791,7 @@
   right: -3px;
 }
 
-/* line 581, ../sass/story.scss */
+/* line 580, ../sass/story.scss */
 .button {
   vertical-align: middle;
   font: bold  14px Arial, sans-serif;
@@ -810,7 +819,7 @@
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 599, ../sass/story.scss */
+/* line 598, ../sass/story.scss */
 .button:hover {
   color: #1da9dd;
   background: #fefefe;
@@ -821,72 +830,72 @@
   background-image: -ms-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
-/* line 604, ../sass/story.scss */
+/* line 603, ../sass/story.scss */
 .button .button__icon {
   vertical-align: middle;
   margin-right: 5px;
   display: inline-block;
 }
 
-/* line 610, ../sass/story.scss */
+/* line 609, ../sass/story.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 611, ../sass/story.scss */
+/* line 610, ../sass/story.scss */
 input[type="submit"]::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 612, ../sass/story.scss */
+/* line 611, ../sass/story.scss */
 .button_facebook {
   margin: 0 5px;
 }
-/* line 614, ../sass/story.scss */
+/* line 613, ../sass/story.scss */
 .button_facebook .button__icon {
   position: relative;
   top: -2px;
   margin-right: 11px;
-  background: url('../img/common-saba030bf35.png') -16px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -25px -21px no-repeat;
   width: 10px;
   height: 20px;
 }
-/* line 620, ../sass/story.scss */
+/* line 619, ../sass/story.scss */
 .button_facebook:hover {
   color: #3f6093;
 }
-/* line 622, ../sass/story.scss */
+/* line 621, ../sass/story.scss */
 .button_facebook:hover .button__icon {
-  background: url('../img/common-saba030bf35.png') -105px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -16px -1px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 627, ../sass/story.scss */
+/* line 626, ../sass/story.scss */
 .button_twitter {
   margin: 0 5px;
 }
-/* line 629, ../sass/story.scss */
+/* line 628, ../sass/story.scss */
 .button_twitter .button__icon {
-  background: url('../img/common-saba030bf35.png') -115px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -104px -1px no-repeat;
   width: 20px;
   height: 17px;
   margin-right: 6px;
 }
-/* line 633, ../sass/story.scss */
+/* line 632, ../sass/story.scss */
 .button_twitter:hover {
   color: #2ea8dc;
 }
-/* line 635, ../sass/story.scss */
+/* line 634, ../sass/story.scss */
 .button_twitter:hover .button__icon {
-  background: url('../img/common-saba030bf35.png') -135px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -124px -1px no-repeat;
   width: 20px;
   height: 17px;
 }
 
-/* line 640, ../sass/story.scss */
+/* line 639, ../sass/story.scss */
 .button_active, .button_reading {
   border-color: #0085b7;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -901,7 +910,7 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 649, ../sass/story.scss */
+/* line 648, ../sass/story.scss */
 .button_unread:hover {
   background-color: #d12855;
   border-color: #ac0b36;
@@ -916,20 +925,21 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 658, ../sass/story.scss */
+/* line 657, ../sass/story.scss */
 .button_loader {
   color: transparent;
   text-shadow: none;
   position: relative;
+  text-align: center;
 }
 /* line 662, ../sass/story.scss */
-.button_loader .loader {
+.button_loader .button__wrap {
   position: absolute;
   left: 50%;
   top: 50%;
   margin: -9px 0 0 -9px;
 }
-/* line 669, ../sass/story.scss */
+/* line 672, ../sass/story.scss */
 .button_loader:hover {
   color: transparent;
   text-shadow: none;

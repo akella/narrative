@@ -1,4 +1,3 @@
-@charset "IBM866";
 /*когда включать версию для айфона*/
 /*когда включать широкую версию*/
 /* TRANSITION */
@@ -121,6 +120,7 @@
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   line-height: 20px;
@@ -141,7 +141,7 @@
 }
 /* line 102, ../sass/comment.scss */
 .mess .mess__rating-p {
-  background: url('../img/common-s2da0677168.png') -466px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -478px -1px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -149,7 +149,7 @@
 }
 /* line 107, ../sass/comment.scss */
 .mess .mess__rating-m {
-  background: url('../img/common-s2da0677168.png') -290px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -324px -1px no-repeat;
   width: 19px;
   height: 20px;
   float: left;
@@ -162,6 +162,7 @@
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   background-image: linear-gradient(top, rgba(255, 255, 255, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%);
   height: 20px;
   width: 20px;
@@ -183,13 +184,13 @@
 }
 /* line 132, ../sass/comment.scss */
 .mess .mess__remove div {
-  background: url('../img/common-s2da0677168.png') -170px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -153px -21px no-repeat;
   width: 13px;
   height: 14px;
 }
 /* line 133, ../sass/comment.scss */
 .mess .mess__edit div {
-  background: url('../img/common-s2da0677168.png') -81px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -111px -21px no-repeat;
   width: 13px;
   height: 13px;
 }
@@ -221,7 +222,7 @@
 
 /* line 153, ../sass/comment.scss */
 .user-more-arr {
-  background: url('../img/common-s2da0677168.png') -18px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -59px -21px no-repeat;
   width: 12px;
   height: 12px;
   position: absolute;
@@ -276,7 +277,7 @@
 }
 /* line 190, ../sass/comment.scss */
 .mess_l1 .mess__text:before, .mess__text-ans:before {
-  background: url('../img/common-s2da0677168.png') -30px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -71px -21px no-repeat;
   width: 14px;
   height: 13px;
   content: "";
@@ -424,7 +425,7 @@
 
 /* line 282, ../sass/comment.scss */
 .mess__like {
-  background: url('../img/common-s2da0677168.png') -264px -70px no-repeat;
+  background: url('../img/common-s9379dba048.png') -264px -69px no-repeat;
   width: 28px;
   height: 24px;
   cursor: pointer;
@@ -433,7 +434,7 @@
 
 /* line 287, ../sass/comment.scss */
 .mess__share {
-  background: url('../img/common-s2da0677168.png') -78px -70px no-repeat;
+  background: url('../img/common-s9379dba048.png') -202px -69px no-repeat;
   width: 31px;
   height: 24px;
   cursor: pointer;
@@ -442,7 +443,7 @@
 
 /* line 292, ../sass/comment.scss */
 .mess__comment {
-  background: url('../img/common-s2da0677168.png') -236px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -252px -1px no-repeat;
   width: 18px;
   height: 18px;
   cursor: pointer;
@@ -574,7 +575,7 @@
 }
 /* line 380, ../sass/comment.scss */
 .user-inf_popup:before {
-  background: url('../img/common-s2da0677168.png') -7px -41px no-repeat;
+  background: url('../img/common-s9379dba048.png') 0 -41px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -618,7 +619,7 @@
 }
 /* line 405, ../sass/comment.scss */
 .mess .button_reply span, .button_reply span {
-  background: url('../img/common-s2da0677168.png') -432px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -42px -1px no-repeat;
   width: 12px;
   height: 16px;
   margin-right: 6px;
@@ -765,14 +766,14 @@
 }
 /* line 518, ../sass/comment.scss */
 .control-nav-holder:hover .control-nav__arr {
-  background: url('../img/common-s2da0677168.png') -200px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -234px -1px no-repeat;
   width: 18px;
   height: 18px;
 }
 
 /* line 521, ../sass/comment.scss */
 .control-nav__arr {
-  background: url('../img/common-s2da0677168.png') -218px -1px no-repeat;
+  background: url('../img/common-s9379dba048.png') -270px -1px no-repeat;
   width: 18px;
   height: 18px;
   display: inline-block;
@@ -797,7 +798,7 @@
 }
 /* line 540, ../sass/comment.scss */
 .control-nav:before {
-  background: url('../img/common-s2da0677168.png') -7px -41px no-repeat;
+  background: url('../img/common-s9379dba048.png') 0 -41px no-repeat;
   width: 21px;
   height: 10px;
   content: "";
@@ -886,7 +887,7 @@
 
 /* line 607, ../sass/comment.scss */
 .read-more {
-  background: url('../img/common-s2da0677168.png') -44px -21px no-repeat;
+  background: url('../img/common-s9379dba048.png') -35px -21px no-repeat;
   width: 24px;
   height: 12px;
   font: 0/0 a;

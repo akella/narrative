@@ -102,7 +102,7 @@ header, footer, article, nav, section {
   left: 50%;
   margin-left: -14px;
   top: 12px;
-  background: url('../img/common-saba030bf35.png') -191px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -199px -41px no-repeat;
   width: 28px;
   height: 25px;
 }
@@ -161,26 +161,26 @@ header, footer, article, nav, section {
 
 /* line 112, ../sass/common.scss */
 .icon_home {
-  background: url('../img/common-saba030bf35.png') -275px -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -88px -191px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 114, ../sass/common.scss */
 .icon_home.icon_active {
-  background: url('../img/common-saba030bf35.png') -223px -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -336px -102px no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 118, ../sass/common.scss */
 .icon_comments {
-  background: url('../img/common-saba030bf35.png') -395px -105px no-repeat;
+  background: url('../img/common-s9379dba048.png') -84px -147px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 120, ../sass/common.scss */
 .icon_comments.icon_active {
-  background: url('../img/common-saba030bf35.png') -343px -105px no-repeat;
+  background: url('../img/common-s9379dba048.png') -240px -147px no-repeat;
   width: 52px;
   height: 43px;
 }
@@ -215,20 +215,20 @@ header, footer, article, nav, section {
 
 /* line 145, ../sass/common.scss */
 .icon_compass {
-  background: url('../img/common-saba030bf35.png') -135px -105px no-repeat;
+  background: url('../img/common-s9379dba048.png') -388px -102px no-repeat;
   width: 52px;
   height: 43px;
 }
 /* line 147, ../sass/common.scss */
 .icon_compass.icon_active {
-  background: url('../img/common-saba030bf35.png') 0 -193px no-repeat;
+  background: url('../img/common-s9379dba048.png') -32px -147px no-repeat;
   width: 52px;
   height: 43px;
 }
 
 /* line 151, ../sass/common.scss */
 .icon_add {
-  background: url('../img/common-saba030bf35.png') -327px -148px no-repeat;
+  background: url('../img/common-s9379dba048.png') -292px -147px no-repeat;
   width: 52px;
   height: 44px;
   border: none;
@@ -240,14 +240,14 @@ header, footer, article, nav, section {
 
 /* line 159, ../sass/common.scss */
 .icon_user {
-  background: url('../img/common-saba030bf35.png') -447px -105px no-repeat;
+  background: url('../img/common-s9379dba048.png') -36px -191px no-repeat;
   width: 52px;
   height: 43px;
   position: relative;
 }
 /* line 162, ../sass/common.scss */
 .icon_user.icon_active {
-  background: url('../img/common-saba030bf35.png') -187px -105px no-repeat;
+  background: url('../img/common-s9379dba048.png') -284px -102px no-repeat;
   width: 52px;
   height: 43px;
 }
@@ -267,7 +267,7 @@ header, footer, article, nav, section {
   left: -53px;
   border-left: 1px solid #e3e3e3;
   border-right: none;
-  background: url('../img/common-saba030bf35.png') -52px -193px no-repeat;
+  background: url('../img/common-s9379dba048.png') -140px -191px no-repeat;
   width: 51px;
   height: 43px;
 }
@@ -291,7 +291,7 @@ header, footer, article, nav, section {
 /* line 192, ../sass/common.scss */
 .footer .footer__narrative {
   display: inline-block;
-  background: url('../img/common-saba030bf35.png') -191px -42px no-repeat;
+  background: url('../img/common-s9379dba048.png') -199px -41px no-repeat;
   width: 28px;
   height: 25px;
 }

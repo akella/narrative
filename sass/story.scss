@@ -545,23 +545,22 @@
 		right: 30px;
 		top: 1px;
 		z-index:20;
-		background:url(../img/loader.gif) no-repeat 0 0;
-		//@include sized-sprite($icons, addphoto_loader);
+		display: inline-block;
+		//background:url(../img/loader.gif) no-repeat 0 0;
+		@include sized-sprite($icons, addphoto_loader1);
 		//loader animation
-		//@include animation(rotate, 1s, linear);
-		width: 16px;
-		height: 16px;
+		@include animation(rotate, 1s, linear);
+
 	}
 }
 .loader{
 	display: inline-block;
-	background:url(../img/loader.gif) no-repeat 0 0;
-	//@include sized-sprite($icons, addphoto_loader);
+	//background:url(../img/loader.gif) no-repeat 0 0;
+	@include sized-sprite($icons, addphoto_loader1);
 	//loader animation
-	//@include animation(rotate, 1s, linear);
+	@include animation(rotate, 1s, linear);
 
-	width: 16px;
-		height: 16px;
+
 }
 .addphoto_error .addphoto__icon{
 	@include sized-sprite($icons, addphoto_error);
@@ -659,11 +658,15 @@ input[type="submit"]::-moz-focus-inner { padding: 0; border: 0 }
 	color:transparent;
 	text-shadow:none;
 	position:relative;
-	.loader{
+	text-align: center;
+	.button__wrap{
 		position: absolute;
 		left:50%;
 		top:50%;
 		margin:-9px 0 0 -9px;
+	}
+	.loader{
+		
 		
 	}
 	&:hover{
