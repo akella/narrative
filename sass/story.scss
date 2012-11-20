@@ -2,9 +2,11 @@
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
+    -webkit-transform-origin:50% 50%;
   }
   to { 
     -webkit-transform: rotate(360deg);
+    -webkit-transform-origin:50% 50%;
   }
 }
 @-moz-keyframes rotate {
@@ -543,16 +545,23 @@
 		right: 30px;
 		top: 1px;
 		z-index:20;
-		@include sized-sprite($icons, addphoto_loader);
+		background:url(../img/loader.gif) no-repeat 0 0;
+		//@include sized-sprite($icons, addphoto_loader);
 		//loader animation
-		@include animation(rotate, 1s, linear);
+		//@include animation(rotate, 1s, linear);
+		width: 16px;
+		height: 16px;
 	}
 }
 .loader{
 	display: inline-block;
-	@include sized-sprite($icons, addphoto_loader);
+	background:url(../img/loader.gif) no-repeat 0 0;
+	//@include sized-sprite($icons, addphoto_loader);
 	//loader animation
-	@include animation(rotate, 1s, linear);
+	//@include animation(rotate, 1s, linear);
+
+	width: 16px;
+		height: 16px;
 }
 .addphoto_error .addphoto__icon{
 	@include sized-sprite($icons, addphoto_error);

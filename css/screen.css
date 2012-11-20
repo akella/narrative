@@ -323,39 +323,41 @@ header, footer, article, nav, section {
   /* line 3, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: 50% 50%;
   }
 
-  /* line 6, /Users/akella/Desktop/git/narrative/sass/story.scss */
+  /* line 7, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -webkit-transform: rotate(360deg);
+    -webkit-transform-origin: 50% 50%;
   }
 }
 
 @-moz-keyframes rotate {
-  /* line 11, /Users/akella/Desktop/git/narrative/sass/story.scss */
+  /* line 13, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 14, /Users/akella/Desktop/git/narrative/sass/story.scss */
+  /* line 16, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -moz-transform: rotate(360deg);
   }
 }
 
 @-o-keyframes rotate {
-  /* line 19, /Users/akella/Desktop/git/narrative/sass/story.scss */
+  /* line 21, /Users/akella/Desktop/git/narrative/sass/story.scss */
   from {
     -o-transform: rotate(0deg);
   }
 
-  /* line 22, /Users/akella/Desktop/git/narrative/sass/story.scss */
+  /* line 24, /Users/akella/Desktop/git/narrative/sass/story.scss */
   to {
     -o-transform: rotate(360deg);
   }
 }
 
-/* line 26, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 28, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author {
   text-align: center;
   padding-bottom: 34px;
@@ -363,7 +365,7 @@ header, footer, article, nav, section {
   width: 640px;
   margin: 0 auto 33px auto;
 }
-/* line 32, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 34, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .author__pic {
   border-radius: 50px;
   border: 2px solid #ddd;
@@ -372,24 +374,24 @@ header, footer, article, nav, section {
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 40, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 42, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .author__name {
   font-weight: bold;
   font-size: 18px;
   margin: 6px 0 6px 0;
 }
-/* line 45, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 47, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .author .published {
   font-size: 11px;
   color: #d7d7d7;
 }
 
-/* line 50, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 52, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post {
   padding-top: 34px;
 }
 
-/* line 53, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 55, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content {
   width: 640px;
   margin: 0 auto -14px auto;
@@ -397,14 +399,14 @@ header, footer, article, nav, section {
   font-size: 18px;
   line-height: 1.5;
 }
-/* line 59, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 61, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h1 {
   font-size: 44px;
   font-weight: normal;
   line-height: 1.2;
   margin-bottom: 20px;
 }
-/* line 65, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 67, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h2 {
   font-size: 35px;
   border-top: 1px solid #e5e5e5;
@@ -413,31 +415,31 @@ header, footer, article, nav, section {
   font-weight: normal;
   line-height: 1.3;
 }
-/* line 73, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 75, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content h3 {
   font-size: 25px;
   font-weight: normal;
   margin: 17px 0 15px 0;
   line-height: 1.3;
 }
-/* line 79, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 81, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .lead {
   font-size: 25px;
 }
-/* line 82, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 84, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content p {
   margin-bottom: 1em;
 }
-/* line 85, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 87, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure {
   margin: 30px 0;
 }
-/* line 87, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 89, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure img {
   display: block;
   vertical-align: bottom;
 }
-/* line 91, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 93, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content figure figcaption {
   width: 536px;
   margin: 0 auto;
@@ -445,12 +447,12 @@ header, footer, article, nav, section {
   color: #6d6d6d;
   margin-top: 16px;
 }
-/* line 99, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 101, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_wide {
   margin: 30px -180px;
   text-align: center;
 }
-/* line 102, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 104, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_wide figcaption {
   text-align: left;
 }
@@ -462,22 +464,22 @@ header, footer, article, nav, section {
   clear: both;
   visibility: hidden;
 }
-/* line 108, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 110, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .figure_many img {
   float: left;
 }
-/* line 112, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 114, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content li {
   padding: 18px 0;
   border-top: 1px dotted #dbdbdb;
   position: relative;
 }
-/* line 117, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 119, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ol {
   list-style: none;
   counter-reset: ul 0;
 }
-/* line 121, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 123, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ol li:before {
   content: counter(ul, decimal) ".";
   counter-increment: ul 1;
@@ -488,11 +490,11 @@ header, footer, article, nav, section {
   left: -20px;
   text-align: left;
 }
-/* line 134, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 136, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ul {
   list-style: none;
 }
-/* line 137, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 139, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content ul li:before {
   content: '';
   height: 6px;
@@ -506,12 +508,12 @@ header, footer, article, nav, section {
   text-align: left;
   top: 31px;
 }
-/* line 152, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 154, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider {
   position: relative;
   margin: 30px -180px 0 -180px;
 }
-/* line 155, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 157, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next, .post__content .slider .slider__prev {
   padding: 13px 20px;
   border-radius: 4px;
@@ -521,40 +523,40 @@ header, footer, article, nav, section {
   z-index: 50;
   cursor: pointer;
 }
-/* line 163, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 165, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next span, .post__content .slider .slider__prev span {
   float: left;
 }
-/* line 167, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 169, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__slides {
   min-height: 456px;
 }
-/* line 170, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 172, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__slide {
   text-align: center;
   width: 1000px;
 }
-/* line 174, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 176, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next {
   right: 57px;
 }
-/* line 176, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 178, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__next span {
   background: url('../img/common-saba030bf35.png') -379px -148px no-repeat;
   width: 24px;
   height: 45px;
 }
-/* line 180, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 182, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__prev {
   left: 57px;
 }
-/* line 182, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 184, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider .slider__prev span {
   background: url('../img/common-saba030bf35.png') -403px -148px no-repeat;
   width: 24px;
   height: 45px;
 }
-/* line 187, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 189, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider__info {
   text-align: center;
   font-size: 18px;
@@ -564,7 +566,7 @@ header, footer, article, nav, section {
   width: 640px;
   margin: 0 auto 16px auto;
 }
-/* line 196, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 198, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content .slider__descr {
   width: 536px;
   margin: 0 auto;
@@ -572,17 +574,17 @@ header, footer, article, nav, section {
   color: #6d6d6d;
 }
 
-/* line 203, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 205, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags {
   list-style: none;
   padding-right: 20px;
   text-align: right;
 }
-/* line 207, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 209, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags li {
   display: inline-block;
 }
-/* line 210, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 212, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags a {
   display: inline-block;
   font-size: 12px;
@@ -600,13 +602,13 @@ header, footer, article, nav, section {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 222, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 224, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__tags a:hover {
   color: #16b1ea;
   border-color: #16b1ea;
 }
 
-/* line 228, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 230, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom {
   border-top: 1px solid #e5e5e5;
   height: 50px;
@@ -621,15 +623,15 @@ header, footer, article, nav, section {
   background-image: -ms-linear-gradient(#ffffff, #fafafa);
   background-image: linear-gradient(#ffffff, #fafafa);
 }
-/* line 236, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 238, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom a {
   color: #abafb1;
 }
-/* line 238, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 240, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom a:hover {
   color: #13b3ee;
 }
-/* line 240, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 242, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom a:hover .post__commenticon {
   background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
   width: 26px;
@@ -638,7 +640,7 @@ header, footer, article, nav, section {
   margin-left: -4px;
   top: 0;
 }
-/* line 246, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 248, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom a:hover .post__likesicon {
   background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
   width: 28px;
@@ -648,14 +650,14 @@ header, footer, article, nav, section {
   margin-left: 0;
   top: 0;
 }
-/* line 253, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 255, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__bottom a:hover .post__shareicon {
   background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
 
-/* line 259, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 261, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial {
   position: absolute;
   font-size: 14px;
@@ -668,7 +670,7 @@ header, footer, article, nav, section {
   color: #a1a1a1;
   cursor: pointer;
 }
-/* line 270, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 272, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial span {
   background: url('../img/common-saba030bf35.png') -55px -1px no-repeat;
   width: 21px;
@@ -681,11 +683,11 @@ header, footer, article, nav, section {
   margin-right: 3px;
   margin-left: 4px;
 }
-/* line 280, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 282, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial:hover {
   color: #13b3ee;
 }
-/* line 282, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 284, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__togglesocial:hover span {
   background: url('../img/common-saba030bf35.png') -27px -71px no-repeat;
   width: 27px;
@@ -695,7 +697,7 @@ header, footer, article, nav, section {
   top: -3px;
 }
 
-/* line 290, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 292, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__socials {
   background: #d0d0d0;
   box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.3), inset 0 -6px 6px -7px rgba(0, 0, 0, 0.15);
@@ -709,7 +711,7 @@ header, footer, article, nav, section {
   display: none;
 }
 
-/* line 302, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 304, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__comment {
   cursor: pointer;
   padding: 0 18px 0 19px;
@@ -722,7 +724,7 @@ header, footer, article, nav, section {
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 313, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 315, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__commenticon {
   display: inline-block;
   background: url('../img/common-saba030bf35.png') -300px -1px no-repeat;
@@ -733,7 +735,7 @@ header, footer, article, nav, section {
   position: relative;
   top: 1px;
 }
-/* line 320, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 322, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__commenticon:hover {
   background: url('../img/common-saba030bf35.png') -143px -42px no-repeat;
   width: 26px;
@@ -743,7 +745,7 @@ header, footer, article, nav, section {
   top: 0;
 }
 
-/* line 327, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 329, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes {
   float: left;
   padding: 10px 18px 10px 16px;
@@ -754,11 +756,11 @@ header, footer, article, nav, section {
   font-weight: bold;
   line-height: 30px;
 }
-/* line 336, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 338, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes * {
   vertical-align: top;
 }
-/* line 339, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 341, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes .post__likesicon {
   background: url('../img/common-saba030bf35.png') -207px -1px no-repeat;
   width: 21px;
@@ -770,7 +772,7 @@ header, footer, article, nav, section {
   display: inline-block;
   cursor: pointer;
 }
-/* line 347, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 349, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes .post__likesicon:hover {
   background: url('../img/common-saba030bf35.png') -268px -71px no-repeat;
   width: 28px;
@@ -780,7 +782,7 @@ header, footer, article, nav, section {
   margin-left: 0;
   top: 0;
 }
-/* line 355, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 357, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__likes .post__likes-more {
   cursor: pointer;
   line-height: 1;
@@ -788,7 +790,7 @@ header, footer, article, nav, section {
   padding-top: 7px;
 }
 
-/* line 362, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 364, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__share {
   float: left;
   padding: 10px 10px 10px 15px;
@@ -799,12 +801,12 @@ header, footer, article, nav, section {
   color: #abafb1;
   line-height: 30px;
 }
-/* line 371, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 373, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__share .smalluser {
   float: left;
 }
 
-/* line 375, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 377, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__shareicon {
   background: url('../img/common-saba030bf35.png') 0 -148px no-repeat;
   width: 31px;
@@ -815,14 +817,14 @@ header, footer, article, nav, section {
   margin-top: 3px;
   cursor: pointer;
 }
-/* line 382, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 384, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__shareicon:hover {
   background: url('../img/common-saba030bf35.png') -54px -71px no-repeat;
   width: 31px;
   height: 24px;
 }
 
-/* line 384, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 386, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views {
   padding: 14px 0 14px 20px;
   color: #abafb1;
@@ -832,7 +834,7 @@ header, footer, article, nav, section {
   height: 22px;
   line-height: 22px;
 }
-/* line 392, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 394, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views .post__viewsicon {
   background: url('../img/common-saba030bf35.png') -349px -22px no-repeat;
   width: 27px;
@@ -841,54 +843,54 @@ header, footer, article, nav, section {
   margin-right: 6px;
   vertical-align: middle;
 }
-/* line 398, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 400, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__views .smalluser {
   float: left;
 }
 
-/* line 402, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 404, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .smalluser {
   display: inline-block;
   text-decoration: none;
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 407, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 409, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .smalluser img {
   display: inline-block;
   border-radius: 30px;
 }
 
-/* line 413, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 415, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess {
   background: #f8f8f8;
   position: relative;
   padding: 50px 0 36px;
   border-top: 1px solid #e6e6e6;
 }
-/* line 418, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 420, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess .mess__act {
   font-size: 14px;
   font-weight: bold;
   color: #9c9c9c;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* line 423, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 425, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess .mess__act span {
   vertical-align: middle;
 }
-/* line 427, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 429, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess .mess__user {
   position: absolute;
   top: 18px;
   left: 18px;
 }
-/* line 432, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 434, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess form {
   width: 640px;
   margin: auto;
 }
-/* line 436, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 438, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess textarea {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
@@ -901,17 +903,17 @@ header, footer, article, nav, section {
   display: block;
   resize: none;
 }
-/* line 448, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 450, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess .mess__visual {
   margin-bottom: 14px;
   position: relative;
 }
-/* line 452, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 454, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .mess .button {
   padding: 5px 14px;
 }
 
-/* line 454, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 456, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat {
   border: 1px solid #d9d9d9;
   box-shadow: 0 1px 0 #fff;
@@ -928,7 +930,7 @@ header, footer, article, nav, section {
   height: 20px;
   font-size: 0;
 }
-/* line 464, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 466, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon {
   display: inline-block;
   height: 20px;
@@ -940,47 +942,47 @@ header, footer, article, nav, section {
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
-/* line 470, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 472, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon:first-child {
   border: none;
 }
-/* line 473, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 475, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__icon:hover {
   background: #fff;
 }
-/* line 477, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 479, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__bold {
   background: url('../img/common-saba030bf35.png') -360px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
-/* line 479, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 481, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__bold:hover {
   background: url('../img/common-saba030bf35.png') -407px -1px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
-/* line 484, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 486, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__list {
   background: url('../img/common-saba030bf35.png') -435px -1px no-repeat;
   width: 28px;
   height: 20px;
 }
-/* line 486, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 488, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__list:hover {
   background: url('../img/common-saba030bf35.png') -66px -42px no-repeat;
   width: 28px;
   height: 20px;
   background-color: #FFF;
 }
-/* line 491, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 493, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__italic {
   background: url('../img/common-saba030bf35.png') 0 -71px no-repeat;
   width: 27px;
   height: 20px;
 }
-/* line 493, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 495, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .textformat .textformat__italic:hover {
   background: url('../img/common-saba030bf35.png') -94px -42px no-repeat;
   width: 27px;
@@ -988,7 +990,7 @@ header, footer, article, nav, section {
   background-color: #FFF;
 }
 
-/* line 499, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 501, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto {
   position: absolute;
   bottom: 10px;
@@ -997,7 +999,7 @@ header, footer, article, nav, section {
   height: 20px;
   cursor: pointer;
 }
-/* line 506, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 508, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__icon {
   position: absolute;
   bottom: 0;
@@ -1013,11 +1015,11 @@ header, footer, article, nav, section {
   transition: all 0.2s ease-in-out;
   transition: all 1s linear;
 }
-/* line 515, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 517, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__input {
   display: none;
 }
-/* line 516, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 518, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file {
   cursor: default;
   position: absolute;
@@ -1031,7 +1033,7 @@ header, footer, article, nav, section {
   padding: 4px 21px 4px 11px;
   line-height: 1;
 }
-/* line 528, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 530, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file .addphoto__close {
   position: absolute;
   background: url('../img/common-saba030bf35.png') 0 -22px no-repeat;
@@ -1042,7 +1044,7 @@ header, footer, article, nav, section {
   cursor: pointer;
   opacity: .2;
 }
-/* line 535, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 537, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__file .addphoto__close:hover {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -1051,34 +1053,26 @@ header, footer, article, nav, section {
   transition: all 0.1s ease-in-out;
   opacity: 1;
 }
-/* line 541, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 543, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto .addphoto__loader {
   position: absolute;
   right: 30px;
   top: 1px;
   z-index: 20;
-  background: url('../img/common-saba030bf35.png') -282px -1px no-repeat;
-  width: 18px;
-  height: 18px;
-  -moz-animatiom: rotate 1s linear 0s infinite normal none;
-  -webkit-animation: rotate 1s linear 0s infinite normal none;
-  -o-animation: rotate 1s linear 0s infinite normal none;
-  animation: rotate 1s linear 0s infinite normal none;
+  background: url(../img/loader.gif) no-repeat 0 0;
+  width: 16px;
+  height: 16px;
 }
 
-/* line 551, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 556, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .loader {
   display: inline-block;
-  background: url('../img/common-saba030bf35.png') -282px -1px no-repeat;
-  width: 18px;
-  height: 18px;
-  -moz-animatiom: rotate 1s linear 0s infinite normal none;
-  -webkit-animation: rotate 1s linear 0s infinite normal none;
-  -o-animation: rotate 1s linear 0s infinite normal none;
-  animation: rotate 1s linear 0s infinite normal none;
+  background: url(../img/loader.gif) no-repeat 0 0;
+  width: 16px;
+  height: 16px;
 }
 
-/* line 557, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 566, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto_error .addphoto__icon {
   background: url('../img/common-saba030bf35.png') -410px -22px no-repeat;
   width: 23px;
@@ -1086,7 +1080,7 @@ header, footer, article, nav, section {
   opacity: 1;
 }
 
-/* line 561, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 570, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto:hover .addphoto__icon {
   -moz-transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
@@ -1096,7 +1090,7 @@ header, footer, article, nav, section {
   opacity: 1;
 }
 
-/* line 565, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 574, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .addphoto_active .addphoto__icon {
   background: url('../img/common-saba030bf35.png') -296px -71px no-repeat;
   width: 31px;
@@ -1106,7 +1100,7 @@ header, footer, article, nav, section {
   right: -3px;
 }
 
-/* line 572, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 581, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button {
   vertical-align: middle;
   font: bold  14px Arial, sans-serif;
@@ -1134,7 +1128,7 @@ header, footer, article, nav, section {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 590, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 599, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button:hover {
   color: #1da9dd;
   background: #fefefe;
@@ -1145,30 +1139,30 @@ header, footer, article, nav, section {
   background-image: -ms-linear-gradient(#fefefe, #f8f8f8);
   background-image: linear-gradient(#fefefe, #f8f8f8);
 }
-/* line 595, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 604, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button .button__icon {
   vertical-align: middle;
   margin-right: 5px;
   display: inline-block;
 }
 
-/* line 601, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 610, /Users/akella/Desktop/git/narrative/sass/story.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 602, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 611, /Users/akella/Desktop/git/narrative/sass/story.scss */
 input[type="submit"]::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 603, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 612, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_facebook {
   margin: 0 5px;
 }
-/* line 605, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 614, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_facebook .button__icon {
   position: relative;
   top: -2px;
@@ -1177,40 +1171,40 @@ input[type="submit"]::-moz-focus-inner {
   width: 10px;
   height: 20px;
 }
-/* line 611, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 620, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_facebook:hover {
   color: #3f6093;
 }
-/* line 613, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 622, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_facebook:hover .button__icon {
   background: url('../img/common-saba030bf35.png') -105px -1px no-repeat;
   width: 10px;
   height: 20px;
 }
 
-/* line 618, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 627, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_twitter {
   margin: 0 5px;
 }
-/* line 620, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 629, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_twitter .button__icon {
   background: url('../img/common-saba030bf35.png') -115px -1px no-repeat;
   width: 20px;
   height: 17px;
   margin-right: 6px;
 }
-/* line 624, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 633, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_twitter:hover {
   color: #2ea8dc;
 }
-/* line 626, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 635, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_twitter:hover .button__icon {
   background: url('../img/common-saba030bf35.png') -135px -1px no-repeat;
   width: 20px;
   height: 17px;
 }
 
-/* line 631, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 640, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_active, .button_reading {
   border-color: #0085b7;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
@@ -1225,7 +1219,7 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 640, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 649, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_unread:hover {
   background-color: #d12855;
   border-color: #ac0b36;
@@ -1240,20 +1234,20 @@ input[type="submit"]::-moz-focus-inner {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
-/* line 649, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 658, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_loader {
   color: transparent;
   text-shadow: none;
   position: relative;
 }
-/* line 653, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 662, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_loader .loader {
   position: absolute;
   left: 50%;
   top: 50%;
   margin: -9px 0 0 -9px;
 }
-/* line 660, /Users/akella/Desktop/git/narrative/sass/story.scss */
+/* line 669, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .button_loader:hover {
   color: transparent;
   text-shadow: none;
