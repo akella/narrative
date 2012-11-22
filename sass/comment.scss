@@ -176,7 +176,7 @@
 		text-align:center;
 	}
 	form{width:550px;}
-	.mess__visual textarea{
+	.mess__visual textarea,.mess__visual .textarea{
 		width:516px;
 		height:127px;
 		resize: none;
@@ -213,23 +213,23 @@
 		width:500px;
 		margin-left:-5px;
 	}
-	textarea{
+	textarea,.textarea{
 		height:127px;
 	}
-	.mess__visual textarea{width:466px;}
+	.mess__visual textarea,.mess__visual .textarea{width:466px;}
 }
 .mess_l2{
 	.mess__text{background-position:-200px 0;}
 	.mess__text-holder{padding-left:100px;}
 	form{width:500px;}
-	.mess__visual textarea{width:466px}
+	.mess__visual textarea,.mess__visual .textarea{width:466px}
 }
 .mess_l3{
 	.mess__text{	background-position:-150px 0;}
 	.mess__text-holder{
 		padding-left:150px;
 		form{width:450px;}
-		.mess__visual textarea{width:416px}
+		.mess__visual textarea,.mess__visual .textarea{width:416px}
 	}
 }
 .mess_l4{
@@ -239,7 +239,7 @@
 	.mess__text-holder{
 		padding-left:200px;
 		form{width:400px;}
-		.mess__visual textarea{width:366px}
+		.mess__visual textarea,.mess__visual .textarea{width:366px}
 	}
 }
 
@@ -250,7 +250,7 @@
 	.mess__text-holder{
 		padding-left:250px;
 		form{width:350px;}
-		.mess__visual textarea{width:316px}
+		.mess__visual textarea,.mess__visual .textarea{width:316px}
 	}
 }
 .mess_last{

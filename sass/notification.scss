@@ -96,7 +96,7 @@
 			right:9px;
 			bottom:7px;
 		}
-		textarea{
+		textarea,.textarea{
 			width:362px;
 			height:83px;
 			resize: none;
@@ -122,7 +122,7 @@
 		}
 	}
 	.mess__visual_reply{
-		textarea{
+		textarea,.textarea{
 			height:20px;
 			resize: none;
 		}

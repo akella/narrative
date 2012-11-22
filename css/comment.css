@@ -262,7 +262,7 @@
   width: 550px;
 }
 /* line 179, ../sass/comment.scss */
-.mess_reply .mess__visual textarea {
+.mess_reply .mess__visual textarea, .mess_reply .mess__visual .textarea {
   width: 516px;
   height: 127px;
   resize: none;
@@ -310,11 +310,11 @@
   margin-left: -5px;
 }
 /* line 216, ../sass/comment.scss */
-.mess__text-ans-l2 textarea {
+.mess__text-ans-l2 textarea, .mess__text-ans-l2 .textarea {
   height: 127px;
 }
 /* line 219, ../sass/comment.scss */
-.mess__text-ans-l2 .mess__visual textarea {
+.mess__text-ans-l2 .mess__visual textarea, .mess__text-ans-l2 .mess__visual .textarea {
   width: 466px;
 }
 
@@ -331,7 +331,7 @@
   width: 500px;
 }
 /* line 225, ../sass/comment.scss */
-.mess_l2 .mess__visual textarea {
+.mess_l2 .mess__visual textarea, .mess_l2 .mess__visual .textarea {
   width: 466px;
 }
 
@@ -348,7 +348,7 @@
   width: 450px;
 }
 /* line 232, ../sass/comment.scss */
-.mess_l3 .mess__text-holder .mess__visual textarea {
+.mess_l3 .mess__text-holder .mess__visual textarea, .mess_l3 .mess__text-holder .mess__visual .textarea {
   width: 416px;
 }
 
@@ -365,7 +365,7 @@
   width: 400px;
 }
 /* line 242, ../sass/comment.scss */
-.mess_l4 .mess__text-holder .mess__visual textarea {
+.mess_l4 .mess__text-holder .mess__visual textarea, .mess_l4 .mess__text-holder .mess__visual .textarea {
   width: 366px;
 }
 
@@ -382,7 +382,7 @@
   width: 350px;
 }
 /* line 253, ../sass/comment.scss */
-.mess_l5 .mess__text-holder .mess__visual textarea {
+.mess_l5 .mess__text-holder .mess__visual textarea, .mess_l5 .mess__text-holder .mess__visual .textarea {
   width: 316px;
 }
 

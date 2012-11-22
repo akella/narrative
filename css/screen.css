@@ -891,7 +891,7 @@ header, footer, article, nav, section {
   margin: auto;
 }
 /* line 438, /Users/akella/Desktop/git/narrative/sass/story.scss */
-.mess textarea {
+.mess textarea, .mess .textarea {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
   height: 125px;
@@ -1527,7 +1527,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 550px;
 }
 /* line 179, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess_reply .mess__visual textarea {
+.mess_reply .mess__visual textarea, .mess_reply .mess__visual .textarea {
   width: 516px;
   height: 127px;
   resize: none;
@@ -1575,11 +1575,11 @@ input[type="submit"]::-moz-focus-inner {
   margin-left: -5px;
 }
 /* line 216, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess__text-ans-l2 textarea {
+.mess__text-ans-l2 textarea, .mess__text-ans-l2 .textarea {
   height: 127px;
 }
 /* line 219, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess__text-ans-l2 .mess__visual textarea {
+.mess__text-ans-l2 .mess__visual textarea, .mess__text-ans-l2 .mess__visual .textarea {
   width: 466px;
 }
 
@@ -1596,7 +1596,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 500px;
 }
 /* line 225, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess_l2 .mess__visual textarea {
+.mess_l2 .mess__visual textarea, .mess_l2 .mess__visual .textarea {
   width: 466px;
 }
 
@@ -1613,7 +1613,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 450px;
 }
 /* line 232, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess_l3 .mess__text-holder .mess__visual textarea {
+.mess_l3 .mess__text-holder .mess__visual textarea, .mess_l3 .mess__text-holder .mess__visual .textarea {
   width: 416px;
 }
 
@@ -1630,7 +1630,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 400px;
 }
 /* line 242, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess_l4 .mess__text-holder .mess__visual textarea {
+.mess_l4 .mess__text-holder .mess__visual textarea, .mess_l4 .mess__text-holder .mess__visual .textarea {
   width: 366px;
 }
 
@@ -1647,7 +1647,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 350px;
 }
 /* line 253, /Users/akella/Desktop/git/narrative/sass/comment.scss */
-.mess_l5 .mess__text-holder .mess__visual textarea {
+.mess_l5 .mess__text-holder .mess__visual textarea, .mess_l5 .mess__text-holder .mess__visual .textarea {
   width: 316px;
 }
 
@@ -3278,7 +3278,7 @@ input[type="submit"]::-moz-focus-inner {
   bottom: 7px;
 }
 /* line 99, /Users/akella/Desktop/git/narrative/sass/notification.scss */
-.notif .mess textarea {
+.notif .mess textarea, .notif .mess .textarea {
   width: 362px;
   height: 83px;
   resize: none;
@@ -3307,7 +3307,7 @@ input[type="submit"]::-moz-focus-inner {
   margin-right: 9px;
 }
 /* line 125, /Users/akella/Desktop/git/narrative/sass/notification.scss */
-.notif .mess__visual_reply textarea {
+.notif .mess__visual_reply textarea, .notif .mess__visual_reply .textarea {
   height: 20px;
   resize: none;
 }
@@ -4019,7 +4019,7 @@ input[type="submit"]::-moz-focus-inner {
   margin: auto;
 }
 /* line 304, /Users/akella/Desktop/git/narrative/sass/compose.scss */
-.compose__title .compose__titlein textarea {
+.compose__title .compose__titlein textarea, .compose__title .compose__titlein .textarea {
   height: 66px;
   font-size: 44px;
 }
@@ -4038,7 +4038,7 @@ input[type="submit"]::-moz-focus-inner {
   margin: auto;
 }
 /* line 319, /Users/akella/Desktop/git/narrative/sass/compose.scss */
-.compose__pretext .compose__pretextin textarea {
+.compose__pretext .compose__pretextin textarea, .compose__pretext .compose__pretextin .textarea {
   font-size: 25px;
   height: 38px;
 }
@@ -4049,7 +4049,7 @@ input[type="submit"]::-moz-focus-inner {
   line-height: 1.8;
 }
 /* line 328, /Users/akella/Desktop/git/narrative/sass/compose.scss */
-.compose__text textarea {
+.compose__text textarea, .compose__text .textarea {
   line-height: 1.8;
 }
 
@@ -4068,7 +4068,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 /* line 346, /Users/akella/Desktop/git/narrative/sass/compose.scss */
-.compose figure textarea, .slider__descr textarea {
+.compose figure textarea, .compose figure .textarea, .slider__descr textarea, .slider__descr .textarea {
   font-size: 16px;
   color: #6d6d6d;
 }

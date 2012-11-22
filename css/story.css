@@ -573,7 +573,7 @@
   margin: auto;
 }
 /* line 438, ../sass/story.scss */
-.mess textarea {
+.mess textarea, .mess .textarea {
   background: #f2f2f2;
   border: 1px solid #d3d3d3;
   height: 125px;

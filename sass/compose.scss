@@ -301,7 +301,7 @@
 	.compose__titlein{
 		width: 640px;
 		margin: auto;
-		textarea{
+		textarea,.textarea{
 			height:66px;
 			font-size:44px;
 		}
@@ -316,7 +316,7 @@
 	.compose__pretextin{
 		width: 640px;
 		margin: auto;
-		textarea{
+		textarea,.textarea{
 			font-size:25px;
 			height:38px;
 		}
@@ -325,7 +325,7 @@
 .compose__text{
 	font-size: 18px;
 	line-height: 1.8;
-	textarea{
+	textarea,.textarea{
 			line-height: 1.8;
 		}
 }
@@ -343,7 +343,7 @@
 }
 
 .compose figure, .slider__descr{
-	textarea{
+	textarea,.textarea{
 		font-size:16px;
 		color:#6d6d6d;
 	}
