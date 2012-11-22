@@ -488,7 +488,7 @@
   display: none;
 }
 /* line 313, ../sass/comment.scss */
-.mess_add-closed textarea, .mess-list .mess_add-closed textarea {
+.mess_add-closed textarea, .mess_add-closed .textarea, .mess-list .mess_add-closed textarea, .mess-list .mess_add-closed .textarea {
   padding: 12px 16px;
 }
 
