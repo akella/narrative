@@ -446,14 +446,21 @@
 		border-radius:3px;
 		display: block;
 		resize: none;
+		color: #999;
+		ul,ol{
+			margin: 4px 20px;
+		}
 	}
+	.textarea_focus{
+		color: #000;
+		}
 	.mess__visual{
 		margin-bottom: 14px;
 		position: relative;
 	}
 	.button{padding:5px 14px;}
 }
-.textformat{
+.textformat1{
 	border: 1px solid #d9d9d9;
 	box-shadow:0 1px 0 #fff;
 	position: absolute;
@@ -463,12 +470,15 @@
 	@include background-image(linear-gradient(#f8f8f8, #f1f1f1));
 	height: 20px;
 	font-size: 0;
-	.textformat__icon{
+	z-index:10;
+	.textformat1__icon,a{
+		z-index:20;
 		display: inline-block;
 		height: 20px;
 		width: 27px;
 		border-left: 1px solid #dfdfdf;
-		@include transition(background-color, .2s, ease-in-out);
+		//@include transition(background-color, .2s, ease-in-out);
+		cursor: pointer;
 		&:first-child{
 			border: none;
 		}
@@ -476,21 +486,21 @@
 			background:#fff;
 		}
 	}
-	.textformat__bold{
+	.textformat1__bold{
 		@include sized-sprite($icons, iconbold);
 		&:hover{
 			@include sized-sprite($icons, iconboldh);
 			background-color: #FFF;
 		}
 	}
-	.textformat__list{
+	.textformat1__list{
 		@include sized-sprite($icons, iconlist);
 		&:hover{
 			@include sized-sprite($icons, iconlisth);
 			background-color: #FFF;
 		}
 	}
-	.textformat__italic{
+	.textformat1__italic{
 		@include sized-sprite($icons, iconitalic);
 		&:hover{
 			@include sized-sprite($icons, iconitalich);

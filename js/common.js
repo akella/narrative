@@ -6,6 +6,26 @@ $(document).ready(function() {
 		return $(this).length;
 	}
 
+//editable
+$('.textarea').focus(function(event) {
+	$(this).addClass('textarea_focus');
+})
+
+
+$('.textformat1__list').click(function() {
+    document.execCommand('insertOrderedList',false,null);
+    return false;
+})
+
+$('.textformat1__bold').click(function() {
+    document.execCommand('bold',false,null);
+    return false;
+})
+$('.textformat1__italic').click(function() {
+    document.execCommand('italic',false,null);
+    return false;
+})
+
 
 // popup
 	if ($('.popup').exists()){
@@ -332,13 +352,13 @@ $('.addphoto__icon').click(function(){
 
 
 	//slider
-	$(function() {
-		$( "#slider" ).slider({
-			min: 1,
-			max: 10,
-			value: 7
-		});
+	if ($('#slider').exists()){
+	$( "#slider" ).slider({
+		min: 1,
+		max: 10,
+		value: 7
 	});
+	}
 	$('.image-manag .slider-m').click(function(){
 		var val = $("#slider").slider( "value" );
 		if (val>1) {

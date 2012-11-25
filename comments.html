@@ -10,27 +10,6 @@
 	<script type="text/javascript" src="js/jquery.autosize-min.js"></script>
 	<script type="text/javascript" src="js/social-likes.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
-	<script>
-		(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-	<!-- Twitter -->
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
-	<!-- Vkontakte --> 
-	<script type="text/javascript">
-		VK.Widgets.Group("vk_groups", {mode: 0, width: "300", height: "190"}, 20003922);
-	</script>
-	<script type="text/javascript">
-		VK.init({apiId: 2650836, onlyWidgets: true});
-	</script>
-	<script type="text/javascript">
-		VK.Widgets.Like("vk_like", {type: "mini", height: 20});
-	</script>
 </head>
 <body>
 <!-- BEGIN  top-->
@@ -412,15 +391,16 @@
 					<div class="mess__userpic" style="background-image:url(http://placekitten.com/50/50)"></div>
 				</div>
 			<form action="/">
+				
 				<div class="mess__visual">
-					<div contenteditable="true" class="textarea">
-						Type here to leave your comment
-					</div>
-					<div class="textformat">
-						<div class="textformat__icon textformat__list"></div>
-						<div class="textformat__icon textformat__bold"></div>
-						<div class="textformat__icon textformat__italic"></div>
-					</div>
+					
+					<div contenteditable="true" class="textarea" id="whatevergenerated">Type here to leave your comment</div>
+<div class="textformat1">
+<a  class="textformat1__bold"  href="#">bold</a>
+<a class="textformat1__list" href="#">list</a>
+<a class="textformat1__italic" href="#">italic</a>
+</div>
+
 					<div class="addphoto">
 						<div class="addphoto__icon"></div><input type="file" class="addphoto__input">
 						<div class="addphoto__loader" style="display:none;"></div>
@@ -514,5 +494,8 @@
 	</div>
 </div>
 <!-- END .popup_users  -->
-</body>
-</html>
+
+
+
+
+</body></html>
