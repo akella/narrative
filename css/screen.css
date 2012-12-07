@@ -394,7 +394,6 @@ header, footer, article, nav, section {
 /* line 55, /Users/akella/Desktop/git/narrative/sass/story.scss */
 .post__content {
   width: 640px;
-  overflow: hidden;
   margin: 0 auto -14px auto;
   font-family: Cambria,georgia,serif;
   font-size: 18px;
