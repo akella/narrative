@@ -116,7 +116,7 @@
   border: none;
 }
 /* line 84, ../sass/profile.scss */
-.profile__stats a {
+.profile__stats a, .profile__stats span {
   color: #999;
   font-size: 11px;
   text-decoration: none;
@@ -124,7 +124,7 @@
   display: block;
 }
 /* line 91, ../sass/profile.scss */
-.profile__stats a:hover strong {
+.profile__stats a:hover strong, .profile__stats span:hover strong {
   color: #19a9e0;
 }
 /* line 94, ../sass/profile.scss */
