@@ -31,7 +31,7 @@
 	border-radius:4px;
 	box-shadow:0 3px 18px 0 rgba(0,0,0,0.15);
 	top:50%;
-	z-index:250;
+	z-index:350;
 	.popup__close{
 		@include sized-sprite($icons, "close");
 		position:absolute;
