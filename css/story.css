@@ -160,12 +160,6 @@
 .post__content .figure_many img {
   float: left;
 }
-/* line 123, ../sass/story.scss */
-.post__content li {
-  padding: 18px 0;
-  border-top: 1px dotted #dbdbdb;
-  position: relative;
-}
 /* line 128, ../sass/story.scss */
 .post__content ol {
   list-style: none;

@@ -17,16 +17,16 @@ $('.textarea').focus(function(event) {
 
 $('.textformat1__list').click(function() {
     document.execCommand('insertOrderedList',false,null);
-    return false;
+    //return false;
 })
 
 $('.textformat1__bold').click(function() {
     document.execCommand('bold',false,null);
-    return false;
+    //return false;
 })
 $('.textformat1__italic').click(function() {
     document.execCommand('italic',false,null);
-    return false;
+    //return false;
 })
 
 
