@@ -2249,7 +2249,7 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 4px;
   box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.15);
   top: 50%;
-  z-index: 250;
+  z-index: 350;
 }
 /* line 35, /Users/akella/Desktop/git/narrative/sass/popups.scss */
 .popup .popup__close {

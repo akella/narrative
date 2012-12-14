@@ -9,6 +9,9 @@ $(document).ready(function() {
 //editable
 $('.textarea').focus(function(event) {
 	$(this).addClass('textarea_focus');
+	if($(this).next().hasClass('textformat1')){
+		$(this).next().show();
+	}
 	if($(this).html()=='Type here to leave your comment'){
 		$(this).html('');
 	}
