@@ -28,6 +28,8 @@
 		margin: auto;
 		width: 640px;
 		padding-bottom:1px;
+		font-size: 16px;
+		line-height: 1.8em;
 		p{
 			font:16px/1.8 Cambria,georgia,serif;
 			margin-bottom:1.6em;
@@ -35,6 +37,12 @@
 		h1{
 			font:28px/1.25 Cambria,georgia,serif;
 			color:#222;
+		}
+		ol,ul{
+			font-size: 16px;
+			margin-left: 2em;
+			margin-top: -10px;
+			margin-bottom: 10px;
 		}
 		.mess__details{
 			font-size:14px;
