@@ -83,6 +83,7 @@
 /* line 56, ../sass/comment.scss */
 .mess figure img {
   border-radius: 3px;
+  max-width: 100%;
 }
 /* line 58, ../sass/comment.scss */
 .mess .mess__text-holder {
