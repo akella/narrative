@@ -3415,12 +3415,13 @@ input[type="submit"]::-moz-focus-inner {
   height: 10px;
   position: absolute;
   left: 61px;
+  left: 70px;
   top: 1px;
   width: 21px;
   z-index: 100;
 }
 
-/* line 163, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+/* line 164, /Users/akella/Desktop/git/narrative/sass/notification.scss */
 .mess-list .new_animation {
   background: #fbf9e5;
   -moz-animatiom: bgcolor 2s linear 0s 1 normal forwards;
@@ -3428,59 +3429,59 @@ input[type="submit"]::-moz-focus-inner {
   -o-animation: bgcolor 2s linear 0s 1 normal forwards;
   animation: bgcolor 2s linear 0s 1 normal forwards;
 }
-/* line 166, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+/* line 167, /Users/akella/Desktop/git/narrative/sass/notification.scss */
 .mess-list .new_animation:hover {
   background: #fbf9e5;
 }
 
-/* line 168, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+/* line 169, /Users/akella/Desktop/git/narrative/sass/notification.scss */
 .new-new {
   display: none;
 }
 
 @-moz-keyframes bgcolor {
-  /* line 172, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 173, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   from {
     background: #fff;
   }
 
-  /* line 173, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 174, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   to {
     background: #fbf9e5;
   }
 }
 
 @-webkit-keyframes bgcolor {
-  /* line 177, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 178, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   from {
     background: #fff;
   }
 
-  /* line 178, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 179, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   to {
     background: #fbf9e5;
   }
 }
 
 @-o-keyframes bgcolor {
-  /* line 182, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 183, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   from {
     background: #fff;
   }
 
-  /* line 183, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 184, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   to {
     background: #fbf9e5;
   }
 }
 
 @keyframes bgcolor {
-  /* line 187, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 188, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   from {
     background: #fff;
   }
 
-  /* line 188, /Users/akella/Desktop/git/narrative/sass/notification.scss */
+  /* line 189, /Users/akella/Desktop/git/narrative/sass/notification.scss */
   to {
     background: #fbf9e5;
   }
