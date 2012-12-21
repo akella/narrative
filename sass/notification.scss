@@ -63,6 +63,13 @@
 				font-size:12px;
 				margin:0;
 				font-family: Helvetica,arial,sans-serif;
+				a{
+				   font-weight: bold;
+				   color: #333;
+				   &:hover{
+				      color: #00919E;
+				   }
+				}
 			}
 			h1{
 				font-size:18px;
