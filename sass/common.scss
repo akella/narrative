@@ -3,7 +3,7 @@
 // .whatever{@include sized-sprite($icons, badge_hit);}
 
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
-
+input:focus,textarea:focus{outline:none}
 body{
 	font: {
 	    family: Helvetica, arial, sans-serif;
